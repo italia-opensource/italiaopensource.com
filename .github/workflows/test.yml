@@ -1,0 +1,61 @@
+name: Tests
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize]
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  WORKSPACE: "ci" # @TODO: Create infrastructure in pull-request workspace
+
+jobs:
+  test-data:
+    name: Test
+    runs-on: ubuntu-22.04
+    if: ${{ github.head_ref != 'release-please--branches--main' }} # Skip release-please branch
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: "website/.nvmrc"
+          cache-dependency-path: website/yarn.lock
+          cache: "yarn"
+
+      - name: Terraform Init
+        id: terraform
+        uses: ./.github/workflows/actions/terraform-init
+        timeout-minutes: 5
+        with:
+          WORKSPACE: ${{ env.WORKSPACE }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
+
+      - name: Setup
+        timeout-minutes: 5
+        run: |
+          make setup-project VIRTUAL_ENV=false
+          make setup-website VIRTUAL_ENV=false
+
+      - name: Test
+        timeout-minutes: 5
+        run: |
+          make tests

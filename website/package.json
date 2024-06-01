@@ -1,0 +1,70 @@
+{
+  "name": "italiaopensource.com",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "mdx-checker": "npx docusaurus-mdx-checker",
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "create-landings": "python3 ./scripts/create_landings.py",
+    "create-pages": "python3 ./scripts/create_pages.py",
+    "build": "yarn create-landings && yarn create-pages && yarn mdx-checker && docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.4.0",
+    "@docusaurus/plugin-google-gtag": "^3.4.0",
+    "@docusaurus/plugin-pwa": "^3.4.0",
+    "@docusaurus/plugin-sitemap": "^3.4.0",
+    "@docusaurus/preset-classic": "^3.4.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@formspree/react": "^2.3.3",
+    "@mdx-js/react": "^1.6.22",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.8",
+    "@mui/x-charts": "^6.18.2",
+    "@pankod/refine-core": "^3.99.4",
+    "@pankod/refine-react-router-v6": "^3.38.0",
+    "@pankod/refine-simple-rest": "^3.37.4",
+    "@types/classnames": "^2.2.10",
+    "@types/react": "^18.2.0",
+    "@types/react-transition-group": "^4.2.4",
+    "clsx": "^1.2.1",
+    "framer-motion": "4.1.17",
+    "leaflet": "^1.9.1",
+    "primeflex": "^3.2.1",
+    "primeicons": "^5.0.0",
+    "primereact": "^8.4.0",
+    "prism-react-renderer": "^2.2.0",
+    "react": "^18.2.0",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^3.0.0",
+    "react-scripts": "^5.0.1",
+    "react-transition-group": "^4.4.1"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^3.4.0",
+    "@docusaurus/tsconfig": "^3.4.0",
+    "@tsconfig/docusaurus": "^1.0.5",
+    "@types/leaflet": "^1.8.0",
+    "@types/node": "^18.7.23",
+    "@types/react": "^18.2.0",
+    "typescript": "~5.2.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "engines": {
+    "node": ">=16.14"
+  }
+}

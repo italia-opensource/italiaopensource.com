@@ -1,0 +1,30 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+    labels:
+      - "dependencies"
+      - "dependencies-python"
+    reviewers:
+      - "FabrizioCafolla"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "dependencies-actions"
+    reviewers:
+      - "FabrizioCafolla"
+  - package-ecosystem: "terraform"
+    directory: "/infrastructure"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "dependencies-terraform"
+    reviewers:
+      - "FabrizioCafolla"

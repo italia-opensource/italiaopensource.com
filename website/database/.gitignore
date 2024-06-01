@@ -1,0 +1,9 @@
+*
+!.gitignore
+!communities.json
+!companies.json
+!digital-nomads.json
+!languages.json
+!opensource.json
+!partnership.json
+!metadata.json

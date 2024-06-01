@@ -1,0 +1,59 @@
+name: Release Please
+
+on:
+  push:
+    branches:
+      - main
+
+permissions: read-all
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action
+        uses: googleapis/release-please-action@v4
+        id: release
+        with:
+          token: ${{ secrets.ACTION_WORKFLOWS }}
+          release-type: simple
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+
+      - name: Deploy infrastructure
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/github-script@v7
+        with:
+          result-encoding: json
+          github-token: ${{ secrets.ACTION_WORKFLOWS }}
+          retries: 3
+          script: |
+            const owner = 'italia-opensource';
+            const repo = 'italiaopensource.com';
+            const event_type = 'deploy-infrastructure';
+            const ref = 'main';
+
+            github.rest.repos.createDispatchEvent({
+                owner,
+                repo,
+                event_type
+            });
+
+      - name: Deploy Website
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/github-script@v7
+        with:
+          result-encoding: json
+          github-token: ${{ secrets.ACTION_WORKFLOWS }}
+          retries: 3
+          script: |
+            const owner = 'italia-opensource';
+            const repo = 'italiaopensource.com';
+            const event_type = 'deploy-website';
+            const ref = 'main';
+
+            github.rest.repos.createDispatchEvent({
+                owner,
+                repo,
+                event_type
+            });

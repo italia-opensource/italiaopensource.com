@@ -1,0 +1,68 @@
+name: Deploy Infrastructure
+
+on:
+  repository_dispatch:
+    types:
+      - deploy-infrastructure
+      - deploy-infrastructure-command
+  workflow_dispatch:
+
+# Permissions for terramform-init action
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  WORKSPACE: "production"
+
+jobs:
+  deploy-infrastructure:
+    name: Deploy
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Load ENV
+        run: |
+          if [ "${{ github.event.client_payload.slash_command.args.named.pr_sha }}" == "" ]; then
+            echo "COMMIT_SHA=${{ github.sha }}" >> $GITHUB_ENV
+          else
+            echo "COMMIT_SHA=${{ github.event.client_payload.slash_command.args.named.pr_sha }}" >> $GITHUB_ENV
+          fi
+
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.COMMIT_SHA }}
+          fetch-depth: 0
+
+      - name: Terraform Init
+        id: terraform
+        uses: ./.github/workflows/actions/terraform-init
+        timeout-minutes: 5
+        with:
+          WORKSPACE: ${{ env.WORKSPACE }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
+          AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
+
+      - name: Terraform Apply
+        run: |
+          make plan
+          make apply-auto-approve
+
+      - name: Update comment
+        if: ${{ success() && github.event.client_payload.slash_command.args.named.comment_id }}
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.ACTION_WORKFLOWS }}
+          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
+          reactions: hooray
+
+      - name: Failure
+        if: ${{ failure() && github.event.client_payload.slash_command.args.named.comment_id }}
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.ACTION_WORKFLOWS }}
+          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
+          body: |
+            :warning: Deployment failed. See #[${{ github.run_number }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }}) for more details.
