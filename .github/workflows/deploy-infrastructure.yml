@@ -32,7 +32,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ env.COMMIT_SHA }}
-          fetch-depth: 0
 
       - name: Terraform Init
         id: terraform
