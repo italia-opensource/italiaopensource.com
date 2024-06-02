@@ -7,9 +7,22 @@ permissions: read-all
 
 jobs:
   slash-command:
-    if: ${{ github.event.issue.pull_request && github.event.issue.actor.login == 'FabrizioCafolla' }}
+    if: ${{ github.event.issue.pull_request }}
     runs-on: ubuntu-22.04
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - run: |
+          echo "event.issue"
+          echo ${{ github.event.issue }}
+
+          echo "event.issue.actor"
+          echo ${{ github.event.issue.actor }}
+
+          echo "event.issue.actor.login"
+          echo ${{ github.event.issue.actor.login }}
+
       - name: Get PR repo and ref
         id: getref
         uses: actions/github-script@v7
