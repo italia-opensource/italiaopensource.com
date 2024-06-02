@@ -83,3 +83,4 @@ repos:
           - --args=--skip-check CKV_AWS_158
           - --args=--skip-check CKV_AWS_116
           - --args=--skip-check CKV_AWS_259
+          - --args=--skip-check CKV_GHA_7

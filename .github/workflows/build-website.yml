@@ -6,6 +6,11 @@ on:
       - build-website
       - build-website-command
   workflow_dispatch:
+    inputs:
+      hash-commit-awesome-italia-opensource:
+        description: "Set the commit hash from awesome-italia-opensource"
+        required: false
+        default: ""
 
 # Permissions for terramform-init action
 permissions:
@@ -20,18 +25,30 @@ jobs:
     name: Build
     runs-on: ubuntu-22.04
     steps:
-      - name: Load ENV
+      - name: Load env
+        id: env
         run: |
-          if [ "${{ github.event.client_payload.slash_command.args.named.pr_sha }}" == "" ]; then
-            echo "COMMIT_SHA=${{ github.sha }}" >> $GITHUB_ENV
-          else
-            echo "COMMIT_SHA=${{ github.event.client_payload.slash_command.args.named.pr_sha }}" >> $GITHUB_ENV
+          build_pr_branch_name="feat/build-website-${{ github.event_name }}-${{ github.sha }}"
+          checkout_commit_sha="${{ github.sha }}"
+
+          if [ "${{ inputs.hash-commit-awesome-italia-opensource }}" != "" ] ; then
+            build_pr_branch_name="feat/build-website-awesome-${{ inputs.hash-commit-awesome-italia-opensource }}"
           fi
+
+          if [ "${{ github.event.client_payload.slash_command.args.named.pr_sha }}" != "" ]; then
+            checkout_commit_sha="${{ github.event.client_payload.slash_command.args.named.pr_sha }}"
+          fi
+
+          echo "checkout_commit_sha=${checkout_commit_sha}" >> $GITHUB_OUTPUT
+          echo "checkout_commit_sha=${checkout_commit_sha}"
+
+          echo "build_pr_branch_name=${build_pr_branch_name}" >> $GITHUB_OUTPUT
+          echo "build_pr_branch_name=${build_pr_branch_name}"
 
       - name: Check out code
         uses: actions/checkout@v4
         with:
-          ref: ${{ env.COMMIT_SHA }}
+          ref: ${{ steps.env.outputs.checkout_commit_sha }}
           fetch-depth: 0
 
       - name: Setup Python 3.12
@@ -59,17 +76,34 @@ jobs:
           AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
 
       - name: Build
+        id: build
         timeout-minutes: 5
         run: |
-          make setup-website VIRTUAL_ENV=false
           make download
+
+          git checkout HEAD -- infrastructure/.terraform.lock.hcl # Ignore changes to the lock file
+          status=$(git status -s)
+          echo "## Status"
+          echo "${status}"
+
+          # Skip build if only metadata.json has changed and the pipeline was triggered by awesome-italia-opensource
+          if [[ "${{ inputs.hash-commit-awesome-italia-opensource }}" != "" ]] && [[ "${status}" == " M website/database/metadata.json" ]] ; then
+            echo "has_changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          make setup-website VIRTUAL_ENV=false
           make build
 
+          echo "has_changed=true" >> $GITHUB_OUTPUT
+
       - name: Create Pull Request
+        if: ${{ steps.build.outputs.has_changed == 'true' }}
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.ACTION_WORKFLOWS }}
-          title: "fix(website): update awesome data"
+          branch: ${{ steps.env.outputs.build_pr_branch_name }}
+          title: "feat(website): update awesome data"
           body: "Update awesome data from: ${{ github.event_name }}"
           commit-message: "Update awesome data from: ${{ github.event_name }}"
           author: "FabrizioCafolla <${{ secrets.ACTION_EMAIL }}>"
