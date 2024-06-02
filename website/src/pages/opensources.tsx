@@ -9,6 +9,8 @@ import OpensourceTableData from '@site/src/components/TableFeatures/opensources'
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
 
+import RawData from '../components/RawData';
+
 export default function App(): JSX.Element {
   return (
     <Layout
@@ -38,7 +40,7 @@ export default function App(): JSX.Element {
           </Button>
         </Link>
       </Container>
-
+      <RawData/>
       </main>
     </Layout>
   );
