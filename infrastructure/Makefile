@@ -29,3 +29,7 @@ destroy: select-workspace ## Execute terraform plan
 apply-auto-approve: select-workspace ## Execute terraform plan
 	@cd $(_WORKDIR_INFRASTRUCTURE) && \
 	terraform apply -var-file=env/$${WORKSPACE}.tfvars -var-file=env/secrets.tfvars -auto-approve
+
+check-drift: ## Check for drift. This will change the meaning of exit codes to: 0 - Succeeded (no changes), 1 - Errored, 2 - Succeeded, there is a diff
+	@cd $(_WORKDIR_INFRASTRUCTURE) && \
+	terraform plan -var-file=env/$${WORKSPACE}.tfvars -var-file=env/secrets.tfvars -detailed-exitcode -lock=false

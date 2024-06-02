@@ -45,9 +45,18 @@ jobs:
           AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
           AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
 
-      - name: Terraform Apply
+      - name: Terraform Plan
+        id: plan
+        continue-on-error: true
         run: |
-          make plan
+          make check-drift
+          exitcode=$?
+          echo $exitcode
+          echo "run_apply=${exitcode}" >> "$GITHUB_OUTPUT"
+
+      - name: Terraform Apply
+        if: ${{ steps.plan.outputs.run_apply == '2' }}
+        run: |
           make apply-auto-approve
 
       - name: Update comment
