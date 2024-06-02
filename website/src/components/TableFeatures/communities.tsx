@@ -7,11 +7,12 @@ import React from 'react';
 import { FilterMatchMode, FilterOperator } from 'primereact/api';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import './styles.module.css';
 import { TableData } from './base';
 import VerifiedIcon from '@mui/icons-material/Verified'
 
 import mockDataJson from "../../../database/communities.json";
+
+import { isMobile } from 'react-device-detect';
 
 class CommunitiesTableData extends TableData {
     initFilterValues: { [key: string]: {}; } = {
@@ -59,7 +60,6 @@ class CommunitiesTableData extends TableData {
                     <DataTable
                         value={this.customers}
                         paginator
-                        showGridlines
                         className="p-datatable-customers"
                         rows={20}
                         dataKey="id"
@@ -68,14 +68,15 @@ class CommunitiesTableData extends TableData {
                         loading={this.loading}
                         responsiveLayout="scroll"
                         globalFilterFields={['name', 'platform']}
-                        header={header} emptyMessage="No communities found."
+                        header={header} 
+                        emptyMessage="No communities found."
                         footer={this.renderFooterCopy('community', '/contributors/communities')}>
-                        <Column field="name" header="Name"  body={nameBodyTemplate} filter filterPlaceholder="Search by name" />
-                        <Column field="type" header="Type" filter filterPlaceholder="Search by type"  />
-                        <Column field="platform" header="Platform" filter filterPlaceholder="Search by platform" />
-                        <Column field="events_type" header="Events Type" body={eventsTypeBodyTemplate} filter filterPlaceholder="Search by events type" />
-                        <Column field="tags" header="Tags" filter filterPlaceholder="Search by tags" body={tagsBodyTemplate} />
-                        <Column field="description" header="Description" />
+                        <Column alignHeader='center' field="name" header="Name"  body={nameBodyTemplate} filter filterPlaceholder="Search by name" />
+                        <Column alignHeader='center' field="type" header="Type" filter filterPlaceholder="Search by type"  />
+                        <Column alignHeader='center' hidden={isMobile ? true : false} field="platform" header="Platform" filter filterPlaceholder="Search by platform" />
+                        <Column alignHeader='center' hidden={isMobile ? true : false} field="events_type" header="Events Type" body={eventsTypeBodyTemplate} filter filterPlaceholder="Search by events type" />
+                        <Column alignHeader='center' hidden={isMobile ? true : false} field="tags" header="Tags" filter filterPlaceholder="Search by tags" body={tagsBodyTemplate} />
+                        <Column alignHeader='center' hidden={isMobile ? true : false} field="description" header="Description" />
                     </DataTable>
         );
     }

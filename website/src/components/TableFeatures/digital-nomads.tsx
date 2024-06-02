@@ -7,10 +7,11 @@ import React from 'react';
 import { FilterMatchMode, FilterOperator } from 'primereact/api';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import './styles.module.css';
 import { TableData } from './base';
 
 import mockDataJson from "../../../database/digital-nomads.json";
+
+import { isMobile } from 'react-device-detect';
 
 class DigitalNomadsTableData extends TableData {
     initFilterValues: { [key: string]: {}; } = {
@@ -72,12 +73,12 @@ class DigitalNomadsTableData extends TableData {
                         globalFilterFields={['name', 'state_name']}
                         header={header} emptyMessage="No digital nomdas place found."
                         footer={this.renderFooterCopy("digital-nomads", '/contributors/digital-nomads')}>
-                        <Column field="name" header="Name"  body={nameBodyTemplate} filter filterPlaceholder="Search by name" />
-                        <Column field="state_name" header="State" filter filterPlaceholder="Search by state"  />
-                        <Column field="how_to_move" header="How to Move" body={howToMoveBodyTemplate} filter filterPlaceholder="Search by means of transport" />
-                        <Column field="required_documents" header="Events Type" body={requiredDocumentsBodyTemplate} filter filterPlaceholder="Search by events type" />
-                        <Column field="tags" header="Tags" filter filterPlaceholder="Search by tags" body={tagsBodyTemplate} />
-                        <Column field="description" header="Description" />
+                        <Column alignHeader='center' field="name" header="Name"  body={nameBodyTemplate} filter filterPlaceholder="Search by name" />
+                        <Column alignHeader='center' field="state_name" header="State" filter filterPlaceholder="Search by state"  />
+                        <Column alignHeader='center' hidden={isMobile ? true : false} field="how_to_move" header="How to Move" body={howToMoveBodyTemplate} filter filterPlaceholder="Search by means of transport" />
+                        <Column alignHeader='center' hidden={isMobile ? true : false} field="required_documents" header="Events Type" body={requiredDocumentsBodyTemplate} filter filterPlaceholder="Search by events type" />
+                        <Column alignHeader='center' hidden={isMobile ? true : false} field="tags" header="Tags" filter filterPlaceholder="Search by tags" body={tagsBodyTemplate} />
+                        <Column alignHeader='center' hidden={isMobile ? true : false} field="description" header="Description" />
                     </DataTable>
         );
     }

@@ -38,7 +38,6 @@ jobs:
           commands: |
             deploy-website
             deploy-infrastructure
-            build-website
           static-args: |
             pr_number=${{ env.PR_NUMBER }}
             pr_url=${{ env.PR_URL }}

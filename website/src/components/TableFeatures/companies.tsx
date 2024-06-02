@@ -7,11 +7,12 @@ import React from 'react';
 import { FilterMatchMode, FilterOperator } from 'primereact/api';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import './styles.module.css';
 import { TableData } from './base';
 import VerifiedIcon from '@mui/icons-material/Verified'
 
 import mockDataJson from "../../../database/companies.json";
+
+import { isMobile } from 'react-device-detect';
 
 class CompaniesTableData extends TableData {
     initFilterValues: { [key: string]: {}; } = {
@@ -65,12 +66,12 @@ class CompaniesTableData extends TableData {
                         globalFilterFields={['name', 'market']}
                         header={header} emptyMessage="No companies found."
                         footer={this.renderFooterCopy('company', '/contributors/companies')}>
-                        <Column field="name" header="Name"  body={nameBodyTemplate} filter filterPlaceholder="Search by name" />
-                        <Column field="type" header="Type" filter filterPlaceholder="Search by type" />
-                        <Column field="market" header="Market" filter filterPlaceholder="Search by market"  />
-                        <Column field="tags" header="Tags" filter filterPlaceholder="Search by tags"  body={tagsBodyTemplate} />
-                        <Column field="foundation_year" header="Foundation Year" filter filterPlaceholder="Search foundation year"  />
-                        <Column field="description" header="Description" />
+                        <Column alignHeader='center' field="name" header="Name"  body={nameBodyTemplate} filter filterPlaceholder="Search by name" />
+                        <Column alignHeader='center' field="type" header="Type" filter filterPlaceholder="Search by type" />
+                        <Column alignHeader='center' hidden={isMobile ? true : false}  field="market" header="Market" filter filterPlaceholder="Search by market"  />
+                        <Column alignHeader='center' hidden={isMobile ? true : false}  field="tags" header="Tags" filter filterPlaceholder="Search by tags"  body={tagsBodyTemplate} />
+                        <Column alignHeader='center' hidden={isMobile ? true : false}  field="foundation_year" header="Foundation Year" filter filterPlaceholder="Search foundation year"  />
+                        <Column alignHeader='center' hidden={isMobile ? true : false}  field="description" header="Description" />
                     </DataTable>
         );
     }

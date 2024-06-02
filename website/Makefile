@@ -7,6 +7,7 @@ _WORKDIR_WEBSITE:=$${PWD}
 endif
 
 VIRTUAL_ENV := true
+HASH_COMMIT := latest
 
 .PHONY: start
 start: ## Start the development server
@@ -34,5 +35,5 @@ setup-website: ## Setup the project
 	@cd $(_WORKDIR_WEBSITE)/scripts && chmod +x setup.sh && ./setup.sh $(VIRTUAL_ENV) && cd -
 
 .PHONY: download
-download:
-	@cd $(_WORKDIR_WEBSITE) && chmod +x scripts/download.sh && ./scripts/download.sh && cd -
+download: ## Download database from awesome-italia-opensource
+	@cd $(_WORKDIR_WEBSITE) && chmod +x scripts/download.sh && ./scripts/download.sh $(HASH_COMMIT) && cd -
