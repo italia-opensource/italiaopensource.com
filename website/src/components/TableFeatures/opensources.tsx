@@ -7,10 +7,10 @@ import React from 'react';
 import { FilterMatchMode, FilterOperator } from 'primereact/api';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import './styles.module.css';
 import { TableData } from './base';
 
 import mockDataJson from "../../../database/opensource.json";
+import { isMobile } from 'react-device-detect';
 
 class OpensourceTableData extends TableData {
     initFilterValues: { [key: string]: {}; } = {
@@ -56,11 +56,11 @@ class OpensourceTableData extends TableData {
                 globalFilterFields={['name', 'repository_platform']}
                 header={header} emptyMessage="No projects found."
                 footer={this.renderFooterCopy('opensource', '/contributors/developers')}>
-                <Column field="name" header="Name"  body={nameBodyTemplate} filter filterPlaceholder="Search by name"/>
-                <Column field="type" header="Type" filter filterPlaceholder="Search by type"  />
-                <Column field="license" header="License" filter filterPlaceholder="Search by license"  />
-                <Column field="tags" header="Tags" filter filterPlaceholder="Search by tags"  body={tagsBodyTemplate} />
-                <Column field="description" header="Description" />
+                <Column alignHeader='center' field="name" header="Name"  body={nameBodyTemplate} filter filterPlaceholder="Search by name"/>
+                <Column alignHeader='center' field="type" header="Type" filter filterPlaceholder="Search by type"  />
+                <Column alignHeader='center' hidden={isMobile ? true : false} field="license" header="License" filter filterPlaceholder="Search by license"  />
+                <Column alignHeader='center' hidden={isMobile ? true : false} field="tags" header="Tags" filter filterPlaceholder="Search by tags"  body={tagsBodyTemplate} />
+                <Column alignHeader='center' hidden={isMobile ? true : false} field="description" header="Description" />
             </DataTable>
 
         );
