@@ -6,7 +6,6 @@ import 'primeflex/primeflex.css';
 import React, { useState, useEffect } from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
-import './styles.module.css';
 import { Link, Typography } from '@mui/material';
 
 
@@ -93,7 +92,7 @@ export abstract class TableData {
     renderHeader() {
         return (
             <div className="flex justify-content-between">
-                <Button type="button" icon="pi pi-filter-slash" label="Clear" className="p-button-outlined" onClick={this.clearFilter} />
+                <Button type="button" icon="pi pi-filter-slash p-0" className="p-button-outlined" onClick={this.clearFilter} />
                 <span className="p-input-icon-left">
                     <i className="pi pi-search" />
                     <InputText value={this.globalFilterValue} onChange={this.onGlobalFilterChange} placeholder="Keyword Search" />

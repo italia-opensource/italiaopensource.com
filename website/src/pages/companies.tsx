@@ -7,6 +7,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import CompaniesTableData from '@site/src/components/TableFeatures/companies';
 
+import RawData from '../components/RawData';
+
 export default function App(): JSX.Element {
   return (
     <Layout
@@ -36,6 +38,8 @@ export default function App(): JSX.Element {
           </Button>
         </Link>
       </Container> */}
+      
+      <RawData/>
 
       </main>
     </Layout>

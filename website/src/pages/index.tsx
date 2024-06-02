@@ -30,7 +30,6 @@ export default function App(): JSX.Element {
           Join us in celebrating Italian tech innovations!
         </Typography>
 
-
       <Grid container spacing={3} marginTop={4}>
         <Grid xs={12} sm={3}>
           <Paper elevation={0}>
@@ -99,6 +98,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
       </Grid>
+
       </Container>
       </main>
     </Layout>

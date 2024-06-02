@@ -1,14 +1,17 @@
-name: Build Website
+name: Sync Database
 
 on:
   repository_dispatch:
     types:
-      - build-website
-      - build-website-command
+      - sync-database
   workflow_dispatch:
     inputs:
       hash-commit-awesome-italia-opensource:
         description: "Set the commit hash from awesome-italia-opensource"
+        required: false
+        default: ""
+      runner-id-awesome-italia-opensource:
+        description: "Set the runner id from awesome-italia-opensource"
         required: false
         default: ""
 
@@ -21,35 +24,34 @@ env:
   WORKSPACE: "production"
 
 jobs:
-  build-website:
-    name: Build
+  sync-database:
+    name: Sync Database
     runs-on: ubuntu-22.04
     steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
       - name: Load env
         id: env
         run: |
-          build_pr_branch_name="feat/build-website-${{ github.event_name }}-${{ github.sha }}"
-          checkout_commit_sha="${{ github.sha }}"
-
-          if [ "${{ inputs.hash-commit-awesome-italia-opensource }}" != "" ] ; then
-            build_pr_branch_name="feat/build-website-awesome-${{ inputs.hash-commit-awesome-italia-opensource }}"
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ] ; then
+            pr_branch_name="feat/sync-database-manual-${{ github.sha }}"
+            pr_body="Sync database: manualy triggered by ${{ github.actor }}"
+            hash_commit_awesome_italia_opensource="latest"
+          else
+            pr_branch_name="feat/sync-database-action-${{ github.event.client_payload.hash }}"
+            pr_body="Sync database: triggered by [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) (pipeline: [${{ github.event.client_payload.run_id }}](https://github.com/italia-opensource/awesome-italia-opensource/actions/runs/${{ github.event.client_payload.run_id }}))"
+            hash_commit_awesome_italia_opensource="${{ github.event.client_payload.hash }}"
           fi
 
-          if [ "${{ github.event.client_payload.slash_command.args.named.pr_sha }}" != "" ]; then
-            checkout_commit_sha="${{ github.event.client_payload.slash_command.args.named.pr_sha }}"
-          fi
+          echo "pr_branch_name=${pr_branch_name}" >> $GITHUB_OUTPUT
+          echo "pr_branch_name=${pr_branch_name}"
 
-          echo "checkout_commit_sha=${checkout_commit_sha}" >> $GITHUB_OUTPUT
-          echo "checkout_commit_sha=${checkout_commit_sha}"
+          echo "pr_body=${pr_body}" >> $GITHUB_OUTPUT
+          echo "pr_body=${pr_body}"
 
-          echo "build_pr_branch_name=${build_pr_branch_name}" >> $GITHUB_OUTPUT
-          echo "build_pr_branch_name=${build_pr_branch_name}"
-
-      - name: Check out code
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ steps.env.outputs.checkout_commit_sha }}
-          fetch-depth: 0
+          echo "hash_commit_awesome_italia_opensource=${hash_commit_awesome_italia_opensource}" >> $GITHUB_OUTPUT
+          echo "hash_commit_awesome_italia_opensource=${hash_commit_awesome_italia_opensource}"
 
       - name: Setup Python 3.12
         uses: actions/setup-python@v5
@@ -79,7 +81,7 @@ jobs:
         id: build
         timeout-minutes: 5
         run: |
-          make download
+          make download HASH_COMMIT="${{ steps.env.outputs.hash_commit_awesome_italia_opensource}}"
 
           git checkout HEAD -- infrastructure/.terraform.lock.hcl # Ignore changes to the lock file
           status=$(git status -s)
@@ -102,10 +104,10 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.ACTION_WORKFLOWS }}
-          branch: ${{ steps.env.outputs.build_pr_branch_name }}
-          title: "feat(website): update awesome data"
-          body: "Update awesome data from: ${{ github.event_name }}"
-          commit-message: "Update awesome data from: ${{ github.event_name }}"
+          branch: ${{ steps.env.outputs.pr_branch_name }}
+          title: "feat(website): sync database"
+          body: ${{ steps.env.outputs.pr_body }}
+          commit-message: "feat(website): sync database"
           author: "FabrizioCafolla <${{ secrets.ACTION_EMAIL }}>"
           add-paths: |
             website/src/*
