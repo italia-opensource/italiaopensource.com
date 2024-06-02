@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 (2024-06-02)
+
+
+### Bug Fixes
+
+* **ci:** add check drift ([513abff](https://github.com/italia-opensource/italiaopensource.com/commit/513abff2bcdf5a3d9193fcd64ea0b90d43f8572c))
+* **ci:** add check drift ([967daa9](https://github.com/italia-opensource/italiaopensource.com/commit/967daa9bb24844679014a4c6db0e6fb908f6376c))
+* **website:** update awesome data ([#1](https://github.com/italia-opensource/italiaopensource.com/issues/1)) ([f2f8b62](https://github.com/italia-opensource/italiaopensource.com/commit/f2f8b6214a632543fce1deb021fd189d894d151c))
+
 ## 1.0.0 (2024-06-01)
 
 
