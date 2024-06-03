@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.0.0...v1.1.0) (2024-06-03)
+
+
+### Features
+
+* **website:** add mobile responsive ([#8](https://github.com/italia-opensource/italiaopensource.com/issues/8)) ([2a4e0f8](https://github.com/italia-opensource/italiaopensource.com/commit/2a4e0f87da479a3c459e7cdf7670bc830b6cd39b))
+
+
+### Bug Fixes
+
+* **ci:** add check drift ([4c25dab](https://github.com/italia-opensource/italiaopensource.com/commit/4c25dab57dce23caa61d3e97215d6ee02a537f63))
+
 ## 1.0.0 (2024-06-02)
 
 
