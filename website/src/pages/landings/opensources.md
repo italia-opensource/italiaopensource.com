@@ -657,6 +657,30 @@ tags: opensource projects, open-source, opensource
 
 ***
 
+### [Nutgram](/opensources/nutgram)
+
+**Type**: library
+
+**Description**: Nutgram is a powerful PHP Telegram bot framework that allows you to build bots easily. Integrates with Laravel and Symfony out of the box.
+
+`Php` | `Telegram` | `Bot` | `Framework` | `Laravel` | `Symfony`
+
+<p align='right'>Last updated </p>
+
+***
+
+### [Nutgram Hydrator](/opensources/nutgram-hydrator)
+
+**Type**: library
+
+**Description**: A super fast, strongly typed, and powerful object hydrator for PHP.
+
+`Php` | `Dto` | `Hydrator`
+
+<p align='right'>Last updated </p>
+
+***
+
 ### [Nuvolaris](/opensources/nuvolaris)
 
 **Type**: faas
@@ -906,6 +930,18 @@ tags: opensource projects, open-source, opensource
 `Wordpress` | `Boilerplate`
 
 <p align='right'>Last updated 2024-05-18T13:53:03Z</p>
+
+***
+
+### [XBackBone](/opensources/xbackbone)
+
+**Type**: tool
+
+**Description**: XBackBone is a simple, self-hosted, lightweight file manager that support multiple instant sharing tools and storage backends.
+
+`File-Manager` | `File-Sharing` | `Self-Hosted` | `Sharex`
+
+<p align='right'>Last updated </p>
 
 ***
 

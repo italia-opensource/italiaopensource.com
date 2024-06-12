@@ -1,6 +1,6 @@
 ---
 title: Casavo | Italia Open-Source
-description: Vendere o comprare casa non è così semplice. Per questo nasce Casavo, per migliorare questa esperienza.
+description: Casavo è un'agenzia online per la compravendita di casa con largo uso di data analytics e machine learning
 tags: house
 ---
         
@@ -11,7 +11,7 @@ tags: house
 
 ### Description
 
-Vendere o comprare casa non è così semplice. Per questo nasce Casavo, per migliorare questa esperienza.
+Casavo è un'agenzia online per la compravendita di casa con largo uso di data analytics e machine learning
 
 ### Tags
 
@@ -25,4 +25,4 @@ Vendere o comprare casa non è così semplice. Per questo nasce Casavo, per migl
 
 ### Website
 
-https://casavo.com/
+https://casavo.com
