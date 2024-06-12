@@ -91,6 +91,30 @@ tags: digital nomads, remote working, open-source, opensource
 
 ***
 
+### [Chiang Mai](/digital-nomads/chiang-mai)
+
+**State**: Thailand
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Chiang Rai is a city in the north of Thailand, avoid it in March/April due to smoky season. Temples, nature and tours are amazing
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Dancing` | `Trekking`
+
+***
+
+### [Chiang Rai](/digital-nomads/chiang-rai)
+
+**State**: Thailand
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Chiang Mai is a city in the north of Thailand, avoid it in March/April due to smoky season. Temples, nature and tours are amazing. The city center is an old fortress and there is a viewpoint on mountain that is amazing
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Dancing` | `Trekking`
+
+***
+
 ### [Cordoba](/digital-nomads/cordoba)
 
 **State**: Spain
@@ -100,6 +124,18 @@ tags: digital nomads, remote working, open-source, opensource
 **Description**: Cordoba is a city places in the Southern Spain, Andalusia region. Hot almost of the year, very nice to visit for a couple of days
 
 `Nature` | `Bridge` | `Nightlife` | `Food`
+
+***
+
+### [Da Nang](/digital-nomads/da-nang)
+
+**State**: Vietnam
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Beautiful city in the center-south of Vietnam. Beaches, parties, trekking and surfing are the best things to do
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Dancing` | `Surfing` | `Trekking`
 
 ***
 
@@ -127,6 +163,66 @@ tags: digital nomads, remote working, open-source, opensource
 
 ***
 
+### [Hanoi](/digital-nomads/hanoi)
+
+**State**: Vietnam
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Beautiful city in the center-south of Vietnam. Beaches, parties, trekking and kyte surf are the best things to do
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Dancing` | `Surfing` | `Trekking`
+
+***
+
+### [Ho Chi Ming / Saigon](/digital-nomads/ho-chi-ming-/-saigon)
+
+**State**: Vietnam
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Ho Chi Minh, or Saigon, is a city in the south of Vietnam. Full of life, people and temples, parks and gardens to see.
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Dancing`
+
+***
+
+### [Hoi An](/digital-nomads/hoi-an)
+
+**State**: Vietnam
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Beautiful city in the center-south of Vietnam. Beaches, parties, trekking and kyte surf are the best things to do
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Dancing` | `Surfing` | `Trekking`
+
+***
+
+### [Hong Kong](/digital-nomads/hong-kong)
+
+**State**: Hong Kong
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Very crowded place in the south of China, beautiful skyline and amazing food are the heart of the city.
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Dancing` | `Surfing` | `Trekking`
+
+***
+
+### [Hua Hin](/digital-nomads/hua-hin)
+
+**State**: Thailand
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Hua Hin is a city in the center of Thailand next to the sea and with kyte surf schools
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Trekking`
+
+***
+
 ### [Istanbul](/digital-nomads/istanbul)
 
 **State**: Türkiye
@@ -139,6 +235,18 @@ tags: digital nomads, remote working, open-source, opensource
 
 ***
 
+### [Koh Samui](/digital-nomads/koh-samui)
+
+**State**: Thailand
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Koh Samui is an island of Thailand. Placed in the center of the country, in the Gulf od Thailand, the water of the sea is very hot and have nice sunsets and temples next to the beaches.
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Dancing` | `Trekking` | `Sea`
+
+***
+
 ### [Kuala Lumpur](/digital-nomads/kuala-lumpur)
 
 **State**: Malaysia
@@ -148,6 +256,30 @@ tags: digital nomads, remote working, open-source, opensource
 **Description**: Kuala Lumpur, or KL, is the capital of Malaysia. Petronas towers, Batu caves, temples and KL tower are the most interesting things in this giant city, that you can visit entirely with public transports
 
 `Temple` | `Skyline` | `Nightlife` | `Tower` | `Food`
+
+***
+
+### [Latina](/digital-nomads/latina)
+
+**State**: Italy
+
+**Internet Roaming**: Available
+
+**Description**: Latina is a  city 60km far away from Rome. Is 15km far from the sea and the province is full of history. Ninfa Gardens, old towns and the sea in the province is amazing.
+
+`Nature` | `Temple` | `River` | `Mountain` | `Museums`
+
+***
+
+### [Livigno](/digital-nomads/livigno)
+
+**State**: Italy
+
+**Internet Roaming**: Available
+
+**Description**: Livigno is a city placed between mountains 1816m above sea level. Is amazing for his view on the lake, to ski, to ride a bicycle and to do some hiking and trekking.
+
+`Nature` | `Snow` | `River` | `Mountain` | `Hiking` | `Trekking`
 
 ***
 
@@ -175,6 +307,30 @@ tags: digital nomads, remote working, open-source, opensource
 
 ***
 
+### [Milano](/digital-nomads/milano)
+
+**State**: Italy
+
+**Internet Roaming**: Available
+
+**Description**: Milan is the most modern city in Italy. Skyscrapers, business, finance, fashion and sports are the most productive things in the city, that extends itself around the Duomo
+
+`Nature` | `River` | `Museums`
+
+***
+
+### [Nha Trang](/digital-nomads/nha-trang)
+
+**State**: Vietnam
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Beautiful city in the center-south of Vietnam. Beaches, parties, trekking and kyte surf are the best things to do
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Dancing` | `Surfing` | `Trekking`
+
+***
+
 ### [Nosy Be](/digital-nomads/nosy-be)
 
 **State**: Madagascar
@@ -184,6 +340,18 @@ tags: digital nomads, remote working, open-source, opensource
 **Description**: Nosy Be, Madagascar, is a tropical island nestled in the Mozambique Channel, famed for its pristine beaches, thriving coral reefs, and lush landscapes. With vanilla plantations and diverse wildlife, this serene island invites visitors to explore its natural wonders and savor its calm allure amidst the Indian Ocean's beauty.
 
 `Relax` | `Nature` | `Beach` | `Sea` | `Exploration`
+
+***
+
+### [Phuket](/digital-nomads/phuket)
+
+**State**: Thailand
+
+**Internet Roaming**: Local SIM required
+
+**Description**: Phuket is a big island in south of Thailand. Beautiful sunsets, beaches and bars to enjoy life and work remotely
+
+`Nature` | `Temples` | `Mountain` | `Visit` | `Sea` | `Dancing` | `Trekking`
 
 ***
 

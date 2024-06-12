@@ -71,7 +71,7 @@ tags: tech company, open-source, opensource
 
 **Market**: Housing (B2C)
 
-**Description**: Vendere o comprare casa non è così semplice. Per questo nasce Casavo, per migliorare questa esperienza.
+**Description**: Casavo è un'agenzia online per la compravendita di casa con largo uso di data analytics e machine learning
 
 **Created in**: 2017
 
