@@ -17,8 +17,9 @@ def normalizeFilename(name):
         )
         .strip()
         .replace(" ", "-")
+        .replace("/", "-")
         .lower()
-    )
+    ).replace("---", "-")
 
 
 def create_page(data, endpoint):

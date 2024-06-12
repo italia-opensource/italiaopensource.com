@@ -110,7 +110,7 @@ export abstract class TableData {
     }
 
     normalizeLink(link: string) {
-        return link.normalize('NFD').toLowerCase().trim().replace(/ /g, "-").replace(/[\u0300-\u036f]/g, '');
+        return (link.normalize('NFD').toLowerCase().trim().replace(/ /g, "-").replace("/", "").replace(/[\u0300-\u036f]/g, '')).replace('--', '-');
     }
 
     abstract create(): JSX.Element;
