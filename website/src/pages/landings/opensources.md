@@ -101,6 +101,18 @@ tags: opensource projects, open-source, opensource
 
 ***
 
+### [Astro Minimal](/opensources/astro-minimal)
+
+**Type**: app
+
+**Description**: An open source blog template build with Astro and Bulma
+
+`Astro` | `Javascript` | `Typescript` | `Bulmacss`
+
+<p align='right'>Last updated </p>
+
+***
+
 ### [Autocannon](/opensources/autocannon)
 
 **Type**: package
