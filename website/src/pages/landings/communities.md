@@ -145,6 +145,16 @@ tags: tech community, open-source, opensource
 
 ***
 
+### [La Brigata dei Geek Estinti](/communities/la-brigata-dei-geek-estinti)
+
+**Event Type**: Podcast, Video
+
+**Description**: Un podcast Live ad assetto variabile dove ogni geek estinto, ma vivo, può intervenire quando vuole. Si parla di IT, programmazione, DevOps, retro computing, cloud, scena demo, cultura geek, vita, universo e tutto quanto.
+
+`It` | `Tech` | `Cloud` | `Geek` | `Devops` | `Retrocomputing`
+
+***
+
 ### [La Locanda del Tech](/communities/la-locanda-del-tech)
 
 **Event Type**: Chat
