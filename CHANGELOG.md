@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.2.0...v1.3.0) (2024-06-17)
+
+
+### Features
+
+* **infrastructure:** add doppler secrets ([#24](https://github.com/italia-opensource/italiaopensource.com/issues/24)) ([1bd60ed](https://github.com/italia-opensource/italiaopensource.com/commit/1bd60edee6958a65f5188c28c0263ae3c1024852))
+* **website:** sync database ([#21](https://github.com/italia-opensource/italiaopensource.com/issues/21)) ([63341fc](https://github.com/italia-opensource/italiaopensource.com/commit/63341fc9e6c1d5385ca9466df61cac10096a7108))
+
 ## [1.2.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.1.0...v1.2.0) (2024-06-16)
 
 
