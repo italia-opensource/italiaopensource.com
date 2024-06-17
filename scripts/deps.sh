@@ -24,9 +24,11 @@ setup_virtualenv(){
 }
 
 main(){
-  echo "## Setup: project deps"
+  echo "[INFO] Installing base dependencies"
 
   local _arg_virtualenv=${1:-true}
+  local _arch
+  _arch=$(uname -m)
 
   cd "${WORKDIR}"
 
@@ -34,13 +36,15 @@ main(){
     setup_virtualenv
 
     # shellcheck disable=SC1091
-    source .activate
+    . .activate
   fi
 
   python3 -m pip install --upgrade pip
   python3 -m pip install wheel
 
+  echo "Installing requirements"
   pip3 install -r requirements.txt
+
   pre-commit install
 
   tflint || curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
