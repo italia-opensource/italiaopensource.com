@@ -205,6 +205,26 @@ tags: tech community, open-source, opensource
 
 ***
 
+### [Open Source Saturday Milano](/communities/open-source-saturday-milano)
+
+**Event Type**: Meetup, Hackathon
+
+**Description**: Ci troviamo un sabato al mese per contribuire insieme a progetti open source.
+
+`Open Source` | `Saturday` | `Hands-On` | `Programming` | `Hacking` | `Sharing` | `Contributing`
+
+***
+
+### [PyCon Italia](/communities/pycon-italia)
+
+**Event Type**: Conference
+
+**Description**: PyCon Italia is the Italian edition of the international PyCon conference series, which focuses on the Python programming language. It serves as a gathering for Python enthusiasts, including developers, data scientists, educators, and other tech professionals from all over Italy and beyond.
+
+`Dev` | `Talk` | `Python` | `Pydata` | `Opensource`
+
+***
+
 ### [Red Hot Cyber](/communities/red-hot-cyber)
 
 **Event Type**: Article, Conference
