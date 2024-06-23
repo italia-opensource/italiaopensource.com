@@ -5,14 +5,14 @@ on:
     types:
       - deploy-website
       - deploy-website-command
-  push:
-    branches:
-      - main
-    paths:
-      - "website/**"
-      - "!website/tests/**"
-      - "!website/Makefile"
-      - "!website/README.md"
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - "website/**"
+  #     - "!website/tests/**"
+  #     - "!website/Makefile"
+  #     - "!website/README.md"
   workflow_dispatch:
 
 concurrency:

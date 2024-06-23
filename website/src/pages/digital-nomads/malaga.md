@@ -52,3 +52,4 @@ Malaga is places in the south of Spain, on the Mediterranean sea. Hot, with beau
 
 - https://www.surfoffice.com/coworking/malaga
 - https://www.regus.com/it-it/spain/malaga/coworking
+- https://innovationcampus.biz/malaga/malaga-terrace/
