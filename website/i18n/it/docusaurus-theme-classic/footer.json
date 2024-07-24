@@ -1,0 +1,30 @@
+{
+  "link.item.label.Home": {
+    "message": "Home",
+    "description": "The label of footer link with label=Home linking to /"
+  },
+  "link.item.label.Our Sponsor": {
+    "message": "Our Sponsor",
+    "description": "The label of footer link with label=Our Sponsor linking to /sponsor"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/italia-opensource"
+  },
+  "link.item.label.Community": {
+    "message": "Community",
+    "description": "The label of footer link with label=Community linking to https://www.linkedin.com/company/italia-open-source"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Privacy Policy",
+    "description": "The label of footer link with label=Privacy Policy linking to https://www.iubenda.com/privacy-policy/69653207"
+  },
+  "link.item.label.Cookie Policy": {
+    "message": "Cookie Policy",
+    "description": "The label of footer link with label=Cookie Policy linking to https://www.iubenda.com/privacy-policy/69653207/cookie-policy"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 Italia Open-Source",
+    "description": "The footer copyright"
+  }
+}

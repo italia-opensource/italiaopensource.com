@@ -21,7 +21,12 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'it'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US',
+      }
+    },
   },
 
   presets: [
@@ -155,6 +160,10 @@ const config = {
           {
             to: '/team',
             label: '💎 Team',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             to: 'https://mailchi.mp/8933ba69ba9c/beta-version',

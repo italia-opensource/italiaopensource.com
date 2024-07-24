@@ -1,0 +1,66 @@
+{
+  "title": {
+    "message": "Italia Open-Source",
+    "description": "The title in the navbar"
+  },
+  "item.label.🚀 Awesome Lists": {
+    "message": "🚀 Awesome Lists",
+    "description": "Navbar item with label 🚀 Awesome Lists"
+  },
+  "item.label.🔥 How to Contribute": {
+    "message": "🔥 How to Contribute",
+    "description": "Navbar item with label 🔥 How to Contribute"
+  },
+  "item.label.📊 Reports": {
+    "message": "📊 Reports",
+    "description": "Navbar item with label 📊 Reports"
+  },
+  "item.label.⭐ Our Sponsor": {
+    "message": "⭐ Our Sponsor",
+    "description": "Navbar item with label ⭐ Our Sponsor"
+  },
+  "item.label.💎 Team": {
+    "message": "💎 Team",
+    "description": "Navbar item with label 💎 Team"
+  },
+  "item.label.🌱 Beta Version": {
+    "message": "🌱 Beta Version",
+    "description": "Navbar item with label 🌱 Beta Version"
+  },
+  "item.label.❤️ Donate": {
+    "message": "❤️ Donate",
+    "description": "Navbar item with label ❤️ Donate"
+  },
+  "item.label.💻 Open-Source": {
+    "message": "💻 Open-Source",
+    "description": "Navbar item with label 💻 Open-Source"
+  },
+  "item.label.🌍 Digital Nomads": {
+    "message": "🌍 Digital Nomads",
+    "description": "Navbar item with label 🌍 Digital Nomads"
+  },
+  "item.label.👥 Communities": {
+    "message": "👥 Communities",
+    "description": "Navbar item with label 👥 Communities"
+  },
+  "item.label.🏡 Companies": {
+    "message": "🏡 Companies",
+    "description": "Navbar item with label 🏡 Companies"
+  },
+  "item.label.📍 Coworkings": {
+    "message": "📍 Coworkings",
+    "description": "Navbar item with label 📍 Coworkings"
+  },
+  "item.label.⭐ Sponsor": {
+    "message": "⭐ Sponsor",
+    "description": "Navbar item with label ⭐ Sponsor"
+  },
+  "item.label.💻 Developers": {
+    "message": "💻 Developers",
+    "description": "Navbar item with label 💻 Developers"
+  },
+  "item.label.2024": {
+    "message": "2024",
+    "description": "Navbar item with label 2024"
+  }
+}
