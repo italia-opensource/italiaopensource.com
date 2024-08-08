@@ -1,6 +1,7 @@
 name: Sync Database
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types:
       - sync-database
@@ -34,7 +35,7 @@ jobs:
             hash_commit_awesome_italia_opensource="${{ github.event.client_payload.hash }}"
           fi
 
-          pr_body="${pr_body}\n\n Sync database pipeline: [${{ github.run_id }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }})
+          pr_body="${pr_body}\n\n Sync database pipeline: [${{ github.run_id }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }})"
 
           echo "pr_branch_name=${pr_branch_name}" >> $GITHUB_OUTPUT
           echo "pr_branch_name=${pr_branch_name}"
