@@ -4,7 +4,7 @@
     "description": "The label of footer link with label=Home linking to /"
   },
   "link.item.label.Our Sponsor": {
-    "message": "Our Sponsor",
+    "message": "Sponsor",
     "description": "The label of footer link with label=Our Sponsor linking to /sponsor"
   },
   "link.item.label.GitHub": {

@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import CompaniesTableData from '@site/src/components/TableFeatures/companies';
 
-import RawData from '../components/RawData';
+import RawData from '../../../src/components/RawData';
 
 export default function App(): JSX.Element {
   return (

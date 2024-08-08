@@ -8,11 +8,12 @@ endif
 
 VIRTUAL_ENV := true
 HASH_COMMIT := latest
+LOCALE := en
 
 .PHONY: start
 start: ## Start the development server
 	@export ENV=develop
-	@cd $(_WORKDIR_WEBSITE) && yarn start
+	@cd $(_WORKDIR_WEBSITE) && yarn start --locale=$(LOCALE)
 
 .PHONY: build
 build: ## Build website project

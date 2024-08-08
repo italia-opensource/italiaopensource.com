@@ -25,6 +25,10 @@ const config = {
     localeConfigs: {
       en: {
         htmlLang: 'en-US',
+        label: 'EN',
+      },
+      it: {
+        label: 'IT',
       }
     },
   },
@@ -162,10 +166,6 @@ const config = {
             label: '💎 Team',
           },
           {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-          {
             to: 'https://mailchi.mp/8933ba69ba9c/beta-version',
             label: '🌱 Beta Version',
             position: 'right',
@@ -173,6 +173,10 @@ const config = {
           {
             to: 'https://opencollective.com/italia-open-source/donate?interval=oneTime&amount=3&contributeAs=me',
             label: '❤️ Donate',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           }
         ],

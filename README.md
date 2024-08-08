@@ -22,6 +22,10 @@ source .activate
 make start
 ```
 
+If you want start website with italian lang run: `make start LOCALE=it`.
+
+If you want start website with multi-lang run: `make build && make serve`
+
 **Develop infrastructure in local:**
 
 With doppler access:

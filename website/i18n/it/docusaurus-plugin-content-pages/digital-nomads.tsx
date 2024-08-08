@@ -9,7 +9,7 @@ import DigitalNomadsTableData from '@site/src/components/TableFeatures/digital-n
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
 
-import RawData from '../components/RawData';
+import RawData from '../../../src/components/RawData';
 
 export default function App(): JSX.Element {
   return (

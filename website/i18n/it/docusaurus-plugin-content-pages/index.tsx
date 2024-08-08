@@ -34,7 +34,7 @@ export default function App(): JSX.Element {
         <Grid xs={12} sm={3}>
           <Paper elevation={0}>
             <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={86} duration={2.30} suffix='+'></CountUp></b> Projects
+            <b><CountUp start={1} end={95} duration={2.30} suffix='+'></CountUp></b> Progetti
             </Typography>
           </Paper>
           <Link href="/opensources">
@@ -46,7 +46,7 @@ export default function App(): JSX.Element {
         <Grid xs={12} sm={3}>
           <Paper elevation={0}>
             <Typography align='center' padding={2}  margin={1}>
-              <b><CountUp start={1} end={20} duration={1.50} suffix='+'></CountUp></b> Destinations
+              <b><CountUp start={1} end={30} duration={1.50} suffix='+'></CountUp></b> Destinazioni
             </Typography>
           </Paper>
             <Link href="/digital-nomads">
@@ -58,7 +58,7 @@ export default function App(): JSX.Element {
         <Grid xs={12} sm={3}>
           <Paper elevation={0}>
             <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={25} duration={1.90} prefix='+'></CountUp></b> Association
+            <b><CountUp start={1} end={25} duration={1.90} prefix='+'></CountUp></b> Associazioni
           </Typography>
           </Paper>
             <Link href="/communities">
@@ -82,7 +82,7 @@ export default function App(): JSX.Element {
         <Grid xs={12} sm={3}>
           <Paper elevation={0}>
             <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={100} duration={2.00} prefix='+'></CountUp></b> Places
+            <b><CountUp start={1} end={100} duration={2.00} prefix='+'></CountUp></b> Spazi
             </Typography>
           </Paper>
             <Link href="/coworkings">

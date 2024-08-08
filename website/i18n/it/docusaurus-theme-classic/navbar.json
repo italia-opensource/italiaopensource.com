@@ -8,7 +8,7 @@
     "description": "Navbar item with label 🚀 Awesome Lists"
   },
   "item.label.🔥 How to Contribute": {
-    "message": "🔥 How to Contribute",
+    "message": "🔥 Come Contribuire",
     "description": "Navbar item with label 🔥 How to Contribute"
   },
   "item.label.📊 Reports": {
@@ -16,7 +16,7 @@
     "description": "Navbar item with label 📊 Reports"
   },
   "item.label.⭐ Our Sponsor": {
-    "message": "⭐ Our Sponsor",
+    "message": "⭐ Sponsor",
     "description": "Navbar item with label ⭐ Our Sponsor"
   },
   "item.label.💎 Team": {
@@ -28,7 +28,7 @@
     "description": "Navbar item with label 🌱 Beta Version"
   },
   "item.label.❤️ Donate": {
-    "message": "❤️ Donate",
+    "message": "❤️ Donazioni",
     "description": "Navbar item with label ❤️ Donate"
   },
   "item.label.💻 Open-Source": {
@@ -44,7 +44,7 @@
     "description": "Navbar item with label 👥 Communities"
   },
   "item.label.🏡 Companies": {
-    "message": "🏡 Companies",
+    "message": "🏡 Aziende",
     "description": "Navbar item with label 🏡 Companies"
   },
   "item.label.📍 Coworkings": {
