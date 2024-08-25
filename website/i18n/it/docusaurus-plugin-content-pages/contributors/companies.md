@@ -25,4 +25,4 @@ You can add a company to our [awsome list](/companies) in two different ways:
 1. Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) and wait for it to be approved after a thorough review.
 2. Fill out the form and if your community meets all the requirements, you will receive an email to confirm the addition to Italia Open-Source.
 
-    [Compile form](https://2pcnmw19dwc.typeform.com/to/AWoA6gYR)
+    [Compile form](https://forms.gle/HanD9st1L8H34BhQ9)
