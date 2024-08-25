@@ -109,7 +109,7 @@ tags: opensource projects, open-source, opensource
 
 `Astro` | `Javascript` | `Typescript` | `Bulmacss`
 
-<p align='right'>Last updated 2024-07-24T13:02:35Z</p>
+<p align='right'>Last updated </p>
 
 ***
 
@@ -677,7 +677,7 @@ tags: opensource projects, open-source, opensource
 
 `Php` | `Telegram` | `Bot` | `Framework` | `Laravel` | `Symfony`
 
-<p align='right'>Last updated 2024-07-24T13:02:35Z</p>
+<p align='right'>Last updated </p>
 
 ***
 
@@ -689,7 +689,7 @@ tags: opensource projects, open-source, opensource
 
 `Php` | `Dto` | `Hydrator`
 
-<p align='right'>Last updated 2024-07-24T13:02:35Z</p>
+<p align='right'>Last updated </p>
 
 ***
 
@@ -953,7 +953,7 @@ tags: opensource projects, open-source, opensource
 
 `File-Manager` | `File-Sharing` | `Self-Hosted` | `Sharex`
 
-<p align='right'>Last updated 2024-07-24T13:02:35Z</p>
+<p align='right'>Last updated </p>
 
 ***
 
@@ -999,7 +999,7 @@ tags: opensource projects, open-source, opensource
 
 ***
 
-### [espanso typofixer ](/opensources/espanso-typofixer-)
+### [espanso typofixer ](/opensources/espanso-typofixer)
 
 **Type**: tool
 

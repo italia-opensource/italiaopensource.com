@@ -15,9 +15,11 @@ def normalizeFilename(name):
             for c in unicodedata.normalize("NFD", name)
             if unicodedata.category(c) != "Mn"
         )
+        .strip()
         .replace(" ", "-")
+        .replace("/", "-")
         .lower()
-    )
+    ).replace("---", "-")
 
 
 def create_page(name, tags):

@@ -24,6 +24,4 @@ Everything we need is the name and a brief description of the community, includi
 You can add a community to our [awesome list](/communities) in two different ways:
 
 1. Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) and wait for it to be approved after a thorough review.
-2. Fill out the form and if your community meets all the requirements, you will receive an email to confirm the addition to Italia Open-Source.
-
-    [Compile form](https://forms.gle/UYjxac5HLBWeLJ1ZA)
+2. Fill out the form and if your community meets all the requirements, you will receive an email to confirm the addition to Italia Open-Source. [Compile form](https://forms.gle/UYjxac5HLBWeLJ1ZA)

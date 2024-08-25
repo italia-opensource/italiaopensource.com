@@ -175,7 +175,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ***
 
-### [Ho Chi Ming / Saigon](/digital-nomads/ho-chi-ming-/-saigon)
+### [Ho Chi Ming / Saigon](/digital-nomads/ho-chi-ming-saigon)
 
 **State**: Vietnam
 
