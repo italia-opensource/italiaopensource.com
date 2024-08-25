@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.5.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.4.0...v1.5.0) (2024-08-25)
+
+
+### Features
+
+* **infrastructure:** add doppler secrets ([#24](https://github.com/italia-opensource/italiaopensource.com/issues/24)) ([1bd60ed](https://github.com/italia-opensource/italiaopensource.com/commit/1bd60edee6958a65f5188c28c0263ae3c1024852))
+* **website:** add mobile responsive ([#8](https://github.com/italia-opensource/italiaopensource.com/issues/8)) ([2a4e0f8](https://github.com/italia-opensource/italiaopensource.com/commit/2a4e0f87da479a3c459e7cdf7670bc830b6cd39b))
+* **website:** sync database ([#14](https://github.com/italia-opensource/italiaopensource.com/issues/14)) ([8f12a0d](https://github.com/italia-opensource/italiaopensource.com/commit/8f12a0da7cd3b88ddfd2b7beefa4587c6c1b79c6))
+* **website:** sync database ([#15](https://github.com/italia-opensource/italiaopensource.com/issues/15)) ([e3b23f4](https://github.com/italia-opensource/italiaopensource.com/commit/e3b23f47d5801cdeec62f174f4207badd4d9b55f))
+* **website:** sync database ([#16](https://github.com/italia-opensource/italiaopensource.com/issues/16)) ([bf45e67](https://github.com/italia-opensource/italiaopensource.com/commit/bf45e67f88de7704464705ed9af2fa087fc4d532))
+* **website:** sync database ([#21](https://github.com/italia-opensource/italiaopensource.com/issues/21)) ([63341fc](https://github.com/italia-opensource/italiaopensource.com/commit/63341fc9e6c1d5385ca9466df61cac10096a7108))
+* **website:** sync database ([#26](https://github.com/italia-opensource/italiaopensource.com/issues/26)) ([c482647](https://github.com/italia-opensource/italiaopensource.com/commit/c482647256f784b09e08a1ff0152e23361d6acb9))
+* **website:** sync database ([#29](https://github.com/italia-opensource/italiaopensource.com/issues/29)) ([94fef68](https://github.com/italia-opensource/italiaopensource.com/commit/94fef6820e02853b1aff5cee8d6ad4faff5085a0))
+* **website:** sync database ([#30](https://github.com/italia-opensource/italiaopensource.com/issues/30)) ([29fc971](https://github.com/italia-opensource/italiaopensource.com/commit/29fc971f674a3f773495fe5ef72de898ded0469e))
+* **website:** sync database ([#31](https://github.com/italia-opensource/italiaopensource.com/issues/31)) ([d6bff37](https://github.com/italia-opensource/italiaopensource.com/commit/d6bff3739270f97c581e3296fe4a769c603c562e))
+
+
+### Bug Fixes
+
+* **ci:** add check drift ([4c25dab](https://github.com/italia-opensource/italiaopensource.com/commit/4c25dab57dce23caa61d3e97215d6ee02a537f63))
+* **ci:** add check drift ([513abff](https://github.com/italia-opensource/italiaopensource.com/commit/513abff2bcdf5a3d9193fcd64ea0b90d43f8572c))
+* **ci:** add check drift ([967daa9](https://github.com/italia-opensource/italiaopensource.com/commit/967daa9bb24844679014a4c6db0e6fb908f6376c))
+* **ci:** url normalize ([620f4dd](https://github.com/italia-opensource/italiaopensource.com/commit/620f4ddae1924306848c7214a94bbdc6b9e6667f))
+* **website:** update awesome data ([#1](https://github.com/italia-opensource/italiaopensource.com/issues/1)) ([f2f8b62](https://github.com/italia-opensource/italiaopensource.com/commit/f2f8b6214a632543fce1deb021fd189d894d151c))
+
 ## [1.4.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.3.0...v1.4.0) (2024-07-24)
 
 
@@ -7,6 +32,13 @@
 
 * **website:** sync database ([#26](https://github.com/italia-opensource/italiaopensource.com/issues/26)) ([c482647](https://github.com/italia-opensource/italiaopensource.com/commit/c482647256f784b09e08a1ff0152e23361d6acb9))
 * **website:** sync database ([#29](https://github.com/italia-opensource/italiaopensource.com/issues/29)) ([94fef68](https://github.com/italia-opensource/italiaopensource.com/commit/94fef6820e02853b1aff5cee8d6ad4faff5085a0))
+
+## [1.4.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.3.0...v1.4.0) (2024-06-23)
+
+
+### Features
+
+* **website:** sync database ([#26](https://github.com/italia-opensource/italiaopensource.com/issues/26)) ([c482647](https://github.com/italia-opensource/italiaopensource.com/commit/c482647256f784b09e08a1ff0152e23361d6acb9))
 
 ## [1.3.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.2.0...v1.3.0) (2024-06-17)
 

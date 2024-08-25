@@ -185,6 +185,16 @@ tags: tech community, open-source, opensource
 
 ***
 
+### [Morrolinux](/communities/morrolinux)
+
+**Event Type**: Video
+
+**Description**: Canale di informazione e condivisione di esperienze in ambito Linux e opensource. In questo canale si trattatta di applicazioni opensource, Linux, Self-hosting, recensioni di distro linux ed esperimenti
+
+`Tech` | `Linux` | `Opensource` | `Projects`
+
+***
+
 ### [Need for Nerd](/communities/need-for-nerd)
 
 **Event Type**: Chat
@@ -192,6 +202,16 @@ tags: tech community, open-source, opensource
 **Description**: Community generalista per developers in cui si discute di temi tecnici e lavorativi e in cui ci si aiuta a vicenda.
 
 `Lavoro` | `Tech` | `Linguaggi`
+
+***
+
+### [Nix Milano](/communities/nix-milano)
+
+**Event Type**: Chat, Conference, Hackathon, Meetup, Talk, Workshop
+
+**Description**: Nix Milano is a community for anyone interested in Nix and NixOS. We organize talks, unconferences, and hackathons focused on learning, sharing, and hacking on Nix-related projects.
+
+`Meetup` | `Nix` | `Nixos` | `Opensource` | `Talk` | `Unconference`
 
 ***
 

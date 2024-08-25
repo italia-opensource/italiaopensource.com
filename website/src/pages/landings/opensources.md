@@ -1114,3 +1114,15 @@ tags: opensource projects, open-source, opensource
 <p align='right'>Last updated 2024-07-24T13:02:35Z</p>
 
 ***
+
+### [wise-print](/opensources/wise-print)
+
+**Type**: package
+
+**Description**: Simple package to add info to print statements
+
+`Python` | `Logging` | `Utilities`
+
+<p align='right'>Last updated </p>
+
+***
