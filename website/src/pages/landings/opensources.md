@@ -15,7 +15,7 @@ tags: opensource projects, open-source, opensource
 
 `Go` | `2Fa` | `Security`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -27,7 +27,7 @@ tags: opensource projects, open-source, opensource
 
 `Nodejs` | `Aws` | `Lambda` | `Serverless` | `Cloud` | `Performance` | `Cost`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -39,7 +39,7 @@ tags: opensource projects, open-source, opensource
 
 `Html` | `Css` | `Javascript`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -51,7 +51,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Javascript` | `Django` | `Api` | `Apis` | `Free` | `Data` | `Nuxt.Js`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -61,7 +61,7 @@ tags: opensource projects, open-source, opensource
 
 `Css` | `Bootstrap` | `Javascript`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -73,7 +73,7 @@ tags: opensource projects, open-source, opensource
 
 `C` | `C++` | `Html` | `Arduino` | `Python` | `Flask`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -85,7 +85,7 @@ tags: opensource projects, open-source, opensource
 
 `C++` | `Interpreter` | `Programming Language` | `Multi-Paradigm` | `Scripting`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -97,7 +97,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Odoo`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -109,7 +109,7 @@ tags: opensource projects, open-source, opensource
 
 `Astro` | `Javascript` | `Typescript` | `Bulmacss`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated </p>
 
 ***
 
@@ -121,7 +121,7 @@ tags: opensource projects, open-source, opensource
 
 `Nodejs` | `Javascript`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -133,7 +133,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Aws` | `Communities` | `Awesome-Lists` | `Opensource` | `Italy` | `Italia-Opensource`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -143,7 +143,7 @@ tags: opensource projects, open-source, opensource
 
 `Css` | `Bootstrap` | `Javascript`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -155,7 +155,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Typescript` | `React-Native`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -167,7 +167,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Typescript` | `Nodejs` | `Cache` | `Caching`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -179,7 +179,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Go`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -191,7 +191,7 @@ tags: opensource projects, open-source, opensource
 
 `Css` | `Bootstrap` | `Javascript` | `Php` | `Laravel`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -203,7 +203,7 @@ tags: opensource projects, open-source, opensource
 
 `Opensource` | `Book`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -215,7 +215,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Covid19` | `Flask` | `Mysql` | `Plotly` | `Api`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -225,7 +225,7 @@ tags: opensource projects, open-source, opensource
 
 `Dotfiles` | `Go` | `Linux` | `Ansible` | `Dotfiles-Manager`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -237,7 +237,7 @@ tags: opensource projects, open-source, opensource
 
 `Rust` | `Green Pass` | `Covid` | `Parser` | `Validator`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -249,7 +249,7 @@ tags: opensource projects, open-source, opensource
 
 `Bash` | `Command-Line` | `Containers` | `Development` | `Docker` | `Linux` | `Podman` | `Posix` | `Sh` | `Tools`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -259,7 +259,7 @@ tags: opensource projects, open-source, opensource
 
 `Go` | `Framework` | `Web Framework`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -271,7 +271,7 @@ tags: opensource projects, open-source, opensource
 
 `Go`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -283,7 +283,7 @@ tags: opensource projects, open-source, opensource
 
 `Rust`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -295,7 +295,7 @@ tags: opensource projects, open-source, opensource
 
 `Microservices` | `Mobile` | `App`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -307,7 +307,7 @@ tags: opensource projects, open-source, opensource
 
 `Faker` | `Python` | `Testing`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -319,7 +319,7 @@ tags: opensource projects, open-source, opensource
 
 `Caching` | `Cache` | `Csharp` | `Dotnet` | `Stampede` | `Performance` | `Memory` | `Distributed`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -331,7 +331,7 @@ tags: opensource projects, open-source, opensource
 
 `Golang` | `Network` | `Iptables` | `Linux`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -343,7 +343,7 @@ tags: opensource projects, open-source, opensource
 
 `Retrogaming` | `Gameboy`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -355,7 +355,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Git` | `License`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -367,7 +367,7 @@ tags: opensource projects, open-source, opensource
 
 `Guide` | `Cv` | `Work` | `Career` | `Personal Branding`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -379,7 +379,7 @@ tags: opensource projects, open-source, opensource
 
 `Guide` | `Linkedin` | `Work` | `Career` | `Personal Branding`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -391,7 +391,7 @@ tags: opensource projects, open-source, opensource
 
 `Retrogaming` | `Gameboy` | `Genesis`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -403,7 +403,7 @@ tags: opensource projects, open-source, opensource
 
 `Git`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -415,7 +415,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Firefox` | `Browser-Extension`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -427,7 +427,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Shell` | `Cli` | `Terminal` | `Multiplatform` | `Scripting`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -439,7 +439,7 @@ tags: opensource projects, open-source, opensource
 
 `Ruby` | `Web Framework`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -451,7 +451,7 @@ tags: opensource projects, open-source, opensource
 
 `Python`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -463,7 +463,7 @@ tags: opensource projects, open-source, opensource
 
 `Typescript` | `Javascript` | `Httprequest`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -473,7 +473,7 @@ tags: opensource projects, open-source, opensource
 
 `Typescript` | `App` | `Android` | `Ios`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -483,7 +483,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Image-Processing` | `Vuejs` | `Javascript` | `Cli`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -493,7 +493,7 @@ tags: opensource projects, open-source, opensource
 
 `Awesome` | `Remote Work`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -503,7 +503,7 @@ tags: opensource projects, open-source, opensource
 
 `Bot` | `Job` | `Offer` | `Telegram`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -513,7 +513,7 @@ tags: opensource projects, open-source, opensource
 
 `Kafka` | `Connect` | `Elasticsearch` | `Source`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -523,7 +523,7 @@ tags: opensource projects, open-source, opensource
 
 `Go` | `Saas` | `Serverless`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -535,7 +535,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Docker` | `Kubernetes` | `Computer Networks` | `Network Emulation`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -547,7 +547,7 @@ tags: opensource projects, open-source, opensource
 
 `Lua` | `Api Gateway` | `Cloud-Native`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -559,7 +559,7 @@ tags: opensource projects, open-source, opensource
 
 `Kubernetes` | `K8S` | `Cncf` | `Kubernetes-Distribution` | `Fury` | `Fury-Distribution`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -571,7 +571,7 @@ tags: opensource projects, open-source, opensource
 
 `Typescript` | `Python` | `Cloud` | `Electron`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -583,7 +583,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Typescript` | `React` | `Nodejs` | `Vue` | `Angular` | `Npx`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -595,7 +595,7 @@ tags: opensource projects, open-source, opensource
 
 `Nodejs` | `Javascript`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -607,7 +607,7 @@ tags: opensource projects, open-source, opensource
 
 `Mongodb` | `Memory` | `Tryvium-Travels` | `Golang` | `Mongodb-Memory-Server`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -619,7 +619,7 @@ tags: opensource projects, open-source, opensource
 
 `Nodejs` | `Javascript` | `Serverless` | `Aws Lambda`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -631,7 +631,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Mobilizon` | `Graphql`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -641,7 +641,7 @@ tags: opensource projects, open-source, opensource
 
 `Java` | `Mqtt` | `Broker` | `Lightweight`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -653,7 +653,7 @@ tags: opensource projects, open-source, opensource
 
 `Cdk` | `Typescript` | `Jsii` | `Aws` | `Constructs` | `Stack` | `Cloudformation` | `Npm Package`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -665,7 +665,7 @@ tags: opensource projects, open-source, opensource
 
 `Github` | `Finops` | `Analytics` | `Streamlit` | `Python`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -677,7 +677,7 @@ tags: opensource projects, open-source, opensource
 
 `Php` | `Telegram` | `Bot` | `Framework` | `Laravel` | `Symfony`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated </p>
 
 ***
 
@@ -689,7 +689,7 @@ tags: opensource projects, open-source, opensource
 
 `Php` | `Dto` | `Hydrator`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated </p>
 
 ***
 
@@ -699,7 +699,7 @@ tags: opensource projects, open-source, opensource
 
 `Go` | `Python` | `Serverless` | `Startup`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -711,7 +711,7 @@ tags: opensource projects, open-source, opensource
 
 `Portfolio` | `Personal-Brand` | `Experiences` | `Skills` | `Projects` | `Educations` | `Angular`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -723,7 +723,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Docker` | `Django` | `Gis`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -745,7 +745,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Typescript` | `React-Native`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -757,7 +757,7 @@ tags: opensource projects, open-source, opensource
 
 `Swift` | `Swiftui` | `Macos` | `Appkit` | `Desktop` | `Pets` | `Desktop Pets`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -769,7 +769,7 @@ tags: opensource projects, open-source, opensource
 
 `Javscript` | `Node.Js` | `Applications` | `Rest Api`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -781,7 +781,7 @@ tags: opensource projects, open-source, opensource
 
 `Python`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -791,7 +791,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Jupyter Notebook` | `Deep Learning` | `Pytorch`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -801,7 +801,7 @@ tags: opensource projects, open-source, opensource
 
 `C` | `Database`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -813,7 +813,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Typescript` | `React` | `Nodejs`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -825,7 +825,7 @@ tags: opensource projects, open-source, opensource
 
 `Go` | `Open Policy Agent`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -837,7 +837,7 @@ tags: opensource projects, open-source, opensource
 
 `Node` | `Digitalocean` | `Server` | `Vercel` | `Netlify` | `Cli`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -849,7 +849,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Firefox` | `Browser-Extension`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -861,7 +861,7 @@ tags: opensource projects, open-source, opensource
 
 `Jupyter Notebook`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -871,7 +871,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Flask` | `Javascript` | `Css`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -883,7 +883,7 @@ tags: opensource projects, open-source, opensource
 
 `Scala` | `Etl` | `Big Data` | `Apache Spark`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -893,7 +893,7 @@ tags: opensource projects, open-source, opensource
 
 `Python` | `Graphql`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -905,7 +905,7 @@ tags: opensource projects, open-source, opensource
 
 `Python`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-22T18:58:39Z</p>
 
 ***
 
@@ -917,7 +917,7 @@ tags: opensource projects, open-source, opensource
 
 `Customer Service` | `Conversational Commerce` | `Conversational Marketing`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -929,7 +929,7 @@ tags: opensource projects, open-source, opensource
 
 `Tag` | `Npm` | `Yarn` | `Pnpm` | `Version` | `Build` | `Package-Manager` | `Vscode-Extension`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -941,7 +941,7 @@ tags: opensource projects, open-source, opensource
 
 `Wordpress` | `Boilerplate`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -953,7 +953,7 @@ tags: opensource projects, open-source, opensource
 
 `File-Manager` | `File-Sharing` | `Self-Hosted` | `Sharex`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated </p>
 
 ***
 
@@ -963,7 +963,7 @@ tags: opensource projects, open-source, opensource
 
 `Yaml` | `Openapi`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -973,7 +973,7 @@ tags: opensource projects, open-source, opensource
 
 `Javascript` | `Automation` | `Docker` | `Puppeteer` | `Github-Action`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -985,7 +985,7 @@ tags: opensource projects, open-source, opensource
 
 `Cache` | `Caching` | `Key-Value` | `Database` | `Redis` | `Memcache` | `Prometheus` | `Opensource` | `Fast`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -995,7 +995,7 @@ tags: opensource projects, open-source, opensource
 
 `Kubernetes` | `Operator` | `Kubernetes-Operator` | `Multi-Tenancy` | `Namespaces` | `Tenant` | `Kubernetes-Namespaces` | `Multi-Tenant-Operator`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1007,7 +1007,7 @@ tags: opensource projects, open-source, opensource
 
 `Typo`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1017,7 +1017,7 @@ tags: opensource projects, open-source, opensource
 
 `Nodejs` | `Web-Framework` | `Api`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1029,7 +1029,7 @@ tags: opensource projects, open-source, opensource
 
 `Typescript` | `Javascript` | `State Machine`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1039,7 +1039,7 @@ tags: opensource projects, open-source, opensource
 
 `Kubernetes` | `Multi-Tenant` | `Cluster` | `Kubernetes-Cluster` | `K8S` | `Managed-Kubernetes` | `Multi-Cluster` | `Kubernetes-Multitenancy` | `Kubernetes-In-Kubernetes` | `Virtual-Cluster`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1051,7 +1051,7 @@ tags: opensource projects, open-source, opensource
 
 `Kubernetes` | `Co2` | `K8S` | `Resources` | `Cloud-Native` | `Downscale` | `Green-Software`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1063,7 +1063,7 @@ tags: opensource projects, open-source, opensource
 
 `Typescript` | `Javascript` | `React` | `Micro Frontend`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1075,7 +1075,7 @@ tags: opensource projects, open-source, opensource
 
 `Aws` | `Cloudsecurity` | `Devsecops` | `Golang`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1087,7 +1087,7 @@ tags: opensource projects, open-source, opensource
 
 `Typescript` | `Javascript` | `Micro Frontends` | `Web Components`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1099,7 +1099,7 @@ tags: opensource projects, open-source, opensource
 
 `Nodejs` | `Typescript` | `Javascript` | `Ios` | `Passkit`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
 
 ***
 
@@ -1111,6 +1111,18 @@ tags: opensource projects, open-source, opensource
 
 `Commandline` | `Qr` | `Utility` | `Golang`
 
-<p align='right'>Last updated 2024-08-15T09:15:05Z</p>
+<p align='right'>Last updated 2024-05-18T13:53:03Z</p>
+
+***
+
+### [wise-print](/opensources/wise-print)
+
+**Type**: package
+
+**Description**: Simple package to add info to print statements
+
+`Python` | `Logging` | `Utilities`
+
+<p align='right'>Last updated </p>
 
 ***
