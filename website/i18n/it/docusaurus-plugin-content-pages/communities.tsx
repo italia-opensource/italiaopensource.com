@@ -34,7 +34,7 @@ export default function App(): JSX.Element {
       </Container>
 
       <Container component="main" sx={{ mt: 3, mb: 3 }} maxWidth="sm">
-        <Link href="/contributors/sponsor">
+        <Link href="/contributors/partners">
           <Button variant="contained" fullWidth={true} >
             Became a community partner
           </Button>

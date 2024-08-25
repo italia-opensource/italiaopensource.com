@@ -15,9 +15,9 @@
     "message": "📊 Reports",
     "description": "Navbar item with label 📊 Reports"
   },
-  "item.label.⭐ Our Sponsor": {
-    "message": "⭐ Sponsor",
-    "description": "Navbar item with label ⭐ Our Sponsor"
+  "item.label.⭐ Our Partners": {
+    "message": "⭐ Partners",
+    "description": "Navbar item with label ⭐ Our Partners"
   },
   "item.label.💎 Team": {
     "message": "💎 Team",
@@ -51,9 +51,9 @@
     "message": "📍 Coworkings",
     "description": "Navbar item with label 📍 Coworkings"
   },
-  "item.label.⭐ Sponsor": {
-    "message": "⭐ Sponsor",
-    "description": "Navbar item with label ⭐ Sponsor"
+  "item.label.⭐ Partners": {
+    "message": "⭐ Partners",
+    "description": "Navbar item with label ⭐ Partners"
   },
   "item.label.💻 Developers": {
     "message": "💻 Developers",

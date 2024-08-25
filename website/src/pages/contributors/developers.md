@@ -29,7 +29,7 @@ Whether you want to launch your project, give it a boost or just feel part of an
 - [Add Company](/contributors/companies)
 - [Add Community](/contributors/communities)
 - [Add a destination for Digital Nomads](/contributors/digital-nomads)
-- [Become a Sponsor](/contributors/sponsor)
+- [Become a Partners](/contributors/partners)
 
 
 

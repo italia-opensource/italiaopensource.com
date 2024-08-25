@@ -126,8 +126,8 @@ const config = {
             position: 'left',
             items: [
               {
-                to: '/contributors/sponsor',
-                label: '⭐ Sponsor',
+                to: '/contributors/partners',
+                label: '⭐ Partners',
               },
               {
                 to: '/contributors/developers',
@@ -152,14 +152,14 @@ const config = {
             position: 'left',
             items: [
               {
-                to: 'https://github.com/italia-opensource/state-of-open-source-reports/tree/main/reports/2024',
+                to: '/reports/2024',
                 label: '2024',
               },
             ]
           },
           {
-            to: '/sponsor',
-            label: '⭐ Our Sponsor',
+            to: '/partners',
+            label: '⭐ Our Partners',
           },
           {
             to: '/team',
@@ -190,8 +190,8 @@ const config = {
             label: `Home`,
           },
           {
-            to: '/sponsor',
-            label: `Our Sponsor`,
+            to: '/partners',
+            label: `Our Partners`,
           },
           {
             to: 'https://github.com/italia-opensource',

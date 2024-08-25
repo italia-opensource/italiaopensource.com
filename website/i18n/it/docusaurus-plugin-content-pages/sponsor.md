@@ -1,5 +1,5 @@
 ---
-title: Our Sponsor | Italia Open-Source
+title: Our Partners | Italia Open-Source
 ---
 
 import Grid from '@mui/material/Unstable_Grid2';
@@ -72,7 +72,7 @@ import Button from '@mui/material/Button';
 
 <Grid container>
     <Grid xs={12} sm={4} >
-        <Link href="/contributors/sponsor">
+        <Link href="/contributors/partners">
             <Button variant="contained" fullWidth={true}>
                 <span>Became a Community Partner</span>
             </Button>
