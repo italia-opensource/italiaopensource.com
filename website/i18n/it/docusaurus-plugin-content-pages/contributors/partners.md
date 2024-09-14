@@ -1,33 +1,29 @@
 ---
-title: Become an Italia Open-Source Partner
+title: Diventa un Community Partner di Italia Open-Source
 ---
 
-# Become an Italia Open-Source Partner
+# Diventa un Community Partner di Italia Open-Source
 
-> Are you passionate about our project and want to actively contribute to its growth? Then you’re in the right place! Whether you are a company or a community, here you can find out how to help make Italia
-Open-source a **bigger**, **better**, **awesome project**!
+Sei appassionato del nostro progetto e vuoi contribuire attivamente alla sua crescita? Allora siete nel posto giusto! Che tu sia un'azienda o una comunità, qui puoi scoprire come contribuire a rendere Italia
+Open-source un progetto **più grande**, **migliore**, **fantastico**!
 
-## Become our Community Partner
+Se volete sostenere Italia Open-source attraverso la vostra comunità, non dovete fare altro che avviare una **reale partnership** con noi. Insieme ci sosterremo a vicenda, portando valore aggiunto alle rispettive comunità anche con concetti per nuove idee e progetti. Parola d'ordine: **collaborazione**.
 
-If you want to support Italia Open-source through your community, all you have to do is start a **real partnership** with us. Together we will support each other, bringing added value to the respective communities also with concepts for new ideas and projects. Code word: **collaboration**.
+## Come diventare Partner della Comunità
 
-### Discover Awesome (Extra) Benefits
+Se vuoi diventare Community Partner di Italia Open-Source tutto ciò che ti chiediamo è:
 
-As a Community Partner you will receive all the advantages guaranteed to all [communities that contribute to Italia Open-source](/contributors/communities). Plus, we offer some Extra Benefits:
+- Essere una **comunità attiva** (non importa quanto sia piccola, a noi interessa solo che le persone amino e partecipino al vostro progetto).
+- Condividere e **sostenere i valori dell'open source**: trasparenza, partecipazione e collaborazione.
+- Supporta Italia Open-source** condividendo i post sui social media dedicati alle nostre iniziative o ai nostri eventi.
+- **Aggiungi il logo di Italia Open-source sulla pagina della tua community** o sul tuo sito web (opzionale)
 
-- **Verified badge** visible in the community list and on your own page
-- **Shoutout on social media**
-- **Spread the word about your projects and events**
+[Compila il modulo](https://forms.gle/9bZupC6JL7Z2z2PS9) e se la tua comunità soddisfa tutti i requisiti, riceverai una mail di conferma dell'aggiunta a Italia Open-Source.
 
-### How to become a Community Partner
+## Scopri i fantastici vantaggi (extra)
 
-If you want to become Community Partner of Italia Open-Source all we ask is:
+Come Community Partner riceverete tutti i vantaggi garantiti a tutte le [comunità che contribuiscono a Italia Open-source](/contribuenti/comunità). In più, offriamo alcuni vantaggi extra:
 
-- Be an **active community** (no matter how small you are, we only care about how much people love and participate in your project!)
-- Share and **support the open source values**: transparency, participation, and collaboration
-- **Support Italia Open-source** by sharing posts on social media dedicated to our initiatives or events
-- **Add Italia Open-source logo on your community page** or website (optional)
-
-[Fill out the form](https://forms.gle/9bZupC6JL7Z2z2PS9) and if your community meets all the requirements, you will receive an email to confirm the addition to Italia Open-Source.
-
-
+- **Badge verificato** visibile nell'elenco delle comunità e sulla tua pagina personale
+- **Shoutout sui social media**
+- **Divulgazione dei vostri progetti ed eventi**

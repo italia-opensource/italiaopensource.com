@@ -126,6 +126,11 @@ h6 {
   color: #fff;
 }
 
+.MuiButton-outlined{
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
 .Mui-checked {
   color: var(--ifm-color-primary) !important;
 }

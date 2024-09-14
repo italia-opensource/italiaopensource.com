@@ -1,45 +1,39 @@
 ---
-title: Developers contributing to Italia Open-Source
-description: Italy Open-Source relies on the strength of community, find out who has contributed to this project, and how you can contribute too
+title: Sviluppatori che contribuiscono a Italia Open-Source
+description: Hai sempre sognato di far parte di una comunità tecnologica open, libera e trasparente? Italia Open-Source è il posto giusto!
 ---
 
-# Developers contributing to Italia Open-Source
+# Sviluppatori che contribuiscono a Italia Open-Source
 
-## Why contribute
+**Diventa un membro di Italia Open-Source**. Hai sempre sognato di far parte di una comunità tecnologica open, libera e trasparente? **Italia Open-Source è il posto giusto**!
 
-### Become Italia Open-Source’s Member
+Nel mondo dello sviluppo open source, c'è finalmente una **nuova opportunità per te** e per tutti gli sviluppatori italiani là fuori di lasciare un segno reale nella scena tecnologica italiana. Contribuendo attivamente a **Italia Open-Source**, non solo otterrai visibilità, ma giocherai anche un ruolo cruciale nella creazione di una comunità  **dove condividere le proprie idee, collaborare a progetti e diffondere la conoscenza non è solo incoraggiato, ma anzi è l'obiettivo principale**.
 
-Have you always dreamed of being part of an open, free and transparent tech community? **Italia Open-Source is THE place to be**!
+Se volete lanciare il vostro progetto, dargli una spinta o semplicemente sentirvi parte di una comunità aperta e libera, questo è il posto giusto per **liberare la vostra passione**!
 
-In the world of open source development, there is finally a **new opportunity for you** and all the italian devs out there to leave a real mark in the Italian tech scene. By **actively contributing to Italia Open-Source**, you will not only gain visibility, but you will also play a crucial role in creating a virtual community **where sharing your ideas, teaming up on projects, and spreading the knowledge** isn't just encouraged – **it's the whole point**.
+## Usufruisci di vantaggi straordinari
 
-Whether you want to launch your project, give it a boost or just feel part of an open and free community, this is the right place to **unleash your passion**!
+- Scoprire nuove comunità e aziende
+- Ottenere visibilità
+- Contribuire a creare un ambiente di supporto
+- Creare nuove connessioni
+- Espandere la propria rete
 
-## Enjoy Awesome Benefits
+## Esplora le tipologie di Contribuzione
 
-- Discover new communities and companies
-- Gain visibility
-- Help nurture a supportive environment
-- Build new connection
-- Expand your network
+- Aggiungi il tuo progetto Add (leggi la sezione "Come contribuire")
+- [Aggiungi Startup](/contributors/companies)
+- [Aggiungi Community](/contributors/communities)
+- [Aggiungi una destinazione per Nomadi Digitali](/contributors/digital-nomads)
+- [Diventa un Community Partner](/contributors/partners)
 
-## Explore Contributing Opportunities
+## Come contribuire
 
-- Add your Project (read How to contribute section)
-- [Add Company](/contributors/companies)
-- [Add Community](/contributors/communities)
-- [Add a destination for Digital Nomads](/contributors/digital-nomads)
-- [Become a Community Partners](/contributors/partners)
+Creauna Pull-requeste in [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) e attendi che venga revisionata e approvata.
 
+Per favore leggi il [CONTRIBUTING.md](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CONTRIBUTING.md) che contiene tutte le regole per aprire una nuova pull-request.
 
-
-## How to contribute
-
-Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) and wait for it to be approved after a thorough review.
-
-Please read the [contributing](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CONTRIBUTING.md) rules before opening a new pull-request.
-
-## Join the other contributors
+## Unisciti insieme a noi
 
 ### Mantainers
 
@@ -49,8 +43,6 @@ Please read the [contributing](https://github.com/italia-opensource/awesome-ital
 
 <a href="https://github.com/italia-opensource/awesome-italia-opensource/graphs/contributors"> <img src="https://contrib.rocks/image?repo=italia-opensource/awesome-italia-opensource" /> </a>
 
-
 ## Code of Conduct
 
-Please read [the full text](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
-
+Perfavore leggi il [CODE_OF_CONDUCT.md](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CODE_OF_CONDUCT.md) per comprendere cosa è o non è tollerato all'interno della community.

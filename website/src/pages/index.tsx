@@ -14,7 +14,7 @@ export default function App(): JSX.Element {
     <Layout
       title={`Home`}
       wrapperClassName="layout"
-      description="The only fully open-source platform that transparently gives voice, and discovers, and explores Italy's tech innovations.">
+      description="The first platform dedicated to Italian open-source projects">
       <main className="main">
 
       <CssBaseline />
@@ -24,13 +24,11 @@ export default function App(): JSX.Element {
           Italia Open-Source 🚀
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom align='center'>
-          Knowledge is open to all.
-        </Typography>
-        <Typography variant="h5" component="h2" gutterBottom align='center'>
-          Join us in celebrating Italian tech innovations!
+          The first platform dedicated to Italian open-source projects
         </Typography>
 
       <Grid container spacing={3} marginTop={4}>
+        <Grid container xs={12}>
         <Grid xs={12} sm={3}>
           <Paper elevation={0}>
             <Typography align='center' padding={2} margin={1}>
@@ -85,17 +83,49 @@ export default function App(): JSX.Element {
             <b><CountUp start={1} end={100} duration={2.00} prefix='+'></CountUp></b> Places
             </Typography>
           </Paper>
-            <Link href="/coworkings">
+            <Link href="/coworkings" target="_blank">
               <Button variant="outlined" fullWidth={true} disabled={true}>
               📍 Coworking
               </Button>
             </Link>
         </Grid>
+        </Grid>
 
-        <Grid xs={12} marginTop={8}>
-          <Typography gutterBottom align='center'  >
-          The <b>only fully open-source platform</b> that transparently gives voice, and discovers, and explores <b>Italy's tech innovations</b>.
-          </Typography>
+        <Grid container xs={12} marginTop={5} >
+          <Grid xs={6} textAlign={'center'}>
+            <Typography variant="h5" component="h2" >
+              The Project
+            </Typography>
+            <Typography marginBottom={1}>
+              Italia Open-Source is <b>the only completely open-source platform that</b> discovers, explores, and <b>gives voice to Italian technological innovations</b> transparently and freely. Whether you have an open-source company, project, or community (or are simply looking for it), there is room for everyone on our <b><a href='/opensources'>Awesome List</a></b>!
+            </Typography>
+          </Grid>
+          <Grid xs={6} textAlign={'center'}>
+            <Typography variant="h5" component="h2" >
+            Our Mission
+            </Typography>
+            <Typography marginBottom={1}>
+              Italia Open-Source is not just a data collection platform, but <b>a project everyone can participate in to</b> discover and <b>enhance Italian open-source projects</b>. We believe that our community could be the starting point for creating an Italian tech system where <b>knowledge exchange, innovation, and collaboration</b> are the standard, not the exception!
+            </Typography>
+          </Grid>
+        </Grid>
+
+
+        <Grid container xs={12}>
+          <Grid xs={6}  textAlign={'center'}>
+            <Link href="/contributors/developers" target="_blank">
+              <Button variant="outlined" fullWidth={false}>
+              Add your project
+              </Button>
+            </Link>
+          </Grid>
+          <Grid xs={6} textAlign={'center'}>
+            <Link href="/contributors/developers" target="_blank">
+              <Button variant="outlined" fullWidth={false}>
+              JOIN OUR COMMUNITY
+              </Button>
+            </Link>
+          </Grid>
         </Grid>
       </Grid>
 
