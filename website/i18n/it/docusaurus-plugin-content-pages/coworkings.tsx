@@ -13,24 +13,24 @@ import RawData from '../../../src/components/RawData';
 export default function App(): JSX.Element {
   return (
     <Layout
-      title={`Awesome Coworkings List`}
+      title="Coworking in Italia"
       wrapperClassName="layout"
-      description="An awesome list of Coworkings place around the world">
+      description="La nostra awesome list di coworking in Italia">
       <main className="main">
 
       <CssBaseline />
       <Container component="main" sx={{ mt: 8, mb: 2 }} maxWidth="md">
         <Typography variant="h2" component="h1" gutterBottom align='center'>
-          Awesome Italia Coworkings
+          Coworking in Italia
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom align='center'>
-          {'An awesome list of coworkings around the world'}
+          La nostra awesome list di coworking in Italia
         </Typography>
       </Container>
 
       <Container>
         <Typography align='center' variant='h4' component='h3'>
-          Cooming soon...
+          Presto in arrivo...
         </Typography>
       </Container>
 

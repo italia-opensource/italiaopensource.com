@@ -75,7 +75,7 @@ def add_website_content(doc, url: str = None):
         doc.add_block(url)
 
 
-def add_company_content(doc, data):
+def add_startups_content(doc, data):
     doc.add_heading("Info", level=3)
     doc.add_block(f"**Market**: {data['market']} ({data['type']})")
     if data.get("address"):
@@ -178,7 +178,7 @@ def add_opensources_content(doc, data):
 
 
 def main():
-    api_endpoit = ["opensource", "companies", "communities", "digital-nomads"]
+    api_endpoit = ["opensource", "startups", "communities", "digital-nomads"]
 
     for endpoint in api_endpoit:
         data_filepath = "/".join([BASEDIR, "database", f"{endpoint}.json"])
@@ -201,8 +201,8 @@ def main():
 
             doc = create_page(item, endpoint)
 
-            if endpoint == "companies":
-                add_company_content(doc, item)
+            if endpoint == "startups":
+                add_startups_content(doc, item)
 
             if endpoint == "communities":
                 add_communities_content(doc, item)

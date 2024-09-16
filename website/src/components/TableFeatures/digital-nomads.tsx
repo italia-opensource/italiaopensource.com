@@ -76,7 +76,7 @@ class DigitalNomadsTableData extends TableData {
                         <Column alignHeader='center' field="name" header="Name"  body={nameBodyTemplate} filter filterPlaceholder="Search by name" />
                         <Column alignHeader='center' field="state_name" header="State" filter filterPlaceholder="Search by state"  />
                         <Column alignHeader='center' hidden={isMobile ? true : false} field="how_to_move" header="How to Move" body={howToMoveBodyTemplate} filter filterPlaceholder="Search by means of transport" />
-                        <Column alignHeader='center' hidden={isMobile ? true : false} field="required_documents" header="Events Type" body={requiredDocumentsBodyTemplate} filter filterPlaceholder="Search by events type" />
+                        <Column alignHeader='center' hidden={isMobile ? true : false} field="required_documents" header="Required Documents" body={requiredDocumentsBodyTemplate} filter filterPlaceholder="Search by events type" />
                         <Column alignHeader='center' hidden={isMobile ? true : false} field="tags" header="Tags" filter filterPlaceholder="Search by tags" body={tagsBodyTemplate} />
                         <Column alignHeader='center' hidden={isMobile ? true : false} field="description" header="Description" />
                     </DataTable>

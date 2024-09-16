@@ -15,7 +15,7 @@ import RawData from '../components/RawData';
 export default function App(): JSX.Element {
   return (
     <Layout
-      title={`Awesome Italian Open-Source Projects`}
+      title="Awesome Italian Open-Source Projects"
       wrapperClassName="layout"
       description="Our awesome list of open-source projects created by Italian companies and developers">
       <main className="main">
@@ -36,7 +36,7 @@ export default function App(): JSX.Element {
 
       <Grid container padding={1} marginTop={2}>
 
-      <Grid xs={6}  padding={2} textAlign={'left'}>
+      <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
         <Typography variant="h5" component="h2" >
         What is an open source project?
         </Typography>
@@ -45,7 +45,7 @@ export default function App(): JSX.Element {
         </Typography>
         </Grid>
 
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
 
         <Typography variant="h5" component="h2" >
         How do you collaborate on an open source project?
@@ -54,7 +54,7 @@ export default function App(): JSX.Element {
           If you're a developer, <b>collaborating on an open source project is a unique opportunity</b>, whether you're a beginner or a professional with years of experience<b>.</b> Contributing to an open source project not only enriches the software, but <b>allows you to grow professionally</b>, create connections with other developers, and expand your portfolio with meaningful projects. Most open source projects are hosted on platforms like GitHub or GitLab, where you can explore the source code, report bugs, propose new features, and submit contributions with pull requests. To get started, it's <b>essential to identify a project that you're passionate about</b> and that matches your skills: <b>we're sure you'll find what's right for you in our awesome list!</b> Alternatively, if you've never contributed to an open source project before, you could take the opportunity right now by <b>adding new items to our awesome lists</b>!
         </Typography>
       </Grid>
-      <Grid xs={6}  padding={2} textAlign={'left'}>
+      <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
 
         <Typography variant="h5" component="h2" >
           How do I add an open source project to the list?

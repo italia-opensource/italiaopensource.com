@@ -20,7 +20,7 @@ description: Italy Open-Source relies on the strength of community, find out who
 
 ## How to Join Italia Open-Source
 
-You can add a company to our [awsome list](/companies) in two different ways:
+You can add a company to our [awsome list](/startups) in two different ways:
 
 1. Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) and wait for it to be approved after a thorough review.
 2. Fill out the form and if your community meets all the requirements, you will receive an email to confirm the addition to Italia Open-Source. [Compile form](https://forms.gle/HanD9st1L8H34BhQ9)

@@ -19,9 +19,9 @@
     "message": "⭐ Partners",
     "description": "Navbar item with label ⭐ Our Partners"
   },
-  "item.label.💎 Team": {
-    "message": "💎 Team",
-    "description": "Navbar item with label 💎 Team"
+  "item.label.💎 About Us": {
+    "message": "💎 Chi Siamo",
+    "description": "Navbar item with label 💎 About Us"
   },
   "item.label.🌱 Beta Version": {
     "message": "🌱 Beta Version",

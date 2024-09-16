@@ -71,9 +71,9 @@ export default function App(): JSX.Element {
             <b><CountUp start={1} end={40} duration={2.15} prefix='+'></CountUp></b> Business
             </Typography>
           </Paper>
-            <Link href="/companies">
+            <Link href="/startups">
               <Button variant="contained" fullWidth={true} >
-              🏡 Companies
+              🏡 Startups
               </Button>
             </Link>
         </Grid>
@@ -91,8 +91,8 @@ export default function App(): JSX.Element {
         </Grid>
         </Grid>
 
-        <Grid container xs={12} marginTop={5} >
-          <Grid xs={6} textAlign={'center'}>
+        <Grid container xs={12} marginTop={5}>
+          <Grid xs={12} sm={6} padding={2} textAlign={'center'}>
             <Typography variant="h5" component="h2" >
               The Project
             </Typography>
@@ -100,7 +100,7 @@ export default function App(): JSX.Element {
               Italia Open-Source is <b>the only completely open-source platform that</b> discovers, explores, and <b>gives voice to Italian technological innovations</b> transparently and freely. Whether you have an open-source company, project, or community (or are simply looking for it), there is room for everyone on our <b><a href='/opensources'>Awesome List</a></b>!
             </Typography>
           </Grid>
-          <Grid xs={6} textAlign={'center'}>
+          <Grid xs={12} sm={6} padding={2} textAlign={'center'}>
             <Typography variant="h5" component="h2" >
             Our Mission
             </Typography>
@@ -110,18 +110,17 @@ export default function App(): JSX.Element {
           </Grid>
         </Grid>
 
-
         <Grid container xs={12}>
-          <Grid xs={6}  textAlign={'center'}>
+          <Grid xs={12} sm={6} padding={1} textAlign={'center'}>
             <Link href="/contributors/developers" target="_blank">
-              <Button variant="outlined" fullWidth={false}>
+              <Button variant="outlined" fullWidth={true}>
               Add your project
               </Button>
             </Link>
           </Grid>
-          <Grid xs={6} textAlign={'center'}>
+          <Grid xs={12} sm={6} padding={1}  textAlign={'center'}>
             <Link href="/contributors/developers" target="_blank">
-              <Button variant="outlined" fullWidth={false}>
+              <Button variant="outlined" fullWidth={true}>
               JOIN OUR COMMUNITY
               </Button>
             </Link>

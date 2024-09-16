@@ -13,7 +13,7 @@ export default function App(): JSX.Element {
     ];
     return (
       <Layout
-        title={`Team`}
+        title="Chi siamo"
         wrapperClassName="layout"
         description="The only fully open-source platform that transparently gives voice, and discovers, and explores Italy's tech innovations.">
         <main className="main">

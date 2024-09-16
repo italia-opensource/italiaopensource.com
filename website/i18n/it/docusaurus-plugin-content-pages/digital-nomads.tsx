@@ -35,7 +35,7 @@ export default function App(): JSX.Element {
       </Container>
 
       <Grid container padding={1} marginTop={2}>
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           Quali sono le migliori destinazioni per nomadi digitali?
           </Typography>
@@ -44,7 +44,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           Come scegliere la meta ideale per nomadi digitali?
           </Typography>
@@ -53,7 +53,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           Come faccio ad aggiungere una destinazione per nomadi digitali alla lista?
           </Typography>

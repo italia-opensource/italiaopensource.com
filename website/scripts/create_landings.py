@@ -47,9 +47,9 @@ def add_website_content(doc, url: str = None):
         doc.add_block(url)
 
 
-def add_company_content(doc, data):
+def add_startups_content(doc, data):
     doc.add_paragraph(f"### {data['name']}").insert_link(
-        data["name"], f"/companies/{normalizeFilename(data['name'])}"
+        data["name"], f"/startups/{normalizeFilename(data['name'])}"
     )
     doc.add_block(f"**Market**: {data['market']} ({data['type']})")
     if data["description"]:
@@ -98,7 +98,7 @@ def add_opensources_content(doc, data):
 
 
 def get_data():
-    api_endpoit = ["opensource", "companies", "communities", "digital-nomads"]
+    api_endpoit = ["opensource", "startups", "communities", "digital-nomads"]
     data = {}
 
     for endpoint in api_endpoit:
@@ -115,12 +115,12 @@ def main():
     os.chdir("/".join([BASEDIR, "src", "pages", "landings"]))
 
     doc = create_page(
-        "Companies Landing", ["tech company", "open-source", "opensource"]
+        "Startups Landing", ["tech startups", "open-source", "opensource"]
     )
-    for item in data["companies"]["data"]:
-        print(f"Creating {item['name']} in companies landing")
-        add_company_content(doc, item)
-    doc.dump("companies")
+    for item in data["startups"]["data"]:
+        print(f"Creating {item['name']} in startups landing")
+        add_startups_content(doc, item)
+    doc.dump("startups")
 
     doc = create_page(
         "Opensource Projects Landing",

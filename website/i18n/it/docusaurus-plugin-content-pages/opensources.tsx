@@ -35,7 +35,7 @@ export default function App(): JSX.Element {
       </Container>
 
       <Grid container padding={1} marginTop={2}>
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             Che cos’è un progetto open source?
           </Typography>
@@ -44,7 +44,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           Come si collabora a un progetto open source?
           </Typography>
@@ -53,7 +53,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           Come faccio ad aggiungere un progetto open source alla lista?
           </Typography>

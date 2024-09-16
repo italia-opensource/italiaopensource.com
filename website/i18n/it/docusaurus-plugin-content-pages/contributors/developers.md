@@ -22,7 +22,7 @@ Se volete lanciare il vostro progetto, dargli una spinta o semplicemente sentirv
 ## Esplora le tipologie di Contribuzione
 
 - Aggiungi il tuo progetto Add (leggi la sezione "Come contribuire")
-- [Aggiungi Startup](/contributors/companies)
+- [Aggiungi Startup](/contributors/startups)
 - [Aggiungi Community](/contributors/communities)
 - [Aggiungi una destinazione per Nomadi Digitali](/contributors/digital-nomads)
 - [Diventa un Community Partner](/contributors/partners)

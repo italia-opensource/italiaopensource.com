@@ -35,16 +35,16 @@ export default function App(): JSX.Element {
       </Container>
 
       <Grid container padding={1} marginTop={2}>
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           What are the best destinations for digital nomads?
           </Typography>
           <Typography marginBottom={1}>
-          Are you looking for the perfect place <b>to do remote work and work from anywhere</b>, but don&#39;t know where to go? This awesome list compiles the <b>best destinations for digital nomads</b>, recommended directly by the <a href="/contributors/developers">Contributors</a> of Italia Open-Source. These destinations offer a <b>perfect mix of technological infrastructure</b> and a <b>high quality of life</b>. Among the most sought-after destinations in the world, we find <b>Bali</b>, in Indonesia, with its paradisiacal beaches and a vibrant community of digital nomads; in general, <b>Southeast Asia</b> is much loved by those who work remotely. For those who don&#39;t want to travel too far, among the <b>best countries for digital nomads in Europe</b> we find <b>Portugal</b>, <b>Spain</b> and <b>the Netherlands</b>. Want to stay in <b>Italy</b>? Then we recommend visiting <b>Milan</b> and <b>Latina</b>, two cities with completely different souls but with a dense presence of coworking spaces in the area.
+          Are you looking for the perfect place <b>to do remote work and work from anywhere</b>, but don't know where to go? This awesome list compiles the <b>best destinations for digital nomads</b>, recommended directly by the <a href="/contributors/developers">Contributors</a> of Italia Open-Source. These destinations offer a <b>perfect mix of technological infrastructure</b> and a <b>high quality of life</b>. Among the most sought-after destinations in the world, we find <b>Bali</b>, in Indonesia, with its paradisiacal beaches and a vibrant community of digital nomads; in general, <b>Southeast Asia</b> is much loved by those who work remotely. For those who don't want to travel too far, among the <b>best countries for digital nomads in Europe</b> we find <b>Portugal</b>, <b>Spain</b> and <b>the Netherlands</b>. Want to stay in <b>Italy</b>? Then we recommend visiting <b>Milan</b> and <b>Latina</b>, two cities with completely different souls but with a dense presence of coworking spaces in the area.
           </Typography>
         </Grid>
 
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           How to choose the ideal destination for digital nomads?
           </Typography>
@@ -53,7 +53,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={6}  padding={2} textAlign={'left'}>
+        <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           How can I add a digital nomad destination to the list?
           </Typography>

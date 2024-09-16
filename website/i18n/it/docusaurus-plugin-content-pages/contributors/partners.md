@@ -22,7 +22,7 @@ Se vuoi diventare Community Partner di Italia Open-Source tutto ciò che ti chie
 
 ## Scopri i fantastici vantaggi (extra)
 
-Come Community Partner riceverete tutti i vantaggi garantiti a tutte le [comunità che contribuiscono a Italia Open-source](/contribuenti/comunità). In più, offriamo alcuni vantaggi extra:
+Come Community Partner riceverete tutti i vantaggi garantiti a tutte le [comunità che contribuiscono a Italia Open-source](/contributors/communities). In più, offriamo alcuni vantaggi extra:
 
 - **Badge verificato** visibile nell'elenco delle comunità e sulla tua pagina personale
 - **Shoutout sui social media**

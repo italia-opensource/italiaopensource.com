@@ -112,8 +112,8 @@ const config = {
                 label: '👥 Communities',
               },
               {
-                to: '/companies',
-                label: '🏡 Companies',
+                to: '/startups',
+                label: '🏡 Startups',
               },
               {
                 to: '/coworkings',
@@ -142,8 +142,8 @@ const config = {
                 label: '👥 Communities',
               },
               {
-                to: '/contributors/companies',
-                label: '🏡 Companies',
+                to: '/contributors/startups',
+                label: '🏡 Startups',
               }
             ]
           },
@@ -162,8 +162,8 @@ const config = {
             label: '⭐ Our Partners',
           },
           {
-            to: '/team',
-            label: '💎 Team',
+            to: '/about-us',
+            label: '💎 About Us',
           },
           {
             to: 'https://mailchi.mp/8933ba69ba9c/beta-version',
