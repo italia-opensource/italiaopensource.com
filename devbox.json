@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "packages": [
+    "python@3.12",
+    "doppler@3.69.0",
+    "yarn@1.22.22",
+    "nodejs@22.8.0",
+    "terraform@1.9.5",
+    "tflint@0.52.0"
+  ],
+  "env": {},
+  "include": [],
+  "shell": {
+    "init_hook": [". $VENV_DIR/bin/activate", "devbox run setup"],
+    "scripts": {
+      "infra": ["cd infrastructure && make $@ ; cd -"],
+      "website": ["cd website && make $@ ; cd -"],
+      "setup": [
+        "chmod +x scripts/*",
+        "pip3 install -r requirements.txt",
+        "pre-commit install",
+        "devbox run website setup"
+      ],
+      "deploy": ["./scripts/deploy.sh"],
+      "doppler": ["./scripts/doppler.sh"],
+      "lint": ["pre-commit run --all-files"],
+      "tests": [
+        "devbox run lint",
+        "devbox run website pages-check",
+        "devbox run website build",
+        "devbox run infra plan"
+      ]
+    }
+  }
+}

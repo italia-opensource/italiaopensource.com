@@ -26,36 +26,26 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - name: Setup Python 3.12
-        uses: actions/setup-python@v5
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.11.0
         with:
-          python-version: "3.12"
-          cache: "pip"
+          enable-cache: "true"
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          node-version-file: "website/.nvmrc"
-          cache-dependency-path: website/yarn.lock
-          cache: "yarn"
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ secrets.AWS_ROLE_NAME }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+          role-session-name: github-actions
 
-      - name: Terraform Init
-        id: terraform
-        uses: ./.github/workflows/actions/terraform-init
-        timeout-minutes: 5
-        with:
+      - name: Tests
+        timeout-minutes: 10
+        env:
           WORKSPACE: ${{ env.WORKSPACE }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
           AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
-
-      - name: Setup
-        timeout-minutes: 5
         run: |
-          make setup-project VIRTUAL_ENV=false
-          make setup-website VIRTUAL_ENV=false
-
-      - name: Test
-        timeout-minutes: 5
-        run: |
-          make tests
+          devbox shell
+          devbox run infra setup
+          devbox run tests

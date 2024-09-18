@@ -34,14 +34,16 @@ runs:
     - name: Set Terraform 1.7
       uses: hashicorp/setup-terraform@v3
       with:
-        terraform_version: "1.7"
+        terraform_version: "1.9"
 
     - name: Terraform Plan
       shell: bash
+      working-directory: infrastructure
       env:
         WORKSPACE: ${{ inputs.WORKSPACE }}
         AWS_DEFAULT_REGION: ${{ inputs.AWS_DEFAULT_REGION }}
         AWS_ACCOUNT_ID: ${{ inputs.AWS_ACCOUNT_ID }}
         AWS_TERRAFORM_STATE_BUCKET: ${{ inputs.AWS_TERRAFORM_STATE_BUCKET }}
       run: |
-        make setup-infrastructure
+        devbox shell
+        devbox run infra setup

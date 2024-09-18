@@ -3,12 +3,18 @@ if [ "${BASH_SOURCE-}" = "$0" ]; then
     exit 33
 fi
 
-if [[ -f .venv/bin/activate ]]; then
-    source .venv/bin/activate
+venv_filename="${VENV_DIR:-.venv}/bin/activate"
+
+if [[ -f ${venv_filename} ]]; then
+    source "${venv_filename}"
 else
     echo "WARN No virtualenv found. Run 'make setup' to create one."
 fi
 
 if [[ -f .env ]]; then
-    source .env
+    source ".env"
+fi
+
+if [[ -f .env.doppler ]]; then
+    source ".env.doppler"
 fi
