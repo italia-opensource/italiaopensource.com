@@ -1,6 +1,6 @@
 ---
 title: Awesome Italia Open Source | Italia Open-Source
-description: Italy Open-Source is a project whose purpose is to give transparency to the Italian tech ecosystem. Through a series of awesome lists, we seek to give visibility to open-source projects, communities, and innovative companies
+description: Italy Open-Source is a project whose purpose is to give transparency to the Italian tech ecosystem. Through a series of awesome lists, we seek to give visibility to open-source projects, communities, and tech startups
 tags: python, aws, communities, awesome-lists, opensource
 ---
         
@@ -11,7 +11,7 @@ tags: python, aws, communities, awesome-lists, opensource
 
 ### Description
 
-Italy Open-Source is a project whose purpose is to give transparency to the Italian tech ecosystem. Through a series of awesome lists, we seek to give visibility to open-source projects, communities, and innovative companies
+Italy Open-Source is a project whose purpose is to give transparency to the Italian tech ecosystem. Through a series of awesome lists, we seek to give visibility to open-source projects, communities, and tech startups
 
 ### Tags
 

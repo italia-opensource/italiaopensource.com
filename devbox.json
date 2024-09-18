@@ -8,23 +8,28 @@
     "terraform@1.9.5",
     "tflint@0.52.0"
   ],
-  "env": {},
+  "env": {
+    "INFRASTRUCTURE_PATH": "${DEVBOX_PROJECT_ROOT}/infrastructure",
+    "WEBSITE_PATH": "${DEVBOX_PROJECT_ROOT}/website"
+  },
   "include": [],
   "shell": {
-    "init_hook": [". $VENV_DIR/bin/activate", "devbox run setup"],
+    "init_hook": [". ${DEVBOX_PROJECT_ROOT}/.activate", "devbox run setup"],
     "scripts": {
-      "infra": ["cd infrastructure && make $@ ; cd -"],
-      "website": ["cd website && make $@ ; cd -"],
+      "infra": ["cd ${INFRASTRUCTURE_PATH} && make $@ ; cd -"],
+      "website": ["cd ${WEBSITE_PATH} && make $@ ; cd -"],
       "setup": [
-        "chmod +x scripts/*",
-        "pip3 install -r requirements.txt",
+        ". ${DEVBOX_PROJECT_ROOT}/.activate",
+        "chmod +x ${DEVBOX_PROJECT_ROOT}/scripts/*",
+        "pip3 install -r ${DEVBOX_PROJECT_ROOT}/requirements.txt",
         "pre-commit install",
         "devbox run website setup"
       ],
-      "deploy": ["./scripts/deploy.sh"],
-      "doppler": ["./scripts/doppler.sh"],
+      "deploy": ["${DEVBOX_PROJECT_ROOT}/scripts/deploy.sh"],
+      "doppler": ["${DEVBOX_PROJECT_ROOT}/scripts/doppler.sh"],
       "lint": ["pre-commit run --all-files"],
       "tests": [
+        ". ${DEVBOX_PROJECT_ROOT}/.activate",
         "devbox run lint",
         "devbox run website pages-check",
         "devbox run website build",
