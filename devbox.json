@@ -41,7 +41,7 @@
       "switch-env": [
         "devbox run doppler $@",
         ". ${DEVBOX_PROJECT_ROOT}/.activate",
-        "devbox run setup",
+        "devbox run infra setup",
         "devbox run info"
       ],
       "tests": [

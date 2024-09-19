@@ -31,6 +31,8 @@ doppler login
 
 devbox run switch-env <staging|production>
 
+. ${DEVBOX_PROJECT_ROOT}/.activate
+
 devbox run infra setup
 
 devbox run infra plan
