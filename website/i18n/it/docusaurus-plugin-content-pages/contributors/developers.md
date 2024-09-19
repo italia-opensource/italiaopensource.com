@@ -25,7 +25,7 @@ Se volete lanciare il vostro progetto, dargli una spinta o semplicemente sentirv
 - [Aggiungi Startup](/contributors/startups)
 - [Aggiungi Community](/contributors/communities)
 - [Aggiungi una destinazione per Nomadi Digitali](/contributors/digital-nomads)
-- [Diventa un Community Partner](/contributors/partners)
+- [Diventa un Community Partner](/partners/how-to-became-partners)
 
 ## Come contribuire
 

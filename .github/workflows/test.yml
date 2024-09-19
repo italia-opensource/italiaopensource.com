@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  WORKSPACE: ${{ secrets.WORKSPACE }}
+  WORKSPACE: production
 
 jobs:
   test-data:

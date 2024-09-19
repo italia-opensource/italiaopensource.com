@@ -75,7 +75,7 @@ export default function App(): JSX.Element {
       </Grid>
 
       <Container component="main" sx={{ mt: 3, mb: 3 }} maxWidth="sm">
-        <Link href="/contributors/partners">
+        <Link href="/partners/how-to-became-partners">
           <Button variant="contained" fullWidth={true} >
             Became a community partner
           </Button>

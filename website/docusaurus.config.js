@@ -122,13 +122,22 @@ const config = {
             ]
           },
           {
+            label: '⭐ Partners',
+            items: [
+              {
+                to: '/partners/our-partners',
+                label: 'Our Partners',
+              },
+              {
+                to: '/partners/how-to-became-partners',
+                label: 'How to became Partners',
+              },
+            ]
+          },
+          {
             label: '🔥 How to Contribute',
             position: 'left',
             items: [
-              {
-                to: '/contributors/partners',
-                label: '⭐ Partners',
-              },
               {
                 to: '/contributors/developers',
                 label: '💻 Developers',
@@ -156,10 +165,6 @@ const config = {
                 label: '2024',
               },
             ]
-          },
-          {
-            to: '/partners',
-            label: '⭐ Our Partners',
           },
           {
             to: '/about-us',
@@ -190,7 +195,7 @@ const config = {
             label: `Home`,
           },
           {
-            to: '/partners',
+            to: '/partners/our-partners',
             label: `Our Partners`,
           },
           {

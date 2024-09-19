@@ -33,7 +33,9 @@
         "devbox run website setup"
       ],
       "deploy": [
-        "export BUCKET_NAME=$(cat ${DEVBOX_PROJECT_ROOT}/infrastructure/env/secrets.tfvars | grep bucket_name | cut -d= -f 2 | xargs)",
+        "devbox run info",
+        "sleep 5",
+        "export BUCKET_NAME=$(cat ${DEVBOX_PROJECT_ROOT}/infrastructure/env/secrets.${WORKSPACE}.tfvars | grep bucket_name | cut -d= -f 2 | xargs)",
         "devbox run website deploy ${BUCKET_NAME}"
       ],
       "switch-env": [

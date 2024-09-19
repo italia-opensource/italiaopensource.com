@@ -72,7 +72,7 @@ import Button from '@mui/material/Button';
 
 <Grid container>
     <Grid xs={12} sm={4} >
-        <Link href="/contributors/partners">
+        <Link href="/partners/how-to-became-partners">
             <Button variant="contained" fullWidth={true}>
                 <span>Became a Community Partner</span>
             </Button>

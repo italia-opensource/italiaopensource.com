@@ -27,9 +27,9 @@ devbox shell
 
 doppler login
 
-devbox run doppler <staging|production>
-
 # WARN: Before run `infra` cmd export your AWS Credentials or AWS Profile into .env
+
+devbox run switch-env <staging|production>
 
 devbox run infra setup
 

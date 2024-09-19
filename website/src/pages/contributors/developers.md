@@ -25,7 +25,7 @@ Whether you want to launch your project, give it a boost or just feel part of an
 - [Add Company](/contributors/startups)
 - [Add Community](/contributors/communities)
 - [Add a destination for Digital Nomads](/contributors/digital-nomads)
-- [Become a Partners](/contributors/partners)
+- [Become a Partners](/partners/how-to-became-partners)
 
 ## How to contribute
 
