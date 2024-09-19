@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  WORKSPACE: "ci" # @TODO: Create infrastructure in pull-request workspace
+  WORKSPACE: ${{ secrets.WORKSPACE }}
 
 jobs:
   test-data:
@@ -41,7 +41,6 @@ jobs:
       - name: Tests
         timeout-minutes: 10
         env:
-          WORKSPACE: ${{ env.WORKSPACE }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
           AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}

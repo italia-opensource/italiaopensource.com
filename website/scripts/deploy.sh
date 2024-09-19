@@ -14,15 +14,16 @@ WORKDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/.."
 
 main(){
   echo "## Deploy: website to S3"
+  cd "${WORKDIR}"
 
-  local _bucket_name=$(cat infrastructure/env/secrets.tfvars | grep bucket_name | cut -d\  -f 3 | xargs)
+  local _bucket_name=${1}
 
   if [ -z "${_bucket_name}" ]; then
     echo "Error: missing bucket name"
     exit 1
   fi
 
-  cd ${WORKDIR}/website
+  echo "Deploying to bucket: ${_bucket_name}"
 
   aws s3 sync --delete build/ s3://${_bucket_name}/
 }

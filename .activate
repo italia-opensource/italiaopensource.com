@@ -10,7 +10,7 @@ if [ -f "${VENV_FILE}" ]; then
 else
     echo "VENV_DIR: ${VENV_DIR}"
     echo "VENV_FILE: ${VENV_FILE}"
-    echo "WARN No virtualenv found. Run 'make setup' to create one."
+    echo "WARN No virtualenv found. Run 'devbox shell'"
 fi
 
 ENV_FILE="${DEVBOX_PROJECT_ROOT}/.env"

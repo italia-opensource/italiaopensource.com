@@ -14,10 +14,17 @@
   },
   "include": [],
   "shell": {
-    "init_hook": [". ${DEVBOX_PROJECT_ROOT}/.activate", "devbox run setup"],
+    "init_hook": [
+      ". ${DEVBOX_PROJECT_ROOT}/.activate",
+      "devbox run setup",
+      "devbox run info"
+    ],
     "scripts": {
+      "info": ["echo \"[INFO] Environment: ${WORKSPACE}\""],
       "infra": ["cd ${INFRASTRUCTURE_PATH} && make $@ ; cd -"],
-      "website": ["cd ${WEBSITE_PATH} && make $@ ; cd -"],
+      "website": ["cd ${WEBSITE_PATH} && yarn $@ ; cd -"],
+      "lint": ["pre-commit run --all-files"],
+      "doppler": ["${DEVBOX_PROJECT_ROOT}/scripts/doppler.sh $@"],
       "setup": [
         ". ${DEVBOX_PROJECT_ROOT}/.activate",
         "chmod +x ${DEVBOX_PROJECT_ROOT}/scripts/*",
@@ -25,13 +32,19 @@
         "pre-commit install",
         "devbox run website setup"
       ],
-      "deploy": ["${DEVBOX_PROJECT_ROOT}/scripts/deploy.sh"],
-      "doppler": ["${DEVBOX_PROJECT_ROOT}/scripts/doppler.sh"],
-      "lint": ["pre-commit run --all-files"],
-      "tests": [
+      "deploy": [
+        "export BUCKET_NAME=$(cat ${DEVBOX_PROJECT_ROOT}/infrastructure/env/secrets.tfvars | grep bucket_name | cut -d= -f 2 | xargs)",
+        "devbox run website deploy ${BUCKET_NAME}"
+      ],
+      "switch-env": [
+        "devbox run doppler $@",
         ". ${DEVBOX_PROJECT_ROOT}/.activate",
+        "devbox run setup",
+        "devbox run info"
+      ],
+      "tests": [
         "devbox run lint",
-        "devbox run website pages-check",
+        "devbox run website mdx-checker",
         "devbox run website build",
         "devbox run infra plan"
       ]

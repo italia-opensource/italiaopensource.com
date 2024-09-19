@@ -1,7 +1,6 @@
-environment             = "production"
+environment             = "staging"
 project_name            = "italiaopensource"
-domain_name             = "italiaopensource.com"
-sub_domains_name        = ["www"]
+domain_name             = "stage.italiaopensource.com"
 aws_route53_domain_name = "italiaopensource.com"
 additional_tags = {
   "service" = "website"

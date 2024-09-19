@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 env:
-  WORKSPACE: "production"
+  WORKSPACE: ${{ secrets.WORKSPACE }}
 
 jobs:
   deploy-infrastructure:
@@ -33,30 +33,39 @@ jobs:
         with:
           ref: ${{ env.COMMIT_SHA }}
 
-      - name: Terraform Init
-        id: terraform
-        uses: ./.github/workflows/actions/terraform-init
-        timeout-minutes: 5
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.11.0
         with:
-          WORKSPACE: ${{ env.WORKSPACE }}
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
-          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
-          AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
+          enable-cache: "true"
+
+      - name: Configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ secrets.AWS_ROLE_NAME }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+          role-session-name: github-actions
 
       - name: Terraform Plan
         id: plan
         continue-on-error: true
+        env:
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
         run: |
-          make check-drift
+          devbox run infra check-drift
           exitcode=$?
           echo $exitcode
           echo "run_apply=${exitcode}" >> "$GITHUB_OUTPUT"
 
       - name: Terraform Apply
         if: ${{ steps.plan.outputs.run_apply == '2' }}
+        env:
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
         run: |
-          make apply-auto-approve
+          devbox run infra apply-auto-approve
 
       - name: Update comment
         if: ${{ success() && github.event.client_payload.slash_command.args.named.comment_id }}

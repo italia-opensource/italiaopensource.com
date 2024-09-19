@@ -1,18 +1,12 @@
 name: Sync Database
 
+permissions: read-all
+
 on:
   workflow_dispatch:
   repository_dispatch:
     types:
       - sync-database
-
-# Permissions for terramform-init action
-permissions:
-  id-token: write
-  contents: read
-
-env:
-  WORKSPACE: "production"
 
 jobs:
   sync-database:
@@ -21,6 +15,11 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v4
+
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.11.0
+        with:
+          enable-cache: "true"
 
       - name: Load env
         id: env
@@ -35,7 +34,7 @@ jobs:
             hash_commit_awesome_italia_opensource="${{ github.event.client_payload.hash }}"
           fi
 
-          pr_body="${pr_body}\n\n Sync database pipeline: [${{ github.run_id }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }})"
+          pr_body="${pr_body}. Sync database pipeline: [${{ github.run_id }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }})"
 
           echo "pr_branch_name=${pr_branch_name}" >> $GITHUB_OUTPUT
           echo "pr_branch_name=${pr_branch_name}"
@@ -46,35 +45,11 @@ jobs:
           echo "hash_commit_awesome_italia_opensource=${hash_commit_awesome_italia_opensource}" >> $GITHUB_OUTPUT
           echo "hash_commit_awesome_italia_opensource=${hash_commit_awesome_italia_opensource}"
 
-      - name: Setup Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: "pip"
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: "website/.nvmrc"
-          cache-dependency-path: website/yarn.lock
-          cache: "yarn"
-
-      - name: Terraform Init
-        id: terraform
-        uses: ./.github/workflows/actions/terraform-init
-        timeout-minutes: 5
-        with:
-          WORKSPACE: ${{ env.WORKSPACE }}
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
-          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
-          AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
-
       - name: Build
         id: build
         timeout-minutes: 5
         run: |
-          make download HASH_COMMIT="${{ steps.env.outputs.hash_commit_awesome_italia_opensource}}"
+          devbox run website download HASH_COMMIT="${{ steps.env.outputs.hash_commit_awesome_italia_opensource}}"
 
           git checkout HEAD -- infrastructure/.terraform.lock.hcl # Ignore changes to the lock file
           status=$(git status -s)
@@ -86,9 +61,6 @@ jobs:
             echo "has_changed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
-
-          make setup-website VIRTUAL_ENV=false
-          make build
 
           echo "has_changed=true" >> $GITHUB_OUTPUT
 
