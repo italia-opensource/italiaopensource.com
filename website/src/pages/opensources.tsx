@@ -34,6 +34,15 @@ export default function App(): JSX.Element {
         <OpensourceTableData />
       </Container>
 
+      <Container component="main" sx={{ mt: 3, mb: 3 }} maxWidth="sm">
+        <Link href="/join-to-our-community">
+          <Button variant="contained" fullWidth={true} >
+            Join to Italia Open-Source community
+          </Button>
+        </Link>
+      </Container>
+      <RawData/>
+
       <Grid container padding={1} marginTop={2}>
 
       <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
@@ -65,14 +74,6 @@ export default function App(): JSX.Element {
       </Grid>
       </Grid>
 
-      <Container component="main" sx={{ mt: 3, mb: 3 }} maxWidth="sm">
-        <Link href="https://mailchi.mp/8933ba69ba9c/beta-version">
-          <Button variant="contained" fullWidth={true} >
-            Join to Italia Open-Source community
-          </Button>
-        </Link>
-      </Container>
-      <RawData/>
       </main>
     </Layout>
   );

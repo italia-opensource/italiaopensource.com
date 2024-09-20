@@ -6,15 +6,41 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
-import CountUp from 'react-countup';
-import Paper from '@mui/material/Paper';
+import HomepageItems from '../components/HomepageItems';
 
 export default function App(): JSX.Element {
+  const awseomeLists = [
+    {
+      name: '💻 Open-Source',
+      label: 'Projects',
+      count: 95,
+      link: '/opensources',
+    },
+    {
+      name: '👥 Communities',
+      label: 'Groups',
+      count: 28,
+      link: '/communities',
+    },
+    {
+      name: '🌍 Digital Nomads',
+      label: 'Locations',
+      count: 30,
+      link: '/digital-nomads',
+    },
+    {
+      name: '🏡 Startups',
+      label: 'Businesses',
+      count: 0,
+      link: '/startups',
+      isNew: true,
+    }
+  ]
   return (
     <Layout
       title={`Home`}
       wrapperClassName="layout"
-      description="The first platform dedicated to Italian open-source projects">
+      description="The first platform dedicated to Italian open-source world">
       <main className="main">
 
       <CssBaseline />
@@ -24,80 +50,19 @@ export default function App(): JSX.Element {
           Italia Open-Source 🚀
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom align='center'>
-          The first platform dedicated to Italian open-source projects
+          The first platform dedicated to Italian open-source world
         </Typography>
 
-      <Grid container spacing={3} marginTop={4}>
-        <Grid container xs={12}>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={95} duration={2.30} suffix='+'></CountUp></b> Projects
-            </Typography>
-          </Paper>
-          <Link href="/opensources">
-              <Button variant="contained" fullWidth={true} >
-              💻 Open-Source
-              </Button>
-          </Link>
-        </Grid>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2}  margin={1}>
-              <b><CountUp start={1} end={30} duration={1.50} suffix='+'></CountUp></b> Destinations
-            </Typography>
-          </Paper>
-            <Link href="/digital-nomads">
-              <Button variant="contained" fullWidth={true} >
-              🌍 Digital Nomads
-              </Button>
-            </Link>
-        </Grid>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={25} duration={1.90} prefix='+'></CountUp></b> Association
-          </Typography>
-          </Paper>
-            <Link href="/communities">
-              <Button variant="contained" fullWidth={true} >
-              👥 Communities
-              </Button>
-            </Link>
-        </Grid>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={40} duration={2.15} prefix='+'></CountUp></b> Business
-            </Typography>
-          </Paper>
-            <Link href="/startups">
-              <Button variant="contained" fullWidth={true} >
-              🏡 Startups
-              </Button>
-            </Link>
-        </Grid>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={100} duration={2.00} prefix='+'></CountUp></b> Places
-            </Typography>
-          </Paper>
-            <Link href="/coworkings" target="_blank">
-              <Button variant="outlined" fullWidth={true} disabled={true}>
-              📍 Coworking
-              </Button>
-            </Link>
-        </Grid>
-        </Grid>
+      <HomepageItems awseomeLists={awseomeLists}/>
 
+      <Grid container spacing={3} marginTop={4}>
         <Grid container xs={12} marginTop={5}>
           <Grid xs={12} sm={6} padding={2} textAlign={'center'}>
             <Typography variant="h5" component="h2" >
-              The Project
+              Our Vision
             </Typography>
             <Typography marginBottom={1}>
-              Italia Open-Source is <b>the only completely open-source platform that</b> discovers, explores, and <b>gives voice to Italian technological innovations</b> transparently and freely. Whether you have an open-source company, project, or community (or are simply looking for it), there is room for everyone on our <b><a href='/opensources'>Awesome List</a></b>!
+            Our vision is to create an ecosystem where sharing and collaboration are the normality. <b>We imagine a future where every project</b>, big or small, <b>is accessible to everyone and can be improved by everyone</b>. <b>We see Italy as a reference point for open-source</b>, where technology is open and accessible, and where collaboration and innovation are the order of the day.
             </Typography>
           </Grid>
           <Grid xs={12} sm={6} padding={2} textAlign={'center'}>
@@ -110,17 +75,10 @@ export default function App(): JSX.Element {
           </Grid>
         </Grid>
 
-        <Grid container xs={12}>
-          <Grid xs={12} sm={6} padding={1} textAlign={'center'}>
-            <Link href="/contributors/developers" target="_blank">
-              <Button variant="outlined" fullWidth={true}>
-              Add your project
-              </Button>
-            </Link>
-          </Grid>
-          <Grid xs={12} sm={6} padding={1}  textAlign={'center'}>
-            <Link href="/contributors/developers" target="_blank">
-              <Button variant="outlined" fullWidth={true}>
+        <Grid container xs={12} >
+          <Grid xs={12} sm={6} padding={1} smOffset={3} >
+            <Link href="/join-to-our-community" target="_blank">
+              <Button variant="contained" fullWidth={true}>
               JOIN OUR COMMUNITY
               </Button>
             </Link>

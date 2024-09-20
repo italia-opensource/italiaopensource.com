@@ -35,7 +35,7 @@ export default function App(): JSX.Element {
       </Container>
 
       <Container component="main" sx={{ mt: 3, mb: 3 }} maxWidth="sm">
-        <Link href="https://mailchi.mp/8933ba69ba9c/beta-version">
+        <Link href="/join-to-our-community">
           <Button variant="contained" fullWidth={true} >
             Join to Italia Open-Source community
           </Button>

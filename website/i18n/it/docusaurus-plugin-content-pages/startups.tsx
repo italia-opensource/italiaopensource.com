@@ -7,6 +7,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import StartupsTableData from '@site/src/components/TableFeatures/startups';
 import Grid from '@mui/material/Unstable_Grid2';
+import Link from '@docusaurus/Link';
+import Button from '@mui/material/Button';
 
 import RawData from '../../../src/components/RawData';
 
@@ -32,6 +34,15 @@ export default function App(): JSX.Element {
         <StartupsTableData />
       </Container>
       
+      <Container component="main" sx={{ mt: 3, mb: 3 }} maxWidth="sm">
+        <Link href="/join-to-our-community">
+          <Button variant="contained" fullWidth={true} >
+            Join to Italia Open-Source community
+          </Button>
+        </Link>
+      </Container>
+      <RawData/>
+
       <Grid container padding={1} marginTop={2}>
         <Grid xs={12} sm={6} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
@@ -63,8 +74,6 @@ export default function App(): JSX.Element {
         </Grid>
       </Grid>
       
-      <RawData/>
-
       </main>
     </Layout>
   );

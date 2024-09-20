@@ -86,7 +86,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: false,
+        disableSwitch: true,
       },
       navbar: {
         title: 'Italia Open-Source',
@@ -104,10 +104,6 @@ const config = {
                 label: '💻 Open-Source',
               },
               {
-                to: '/digital-nomads',
-                label: '🌍 Digital Nomads',
-              },
-              {
                 to: '/communities',
                 label: '👥 Communities',
               },
@@ -116,8 +112,8 @@ const config = {
                 label: '🏡 Startups',
               },
               {
-                to: '/coworkings',
-                label: '📍 Coworkings',
+                to: '/digital-nomads',
+                label: '🌍 Digital Nomads',
               }
             ]
           },
@@ -126,11 +122,11 @@ const config = {
             items: [
               {
                 to: '/partners/our-partners',
-                label: 'Our Partners',
+                label: '💚 Our Partners',
               },
               {
                 to: '/partners/how-to-became-partners',
-                label: 'How to became Partners',
+                label: '🤝 How to became Partners',
               },
             ]
           },
@@ -143,16 +139,16 @@ const config = {
                 label: '💻 Developers',
               },
               {
-                to: '/contributors/digital-nomads',
-                label: '🌍 Digital Nomads',
-              },
-              {
                 to: '/contributors/communities',
                 label: '👥 Communities',
               },
               {
                 to: '/contributors/startups',
                 label: '🏡 Startups',
+              },
+              {
+                to: '/contributors/digital-nomads',
+                label: '🌍 Digital Nomads',
               }
             ]
           },
@@ -162,7 +158,7 @@ const config = {
             items: [
               {
                 to: '/reports/2024',
-                label: '2024',
+                label: '📆 2024',
               },
             ]
           },
@@ -171,13 +167,8 @@ const config = {
             label: '💎 About Us',
           },
           {
-            to: 'https://mailchi.mp/8933ba69ba9c/beta-version',
-            label: '🌱 Beta Version',
-            position: 'right',
-          },
-          {
-            to: 'https://opencollective.com/italia-open-source/donate?interval=oneTime&amount=3&contributeAs=me',
-            label: '❤️ Donate',
+            to: '/join-to-our-community',
+            label: '❤️ Join to our Community',
             position: 'right',
           },
           {
