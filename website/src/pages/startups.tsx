@@ -12,7 +12,6 @@ import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
 import FiberNewIcon from '@mui/icons-material/FiberNew';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
-import FieldTextItem from '../components/FieldTextItem';
 
 export default function App(): JSX.Element {
   return (

@@ -53,20 +53,20 @@ export default function App(): JSX.Element {
           The first platform dedicated to Italian open-source world
         </Typography>
 
-      <HomepageItems awseomeLists={awseomeLists}/>
+      <HomepageItems awseomeLists={awseomeLists} />
 
       <Grid container spacing={3} marginTop={4}>
         <Grid container xs={12} marginTop={5}>
-          <Grid xs={12} sm={6} padding={2} textAlign={'center'}>
-            <Typography variant="h5" component="h2" >
+          <Grid xs={12} sm={6} padding={2}>
+            <Typography variant="h5" component="h2"  textAlign={'center'}>
               Our Vision
             </Typography>
             <Typography marginBottom={1}>
             Our vision is to create an ecosystem where sharing and collaboration are the normality. <b>We imagine a future where every project</b>, big or small, <b>is accessible to everyone and can be improved by everyone</b>. <b>We see Italy as a reference point for open-source</b>, where technology is open and accessible, and where collaboration and innovation are the order of the day.
             </Typography>
           </Grid>
-          <Grid xs={12} sm={6} padding={2} textAlign={'center'}>
-            <Typography variant="h5" component="h2" >
+          <Grid xs={12} sm={6} padding={2}>
+            <Typography variant="h5" component="h2"  textAlign={'center'}>
             Our Mission
             </Typography>
             <Typography marginBottom={1}>
@@ -77,7 +77,7 @@ export default function App(): JSX.Element {
 
         <Grid container xs={12} >
           <Grid xs={12} sm={6} padding={1} smOffset={3} >
-            <Link href="/join-to-our-community" target="_blank">
+            <Link href="/join-to-our-community">
               <Button variant="contained" fullWidth={true}>
               JOIN OUR COMMUNITY
               </Button>

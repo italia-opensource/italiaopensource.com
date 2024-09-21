@@ -19,13 +19,9 @@
     "message": "⭐ Partners",
     "description": "Navbar item with label ⭐ Our Partners"
   },
-  "item.label.💎 About Us": {
-    "message": "💎 Chi Siamo",
-    "description": "Navbar item with label 💎 About Us"
-  },
-  "item.label.🌱 Beta Version": {
-    "message": "🌱 Beta Version",
-    "description": "Navbar item with label 🌱 Beta Version"
+  "item.label.❤️ Join to our Community": {
+    "message": "❤️ Unisciti alla Community",
+    "description": "Navbar item with label ❤️ Join to our Community"
   },
   "item.label.❤️ Donate": {
     "message": "❤️ Donazioni",

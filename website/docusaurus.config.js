@@ -163,10 +163,6 @@ const config = {
             ]
           },
           {
-            to: '/about-us',
-            label: '💎 About Us',
-          },
-          {
             to: '/join-to-our-community',
             label: '❤️ Join to our Community',
             position: 'right',
@@ -186,16 +182,16 @@ const config = {
             label: `Home`,
           },
           {
+            to: '/join-to-our-community',
+            label: 'Join to our Community',
+          },
+          {
             to: '/partners/our-partners',
             label: `Our Partners`,
           },
           {
             to: 'https://github.com/italia-opensource',
             label: `GitHub`,
-          },
-          {
-            to: 'https://www.linkedin.com/company/italia-open-source',
-            label: 'Community',
           },
           {
             label: 'Privacy Policy',

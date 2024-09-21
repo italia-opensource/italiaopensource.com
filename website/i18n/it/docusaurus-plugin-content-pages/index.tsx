@@ -58,8 +58,8 @@ export default function App(): JSX.Element {
       <HomepageItems awseomeLists={awseomeLists}/>
 
       <Grid container xs={12} marginTop={5}>
-        <Grid xs={12} sm={6} padding={2} textAlign={'center'}>
-          <Typography variant="h5" component="h2" >
+        <Grid xs={12} sm={6} padding={2}>
+          <Typography variant="h5" component="h2"  textAlign={'center'}>
             I nostri Valori
           </Typography>
           <Typography marginBottom={1}>
@@ -67,8 +67,8 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} padding={2} textAlign={'center'}>
-          <Typography variant="h5" component="h2" >
+        <Grid xs={12} sm={6} padding={2}>
+          <Typography variant="h5" component="h2"  textAlign={'center'}>
           La nostra Missione
           </Typography>
           <Typography marginBottom={1}>
@@ -79,7 +79,7 @@ export default function App(): JSX.Element {
 
       <Grid container xs={12} >
           <Grid xs={12} sm={6} padding={1} smOffset={3} >
-            <Link href="/join-to-our-community" target="_blank">
+            <Link href="/join-to-our-community">
               <Button variant="contained" fullWidth={true}>
               Unisciti alla nostra community
               </Button>
