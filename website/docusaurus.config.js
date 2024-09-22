@@ -164,7 +164,7 @@ const config = {
           },
           {
             to: '/join-to-our-community',
-            label: '❤️ Join to our Community',
+            label: '❤️ Join our Community',
             position: 'right',
           },
           {
@@ -183,7 +183,7 @@ const config = {
           },
           {
             to: '/join-to-our-community',
-            label: 'Join to our Community',
+            label: 'Join our Community',
           },
           {
             to: '/partners/our-partners',

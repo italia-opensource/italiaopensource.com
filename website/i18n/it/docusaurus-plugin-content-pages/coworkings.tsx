@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
 
-import RawData from '../../../src/components/RawData';
+import RawData from '@site/src//components/RawData';
 
 export default function App(): JSX.Element {
   return (
@@ -38,7 +38,7 @@ export default function App(): JSX.Element {
       <Container component="main" sx={{ mt: 3, mb: 3 }} maxWidth="sm">
         <Link href="/join-to-our-community">
           <Button variant="contained" fullWidth={true} >
-            Unisciti alla nostra community
+            Unisciti alla community
           </Button>
         </Link>
       </Container>

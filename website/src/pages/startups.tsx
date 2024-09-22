@@ -36,6 +36,9 @@ export default function App(): JSX.Element {
       </Container> */}
 
       <Container component="main" sx={{ mt: 3, mb: 3 }} maxWidth="sm">
+        <Typography variant="h5" component="h2" padding={3} align='center'>
+          Coming soon...
+        </Typography>
         <Link href="https://forms.gle/HanD9st1L8H34BhQ9">
           <Button variant="contained" fullWidth={true} >
             Add your startup to the list

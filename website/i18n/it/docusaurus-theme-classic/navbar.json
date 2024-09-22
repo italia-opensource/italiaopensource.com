@@ -15,13 +15,9 @@
     "message": "📊 Reports",
     "description": "Navbar item with label 📊 Reports"
   },
-  "item.label.⭐ Our Partners": {
-    "message": "⭐ Partners",
-    "description": "Navbar item with label ⭐ Our Partners"
-  },
-  "item.label.❤️ Join to our Community": {
+  "item.label.❤️ Join our Community": {
     "message": "❤️ Unisciti alla Community",
-    "description": "Navbar item with label ❤️ Join to our Community"
+    "description": "Navbar item with label ❤️ Join our Community"
   },
   "item.label.❤️ Donate": {
     "message": "❤️ Donazioni",
@@ -54,6 +50,14 @@
   "item.label.💻 Developers": {
     "message": "💻 Developers",
     "description": "Navbar item with label 💻 Developers"
+  },
+  "item.label.💚 Our Partners": {
+    "message": "💚 I nostri Partners",
+    "description": "Navbar item with label 💚 Our Partners"
+  },
+  "item.label.🤝 How to became Partners": {
+    "message": "🤝 Come diventare Partners",
+    "description": "Navbar item with label 🤝 Come diventare Partners"
   },
   "item.label.2024": {
     "message": "2024",

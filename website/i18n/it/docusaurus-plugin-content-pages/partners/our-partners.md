@@ -66,7 +66,7 @@ import Button from '@mui/material/Button';
     <Grid xs={12} sm={6} smOffset={3}>
         <Link href="/partners/how-to-became-partners">
             <Button variant="contained" fullWidth={true}>
-                <span>Became a Community Partner</span>
+                <span>Diventa un Community Partner</span>
             </Button>
         </Link>
     </Grid>

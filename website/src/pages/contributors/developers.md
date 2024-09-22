@@ -3,6 +3,10 @@ title: Developers contributing to Italia Open-Source
 description: Italy Open-Source relies on the strength of community, find out who has contributed to this project, and how you can contribute too
 ---
 
+import Link from '@docusaurus/Link';
+import Button from '@mui/material/Button';
+import Grid from '@mui/material/Unstable_Grid2';
+
 # Developers contributing to Italia Open-Source
 
 **Become Italia Open-Source’s Member**. Have you always dreamed of being part of an open, free and transparent tech community? **Italia Open-Source is THE place to be**!
@@ -33,16 +37,18 @@ Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/ita
 
 Please read the [contributing](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CONTRIBUTING.md) rules before opening a new pull-request.
 
-## Join the other contributors
+## Join our Community
 
-### Mantainers
+<Grid container marginBottom={2}>
+    <Grid xs={12} sm={4} >
+        <Link href="/join-to-our-community">
+            <Button variant="contained" fullWidth={true}>
+            <span>Unisciti alla community</span>
+            </Button>
+        </Link>
+    </Grid>
+</Grid>
 
-- **[Fabrizio Cafolla](https://github.com/FabrizioCafolla)**
-
-### Developers
-
-<a href="https://github.com/italia-opensource/awesome-italia-opensource/graphs/contributors"> <img src="https://contrib.rocks/image?repo=italia-opensource/awesome-italia-opensource" /> </a>
-
-## Code of Conduct
+### Code of Conduct
 
 Please read [the full text](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.

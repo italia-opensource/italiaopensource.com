@@ -6,7 +6,8 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
-import HomepageItems from '../components/HomepageItems';
+import HomepageItems from '@site/src/components/HomepageItems';
+import SocialItems from '@site/src/components/SocialItems';
 
 export default function App(): JSX.Element {
   const awseomeLists = [
@@ -84,6 +85,8 @@ export default function App(): JSX.Element {
             </Link>
           </Grid>
         </Grid>
+        
+        <SocialItems />
       </Grid>
 
       </Container>

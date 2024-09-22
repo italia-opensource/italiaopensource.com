@@ -5,8 +5,7 @@ description: Italy Open-Source relies on the strength of community, find out who
 
 # Communities contributing to Italia Open-Source
 
-## Add a Community to Italia Open-Source
-Can you imagine a community made up of many other communities? **Italia Open-Source** is that too. **A place where you can find and share information about different tech communities** active in Italy. If you are part of a Community that is not yet on our [awesome list](/communities), please read *How to Join Italia Open-Source* section, and submit you community.
+**Add a Community to Italia Open-Source**. Can you imagine a community made up of many other communities? **Italia Open-Source** is that too. **A place where you can find and share information about different tech communities** active in Italy. If you are part of a Community that is not yet on our [awesome list](/communities), please read *How to Join Italia Open-Source* section, and submit you community.
 
 Everything we need is the name and a brief description of the community, including **goals**, **values**, and **areas of interest**. In this way, you can introduce your community to other people and **create new opportunities** for collaboration.
 

@@ -16,7 +16,7 @@ devbox shell
 devbox run website start
 ```
 
-If you want start website with italian lang run: `devbox run website start LOCALE=it`.
+If you want start website with italian lang run: `devbox run website start --locale=it`.
 
 If you want start website with multi-lang run: `devbox run website build && devbox run website serve`
 

@@ -6,8 +6,8 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
-import HomepageItems from '../../../src/components/HomepageItems';
-
+import HomepageItems from '@site/src//components/HomepageItems';
+import SocialItems from '@site/src/components/SocialItems';
 
 export default function App(): JSX.Element {
   const awseomeLists = [
@@ -81,11 +81,13 @@ export default function App(): JSX.Element {
           <Grid xs={12} sm={6} padding={1} smOffset={3} >
             <Link href="/join-to-our-community">
               <Button variant="contained" fullWidth={true}>
-              Unisciti alla nostra community
+              Unisciti alla community
               </Button>
             </Link>
           </Grid>
         </Grid>
+        <SocialItems />
+
       </Container>
       </main>
     </Layout>
