@@ -1,5 +1,5 @@
 ---
-title: Cache Candidate | Italia Open-Source
+title: Cache Candidate
 description: This is a library providing a higher-order function and a decorator to cache the result of a function or method if given conditions are met.
 tags: javascript, typescript, nodejs, cache, caching
 ---

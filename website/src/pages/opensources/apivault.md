@@ -1,5 +1,5 @@
 ---
-title: Apivault | Italia Open-Source
+title: Apivault
 description: Your gateway to a world of public APIs
 tags: python, javascript, django, api, apis
 ---

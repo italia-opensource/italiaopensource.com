@@ -1,5 +1,5 @@
 ---
-title: WordPress Plugin Boilerplate Powered | Italia Open-Source
+title: WordPress Plugin Boilerplate Powered
 description: Wordpress Plugin Boilerplate but Powered with examples and a generator!
 tags: wordpress, boilerplate
 ---

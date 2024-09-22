@@ -1,5 +1,5 @@
 ---
-title: Swap Anything | Italia Open-Source
+title: Swap Anything
 description: A mix and match (swap) library to empower swapping-based projects.
 tags: python
 ---

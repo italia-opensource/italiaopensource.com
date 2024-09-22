@@ -1,5 +1,5 @@
 ---
-title: FusionCache | Italia Open-Source
+title: FusionCache
 description: FusionCache is an easy to use, fast and robust cache with advanced resiliency features and an optional distributed 2nd level.
 tags: caching, cache, csharp, dotnet, stampede
 ---

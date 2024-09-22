@@ -1,5 +1,5 @@
 ---
-title: Latina | Italia Open-Source
+title: Latina
 description: Latina is a  city 60km far away from Rome. Is 15km far from the sea and the province is full of history. Ninfa Gardens, old towns and the sea in the province is amazing.
 tags: nature, temple, river, mountain, museums
 ---

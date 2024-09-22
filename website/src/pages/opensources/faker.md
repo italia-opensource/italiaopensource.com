@@ -1,5 +1,5 @@
 ---
-title: Faker | Italia Open-Source
+title: Faker
 description: Python package that generates fake data for you
 tags: faker, python, testing
 ---

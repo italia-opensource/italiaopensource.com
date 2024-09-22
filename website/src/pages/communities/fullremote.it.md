@@ -1,5 +1,5 @@
 ---
-title: fullremote.it | Italia Open-Source
+title: fullremote.it
 description: A weekly newsletter (with remote jobs) and a telegram channel dedicated to italian tech workers who work (or want to work) remotely.
 tags: tech, remoteworking, remote, jobs
 ---

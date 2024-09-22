@@ -1,5 +1,5 @@
 ---
-title: Ordinary Puzzles | Italia Open-Source
+title: Ordinary Puzzles
 description: A minimalistic mobile puzzle game inspired by Picross and Sudoku
 tags: javascript, typescript, react-native
 ---

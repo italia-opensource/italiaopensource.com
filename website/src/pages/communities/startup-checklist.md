@@ -1,5 +1,5 @@
 ---
-title: Startup Checklist | Italia Open-Source
+title: Startup Checklist
 description: La ricetta per fare Startup, un percorso guidato dall'idea alla raccolta fondi
 tags: startup, tech, business, funding, venture capital
 ---

@@ -1,5 +1,5 @@
 ---
-title: MUG Marca User Group | Italia Open-Source
+title: MUG Marca User Group
 description: MUG is a user group localed around Treviso (Veneto region) unbounded to any technology or methodology. Our goal is aggreate people and networking opportunities between developers or tech enthusiasts.
 tags: dev, talks, networking, tech
 ---

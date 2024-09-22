@@ -1,5 +1,5 @@
 ---
-title: Ho Chi Ming / Saigon | Italia Open-Source
+title: Ho Chi Ming / Saigon
 description: Ho Chi Minh, or Saigon, is a city in the south of Vietnam. Full of life, people and temples, parks and gardens to see.
 tags: nature, temples, mountain, visit, dancing
 ---

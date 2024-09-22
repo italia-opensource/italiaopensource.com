@@ -1,5 +1,5 @@
 ---
-title: Dgc | Italia Open-Source
+title: Dgc
 description: A parser and validator for the EU Digital Green Certificate (dgc) a.k.a. greenpass
 tags: rust, green pass, covid, parser, validator
 ---

@@ -1,5 +1,5 @@
 ---
-title: capsule | Italia Open-Source
+title: capsule
 description: Capsule page in italiaopensource.com website.
 tags: kubernetes, operator, kubernetes-operator, multi-tenancy, namespaces
 ---

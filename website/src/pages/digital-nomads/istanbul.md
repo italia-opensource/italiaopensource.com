@@ -1,5 +1,5 @@
 ---
-title: Istanbul | Italia Open-Source
+title: Istanbul
 description: Istanbul is a giant city placed between Asia and Europe, on Bosphorus, where this culture are perfectly mixed at 360° degree. Churches, temples, monuments and views are very different and typical from east to west and is the house of Kebab.
 tags: nature, river, bridge, temple
 ---

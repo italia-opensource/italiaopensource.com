@@ -1,5 +1,5 @@
 ---
-title: Alpaca Image Generator | Italia Open-Source
+title: Alpaca Image Generator
 description: Customize your alpaca or generate a random one and download it.
 tags: html, css, javascript
 ---

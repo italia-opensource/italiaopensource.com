@@ -1,5 +1,5 @@
 ---
-title: Make Js Component | Italia Open-Source
+title: Make Js Component
 description: NPX command born with the purpose of streamline the process for developers of creating components with the many FE frameworks around. MJC allows you to just call a command and have your JS component ready to use, and edit, with also a bunch of options available in order to start with the perfect boilerplate.
 tags: javascript, typescript, react, nodejs, vue
 ---

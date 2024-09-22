@@ -1,5 +1,5 @@
 ---
-title: Opensource Projects Landing | Italia Open-Source
+title: Opensource Projects Landing
 description: Opensource Projects Landing landing page in italiaopensource.com.
 tags: opensource projects, open-source, opensource
 ---
@@ -105,7 +105,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: app
 
-**Description**: An open-source blog template build with Astro and Bulma
+**Description**: An open source blog template build with Astro and Bulma
 
 `Astro` | `Javascript` | `Typescript` | `Bulmacss`
 
@@ -125,7 +125,7 @@ tags: opensource projects, open-source, opensource
 
 ***
 
-### [Awesome Italia Open-Source](/opensources/awesome-italia-open-source)
+### [Awesome Italia Open Source](/opensources/awesome-italia-open-source)
 
 **Type**: community
 
@@ -199,7 +199,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: learning
 
-**Description**: An open-source book about how to contribute to open-source.
+**Description**: An open source book about how to contribute to open source.
 
 `Opensource` | `Book`
 
@@ -913,7 +913,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: saas
 
-**Description**: Open-Source Live Chat with adaptive multichannel Chatbots design technology. Alternative to Intercom and Zendesk for Customer Service and Conversational Marketing
+**Description**: Open Source Live Chat with adaptive multichannel Chatbots design technology. Alternative to Intercom and Zendesk for Customer Service and Conversational Marketing
 
 `Customer Service` | `Conversational Commerce` | `Conversational Marketing`
 

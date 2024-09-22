@@ -1,5 +1,5 @@
 ---
-title: kamaji | Italia Open-Source
+title: kamaji
 description: Kamaji page in italiaopensource.com website.
 tags: kubernetes, multi-tenant, cluster, kubernetes-cluster, k8s
 ---

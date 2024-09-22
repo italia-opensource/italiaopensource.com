@@ -1,5 +1,5 @@
 ---
-title: Comuni ISTAT API | Italia Open-Source
+title: Comuni ISTAT API
 description: List of API to grab data about municipalities, provinces and regions of Italian country
 tags: css, bootstrap, javascript, php, laravel
 ---

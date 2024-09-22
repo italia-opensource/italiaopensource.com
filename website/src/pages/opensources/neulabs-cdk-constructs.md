@@ -1,5 +1,5 @@
 ---
-title: Neulabs CDK Constructs | Italia Open-Source
+title: Neulabs CDK Constructs
 description: The neulabs-cdk-constructs library contains CDK-based constructs and stacks to allow the creation of cloud infrastructure on AWS.
 tags: cdk, typescript, jsii, aws, constructs
 ---

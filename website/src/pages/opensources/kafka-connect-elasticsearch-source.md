@@ -1,5 +1,5 @@
 ---
-title: Kafka Connect ElasticSearch Source | Italia Open-Source
+title: Kafka Connect ElasticSearch Source
 description: Kafka Connect Elasticsearch Source page in italiaopensource.com website.
 tags: kafka, connect, elasticsearch, source
 ---

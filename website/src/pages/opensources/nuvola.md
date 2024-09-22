@@ -1,5 +1,5 @@
 ---
-title: nuvola | Italia Open-Source
+title: nuvola
 description: nuvola is a tool to dump and perform automatic and manual security analysis on AWS environments configurations and services using predefined, extensible and custom rules created using a simple Yaml syntax.
 tags: aws, cloudsecurity, devsecops, golang
 ---

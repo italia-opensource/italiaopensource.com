@@ -1,5 +1,5 @@
 ---
-title: Amsterdam | Italia Open-Source
+title: Amsterdam
 description: Amsterdam is capital of Netherlands a beautiful and very nice city to visit. Museums, environment, red light district, free weed, people and culture are the main reason to visit this city and surroundings (eg. Utrecht, Zaandam)
 tags: nature, snow, river, mountain, museums
 ---

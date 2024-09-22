@@ -159,3 +159,14 @@ img[alt=community] { width: 200px; }
 .primary-lightest {
   color: var(--ifm-color-primary-lightest);
 }
+a {
+  text-decoration: none !important;
+}
+
+.homepage-item:hover {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(76,175,80,0.2) 90%);
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%,rgba(76,175,80,0.2) 90%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%,rgba(76,175,80,0.2) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#4caf50",GradientType=1);
+}

@@ -1,5 +1,5 @@
 ---
-title: Caronte | Italia Open-Source
+title: Caronte
 description: A tool to analyze the network flow during attack/defence Capture the Flag competitions
 tags: javascript, go
 ---

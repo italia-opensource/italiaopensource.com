@@ -1,7 +1,7 @@
 ---
-title: Edoardo Dusi | Italia Open-Source
+title: Edoardo Dusi
 description: Cerco di divulgare la tecnologia, tenere aggiornati sulle tech news, incentivare la contribuzione e le best practices.
-tags: coding, news, tech, cloud, open-source
+tags: coding, news, tech, cloud, open source
 ---
         
 
@@ -19,7 +19,7 @@ Cerco di divulgare la tecnologia, tenere aggiornati sulle tech news, incentivare
 
 ### Tags
 
-`Coding` | `News` | `Tech` | `Cloud` | `Open-Source`
+`Coding` | `News` | `Tech` | `Cloud` | `Open Source`
 
 ### Event Type
 

@@ -1,5 +1,5 @@
 ---
-title: kube-green | Italia Open-Source
+title: kube-green
 description: A Kubernetes operator to reduce CO2 footprint of your clusters
 tags: kubernetes, CO2, K8s, resources, cloud-native
 ---

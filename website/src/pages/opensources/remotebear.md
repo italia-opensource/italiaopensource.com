@@ -1,5 +1,5 @@
 ---
-title: Remotebear | Italia Open-Source
+title: Remotebear
 description: Remote jobs aggregator
 tags: javascript, typescript, react, nodejs
 ---

@@ -1,5 +1,5 @@
 ---
-title: Tenerife | Italia Open-Source
+title: Tenerife
 description: Tenerife is the most populated island of the Canary archipelago. The island welcomes you with 13 different climates, beautiful sunset and beaches, full of nightlife and place to visit. Ideal for surfing and kayaking, but also for trekking and visiting places.
 tags: nature, volcano, lake, sea, beach
 ---

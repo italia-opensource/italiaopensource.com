@@ -1,5 +1,5 @@
 ---
-title: Kong | Italia Open-Source
+title: Kong
 description: Kong API Gateway is a cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins
 tags: lua, api gateway, cloud-native
 ---

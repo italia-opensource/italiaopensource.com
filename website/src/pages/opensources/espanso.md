@@ -1,5 +1,5 @@
 ---
-title: Espanso | Italia Open-Source
+title: Espanso
 description: Cross-platform Text Expander written in Rust
 tags: rust
 ---

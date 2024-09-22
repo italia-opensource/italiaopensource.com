@@ -1,5 +1,5 @@
 ---
-title: TomorrowDevs | Italia Open-Source
+title: TomorrowDevs
 description: Il nostro focus è il Learn by Doing, di conseguenza ci focalizziamo sul realizzare tante attività di apprendimento attraverso la pratica. Progetti in Team, Coding Challenge, Hackathon, percorsi customizzati, tutti seguiti da Mentor esperti del settore.
 tags: Coding Challenge, Collaborative Projects, Mentoring, Mock Interview
 ---

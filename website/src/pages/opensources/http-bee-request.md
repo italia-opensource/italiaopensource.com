@@ -1,5 +1,5 @@
 ---
-title: Http Bee Request | Italia Open-Source
+title: Http Bee Request
 description: A little tool to make web calling a breeze!
 tags: typescript, javascript, httprequest
 ---

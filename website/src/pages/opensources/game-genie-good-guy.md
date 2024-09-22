@@ -1,5 +1,5 @@
 ---
-title: Game Genie Good Guy | Italia Open-Source
+title: Game Genie Good Guy
 description: Patch your rom with Game Genie codes
 tags: retrogaming, gameboy, genesis
 ---

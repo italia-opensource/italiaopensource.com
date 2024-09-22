@@ -1,5 +1,5 @@
 ---
-title: cachegrand | Italia Open-Source
+title: cachegrand
 description: A modern OSS Key-Value store, Redis compatible, built for today's hardware
 tags: cache, caching, key-value, database, redis
 ---

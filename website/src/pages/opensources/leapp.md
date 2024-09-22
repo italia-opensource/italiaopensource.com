@@ -1,5 +1,5 @@
 ---
-title: Leapp | Italia Open-Source
+title: Leapp
 description: Leapp is the DevTool to access your cloud.
 tags: typescript, python, cloud, electron
 ---

@@ -1,5 +1,5 @@
 ---
-title: Daje | Italia Open-Source
+title: Daje
 description: Daje page in italiaopensource.com website.
 tags: dotfiles, go, linux, ansible, dotfiles-manager
 ---

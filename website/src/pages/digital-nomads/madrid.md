@@ -1,5 +1,5 @@
 ---
-title: Madrid | Italia Open-Source
+title: Madrid
 description: Capital of Spain is a huge city with amazing nightlife, skyline and sunsets. Parks, monuments, squares and rooftops are just some of the best things to view
 tags: park, nature, lake, city, skyline
 ---

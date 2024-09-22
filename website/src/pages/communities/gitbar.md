@@ -1,5 +1,5 @@
 ---
-title: Gitbar | Italia Open-Source
+title: Gitbar
 description: Il podcast dei developer italiani
 tags: developers, networking, tech
 ---

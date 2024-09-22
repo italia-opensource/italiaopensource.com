@@ -1,5 +1,5 @@
 ---
-title: Open Profiler | Italia Open-Source
+title: Open Profiler
 description: Build your unique online presence with Open Profiler a responsive and feature-rich portfolio, easily tailored to showcase your skills, experience, and projects.
 tags: portfolio, personal-brand, experiences, skills, projects
 ---

@@ -1,5 +1,5 @@
 ---
-title: Fuerteventura | Italia Open-Source
+title: Fuerteventura
 description: Fuerteventura is a very wild island in Canary archipelago. From south to north there are just 3 big cities and lot of little ones, very windy and perfect to surfing, relaxing, explore and chilling. Perfect to rent RV or VAN with lot of area to stay
 tags: nature, sand, beach, surf, wind
 ---

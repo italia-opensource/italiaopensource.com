@@ -1,5 +1,5 @@
 ---
-title: Neulabs GH Actions Analytics | Italia Open-Source
+title: Neulabs GH Actions Analytics
 description: This application allows you to view GitHub's 'Usage Report' data.
 tags: github, finops, analytics, streamlit, python
 ---

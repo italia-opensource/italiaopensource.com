@@ -1,5 +1,5 @@
 ---
-title: Budapest | Italia Open-Source
+title: Budapest
 description: Budapest is the capital of Hungary, placed near the Danubio rived in the middle of the country.
 tags: nature, museum, city, river, sidewalk
 ---

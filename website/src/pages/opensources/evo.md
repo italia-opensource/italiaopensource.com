@@ -1,5 +1,5 @@
 ---
-title: EVO | Italia Open-Source
+title: EVO
 description: Evo page in italiaopensource.com website.
 tags: go, framework, web framework
 ---

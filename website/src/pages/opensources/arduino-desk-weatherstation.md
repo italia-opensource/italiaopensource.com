@@ -1,5 +1,5 @@
 ---
-title: Arduino Desk WeatherStation | Italia Open-Source
+title: Arduino Desk WeatherStation
 description: Desk weather station with Esp8266 and oled display.
 tags: C, C++, Html, Arduino, Python
 ---

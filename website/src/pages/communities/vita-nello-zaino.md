@@ -1,5 +1,5 @@
 ---
-title: Vita nello zaino | Italia Open-Source
+title: Vita nello zaino
 description: Chiusa una porta si apre un portellone.
 tags: developers, tech, networking, digital nomad, coworking
 ---

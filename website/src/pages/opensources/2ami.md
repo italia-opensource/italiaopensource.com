@@ -1,5 +1,5 @@
 ---
-title: 2ami | Italia Open-Source
+title: 2ami
 description: Two factor authenticator agent that keep the secrets secret.
 tags: go, 2fa, security
 ---

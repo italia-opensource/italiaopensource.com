@@ -1,5 +1,5 @@
 ---
-title: XBackBone | Italia Open-Source
+title: XBackBone
 description: XBackBone is a simple, self-hosted, lightweight file manager that support multiple instant sharing tools and storage backends.
 tags: file-manager, file-sharing, self-hosted, sharex
 ---

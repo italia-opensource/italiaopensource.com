@@ -1,5 +1,5 @@
 ---
-title: OpenGeoData | Italia Open-Source
+title: OpenGeoData
 description: OpenSource project focused on sharing of geographic data to citizens and technicians.
 tags: python, docker, django, gis
 ---

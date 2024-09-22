@@ -1,6 +1,6 @@
 ---
-title: Italian Linux Society | Italia Open-Source
-description: L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open-Source in Italia
+title: Italian Linux Society
+description: L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open Source in Italia
 tags: dev, talks, networking, tech, linuz
 ---
         
@@ -15,7 +15,7 @@ import Alert from '@mui/material/Alert';
 
 ### Description
 
-L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open-Source in Italia
+L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open Source in Italia
 
 ### Tags
 

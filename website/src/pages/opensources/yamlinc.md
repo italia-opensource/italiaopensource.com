@@ -1,5 +1,5 @@
 ---
-title: Yamlinc | Italia Open-Source
+title: Yamlinc
 description: Yamlinc page in italiaopensource.com website.
 tags: yaml, openapi
 ---

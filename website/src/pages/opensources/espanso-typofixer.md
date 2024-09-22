@@ -1,5 +1,5 @@
 ---
-title: espanso typofixer  | Italia Open-Source
+title: espanso typofixer 
 description: Various Espanso packages to fix typos automatically for you on Italian, English, Spanish and French
 tags: typo
 ---

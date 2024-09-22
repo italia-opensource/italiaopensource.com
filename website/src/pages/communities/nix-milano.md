@@ -1,5 +1,5 @@
 ---
-title: Nix Milano | Italia Open-Source
+title: Nix Milano
 description: Nix Milano is a community for anyone interested in Nix and NixOS. We organize talks, unconferences, and hackathons focused on learning, sharing, and hacking on Nix-related projects.
 tags: meetup, nix, nixos, opensource, talk
 ---

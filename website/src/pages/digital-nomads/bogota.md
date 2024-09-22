@@ -1,5 +1,5 @@
 ---
-title: Bogotà | Italia Open-Source
+title: Bogotà
 description: Bogotá, the capital of Colombia, is known for its rich history, vibrant culture, and stunning Andean setting. The city features colonial architecture in La Candelaria, world-class museums like the Gold Museum, and lush green spaces such as Simon Bolivar Park. With its lively café culture and family-friendly vibe, Bogotá offers a unique blend of the traditional and modern.
 tags: nature, beach, sea, trekking, family
 ---

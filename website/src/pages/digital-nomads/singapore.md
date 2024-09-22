@@ -1,5 +1,5 @@
 ---
-title: Singapore | Italia Open-Source
+title: Singapore
 description: Singapore is a city-state in the south of Malaysia peninsula, very expensive and with lot of thing sto see. Skyline is amazing and Marina Bay Sands and gardens are very beautiful during the day and night and botanical gardens are amazing
 tags: nature, skyline, sea, beach
 ---

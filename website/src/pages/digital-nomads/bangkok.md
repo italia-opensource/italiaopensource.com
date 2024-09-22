@@ -1,5 +1,5 @@
 ---
-title: Bangkok | Italia Open-Source
+title: Bangkok
 description: Bangkok is a very picturesque city in Thailand. Street foods, temples and the skyline are very cool to see here. Pad Thai is the most delicious and famous food. In the night there are lot of parties and lot of rooftops to visit for a magic view.
 tags: nature, temples, skyline, nightlife, food
 ---

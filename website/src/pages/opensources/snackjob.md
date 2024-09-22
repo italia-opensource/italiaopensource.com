@@ -1,5 +1,5 @@
 ---
-title: Snackjob | Italia Open-Source
+title: Snackjob
 description: Snackjob page in italiaopensource.com website.
 tags: python, flask, javascript, css
 ---

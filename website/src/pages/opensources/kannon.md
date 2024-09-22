@@ -1,5 +1,5 @@
 ---
-title: Kannon | Italia Open-Source
+title: Kannon
 description: Kannon page in italiaopensource.com website.
 tags: go, saas, serverless
 ---

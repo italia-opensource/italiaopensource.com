@@ -1,5 +1,5 @@
 ---
-title: Ripsters | Italia Open-Source
+title: Ripsters
 description: Ripsters page in italiaopensource.com website.
 tags: tech, career, community, networking
 ---

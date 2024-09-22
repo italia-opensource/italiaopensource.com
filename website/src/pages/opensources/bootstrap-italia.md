@@ -1,5 +1,5 @@
 ---
-title: Bootstrap Italia | Italia Open-Source
+title: Bootstrap Italia
 description: Bootstrap Italia page in italiaopensource.com website.
 tags: css, bootstrap, javascript
 ---

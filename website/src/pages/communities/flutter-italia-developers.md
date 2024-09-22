@@ -1,5 +1,5 @@
 ---
-title: Flutter Italia Developers | Italia Open-Source
+title: Flutter Italia Developers
 description: Flutter Italia Developers page in italiaopensource.com website.
 tags: dev, flutter, apps, android, ios
 ---

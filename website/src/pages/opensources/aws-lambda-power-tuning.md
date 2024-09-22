@@ -1,5 +1,5 @@
 ---
-title: AWS Lambda Power Tuning | Italia Open-Source
+title: AWS Lambda Power Tuning
 description: AWS Lambda Power Tuning helps you visualize and fine-tune the memory/power configuration of Lambda functions.
 tags: nodejs, aws, lambda, serverless, cloud
 ---

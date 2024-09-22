@@ -1,5 +1,5 @@
 ---
-title: Strawberry GraphQL | Italia Open-Source
+title: Strawberry GraphQL
 description: Strawberry Graphql page in italiaopensource.com website.
 tags: python, graphql
 ---

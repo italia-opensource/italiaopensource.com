@@ -1,5 +1,5 @@
 ---
-title: Da Nang | Italia Open-Source
+title: Da Nang
 description: Beautiful city in the center-south of Vietnam. Beaches, parties, trekking and surfing are the best things to do
 tags: nature, temples, mountain, visit, dancing
 ---

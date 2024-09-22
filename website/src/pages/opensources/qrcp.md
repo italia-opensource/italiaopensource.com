@@ -1,5 +1,5 @@
 ---
-title: qrcp | Italia Open-Source
+title: qrcp
 description: Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal
 tags: commandline, qr, utility, golang
 ---

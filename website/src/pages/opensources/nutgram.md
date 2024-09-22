@@ -1,5 +1,5 @@
 ---
-title: Nutgram | Italia Open-Source
+title: Nutgram
 description: Nutgram is a powerful PHP Telegram bot framework that allows you to build bots easily. Integrates with Laravel and Symfony out of the box.
 tags: php, telegram, bot, framework, laravel
 ---

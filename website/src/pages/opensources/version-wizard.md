@@ -1,5 +1,5 @@
 ---
-title: Version Wizard | Italia Open-Source
+title: Version Wizard
 description: Streamline your frontend project management, that simplifies tagging and building new versions effortlessly.
 tags: tag, npm, yarn, pnpm, version
 ---

@@ -1,5 +1,5 @@
 ---
-title: Histolab | Italia Open-Source
+title: Histolab
 description: Library for Digital Pathology Image Processing
 tags: python
 ---

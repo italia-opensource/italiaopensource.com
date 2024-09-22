@@ -1,5 +1,5 @@
 ---
-title: Job Offer Bot | Italia Open-Source
+title: Job Offer Bot
 description: Job Offer Bot page in italiaopensource.com website.
 tags: bot, job, offer, telegram
 ---

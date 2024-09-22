@@ -1,5 +1,5 @@
 ---
-title: Kubernetes It | Italia Open-Source
+title: Kubernetes It
 description: Gruppo di utilizzatori, veterani e newbie su Kubernetes parliamo anche di Cloud Native, Container, sviluppo e Systems Engineering!
 tags: developers, tech, kubernetes, sys, cloud
 ---

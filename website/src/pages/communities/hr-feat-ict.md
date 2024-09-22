@@ -1,6 +1,6 @@
 ---
-title: HR feat ICT | Italia Open-Source
-description: Nata per creare uno spazio di confronto e condivisione tra HR e professionisti ICT. È aperto a tutti/e, purché motivatə da reciproco scambio e dal sano confronto. È il luogo ideale dove Ricevere supporto sull’iter di ricerca e selezione, Chiedere consigli (su CV, RAL, benefit), Esprimere dubbi e domande realtive al lavoro, Confrontarsi tra professionisti, Aiutare i recruiter a svolgere al meglio il loro lavoro. Possono utilizzare un bot open-source per la condivisione degli annunci (Job Offer Bot)
+title: HR feat ICT
+description: Nata per creare uno spazio di confronto e condivisione tra HR e professionisti ICT. È aperto a tutti/e, purché motivatə da reciproco scambio e dal sano confronto. È il luogo ideale dove Ricevere supporto sull’iter di ricerca e selezione, Chiedere consigli (su CV, RAL, benefit), Esprimere dubbi e domande realtive al lavoro, Confrontarsi tra professionisti, Aiutare i recruiter a svolgere al meglio il loro lavoro. Possono utilizzare un bot open source per la condivisione degli annunci (Job Offer Bot)
 tags: dev, talks, networking, tech, hr
 ---
         
@@ -15,7 +15,7 @@ import Alert from '@mui/material/Alert';
 
 ### Description
 
-Nata per creare uno spazio di confronto e condivisione tra HR e professionisti ICT. È aperto a tutti/e, purché motivatə da reciproco scambio e dal sano confronto. È il luogo ideale dove Ricevere supporto sull’iter di ricerca e selezione, Chiedere consigli (su CV, RAL, benefit), Esprimere dubbi e domande realtive al lavoro, Confrontarsi tra professionisti, Aiutare i recruiter a svolgere al meglio il loro lavoro. Possono utilizzare un bot open-source per la condivisione degli annunci (Job Offer Bot)
+Nata per creare uno spazio di confronto e condivisione tra HR e professionisti ICT. È aperto a tutti/e, purché motivatə da reciproco scambio e dal sano confronto. È il luogo ideale dove Ricevere supporto sull’iter di ricerca e selezione, Chiedere consigli (su CV, RAL, benefit), Esprimere dubbi e domande realtive al lavoro, Confrontarsi tra professionisti, Aiutare i recruiter a svolgere al meglio il loro lavoro. Possono utilizzare un bot open source per la condivisione degli annunci (Job Offer Bot)
 
 ### Tags
 

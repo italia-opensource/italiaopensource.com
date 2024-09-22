@@ -1,5 +1,5 @@
 ---
-title: Pydal | Italia Open-Source
+title: Pydal
 description: Remap your specific keyboard to execute custom scripts!
 tags: python
 ---

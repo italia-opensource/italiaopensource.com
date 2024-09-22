@@ -1,5 +1,5 @@
 ---
-title: Associazione Odoo Italia | Italia Open-Source
+title: Associazione Odoo Italia
 description: Addons concerning Odoo Italian Localization.
 tags: python, odoo
 ---

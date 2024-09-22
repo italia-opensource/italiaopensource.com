@@ -1,5 +1,5 @@
 ---
-title: Tech Workers Coalition Italia | Italia Open-Source
+title: Tech Workers Coalition Italia
 description: Senza di noi l'industria della tecnologia non esisterebbe, né in Italia né nel resto del mondo. Tech Workers Coalition esiste per darci voce, diritti e forza.
 tags: developers, tech, networking, career, jobs
 ---

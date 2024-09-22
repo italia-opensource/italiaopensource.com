@@ -1,5 +1,5 @@
 ---
-title: Malaga | Italia Open-Source
+title: Malaga
 description: Malaga is places in the south of Spain, on the Mediterranean sea. Hot, with beautiful beaches, lively and very nice to visit. From the castle you can see an amazing vew of the city
 tags: nature, beach, sea, church, castle
 ---

@@ -1,5 +1,5 @@
 ---
-title: Fabio Biondi | Italia Open-Source
+title: Fabio Biondi
 description: Durante le mie live studio, sperimento, condivido il mio know-how e organizzo quiz tecnici, spesso in compagnia di amici e ospiti, su moltissime tematiche legate al mondo della programmazione.
 tags: developers, live, tech, javscript
 ---

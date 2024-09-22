@@ -1,5 +1,5 @@
 ---
-title: Galactic CV Guide | Italia Open-Source
+title: Galactic CV Guide
 description: Tips & Tricks to write a great CV
 tags: guide, cv, work, career, personal branding
 ---

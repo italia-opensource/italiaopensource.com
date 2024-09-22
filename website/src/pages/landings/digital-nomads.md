@@ -1,5 +1,5 @@
 ---
-title: Digital Nomads Landing | Italia Open-Source
+title: Digital Nomads Landing
 description: Digital Nomads Landing landing page in italiaopensource.com.
 tags: digital nomads, remote working, open-source, opensource
 ---

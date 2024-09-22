@@ -25,7 +25,7 @@ def normalizeFilename(name):
 def create_page(name, tags):
     def _seo(name: str, tags: list, description: str):
         seo_header = f"""---
-title: {name} | Italia Open-Source
+title: {name}
 description: {description}
 tags: {', '.join(tags[0:5])}
 ---

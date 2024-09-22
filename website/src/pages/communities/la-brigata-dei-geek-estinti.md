@@ -1,5 +1,5 @@
 ---
-title: La Brigata dei Geek Estinti | Italia Open-Source
+title: La Brigata dei Geek Estinti
 description: Un podcast Live ad assetto variabile dove ogni geek estinto, ma vivo, può intervenire quando vuole. Si parla di IT, programmazione, DevOps, retro computing, cloud, scena demo, cultura geek, vita, universo e tutto quanto.
 tags: it, tech, cloud, geek, devops
 ---

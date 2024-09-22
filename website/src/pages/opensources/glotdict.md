@@ -1,5 +1,5 @@
 ---
-title: GlotDict | Italia Open-Source
+title: GlotDict
 description: This extension for WordPress polyglots implements new features to improve the quality of translation/reviews!
 tags: javascript, firefox, browser-extension
 ---
