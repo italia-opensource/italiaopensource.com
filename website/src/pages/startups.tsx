@@ -61,11 +61,11 @@ export default function App(): JSX.Element {
 
         <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
-          <ArrowCircleRightIcon className='primary'/> The advantages of open source for startups
+          <ArrowCircleRightIcon className='primary'/> The advantages of open-source for startups
           </Typography>
           <Typography marginBottom={1}>
           <p>Adopting open-source solutions <b>offers many benefits</b> to startups (and businesses in general), <b>from reducing costs to accelerating development processes</b>. For startups, this means access to advanced and reliable technologies, often supported by extensive documentation and online resources. In addition, open-source software can rely on a community of developers who contribute to <b>constant code innovation</b>.
-Another advantage is transparency: open source provides complete visibility into how implemented solutions work, reducing security and compliance risks. In addition to increasing the security of their code, open-source software development allows companies to share their technology, promote themselves, and create a potential revenue stream. In these terms, it's easy to see how <b>open-source</b> is key to <b>creating a vibrant ecosystem where startups can grow, innovate, and compete globally</b>.</p>
+Another advantage is transparency: open-source provides complete visibility into how implemented solutions work, reducing security and compliance risks. In addition to increasing the security of their code, open-source software development allows companies to share their technology, promote themselves, and create a potential revenue stream. In these terms, it's easy to see how <b>open-source</b> is key to <b>creating a vibrant ecosystem where startups can grow, innovate, and compete globally</b>.</p>
           </Typography>
         </Grid>
 

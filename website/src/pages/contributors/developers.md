@@ -11,7 +11,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 
 **Become Italia Open-Source’s Member**. Have you always dreamed of being part of an open, free and transparent tech community? **Italia Open-Source is THE place to be**!
 
-In the world of open source development, there is finally a **new opportunity for you** and all the italian devs out there to leave a real mark in the Italian tech scene. By **actively contributing to Italia Open-Source**, you will not only gain visibility, but you will also play a crucial role in creating a community **where sharing your ideas, teaming up on projects, and spreading the knowledge** isn't just encouraged – **it's the whole point**.
+In the world of open-source development, there is finally a **new opportunity for you** and all the italian devs out there to leave a real mark in the Italian tech scene. By **actively contributing to Italia Open-Source**, you will not only gain visibility, but you will also play a crucial role in creating a community **where sharing your ideas, teaming up on projects, and spreading the knowledge** isn't just encouraged – **it's the whole point**.
 
 Whether you want to launch your project, give it a boost or just feel part of an open and free community, this is the right place to **unleash your passion**!
 

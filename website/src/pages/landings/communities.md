@@ -21,9 +21,9 @@ tags: tech community, open-source, opensource
 
 **Event Type**: Podcast, Video, Conference
 
-**Description**: Un podcast in cui chiacchieriamo di sviluppo software, open source, cloud native, metodologie, e tutto quello che sta intorno al mondo IT.
+**Description**: Un podcast in cui chiacchieriamo di sviluppo software, open-source, cloud native, metodologie, e tutto quello che sta intorno al mondo IT.
 
-`Coding` | `Tech` | `Cloud Native` | `Open Source` | `Developers`
+`Coding` | `Tech` | `Cloud Native` | `Open-Source` | `Developers`
 
 ***
 
@@ -53,7 +53,7 @@ tags: tech community, open-source, opensource
 
 **Description**: Cerco di divulgare la tecnologia, tenere aggiornati sulle tech news, incentivare la contribuzione e le best practices.
 
-`Coding` | `News` | `Tech` | `Cloud` | `Open Source`
+`Coding` | `News` | `Tech` | `Cloud` | `Open-Source`
 
 ***
 
@@ -109,7 +109,7 @@ tags: tech community, open-source, opensource
 
 **Event Type**: Conference, Workshop, Webinar, Chat
 
-**Description**: Nata per creare uno spazio di confronto e condivisione tra HR e professionisti ICT. È aperto a tutti/e, purché motivatə da reciproco scambio e dal sano confronto. È il luogo ideale dove: Ricevere supporto sull’iter di ricerca e selezione, Chiedere consigli (su CV, RAL, benefit), Esprimere dubbi e domande realtive al lavoro, Confrontarsi tra professionisti, Aiutare i recruiter a svolgere al meglio il loro lavoro. Possono utilizzare un bot open source per la condivisione degli annunci (Job Offer Bot)
+**Description**: Nata per creare uno spazio di confronto e condivisione tra HR e professionisti ICT. È aperto a tutti/e, purché motivatə da reciproco scambio e dal sano confronto. È il luogo ideale dove: Ricevere supporto sull’iter di ricerca e selezione, Chiedere consigli (su CV, RAL, benefit), Esprimere dubbi e domande realtive al lavoro, Confrontarsi tra professionisti, Aiutare i recruiter a svolgere al meglio il loro lavoro. Possono utilizzare un bot open-source per la condivisione degli annunci (Job Offer Bot)
 
 `Dev` | `Talks` | `Networking` | `Tech` | `Hr` | `Ict` | `Job Offers`
 
@@ -119,7 +119,7 @@ tags: tech community, open-source, opensource
 
 **Event Type**: Conference, Meetup, Other
 
-**Description**: L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open Source in Italia
+**Description**: L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open-Source in Italia
 
 `Dev` | `Talks` | `Networking` | `Tech` | `Linuz` | `Opensource` | `Job Offers`
 
@@ -129,7 +129,7 @@ tags: tech community, open-source, opensource
 
 **Event Type**: Meetup, Conference
 
-**Description**: KCD Italy (#kcditaly) is a CNCF (Cloud Native Computing Foundation) supported event organized by the Italian Kubernetes community. The event aims to spread knowledge and create spaces for sharing and comparing ideas on all open source and cloud native topics.
+**Description**: KCD Italy (#kcditaly) is a CNCF (Cloud Native Computing Foundation) supported event organized by the Italian Kubernetes community. The event aims to spread knowledge and create spaces for sharing and comparing ideas on all open-source and cloud native topics.
 
 `Dev` | `Talk` | `Networking` | `Tech` | `Cloudnative` | `Kubernetes` | `Devops` | `Opensource`
 
@@ -215,23 +215,23 @@ tags: tech community, open-source, opensource
 
 ***
 
-### [Open Source Community](/communities/open-source-community)
+### [Open-Source Community](/communities/open-source-community)
 
 **Event Type**: Chat
 
-**Description**: Meme sui dev e il coding, community di aiuto, guide e tutorial sulla programmazione. Gruppo ufficiale di supporto tecnico per i miei software open source
+**Description**: Meme sui dev e il coding, community di aiuto, guide e tutorial sulla programmazione. Gruppo ufficiale di supporto tecnico per i miei software open-source
 
 `Developers` | `Networking` | `Tech` | `Meme`
 
 ***
 
-### [Open Source Saturday Milano](/communities/open-source-saturday-milano)
+### [Open-Source Saturday Milano](/communities/open-source-saturday-milano)
 
 **Event Type**: Meetup, Hackathon
 
-**Description**: Ci troviamo un sabato al mese per contribuire insieme a progetti open source.
+**Description**: Ci troviamo un sabato al mese per contribuire insieme a progetti open-source.
 
-`Open Source` | `Saturday` | `Hands-On` | `Programming` | `Hacking` | `Sharing` | `Contributing`
+`Open-Source` | `Saturday` | `Hands-On` | `Programming` | `Hacking` | `Sharing` | `Contributing`
 
 ***
 

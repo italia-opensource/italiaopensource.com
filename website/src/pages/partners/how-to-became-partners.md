@@ -15,7 +15,7 @@ If you want to support Italia Open-source through your community, all you have t
 If you want to become Community Partner of Italia Open-Source all we ask is:
 
 - Be an **active community** (no matter how small you are, we only care about how much people love and participate in your project!)
-- Share and **support the open source values**: transparency, participation, and collaboration
+- Share and **support the open-source values**: transparency, participation, and collaboration
 - **Support Italia Open-source** by sharing posts on social media dedicated to our initiatives or events
 - **Add Italia Open-source logo on your community page** or website (optional)
 

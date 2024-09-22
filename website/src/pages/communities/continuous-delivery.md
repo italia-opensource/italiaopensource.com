@@ -1,7 +1,7 @@
 ---
 title: Continuous Delivery | Italia Open-Source
-description: Un podcast in cui chiacchieriamo di sviluppo software, open source, cloud native, metodologie, e tutto quello che sta intorno al mondo IT.
-tags: coding, tech, cloud native, open source, developers
+description: Un podcast in cui chiacchieriamo di sviluppo software, open-source, cloud native, metodologie, e tutto quello che sta intorno al mondo IT.
+tags: coding, tech, cloud native, open-source, developers
 ---
         
 
@@ -15,11 +15,11 @@ import Alert from '@mui/material/Alert';
 
 ### Description
 
-Un podcast in cui chiacchieriamo di sviluppo software, open source, cloud native, metodologie, e tutto quello che sta intorno al mondo IT.
+Un podcast in cui chiacchieriamo di sviluppo software, open-source, cloud native, metodologie, e tutto quello che sta intorno al mondo IT.
 
 ### Tags
 
-`Coding` | `Tech` | `Cloud Native` | `Open Source` | `Developers`
+`Coding` | `Tech` | `Cloud Native` | `Open-Source` | `Developers`
 
 ### Event Type
 

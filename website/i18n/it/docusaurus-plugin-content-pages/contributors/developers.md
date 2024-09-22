@@ -11,7 +11,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 
 **Diventa un membro di Italia Open-Source**. Hai sempre sognato di far parte di una comunità tecnologica open, libera e trasparente? **Italia Open-Source è il posto giusto**!
 
-Nel mondo dello sviluppo open source, c'è finalmente una **nuova opportunità per te** e per tutti gli sviluppatori italiani là fuori di lasciare un segno reale nella scena tecnologica italiana. Contribuendo attivamente a **Italia Open-Source**, non solo otterrai visibilità, ma giocherai anche un ruolo cruciale nella creazione di una comunità  **dove condividere le proprie idee, collaborare a progetti e diffondere la conoscenza non è solo incoraggiato, ma anzi è l'obiettivo principale**.
+Nel mondo dello sviluppo open-source, c'è finalmente una **nuova opportunità per te** e per tutti gli sviluppatori italiani là fuori di lasciare un segno reale nella scena tecnologica italiana. Contribuendo attivamente a **Italia Open-Source**, non solo otterrai visibilità, ma giocherai anche un ruolo cruciale nella creazione di una comunità  **dove condividere le proprie idee, collaborare a progetti e diffondere la conoscenza non è solo incoraggiato, ma anzi è l'obiettivo principale**.
 
 Se volete lanciare il vostro progetto, dargli una spinta o semplicemente sentirvi parte di una comunità aperta e libera, questo è il posto giusto per **liberare la vostra passione**!
 

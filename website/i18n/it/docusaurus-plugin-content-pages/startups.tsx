@@ -55,18 +55,18 @@ export default function App(): JSX.Element {
             <ArrowCircleRightIcon className='primary'/> Scopri le migliori startup tech italiane
           </Typography>
           <Typography marginBottom={1}>
-          <p>Negli ultimi anni In Italia stiamo assistendo sempre più spesso alla <b>nascita di startup che decidono di sfruttare l'approccio open source</b> per sviluppare soluzioni all'avanguardia. Molto spesso però, questo aspetto non viene valorizzato. Per questo motivo, noi di Italia Open-Source abbiamo deciso di raccoglierle in una awesome-list, poiché pensiamo che siano un ottimo esempio di come l'<b>approccio open source</b> possa essere un <b>fattore chiave di successo e innovazione nel mercato</b> competitivo delle startup, dove ciò che conta è sapersi distinguere ed essere al passo con i tempi.</p>
+          <p>Negli ultimi anni In Italia stiamo assistendo sempre più spesso alla <b>nascita di startup che decidono di sfruttare l'approccio open-source</b> per sviluppare soluzioni all'avanguardia. Molto spesso però, questo aspetto non viene valorizzato. Per questo motivo, noi di Italia Open-Source abbiamo deciso di raccoglierle in una awesome-list, poiché pensiamo che siano un ottimo esempio di come l'<b>approccio open-source</b> possa essere un <b>fattore chiave di successo e innovazione nel mercato</b> competitivo delle startup, dove ciò che conta è sapersi distinguere ed essere al passo con i tempi.</p>
           </Typography>
         </Grid>
 
         <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
-            <ArrowCircleRightIcon className='primary'/> I vantaggi dell’open source per le startup
+            <ArrowCircleRightIcon className='primary'/> I vantaggi dell’open-source per le startup
           </Typography>
           <Typography marginBottom={1}>
-          <p>L'adozione di soluzioni open source offre <b>numerosi vantaggi</b> per le startup (e le aziende in generale), che vanno dalla <b>riduzione dei costi</b> all'<b>accelerazione dei processi di sviluppo</b>. Per le startup, questo significa poter accedere a tecnologie avanzate e affidabili, spesso supportate da una vasta documentazione e risorse online. Inoltre, i software open source possono contare su una comunità di sviluppatori che contribuisce all’<b>innovazione costante del codice</b>.</p>
-<p>Un altro vantaggio è la <b>trasparenza</b>: il codice aperto permette di avere una completa visibilità su come funzionano le soluzioni implementate, riducendo i rischi legati alla sicurezza e alla conformità. Oltre quindi ad aumentare la sicurezza del proprio codice, <b>tramite lo sviluppo di software open source le aziende possono rendere disponibile la loro tecnologia</b>, facendosi pubblicità e ottenere anche una possibile <b>fonte di guadagno</b>.</p>
-<p>In questi termini è facile comprendere come <b>l'open source</b> sia la chiave per <b>creare un ecosistema dinamico dove le startup possono crescere, innovare e competere a livello globale</b>.</p>
+          <p>L'adozione di soluzioni open-source offre <b>numerosi vantaggi</b> per le startup (e le aziende in generale), che vanno dalla <b>riduzione dei costi</b> all'<b>accelerazione dei processi di sviluppo</b>. Per le startup, questo significa poter accedere a tecnologie avanzate e affidabili, spesso supportate da una vasta documentazione e risorse online. Inoltre, i software open-source possono contare su una comunità di sviluppatori che contribuisce all’<b>innovazione costante del codice</b>.</p>
+<p>Un altro vantaggio è la <b>trasparenza</b>: il codice aperto permette di avere una completa visibilità su come funzionano le soluzioni implementate, riducendo i rischi legati alla sicurezza e alla conformità. Oltre quindi ad aumentare la sicurezza del proprio codice, <b>tramite lo sviluppo di software open-source le aziende possono rendere disponibile la loro tecnologia</b>, facendosi pubblicità e ottenere anche una possibile <b>fonte di guadagno</b>.</p>
+<p>In questi termini è facile comprendere come <b>l'open-source</b> sia la chiave per <b>creare un ecosistema dinamico dove le startup possono crescere, innovare e competere a livello globale</b>.</p>
           </Typography>
         </Grid>
 
