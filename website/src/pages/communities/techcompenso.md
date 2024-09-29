@@ -1,5 +1,5 @@
 ---
-title: TechCompenso | Italia Open-Source
+title: TechCompenso
 description: TechCompenso is the go-to portal for uncovering the real earnings in Italy's tech sector, including technology, product management, and marketing roles within Italian tech companies
 tags: dev, community, networking, tech, salary
 ---

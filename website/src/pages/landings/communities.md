@@ -1,5 +1,5 @@
 ---
-title: Communities Landing | Italia Open-Source
+title: Communities Landing
 description: Communities Landing landing page in italiaopensource.com.
 tags: tech community, open-source, opensource
 ---

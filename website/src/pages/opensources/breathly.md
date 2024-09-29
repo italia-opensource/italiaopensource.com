@@ -1,5 +1,5 @@
 ---
-title: Breathly | Italia Open-Source
+title: Breathly
 description: Breath training mobile app
 tags: javascript, typescript, react-native
 ---

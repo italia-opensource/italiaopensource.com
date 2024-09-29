@@ -1,5 +1,5 @@
 ---
-title: Fwdctl | Italia Open-Source
+title: Fwdctl
 description: CLI tool to easily manage IPTables forwards
 tags: golang, network, iptables, linux
 ---

@@ -1,5 +1,5 @@
 ---
-title: Need for Nerd | Italia Open-Source
+title: Need for Nerd
 description: Community generalista per developers in cui si discute di temi tecnici e lavorativi e in cui ci si aiuta a vicenda.
 tags: lavoro, tech, linguaggi
 ---

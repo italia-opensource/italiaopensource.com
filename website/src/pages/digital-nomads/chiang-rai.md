@@ -1,5 +1,5 @@
 ---
-title: Chiang Rai | Italia Open-Source
+title: Chiang Rai
 description: Chiang Mai is a city in the north of Thailand, avoid it in March/April due to smoky season. Temples, nature and tours are amazing. The city center is an old fortress and there is a viewpoint on mountain that is amazing
 tags: nature, temples, mountain, visit, dancing
 ---

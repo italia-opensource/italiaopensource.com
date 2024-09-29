@@ -1,5 +1,5 @@
 ---
-title: Platformatic | Italia Open-Source
+title: Platformatic
 description: Platformatic open-source tools simplify building and running Node.js applications, with best practices baked in.
 tags: javscript, node.js, applications, rest api
 ---

@@ -1,5 +1,5 @@
 ---
-title: Argon | Italia Open-Source
+title: Argon
 description: Argon is an interpreted multi-paradigm programming language that aims to be elegant, clean and simple to use.
 tags: C++, interpreter, programming language, multi-paradigm, scripting
 ---

@@ -1,5 +1,5 @@
 ---
-title: Italiaremote | Italia Open-Source
+title: Italiaremote
 description: Italiaremote page in italiaopensource.com website.
 tags: awesome, remote work
 ---

@@ -1,5 +1,5 @@
 ---
-title: GBAATM Rebirth | Italia Open-Source
+title: GBAATM Rebirth
 description: From the original source code a new rebirth, to add a Trainer in your GBA roms!
 tags: retrogaming, gameboy
 ---

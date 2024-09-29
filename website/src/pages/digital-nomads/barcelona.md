@@ -1,5 +1,5 @@
 ---
-title: Barcelona | Italia Open-Source
+title: Barcelona
 description: Barcelona is an historical city in the east cost of Spain, that houses Sagrada Familia. Barceloneta is a very nice place to chill and drink something, meanwhile in the city there are lot of different styles in districts. La Boqueria Market is, near the Rambla, is a place that you must add in your to-do list.
 tags: nature, sea, wine, nightlife, parties
 ---

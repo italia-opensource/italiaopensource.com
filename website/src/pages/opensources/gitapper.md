@@ -1,5 +1,5 @@
 ---
-title: Gitapper | Italia Open-Source
+title: Gitapper
 description: Remap Git with your custom scripts or new commands
 tags: git
 ---

@@ -1,5 +1,5 @@
 ---
-title: Everli Uppy | Italia Open-Source
+title: Everli Uppy
 description: Mobile applications distribution platform.
 tags: microservices, mobile, app
 ---

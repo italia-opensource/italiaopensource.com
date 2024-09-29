@@ -1,5 +1,5 @@
 ---
-title: Arduino | Italia Open-Source
+title: Arduino
 description: Arduino page in italiaopensource.com website.
 tags: css, bootstrap, javascript
 ---

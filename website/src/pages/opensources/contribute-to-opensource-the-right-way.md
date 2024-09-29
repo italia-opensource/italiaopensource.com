@@ -1,5 +1,5 @@
 ---
-title: Contribute to opensource the right way | Italia Open-Source
+title: Contribute to opensource the right way
 description: An open source book about how to contribute to open source.
 tags: opensource, book
 ---

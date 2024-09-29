@@ -1,5 +1,5 @@
 ---
-title: Developers Italia | Italia Open-Source
+title: Developers Italia
 description: Il punto di riferimento per il software della Pubblica Amministrazione.
 tags: dev, pubblica amministrazione, open-source
 ---

@@ -1,5 +1,5 @@
 ---
-title: Open Source Community | Italia Open-Source
+title: Open Source Community
 description: Meme sui dev e il coding, community di aiuto, guide e tutorial sulla programmazione. Gruppo ufficiale di supporto tecnico per i miei software open source
 tags: developers, networking, tech, meme
 ---

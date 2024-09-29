@@ -1,5 +1,5 @@
 ---
-title: Autocannon | Italia Open-Source
+title: Autocannon
 description: Fast HTTP/1.1 benchmarking tool written in Node.js
 tags: nodejs, javascript
 ---

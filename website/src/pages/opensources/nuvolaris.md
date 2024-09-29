@@ -1,5 +1,5 @@
 ---
-title: Nuvolaris | Italia Open-Source
+title: Nuvolaris
 description: Nuvolaris page in italiaopensource.com website.
 tags: go, python, serverless, startup
 ---

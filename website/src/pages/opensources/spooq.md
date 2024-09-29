@@ -1,5 +1,5 @@
 ---
-title: Spooq | Italia Open-Source
+title: Spooq
 description: Is an ETL Big Data tool based on the Apache Spark framework that simplifies its use through the ability to implement data pipelines using a declarative approach based on simple configuration files and expressing transformations primarily through SQL
 tags: scala, etl, big data, apache spark
 ---

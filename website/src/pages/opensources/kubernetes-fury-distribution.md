@@ -1,5 +1,5 @@
 ---
-title: Kubernetes Fury Distribution | Italia Open-Source
+title: Kubernetes Fury Distribution
 description: A CNCF certified battle-tested Kubernetes distribution
 tags: kubernetes, K8s, cncf, kubernetes-distribution, fury
 ---

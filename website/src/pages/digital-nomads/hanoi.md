@@ -1,5 +1,5 @@
 ---
-title: Hanoi | Italia Open-Source
+title: Hanoi
 description: Beautiful city in the center-south of Vietnam. Beaches, parties, trekking and kyte surf are the best things to do
 tags: nature, temples, mountain, visit, dancing
 ---

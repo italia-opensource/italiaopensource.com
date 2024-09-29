@@ -1,5 +1,5 @@
 ---
-title: Tiledesk | Italia Open-Source
+title: Tiledesk
 description: Open Source Live Chat with adaptive multichannel Chatbots design technology. Alternative to Intercom and Zendesk for Customer Service and Conversational Marketing
 tags: customer service, conversational commerce, conversational marketing
 ---

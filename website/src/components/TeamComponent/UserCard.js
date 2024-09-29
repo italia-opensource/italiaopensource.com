@@ -4,7 +4,7 @@ import { Grid } from '@mui/material';
 
 const UserCard = ({ item }) => {
   return (
-     <Grid item xs={12} sm={4} padding={1}>
+     <Grid item xs={12} sm={3} smOffset={1} padding={1}>
         <div key={item.id} style={{ textAlign: 'center', margin: '0 10px' }}>
           <img src={item.imageSrc} alt={item.name} style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '50%' }} />
           <div style={{ marginTop: '10px' }}>

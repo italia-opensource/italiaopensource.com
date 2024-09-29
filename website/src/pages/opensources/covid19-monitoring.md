@@ -1,5 +1,5 @@
 ---
-title: Covid19-Monitoring | Italia Open-Source
+title: Covid19-Monitoring
 description: This is a small Python project for Covid19 monitoring. I used Python with Flask, MySql and Plotly library for graphs.
 tags: python, covid19, Flask, MySql, Plotly
 ---

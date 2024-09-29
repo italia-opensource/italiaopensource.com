@@ -1,5 +1,5 @@
 ---
-title: Youtube-to-Anchorfm | Italia Open-Source
+title: Youtube-to-Anchorfm
 description: Youtube-To-Anchorfm page in italiaopensource.com website.
 tags: javascript, automation, docker, puppeteer, github-action
 ---

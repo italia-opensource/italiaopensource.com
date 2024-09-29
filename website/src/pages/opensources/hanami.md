@@ -1,5 +1,5 @@
 ---
-title: Hanami | Italia Open-Source
+title: Hanami
 description: Hanami is a full-stack Ruby web framework. It's made up of smaller, single-purpose libraries.
 tags: ruby, web framework
 ---

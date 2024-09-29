@@ -1,5 +1,5 @@
 ---
-title: Memongo | Italia Open-Source
+title: Memongo
 description: A Go package that spins up a real MongoDB server, backed by in-memory storage, for use in testing and mocking during development. It's based on mongodb-memory-server for NodeJS.
 tags: mongodb, memory, tryvium-travels, golang, mongodb-memory-server
 ---

@@ -19,15 +19,9 @@ main(){
 
   cd "${WORKDIR}"
 
-  npm install -g yarn 2&> /dev/null || echo "yarn already installed"
-
   yarn install --frozen-lockfile --immutable
 
-  if [[ "${_arg_virtualenv}" == "true" ]]; then
-    (echo "import sys" ; echo "sys.exit(1) if sys.prefix == sys.base_prefix else sys.exit(0)") | python3 && pip3 install -r requirements.txt || echo "Active your virtualenv and retry the installation"
-  else
-    pip3 install -r requirements.txt
-  fi
+  pip install -r requirements.txt
 }
 
 main "$@"

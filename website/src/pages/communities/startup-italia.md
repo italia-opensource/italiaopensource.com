@@ -1,5 +1,5 @@
 ---
-title: Startup Italia | Italia Open-Source
+title: Startup Italia
 description: Il più grande network italiano di eventi dedicati all'innovazione con visibilità e partecipazione internazionale; un hub digitale con dati da startup, aziende innovative, investitori e professionisti
 tags: startup, startup ecosystem, tech news, investors, funding
 ---

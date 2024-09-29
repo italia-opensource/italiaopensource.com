@@ -1,5 +1,5 @@
 ---
-title: Latina In Tech | Italia Open-Source
+title: Latina In Tech
 description: Free events to foster knowledge sharing and professional growth.
 tags: dev, talks, networking, tech
 ---

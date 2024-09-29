@@ -1,5 +1,5 @@
 ---
-title: Mobilizon Reshare | Italia Open-Source
+title: Mobilizon Reshare
 description: Enables an organization to automate their social media strategy in regards to events and their promotion. 
 tags: python, mobilizon, graphql
 ---

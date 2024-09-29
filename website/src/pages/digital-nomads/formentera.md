@@ -1,5 +1,5 @@
 ---
-title: Formentera | Italia Open-Source
+title: Formentera
 description: Placed in Baleares islands Formentera is very chilling and relaxing, with some hippies living in there and lot of beaches are made for nudism. The island is not so big so a moped is advised to visit it, it's almost wild in most of the places.
 tags: nature, sea, lake, beaches, sunsets
 ---

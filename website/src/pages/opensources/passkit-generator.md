@@ -1,5 +1,5 @@
 ---
-title: passkit-generator | Italia Open-Source
+title: passkit-generator
 description: The easiest way to generate custom Apple Wallet passes in Node.js
 tags: nodejs, typescript, javascript, ios, passkit
 ---

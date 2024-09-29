@@ -1,5 +1,5 @@
 ---
-title: GrUSP | Italia Open-Source
+title: GrUSP
 description: Dal 2003 organizziamo eventi per formare e mettere in contatto persone accomunate dalla passione per lo sviluppo web.
 tags: tech, career, community, networking, developers
 ---

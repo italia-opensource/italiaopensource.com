@@ -1,5 +1,5 @@
 ---
-title: Galactic Linkedin Profile Guide | Italia Open-Source
+title: Galactic Linkedin Profile Guide
 description: Tips & Trick for a great Linkedin profile
 tags: guide, linkedin, work, career, personal branding
 ---

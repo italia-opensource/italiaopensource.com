@@ -1,5 +1,5 @@
 ---
-title: Sevilla | Italia Open-Source
+title: Sevilla
 description: Is a pearl in the south of Spain, very hot but really beautiful. City center is amazing and Plaza de Espana is an amazing architectural building to see.
 tags: nature, square, castle, church
 ---

@@ -1,5 +1,5 @@
 ---
-title: IO App | Italia Open-Source
+title: IO App
 description: Io App page in italiaopensource.com website.
 tags: typescript, app, android, ios
 ---

@@ -1,5 +1,5 @@
 ---
-title: Kathará | Italia Open-Source
+title: Kathará
 description: A Lightweight and Scalable Container-based Network Emulation System
 tags: python, docker, kubernetes, computer networks, network emulation
 ---

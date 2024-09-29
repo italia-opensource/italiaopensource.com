@@ -1,5 +1,5 @@
 ---
-title: Cordoba | Italia Open-Source
+title: Cordoba
 description: Cordoba is a city places in the Southern Spain, Andalusia region. Hot almost of the year, very nice to visit for a couple of days
 tags: nature, bridge, nightlife, food
 ---

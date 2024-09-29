@@ -1,5 +1,5 @@
 ---
-title: Morrolinux | Italia Open-Source
+title: Morrolinux
 description: Canale di informazione e condivisione di esperienze in ambito Linux e opensource. In questo canale si trattatta di applicazioni opensource, Linux, Self-hosting, recensioni di distro linux ed esperimenti
 tags: tech, linux, opensource, projects
 ---

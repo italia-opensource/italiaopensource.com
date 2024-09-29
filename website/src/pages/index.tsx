@@ -4,17 +4,42 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
-import Link from '@docusaurus/Link';
-import Button from '@mui/material/Button';
-import CountUp from 'react-countup';
-import Paper from '@mui/material/Paper';
+import HomepageItems from '@site/src/components/HomepageItems';
+import SocialItems from '@site/src/components/SocialItems';
 
 export default function App(): JSX.Element {
+  const awseomeLists = [
+    {
+      name: '💻 Projects',
+      label: 'Open-Source',
+      count: 95,
+      link: '/opensources',
+    },
+    {
+      name: '👥 Communities',
+      label: 'Groups',
+      count: 28,
+      link: '/communities',
+    },
+    {
+      name: '🌍 Digital Nomads',
+      label: 'Destinations',
+      count: 30,
+      link: '/digital-nomads',
+    },
+    {
+      name: '🏡 Startups',
+      label: 'Businesses',
+      count: 0,
+      link: '/startups',
+      isNew: true,
+    }
+  ]
   return (
     <Layout
       title={`Home`}
       wrapperClassName="layout"
-      description="The only fully open-source platform that transparently gives voice, and discovers, and explores Italy's tech innovations.">
+      description="The first platform dedicated to Italian open-source world">
       <main className="main">
 
       <CssBaseline />
@@ -24,80 +49,36 @@ export default function App(): JSX.Element {
           Italia Open-Source 🚀
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom align='center'>
-          Knowledge is open to all.
+          The first platform dedicated to Italian open-source world
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom align='center'>
-          Join us in celebrating Italian tech innovations!
+          Discover our Awesome Lists
         </Typography>
 
-      <Grid container spacing={3} marginTop={4}>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={86} duration={2.30} suffix='+'></CountUp></b> Projects
-            </Typography>
-          </Paper>
-          <Link href="/opensources">
-              <Button variant="contained" fullWidth={true} >
-              💻 Open-Source
-              </Button>
-          </Link>
-        </Grid>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2}  margin={1}>
-              <b><CountUp start={1} end={20} duration={1.50} suffix='+'></CountUp></b> Destinations
-            </Typography>
-          </Paper>
-            <Link href="/digital-nomads">
-              <Button variant="contained" fullWidth={true} >
-              🌍 Digital Nomads
-              </Button>
-            </Link>
-        </Grid>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={25} duration={1.90} prefix='+'></CountUp></b> Association
+      <HomepageItems awseomeLists={awseomeLists} />
+
+
+      <Grid container xs={12} marginTop={5}>
+        <Grid xs={12} sm={6} padding={2}>
+          <Typography variant="h5" component="h2"  textAlign={'center'}>
+            Our Vision
           </Typography>
-          </Paper>
-            <Link href="/communities">
-              <Button variant="contained" fullWidth={true} >
-              👥 Communities
-              </Button>
-            </Link>
-        </Grid>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={40} duration={2.15} prefix='+'></CountUp></b> Business
-            </Typography>
-          </Paper>
-            <Link href="/companies">
-              <Button variant="contained" fullWidth={true} >
-              🏡 Companies
-              </Button>
-            </Link>
-        </Grid>
-        <Grid xs={12} sm={3}>
-          <Paper elevation={0}>
-            <Typography align='center' padding={2} margin={1}>
-            <b><CountUp start={1} end={100} duration={2.00} prefix='+'></CountUp></b> Places
-            </Typography>
-          </Paper>
-            <Link href="/coworkings">
-              <Button variant="outlined" fullWidth={true} disabled={true}>
-              📍 Coworking
-              </Button>
-            </Link>
+          <Typography marginBottom={1}>
+            Our vision is to create an ecosystem where sharing and collaboration are the normality. <b>We imagine a future where every project</b>, big or small, <b>is accessible to everyone and can be improved by everyone</b>. <b>We see Italy as a reference point for open-source</b>, where technology is open and accessible, and where collaboration and innovation are the order of the day.
+          </Typography>
         </Grid>
 
-        <Grid xs={12} marginTop={8}>
-          <Typography gutterBottom align='center'  >
-          The <b>only fully open-source platform</b> that transparently gives voice, and discovers, and explores <b>Italy's tech innovations</b>.
+        <Grid xs={12} sm={6} padding={2}>
+          <Typography variant="h5" component="h2"  textAlign={'center'}>
+            Our Mission
+          </Typography>
+          <Typography marginBottom={1}>
+            Italia Open-Source is not just a data collection platform, but <b>a project everyone can participate in to</b> discover and <b>enhance Italian open-source projects</b>. We believe that our community could be the starting point for creating an Italian tech system where <b>knowledge exchange, innovation, and collaboration</b> are the standard, not the exception!
           </Typography>
         </Grid>
       </Grid>
+
+      <SocialItems />
 
       </Container>
       </main>

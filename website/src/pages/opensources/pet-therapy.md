@@ -1,5 +1,5 @@
 ---
-title: Pet Therapy | Italia Open-Source
+title: Pet Therapy
 description: Desktop Pets for macOS
 tags: swift, swiftui, macos, appkit, desktop
 ---

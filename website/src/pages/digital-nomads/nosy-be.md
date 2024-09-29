@@ -1,5 +1,5 @@
 ---
-title: Nosy Be | Italia Open-Source
+title: Nosy Be
 description: Nosy Be, Madagascar, is a tropical island nestled in the Mozambique Channel, famed for its pristine beaches, thriving coral reefs, and lush landscapes. With vanilla plantations and diverse wildlife, this serene island invites visitors to explore its natural wonders and savor its calm allure amidst the Indian Ocean's beauty.
 tags: relax, nature, beach, sea, exploration
 ---

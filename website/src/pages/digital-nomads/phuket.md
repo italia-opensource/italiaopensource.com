@@ -1,5 +1,5 @@
 ---
-title: Phuket | Italia Open-Source
+title: Phuket
 description: Phuket is a big island in south of Thailand. Beautiful sunsets, beaches and bars to enjoy life and work remotely
 tags: nature, temples, mountain, visit, sea
 ---

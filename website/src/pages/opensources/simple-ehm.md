@@ -1,5 +1,5 @@
 ---
-title: Simple ehm | Italia Open-Source
+title: Simple ehm
 description: A simple tool for a simple task remove filler sounds ('ehm') from pre-recorded speeches. AI powered.
 tags: Jupyter Notebook
 ---

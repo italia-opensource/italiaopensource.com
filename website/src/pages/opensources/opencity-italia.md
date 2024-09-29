@@ -1,5 +1,5 @@
 ---
-title: Opencity Italia | Italia Open-Source
+title: Opencity Italia
 description: Opencity Italia page in italiaopensource.com website.
 tags: microservices, event-sourcing, symfony, kafka, golang
 ---

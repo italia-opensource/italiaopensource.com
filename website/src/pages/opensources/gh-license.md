@@ -1,5 +1,5 @@
 ---
-title: GH License | Italia Open-Source
+title: GH License
 description: Scan your online repo, check if it is missing the license (or install the Git Hooks in your machine)
 tags: python, git, license
 ---

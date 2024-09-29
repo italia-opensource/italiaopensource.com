@@ -1,5 +1,5 @@
 ---
-title: Moquette | Italia Open-Source
+title: Moquette
 description: Moquette page in italiaopensource.com website.
 tags: java, mqtt, broker, lightweight
 ---

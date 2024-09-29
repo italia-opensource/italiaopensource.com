@@ -1,5 +1,5 @@
 ---
-title: DevMarche | Italia Open-Source
+title: DevMarche
 description: La Community tech delle Marche eventi, conferenze e serate a tema sviluppo e non solo, per fare networking e parlare degli argomenti che ci appassionano.
 tags: dev, talks, networking, tech
 ---

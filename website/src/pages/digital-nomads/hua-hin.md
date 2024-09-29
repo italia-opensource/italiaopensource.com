@@ -1,5 +1,5 @@
 ---
-title: Hua Hin | Italia Open-Source
+title: Hua Hin
 description: Hua Hin is a city in the center of Thailand next to the sea and with kyte surf schools
 tags: nature, temples, mountain, visit, trekking
 ---

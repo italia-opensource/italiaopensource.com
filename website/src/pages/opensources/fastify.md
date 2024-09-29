@@ -1,5 +1,5 @@
 ---
-title: fastify | Italia Open-Source
+title: fastify
 description: Fastify page in italiaopensource.com website.
 tags: nodejs, web-framework, api
 ---

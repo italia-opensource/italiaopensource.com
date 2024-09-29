@@ -1,5 +1,5 @@
 ---
-title: Schrödinger Hat | Italia Open-Source
+title: Schrödinger Hat
 description: Schrodinger Hat é una community, un podcast, un livestream e molto altro! Se hai una idea, un tool, un argomento o altro da proporre, puoi aprire una issue su GitHub.
 tags: developers, networking, tech
 ---

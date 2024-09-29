@@ -1,5 +1,5 @@
 ---
-title: KCD Italy | Italia Open-Source
+title: KCD Italy
 description: KCD Italy (#kcditaly) is a CNCF (Cloud Native Computing Foundation) supported event organized by the Italian Kubernetes community. The event aims to spread knowledge and create spaces for sharing and comparing ideas on all open source and cloud native topics.
 tags: dev, talk, networking, tech, CloudNative
 ---

@@ -1,5 +1,5 @@
 ---
-title: Middy | Italia Open-Source
+title: Middy
 description: The stylish Node.js middleware engine for AWS Lambda
 tags: nodejs, javascript, serverless, aws lambda
 ---

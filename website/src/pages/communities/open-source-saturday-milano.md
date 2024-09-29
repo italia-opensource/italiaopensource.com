@@ -1,5 +1,5 @@
 ---
-title: Open Source Saturday Milano | Italia Open-Source
+title: Open Source Saturday Milano
 description: Ci troviamo un sabato al mese per contribuire insieme a progetti open source.
 tags: open source, saturday, hands-on, programming, hacking
 ---

@@ -1,5 +1,5 @@
 ---
-title: Astro Minimal | Italia Open-Source
+title: Astro Minimal
 description: An open source blog template build with Astro and Bulma
 tags: astro, javascript, typescript, bulmacss
 ---

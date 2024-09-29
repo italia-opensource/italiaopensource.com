@@ -1,5 +1,5 @@
 ---
-title: Koh Samui | Italia Open-Source
+title: Koh Samui
 description: Koh Samui is an island of Thailand. Placed in the center of the country, in the Gulf od Thailand, the water of the sea is very hot and have nice sunsets and temples next to the beaches.
 tags: nature, temples, mountain, visit, dancing
 ---

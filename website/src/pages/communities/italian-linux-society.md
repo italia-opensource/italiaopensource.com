@@ -1,13 +1,17 @@
 ---
-title: Italian Linux Society | Italia Open-Source
+title: Italian Linux Society
 description: L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open Source in Italia
 tags: dev, talks, networking, tech, linuz
 ---
         
 
-# Italian Linux Society
+import VerifiedIcon from '@mui/icons-material/Verified'
+import Alert from '@mui/material/Alert';
 
-![GitHub Repo](https://img.shields.io/static/v1?label=category&message=communities&color=green)
+# Italian Linux Society <VerifiedIcon color="primary"/>
+
+
+![Community Partner](https://img.shields.io/static/v1?label=community&message=partner&color=blue) ![GitHub Repo](https://img.shields.io/static/v1?label=category&message=communities&color=green)
 
 ### Description
 

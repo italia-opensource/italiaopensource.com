@@ -1,5 +1,5 @@
 ---
-title: Hong Kong | Italia Open-Source
+title: Hong Kong
 description: Very crowded place in the south of China, beautiful skyline and amazing food are the heart of the city.
 tags: nature, temples, mountain, visit, dancing
 ---

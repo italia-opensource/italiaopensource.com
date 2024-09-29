@@ -1,5 +1,5 @@
 ---
-title: orchy-mfe | Italia Open-Source
+title: orchy-mfe
 description: The Micro Frontends orchestrator
 tags: TypeScript, JavaScript, micro frontends, web components
 ---

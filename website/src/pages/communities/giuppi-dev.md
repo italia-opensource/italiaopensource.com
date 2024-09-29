@@ -1,5 +1,5 @@
 ---
-title: Giuppi dev | Italia Open-Source
+title: Giuppi dev
 description: Sono un programmatore freelance e un nomade digitale, che lavora viaggiando per il mondo. Qui condivido la mia esperienza per aiutare tutti quelli che vogliono lavorare da programmatori e vogliono farlo in libertà da dove gli pare.
 tags: developers, live, coding, javascript, digital nomad
 ---

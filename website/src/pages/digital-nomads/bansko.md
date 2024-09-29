@@ -1,5 +1,5 @@
 ---
-title: Bansko | Italia Open-Source
+title: Bansko
 description: Bansko is a town in southwestern Bulgaria, located at the foot of the Pirin Mountains at an elevation of 927 m above sea level. It is a popular ski resort. Wi-fi is available in most places (also in mountain), and the cost of living is very low.
 tags: nature, snow, lake, mountain
 ---

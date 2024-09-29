@@ -1,5 +1,5 @@
 ---
-title: Kuala Lumpur | Italia Open-Source
+title: Kuala Lumpur
 description: Kuala Lumpur, or KL, is the capital of Malaysia. Petronas towers, Batu caves, temples and KL tower are the most interesting things in this giant city, that you can visit entirely with public transports
 tags: temple, skyline, nightlife, tower, food
 ---

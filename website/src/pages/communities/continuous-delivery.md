@@ -1,17 +1,13 @@
 ---
-title: Continuous Delivery | Italia Open-Source
+title: Continuous Delivery
 description: Un podcast in cui chiacchieriamo di sviluppo software, open source, cloud native, metodologie, e tutto quello che sta intorno al mondo IT.
 tags: coding, tech, cloud native, open source, developers
 ---
         
 
-import VerifiedIcon from '@mui/icons-material/Verified'
-import Alert from '@mui/material/Alert';
+# Continuous Delivery
 
-# Continuous Delivery <VerifiedIcon color="primary"/>
-
-
-![Community Partner](https://img.shields.io/static/v1?label=community&message=partner&color=blue) ![GitHub Repo](https://img.shields.io/static/v1?label=category&message=communities&color=green)
+![GitHub Repo](https://img.shields.io/static/v1?label=category&message=communities&color=green)
 
 ### Description
 

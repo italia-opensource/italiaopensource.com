@@ -21,7 +21,16 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'it'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US',
+        label: 'EN',
+      },
+      it: {
+        label: 'IT',
+      }
+    },
   },
 
   presets: [
@@ -77,7 +86,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: false,
+        disableSwitch: true,
       },
       navbar: {
         title: 'Italia Open-Source',
@@ -92,24 +101,33 @@ const config = {
             items: [
               {
                 to: '/opensources',
-                label: '💻 Open-Source',
-              },
-              {
-                to: '/digital-nomads',
-                label: '🌍 Digital Nomads',
+                label: '💻 Projects',
               },
               {
                 to: '/communities',
                 label: '👥 Communities',
               },
               {
-                to: '/companies',
-                label: '🏡 Companies',
+                to: '/startups',
+                label: '🏡 Startups',
               },
               {
-                to: '/coworkings',
-                label: '📍 Coworkings',
+                to: '/digital-nomads',
+                label: '🌍 Digital Nomads',
               }
+            ]
+          },
+          {
+            label: '⭐ Partners',
+            items: [
+              {
+                to: '/partners/our-partners',
+                label: '💚 Our Partners',
+              },
+              {
+                to: '/partners/how-to-became-partners',
+                label: '🤝 How to became Partners',
+              },
             ]
           },
           {
@@ -117,24 +135,20 @@ const config = {
             position: 'left',
             items: [
               {
-                to: '/contributors/sponsor',
-                label: '⭐ Sponsor',
-              },
-              {
                 to: '/contributors/developers',
-                label: '💻 Developers',
-              },
-              {
-                to: '/contributors/digital-nomads',
-                label: '🌍 Digital Nomads',
+                label: '💻 Projects',
               },
               {
                 to: '/contributors/communities',
                 label: '👥 Communities',
               },
               {
-                to: '/contributors/companies',
-                label: '🏡 Companies',
+                to: '/contributors/startups',
+                label: '🏡 Startups',
+              },
+              {
+                to: '/contributors/digital-nomads',
+                label: '🌍 Digital Nomads',
               }
             ]
           },
@@ -143,27 +157,18 @@ const config = {
             position: 'left',
             items: [
               {
-                to: 'https://github.com/italia-opensource/state-of-open-source-reports/tree/main/reports/2024',
-                label: '2024',
+                to: '/reports/2024',
+                label: '📆 2024',
               },
             ]
           },
           {
-            to: '/sponsor',
-            label: '⭐ Our Sponsor',
-          },
-          {
-            to: '/team',
-            label: '💎 Team',
-          },
-          {
-            to: 'https://mailchi.mp/8933ba69ba9c/beta-version',
-            label: '🌱 Beta Version',
+            to: '/join-to-our-community',
+            label: '❤️ Join our Community',
             position: 'right',
           },
           {
-            to: 'https://opencollective.com/italia-open-source/donate?interval=oneTime&amount=3&contributeAs=me',
-            label: '❤️ Donate',
+            type: 'localeDropdown',
             position: 'right',
           }
         ],
@@ -177,16 +182,16 @@ const config = {
             label: `Home`,
           },
           {
-            to: '/sponsor',
-            label: `Our Sponsor`,
+            to: '/join-to-our-community',
+            label: 'Join our Community',
+          },
+          {
+            to: '/partners/our-partners',
+            label: `Our Partners`,
           },
           {
             to: 'https://github.com/italia-opensource',
             label: `GitHub`,
-          },
-          {
-            to: 'https://www.linkedin.com/company/italia-open-source',
-            label: 'Community',
           },
           {
             label: 'Privacy Policy',

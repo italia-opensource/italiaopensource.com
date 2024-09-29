@@ -1,5 +1,5 @@
 ---
-title: Syros | Italia Open-Source
+title: Syros
 description: Syros is a Greek island located in the Aegean Sea, known for its rich history, picturesque landscapes, and well-preserved architecture. The island's main town, Ermoupoli, is distinguished by its neoclassical buildings and vibrant cultural scene. You will enjoy working from a café in the main square or directly in front of the sea. Plus, it's a very family friendly island.
 tags: nature, beach, sea, trekking, family
 ---

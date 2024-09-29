@@ -1,5 +1,5 @@
 ---
-title: Distrobox | Italia Open-Source
+title: Distrobox
 description: Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with
 tags: bash, command-line, containers, development, docker
 ---

@@ -17,7 +17,8 @@ locals {
 module "rewrite_index_edge_lambda" {
   count = var.enable_rewrite_edge_lambda ? 1 : 0
 
-  source = "./modules/rewrite-index-edge-lambda"
+  source        = "./modules/rewrite-index-edge-lambda"
+  function_name = "rewrite-index-${var.environment}"
 }
 
 locals {
@@ -81,7 +82,7 @@ module "cache_policy_default" {
   min_ttl     = 60
   max_ttl     = 86400
   default_ttl = 60
-  name        = "deault"
+  name        = "deault-${var.environment}"
   query_strings_config = {
     behavior = "all"
   }
@@ -94,7 +95,7 @@ module "response_headers_policy" {
     aws = aws
   }
 
-  name           = "default"
+  name           = "deault-${var.environment}"
   override       = var.override
   remove_headers = var.remove_headers
 }

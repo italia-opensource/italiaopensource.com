@@ -1,5 +1,5 @@
 ---
-title: Share Backported | Italia Open-Source
+title: Share Backported
 description: Extension to get back the Firefox Share modal
 tags: javascript, firefox, browser-extension
 ---

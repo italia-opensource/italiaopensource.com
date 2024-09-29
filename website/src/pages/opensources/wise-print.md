@@ -1,5 +1,5 @@
 ---
-title: wise-print | Italia Open-Source
+title: wise-print
 description: Simple package to add info to print statements
 tags: python, logging, utilities
 ---

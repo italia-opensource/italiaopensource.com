@@ -1,5 +1,5 @@
 ---
-title: Redis | Italia Open-Source
+title: Redis
 description: Redis page in italiaopensource.com website.
 tags: c, database
 ---

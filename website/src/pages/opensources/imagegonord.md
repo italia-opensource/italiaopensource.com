@@ -1,5 +1,5 @@
 ---
-title: ImageGoNord | Italia Open-Source
+title: ImageGoNord
 description: Imagegonord page in italiaopensource.com website.
 tags: python, image-processing, vuejs, javascript, cli
 ---

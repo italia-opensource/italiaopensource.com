@@ -1,5 +1,5 @@
 ---
-title: ServerMan | Italia Open-Source
+title: ServerMan
 description: Serverman is a comprehensive tool for managing your servers across different platforms directly from your terminal.
 tags: Node, DigitalOcean, Server, Vercel, Netlify
 ---

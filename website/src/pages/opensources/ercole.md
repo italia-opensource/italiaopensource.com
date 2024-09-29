@@ -1,5 +1,5 @@
 ---
-title: Ercole | Italia Open-Source
+title: Ercole
 description: Proactive Software Asset Management. Backend component
 tags: go
 ---

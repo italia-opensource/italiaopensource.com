@@ -1,5 +1,5 @@
 ---
-title: PyCon Italia | Italia Open-Source
+title: PyCon Italia
 description: PyCon Italia is the Italian edition of the international PyCon conference series, which focuses on the Python programming language. It serves as a gathering for Python enthusiasts, including developers, data scientists, educators, and other tech professionals from all over Italy and beyond.
 tags: dev, talk, python, pydata, opensource
 ---

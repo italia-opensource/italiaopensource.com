@@ -1,5 +1,5 @@
 ---
-title: Gushio | Italia Open-Source
+title: Gushio
 description: Execute scripts written in JavaScript
 tags: javascript, shell, cli, terminal, multiplatform
 ---

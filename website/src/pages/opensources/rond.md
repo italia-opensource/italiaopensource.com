@@ -1,5 +1,5 @@
 ---
-title: Rönd | Italia Open-Source
+title: Rönd
 description: Rönd is a lightweight container that distributes security policy enforcement throughout your application.
 tags: go, open policy agent
 ---

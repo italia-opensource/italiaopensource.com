@@ -1,5 +1,5 @@
 ---
-title: Make promises safe | Italia Open-Source
+title: Make promises safe
 description: A node.js module to make the use of promises safe. It implements the deprecation DEP0018 of Node.js in versions 6+. Using Promises without this module might cause file descriptor and memory leaks.
 tags: nodejs, javascript
 ---

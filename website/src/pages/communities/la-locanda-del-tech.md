@@ -1,5 +1,5 @@
 ---
-title: La Locanda del Tech | Italia Open-Source
+title: La Locanda del Tech
 description: The Telegram channel of La Locanda del Tech, a Twitch channel hosted by Guido Penta, that deals with various arguments like working in tech, money, professional development and many others
 tags: dev, community, networking, tech
 ---

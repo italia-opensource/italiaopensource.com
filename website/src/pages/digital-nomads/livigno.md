@@ -1,5 +1,5 @@
 ---
-title: Livigno | Italia Open-Source
+title: Livigno
 description: Livigno is a city placed between mountains 1816m above sea level. Is amazing for his view on the lake, to ski, to ride a bicycle and to do some hiking and trekking.
 tags: nature, snow, river, mountain, hiking
 ---

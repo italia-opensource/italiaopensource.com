@@ -1,5 +1,5 @@
 ---
-title: Nutgram Hydrator | Italia Open-Source
+title: Nutgram Hydrator
 description: A super fast, strongly typed, and powerful object hydrator for PHP.
 tags: php, dto, hydrator
 ---

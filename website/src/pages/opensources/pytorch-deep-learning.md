@@ -1,5 +1,5 @@
 ---
-title: Pytorch Deep Learning | Italia Open-Source
+title: Pytorch Deep Learning
 description: Pytorch Deep Learning page in italiaopensource.com website.
 tags: python, jupyter notebook, deep learning, pytorch
 ---

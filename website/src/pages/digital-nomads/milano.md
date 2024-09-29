@@ -1,5 +1,5 @@
 ---
-title: Milano | Italia Open-Source
+title: Milano
 description: Milan is the most modern city in Italy. Skyscrapers, business, finance, fashion and sports are the most productive things in the city, that extends itself around the Duomo
 tags: nature, river, museums
 ---

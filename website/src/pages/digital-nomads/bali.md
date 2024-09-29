@@ -1,5 +1,5 @@
 ---
-title: Bali | Italia Open-Source
+title: Bali
 description: Bali is one of the most famous island of Indonesia. Temples, culture, surfing, sea, trekking, people and night life are the most important things to live. The average cost is very low but not for coworking. Is one of the main place in the world for digital nomad, you can face them all over the world
 tags: nature, temples, surfing, mountain, visit
 ---

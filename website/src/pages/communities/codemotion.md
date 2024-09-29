@@ -1,5 +1,5 @@
 ---
-title: Codemotion | Italia Open-Source
+title: Codemotion
 description: We are the leading platform that supports tech professionals’ growth. We create the right connections between IT professionals, technology communities and companies
 tags: dev, talks, networking, tech
 ---

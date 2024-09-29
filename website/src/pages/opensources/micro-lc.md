@@ -1,5 +1,5 @@
 ---
-title: micro-lc | Italia Open-Source
+title: micro-lc
 description: Build flexible, multi-tenant frontend applications following the Micro Frontend architecture
 tags: typescript, javascript, react, micro frontend
 ---

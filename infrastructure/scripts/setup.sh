@@ -12,6 +12,7 @@ set -o pipefail
 
 WORKDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/.."
 
+SECRET_FILENAME="env/secrets.${WORKSPACE}.tfvars"
 
 check_arg() {
   local _arg_name=${1}
@@ -33,7 +34,7 @@ set_tf_var() {
   export TF_VAR_${_arg_name}="${_arg_value}"
   echo "::add-mask::${_arg_value}"
 
-  echo "${_arg_name} = \"${_arg_value}\"" >> env/secrets.tfvars
+  echo "${_arg_name} = \"${_arg_value}\"" >> "${SECRET_FILENAME}"
 }
 
 create_backend_s3(){
@@ -64,12 +65,11 @@ EOF
 }
 
 main(){
-  cd ${WORKDIR}
+  cd "${WORKDIR}"
 
   echo "## Setup: infrastructure project"
-  local _arg_workspace=${1}
 
-  check_arg "WORKSPACE" "${_arg_workspace}"
+  check_arg "WORKSPACE" "${WORKSPACE}"
   check_arg "AWS_ACCOUNT_ID" "${AWS_ACCOUNT_ID}"
   check_arg "AWS_DEFAULT_REGION" "${AWS_DEFAULT_REGION}"
 
@@ -79,13 +79,17 @@ else
     create_backend_s3 ${AWS_TERRAFORM_STATE_BUCKET}
   fi
 
-  rm -f env/secrets.tfvars
+  rm -f "${SECRET_FILENAME}"
   set_tf_var "aws_region" "${AWS_DEFAULT_REGION}"
-  set_tf_var "bucket_name" "italiaopensource.com-website-${AWS_ACCOUNT_ID}-${_arg_workspace}"
+  set_tf_var "bucket_name" "italiaopensource.com-website-${AWS_ACCOUNT_ID}-${WORKSPACE}"
+
+  if [[ -n "${AWS_ACM_CERTIFICATE_ARN}" ]] ; then
+    set_tf_var "aws_acm_certificate_arn" "${AWS_ACM_CERTIFICATE_ARN}"
+  fi
 
 	terraform init
 
-	terraform workspace select -or-create=true ${_arg_workspace}
+	terraform workspace select -or-create=true "${WORKSPACE}"
 }
 
 main "$@"

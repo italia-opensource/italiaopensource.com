@@ -1,5 +1,5 @@
 ---
-title: fiume | Italia Open-Source
+title: fiume
 description: State machine library for TypeScript
 tags: TypeScript, JavaScript, State machine
 ---
