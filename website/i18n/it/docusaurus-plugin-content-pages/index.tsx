@@ -4,16 +4,14 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
-import Link from '@docusaurus/Link';
-import Button from '@mui/material/Button';
 import HomepageItems from '@site/src//components/HomepageItems';
 import SocialItems from '@site/src/components/SocialItems';
 
 export default function App(): JSX.Element {
   const awseomeLists = [
     {
-      name: '💻 Open-Source',
-      label: 'Progetti',
+      name: '💻 Progetti',
+      label: 'Open-Source',
       count: 95,
       link: '/opensources',
     },
@@ -25,7 +23,7 @@ export default function App(): JSX.Element {
     },
     {
       name: '🌍 Digital Nomads',
-      label: 'Luoghi',
+      label: 'Destinazioni',
       count: 30,
       link: '/digital-nomads',
     },
@@ -54,7 +52,10 @@ export default function App(): JSX.Element {
         <Typography variant="h5" component="h2" gutterBottom align='center'>
         La prima piattaforma dedicata al mondo open-source italiano
         </Typography>
-
+        <Typography variant="h5" component="h2" gutterBottom align='center'>
+        Scopri le nostre Awesome Lists
+        </Typography>
+        
       <HomepageItems awseomeLists={awseomeLists}/>
 
       <Grid container xs={12} marginTop={5}>
@@ -77,16 +78,7 @@ export default function App(): JSX.Element {
         </Grid>
       </Grid>
 
-      <Grid container xs={12} >
-          <Grid xs={12} sm={6} padding={1} smOffset={3} >
-            <Link href="/join-to-our-community">
-              <Button variant="contained" fullWidth={true}>
-              Unisciti alla community
-              </Button>
-            </Link>
-          </Grid>
-        </Grid>
-        <SocialItems />
+      <SocialItems />
 
       </Container>
       </main>

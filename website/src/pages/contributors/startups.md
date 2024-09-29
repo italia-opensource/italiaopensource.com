@@ -1,26 +1,32 @@
 ---
-title: Companies contributing to Italia Open-Source
-description: Italy Open-Source relies on the strength of community, find out who has contributed to this project, and how you can contribute too
+title: Add your startup to Italia Open-Source
+description: Your Startup's Spotlight. A new, "special" startup section to spotlight emerging open-source companies!
 ---
 
-# Companies contributing to Italia Open-Source
+# Add your startup to Italia Open-Source
 
-## Add a Company to Italia Open-Source
+## Italia Open-Source: Your Startup's Spotlight
 
-**What if the company everyone dreams of working for is yours?** More and more developers are attracted to companies that make their technology stack available in a clear and transparent way. If you are part of an open-source company in Italy, **Italia Open-Source** is the **ideal place to gain visibility**, **validate your projects** and **attract new professionals** in the industry looking for a dynamic and stimulating job.
+A new, "special" **startup section** to spotlight emerging **open-source companies**! We **believe that startups are the driving force behind innovation** and through this dedicated platform, we **want to showcase the boldest, most forward-thinking companies driving change in Italy**. Whether your startup is developing new solutions, embracing open collaboration, or pushing the boundaries of modern technology, **Italia Open-Source provides the ideal space to gain exposure and connect** with a community that shares your vision.
 
-## Discover Awesome Benefits
+This is your chance to **gain visibility**, **connect with the best minds in tech**, and **showcase your projects** to a thriving community of innovators. Don't let your startup miss out on this opportunity to shine. Find out how easy it is to join our awesome list and **step into the future with Italia open-source!**
 
-- Increased visibility for your company
-- Showcase your open-source projects and initiatives
-- Attract top talent and professionals in the industry
-- Promote job opportunities within your company
-- Gain exposure to potential investors and collaborators
+## Why add your startup?
 
+By adding your startup to Italia Open-Source, **you'll open up a world of opportunities** for collaboration, exposure, and growth. Here's what you can expect:
 
-## How to Join Italia Open-Source
+- **Increased visibility**: Put your startup on the radar of thousands of community members passionate about open-source.
+- **Networking Opportunities**: Connect with other startups, tech enthusiasts, and developers to share knowledge and resources.
+- **Showcase your projects**: Promote your open-source initiatives and get feedback from your peers.
+- **Support and knowledge sharing**: Benefit from the collective wisdom and experience of other entrepreneurs and developers.
 
-You can add a company to our [awsome list](/startups) in two different ways:
+## How to add your startup
 
-1. Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) and wait for it to be approved after a thorough review.
-2. Fill out the form and if your community meets all the requirements, you will receive an email to confirm the addition to Italia Open-Source. [Compile form](https://forms.gle/HanD9st1L8H34BhQ9)
+**Joining Italia Open-Source is easy**, and we offer two ways to get started:
+
+1. **Submit a pull request on GitHub**: Visit our GitHub repository, [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource), and create a pull request to add your startup. Once it's reviewed and approved, you'll be officially listed.
+2. **Fill out our form**: Don't have a GitHub account or prefer an easier process? Simply fill out the form on our website and provide your startup's name and a brief description, including its goals, values, and focus areas. If your startup meets the criteria, you'll receive a confirmation email and your startup will be added to our list.
+
+Ready to take the next step? **Add your startup today!**
+
+[Compile Form](https://forms.gle/HanD9st1L8H34BhQ9)

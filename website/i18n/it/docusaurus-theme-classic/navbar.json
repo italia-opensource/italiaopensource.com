@@ -23,9 +23,9 @@
     "message": "❤️ Donazioni",
     "description": "Navbar item with label ❤️ Donate"
   },
-  "item.label.💻 Open-Source": {
-    "message": "💻 Open-Source",
-    "description": "Navbar item with label 💻 Open-Source"
+  "item.label.💻 Projects": {
+    "message": "💻 Projects",
+    "description": "Navbar item with label 💻 Projects"
   },
   "item.label.🌍 Digital Nomads": {
     "message": "🌍 Digital Nomads",
@@ -47,9 +47,9 @@
     "message": "⭐ Partners",
     "description": "Navbar item with label ⭐ Partners"
   },
-  "item.label.💻 Developers": {
-    "message": "💻 Developers",
-    "description": "Navbar item with label 💻 Developers"
+  "item.label.💻 Projects": {
+    "message": "💻 Progetti",
+    "description": "Navbar item with label 💻 Projects"
   },
   "item.label.💚 Our Partners": {
     "message": "💚 I nostri Partners",

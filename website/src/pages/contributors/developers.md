@@ -1,13 +1,13 @@
 ---
-title: Developers contributing to Italia Open-Source
-description: Italy Open-Source relies on the strength of community, find out who has contributed to this project, and how you can contribute too
+title: Become Italia Open-Source’s Member
+description: Whether you want to launch your project, give it a boost or just feel part of an open and free community, this is the right place to unleash your passion!
 ---
 
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Unstable_Grid2';
 
-# Developers contributing to Italia Open-Source
+# Become Italia Open-Source’s Member
 
 **Become Italia Open-Source’s Member**. Have you always dreamed of being part of an open, free and transparent tech community? **Italia Open-Source is THE place to be**!
 
@@ -25,25 +25,23 @@ Whether you want to launch your project, give it a boost or just feel part of an
 
 ## Explore Contributing Opportunities
 
-- Add your Project (read How to contribute section)
-- [Add Company](/contributors/startups)
-- [Add Community](/contributors/communities)
-- [Add a destination for Digital Nomads](/contributors/digital-nomads)
-- [Become a Partners](/partners/how-to-became-partners)
+- [Add your Project](#how-to-contribute) (read How to contribute section)
+- [Add a Community](/contributors/communities)
+- [Add a Startup](/contributors/startups)
+- [Add a Digital Nomad Destination](/contributors/digital-nomads)
+- [Become a Partner](/partners/how-to-became-partners)
 
 ## How to contribute
 
-Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) and wait for it to be approved after a thorough review.
+Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) project and wait for it to be approved after a thorough review.
 
 Please read the [contributing](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CONTRIBUTING.md) rules before opening a new pull-request.
-
-## Join our Community
 
 <Grid container marginBottom={2}>
     <Grid xs={12} sm={4} >
         <Link href="/join-to-our-community">
             <Button variant="contained" fullWidth={true}>
-            <span>Unisciti alla community</span>
+            <span>Join our Community</span>
             </Button>
         </Link>
     </Grid>

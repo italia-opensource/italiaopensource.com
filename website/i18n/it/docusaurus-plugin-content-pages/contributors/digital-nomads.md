@@ -1,20 +1,30 @@
 ---
-title: Are you a digital nomad? Share your experience
-description: Italy Open-Source relies on the strength of digital nomad, find out who has contributed to this project, and how you can contribute too
+title: Aggiungi una destinazione per Nomadi Digitali
+description: Abbiamo creato una sezione dedicata alle "Destinazioni per Nomadi Digitali" per permetterti di scoprire e condividere le migliori località al mondo per chi lavora da remoto e per i nomadi digitali
 ---
 
-# Are you a digital nomad? Share your experiences
+# Aggiungi una destinazione per Nomadi Digitali
 
-## Discover Awesome Benefits
+## Italia Open-Source: la tua Guida alle Migliori Destinazioni per Nomadi Digitali
 
-- Show the places you've been and share useful information for travelers
-- Connect with other digital nomads
-- Improve your personal branding
-- Get inspired by our [awesome list](/digital-nomads) of destination for your next trip!
+Abbiamo creato una sezione dedicata alle **"Destinazioni per Nomadi Digitali"** per permetterti di scoprire e condividere le **migliori località al mondo per chi lavora da remoto e per i nomadi digitali**. Che tu abbia trovato angoli nascosti in città dinamiche o oasi di tranquillità immerse nella natura, questo è il luogo ideale per **condividerli con altri viaggiatori**! Aggiungendo la tua destinazione alla nostra [awesome list](/digital-nomads), non solo ispirerai altri nomadi digitali, ma entrerai in contatto con una community che condivide il tuo stesso stile di vita!
 
-## How to contribute
+## Perché contribuire?
 
-If you're a digital nomad and want to share your fantastic experiences with others, you can do so in two different ways:
+Contribuire alla nostra lista di destinazioni per nomadi digitali ti offre **numerosi vantaggi**:
 
-1. Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) and wait for it to be approved after a thorough review.
-2. Fill out the form and if your awesome place meets all the requirements, you will receive an email to confirm the addition to Italia Open-Source. [Compile Form](https://forms.gle/DD33TrCVw7pvXgpC9)
+- **Condividi le tue esperienze di viaggio**: racconta i luoghi straordinari che hai visitato e fornisci consigli pratici e utili per altri nomadi digitali.
+- **Collegati con la community**: crea relazioni con altri remote workers che condividono il tuo stesso modo di lavorare e viaggiare.
+- **Migliora la tua visibilità**: diventa un punto di riferimento per la community dei nomadi digitali, contribuendo con consigli e suggerimenti preziosi.
+- **Lasciati ispirare**: esplora la nostra lista di destinazioni e trova nuove mete per la tua prossima avventura!
+
+## Come aggiungere una Destinazione
+
+**Aggiungere una destinazione a Italia Open-Source è semplicissimo**:
+
+1. **Invia una Pull Request su GitHub**: visita il nostro repository [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) su GitHub e crea una pull request per aggiungere la tua destinazione preferita. Una volta esaminata e approvata, il tuo contributo sarà visibile alla community.
+2. **Compila il nostro modulo**: se preferisci un’opzione più semplice, compila il modulo sottostante con i dettagli della destinazione. Una volta esaminata e approvata, riceverai un’email di conferma e la tua destinazione verrà aggiunta alla nostra lista.
+
+Pronto ad aiutare altri nomadi digitali a trovare la loro prossima avventura? **Aggiungi una destinazione ora!**
+
+[Compile Form](https://forms.gle/DD33TrCVw7pvXgpC9)

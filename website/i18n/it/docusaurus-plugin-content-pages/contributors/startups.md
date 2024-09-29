@@ -1,26 +1,32 @@
 ---
-title: Companies contributing to Italia Open-Source
-description: Italy Open-Source relies on the strength of community, find out who has contributed to this project, and how you can contribute too
+title: Aggiungi la Tua Startup a Italia Open-Source
+description: Accendi i riflettori sulla tua Startup con Italia Open-Source. Una nuova sezione "speciale" per le startup, dedicata alle aziende open-source emergenti!
 ---
 
-# Companies contributing to Italia Open-Source
+# Aggiungi la Tua Startup a Italia Open-Source
 
-## Add a Company to Italia Open-Source
+## Accendi i riflettori sulla tua Startup con Italia Open-Source
 
-**What if the company everyone dreams of working for is yours?** More and more developers are attracted to companies that make their technology stack available in a clear and transparent way. If you are part of an open-source company in Italy, **Italia Open-Source** is the **ideal place to gain visibility**, **validate your projects** and **attract new professionals** in the industry looking for a dynamic and stimulating job.
+Una **nuova sezione** "speciale" per le startup, dedicata alle **aziende open-source emergenti**! Siamo convinti che le startup siano il motore dell'innovazione tecnologica italiana e attraverso la nostra **awesome-list** vogliamo mettere in risalto le più audaci e lungimiranti. Se la tua startup sta sviluppando nuove soluzioni e abbraccia l'approccio open-source, **Italia Open-Source offre lo spazio ideale per ottenere visibilità e connetterti** con una community che condivide la tua visione.
 
-## Discover Awesome Benefits
+Non lasciare che la tua startup si perda questa opportunità di brillare: scopri quanto è facile unirti alla nostra awesome-list e **muovi i primi passi verso il futuro con Italia Open-Source!**
 
-- Increased visibility for your company
-- Showcase your open-source projects and initiatives
-- Attract top talent and professionals in the industry
-- Promote job opportunities within your company
-- Gain exposure to potential investors and collaborators
+## Perché aggiungere la tua Startup?
 
+Aggiungendo la tua startup alla lista di Italia Open-Source, **potrai accedere a un mondo di vantaggi e opportunità:**
 
-## How to Join Italia Open-Source
+- **Maggiore visibilità**: metti la tua startup sotto i riflettori di centinaia di membri della community appassionati di open-source.
+- **Opportunità di networking**: connettiti con altre startup, appassionati di tecnologia e sviluppatori per condividere conoscenze e risorse.
+- **Mostra i tuoi progetti**: promuovi le tue iniziative open-source e ottieni feedback da professionisti del settore.
+- **Supporto e condivisione di conoscenze**: beneficia dello scambio di conoscenze e dell'esperienza di altri imprenditori e sviluppatori.
 
-You can add a company to our [awsome list](/startups) in two different ways:
+## Come aggiungere la tua Startup
 
-1. Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) and wait for it to be approved after a thorough review.
-2. Fill out the form and if your community meets all the requirements, you will receive an email to confirm the addition to Italia Open-Source. [Compile form](https://forms.gle/HanD9st1L8H34BhQ9)
+**Unirti a Italia Open-Source è semplicissimo**, ecco due modi per iniziare:
+
+1. **Invia una Pull Request su GitHub**: visita il nostro repository GitHub, [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource), e crea una pull request per aggiungere la tua startup. Una volta che sarà revisionata e approvata, sarai ufficialmente inserito nella lista.
+2. **Compila il nostro modulo**: Non hai un account GitHub o preferisci un processo più semplice? Compila il modulo che trovi in fondo alla pagina fornendo il nome della tua startup e una breve descrizione, inclusi i suoi obiettivi, valori e aree di interesse. Se la tua startup soddisfa i criteri, riceverai un'email di conferma e la tua startup sarà aggiunta alla nostra lista.
+
+Pronto a fare il prossimo passo? **Aggiungi la tua startup ora!**
+
+[Compila il modulo](https://2pcnmw19dwc.typeform.com/to/AWoA6gYR)

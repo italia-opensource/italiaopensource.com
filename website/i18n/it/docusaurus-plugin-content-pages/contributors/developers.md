@@ -1,43 +1,41 @@
 ---
-title: Sviluppatori che contribuiscono a Italia Open-Source
-description: Hai sempre sognato di far parte di una comunità tecnologica open, libera e trasparente? Italia Open-Source è il posto giusto!
+title: Diventa un membro di Italia Open Source
+description: Se vuoi lanciare il tuo progetto, dargli una boost o semplicemente sentirti parte di una community aperta e libera, questo è il posto giusto per liberare la tua passione!
 ---
 
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Unstable_Grid2';
 
-# Sviluppatori che contribuiscono a Italia Open-Source
+# Diventa un membro di Italia Open Source
 
-**Diventa un membro di Italia Open-Source**. Hai sempre sognato di far parte di una comunità tecnologica open, libera e trasparente? **Italia Open-Source è il posto giusto**!
+Hai sempre sognato di far parte di una community tech open, libera e trasparente? **Italia Open-Source è il posto giusto**!
 
-Nel mondo dello sviluppo open-source, c'è finalmente una **nuova opportunità per te** e per tutti gli sviluppatori italiani là fuori di lasciare un segno reale nella scena tecnologica italiana. Contribuendo attivamente a **Italia Open-Source**, non solo otterrai visibilità, ma giocherai anche un ruolo cruciale nella creazione di una comunità  **dove condividere le proprie idee, collaborare a progetti e diffondere la conoscenza non è solo incoraggiato, ma anzi è l'obiettivo principale**.
+Nel mondo dello sviluppo open-source, c'è finalmente una **nuova opportunità per te** e per tutti gli sviluppatori italiani là fuori desiderosi di lasciare un segno nella scena tech italiana. Contribuendo attivamente a **Italia Open-Source**, non solo otterrai visibilità come professionista, ma giocherai anche un ruolo cruciale nella creazione di una community dove **condividere le proprie idee, collaborare a progetti e diffondere la conoscenza** non è solo incoraggiato, ma è l'obiettivo principale.
 
-Se volete lanciare il vostro progetto, dargli una spinta o semplicemente sentirvi parte di una comunità aperta e libera, questo è il posto giusto per **liberare la vostra passione**!
+Se vuoi lanciare il tuo progetto, dargli una boost o semplicemente sentirti parte di una community aperta e libera, questo è il posto giusto per liberare la tua passione!
 
-## Usufruisci di vantaggi straordinari
+## Accedi a straordinarie opportunità
 
-- Scoprire nuove comunità e aziende
-- Ottenere visibilità
-- Contribuire a creare un ambiente di supporto
-- Creare nuove connessioni
-- Espandere la propria rete
+- Scopri le migliori community e aziende open source in Italia
+- Contribuisci al codice e ottieni visibilità come professionista
+- Espandi il tuo network di conoscenze e crea nuove connessioni
+- Scova nuove opportunità lavorative tramite i canali della community
 
-## Esplora le tipologie di Contribuzione
+## Scopri come contribuire
 
-- Aggiungi il tuo progetto Add (leggi la sezione "Come contribuire")
-- [Aggiungi Startup](/contributors/startups)
-- [Aggiungi Community](/contributors/communities)
+Puoi collaborare alla crescita di Italia Open-Source arricchendo le nostre awesome-lists:
+
+- [Aggiungi una Startup](/contributors/startups)
+- [Aggiungi una Community](/contributors/communities)
 - [Aggiungi una destinazione per Nomadi Digitali](/contributors/digital-nomads)
-- [Diventa un Community Partner](/partners/how-to-became-partners)
+- [Diventa Community Partner](/partners/how-to-became-partners)
 
-## Come contribuire
+## Come Contribuire
 
-Creauna Pull-requeste in [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) e attendi che venga revisionata e approvata.
+Crea una Pull-request in [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) e attendi che venga revisionata e approvata.
 
-Per favore leggi il [CONTRIBUTING.md](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CONTRIBUTING.md) che contiene tutte le regole per aprire una nuova pull-request.
-
-## Unisciti alla nostra Community
+Per favore leggi il [CONTRIBUTING.md](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CONTRIBUTING.md) che contiene tutte le regole per aprire una nuova pull-request.
 
 <Grid container marginBottom={2}>
     <Grid xs={12} sm={4} >

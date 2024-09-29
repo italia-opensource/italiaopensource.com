@@ -101,7 +101,7 @@ const config = {
             items: [
               {
                 to: '/opensources',
-                label: '💻 Open-Source',
+                label: '💻 Projects',
               },
               {
                 to: '/communities',
@@ -136,7 +136,7 @@ const config = {
             items: [
               {
                 to: '/contributors/developers',
-                label: '💻 Developers',
+                label: '💻 Projects',
               },
               {
                 to: '/contributors/communities',
