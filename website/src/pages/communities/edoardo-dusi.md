@@ -5,9 +5,13 @@ tags: coding, news, tech, cloud, open source
 ---
         
 
-# Edoardo Dusi
+import VerifiedIcon from '@mui/icons-material/Verified'
+import Alert from '@mui/material/Alert';
 
-![GitHub Repo](https://img.shields.io/static/v1?label=category&message=communities&color=green)
+# Edoardo Dusi <VerifiedIcon color="primary"/>
+
+
+![Community Partner](https://img.shields.io/static/v1?label=community&message=partner&color=blue) ![GitHub Repo](https://img.shields.io/static/v1?label=category&message=communities&color=green)
 
 ### Description
 
