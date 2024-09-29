@@ -10,6 +10,7 @@ interface Props {
 }
 
 export default function OurPartners(props: Props): JSX.Element {
+
     return (
       <Grid container>
         <Grid xs={12} sm={4} padding={3}>
@@ -67,6 +68,11 @@ export default function OurPartners(props: Props): JSX.Element {
             <Link href="/communities/vita-nello-zaino">
               <img src="/img/community-partners/vitanellozaino.webp" alt="Vita nello Zaino"/>
               <h3 align="center">Vita nello Zaino</h3>
+            </Link>
+        </Grid>
+        <Grid xs={12} sm={4} padding={3}>
+            <Link href="/communities/italian-linux-society">
+              <img src="/img/community-partners/italian-linux-society.png" alt="Italian Linux Society"/>
             </Link>
         </Grid>
         <Grid xs={12} sm={4} padding={3}>
