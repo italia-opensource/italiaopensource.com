@@ -21,7 +21,20 @@ def normalizeFilename(name):
         .lower()
     ).replace("---", "-")
 
+def create_project_page(data):
+    doc = Document()
+    content = """
+import ProjectsPage from '@site/src/components/Pages';
 
+<ProjectsPage
+    data={""" + str(data) + """}
+/>
+"""
+    content = content.replace("True", "true").replace("False", "false").replace("None", "null")
+    doc.add_block(content)
+
+    return doc
+    
 def create_page(data, endpoint):
     def _seo(name: str, tags: list, description: str):
         seo_header = f"""---
@@ -202,13 +215,13 @@ def main():
             doc = create_page(item, endpoint)
 
             if endpoint == "startups":
-                add_startups_content(doc, item)
+                create_project_page(doc, item)
 
             if endpoint == "communities":
                 add_communities_content(doc, item)
 
             if endpoint == "opensource":
-                add_opensources_content(doc, item)
+                doc = create_project_page(item)
 
             if endpoint == "digital-nomads":
                 add_digital_nomads_content(doc, item)
