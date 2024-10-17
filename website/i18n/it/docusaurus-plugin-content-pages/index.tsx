@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import CssBaseline from '@mui/material/CssBaseline';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid2';
 import HomepageItems from '@site/src//components/HomepageItems';
 import SocialItems from '@site/src/components/SocialItems';
 
@@ -58,8 +58,8 @@ export default function App(): JSX.Element {
         
       <HomepageItems awseomeLists={awseomeLists}/>
 
-      <Grid container xs={12} marginTop={5}>
-        <Grid xs={12} sm={6} padding={2}>
+      <Grid container size={{ xs: 12 }} marginTop={5}>
+        <Grid size={{ xs: 12, sm: 6 }} padding={2}>
           <Typography variant="h5" component="h2"  textAlign={'center'}>
             I nostri Valori
           </Typography>
@@ -68,7 +68,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} padding={2}>
+        <Grid size={{ xs: 12, sm: 6 }} padding={2}>
           <Typography variant="h5" component="h2"  textAlign={'center'}>
           La nostra Missione
           </Typography>

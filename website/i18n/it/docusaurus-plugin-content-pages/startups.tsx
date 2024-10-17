@@ -6,7 +6,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import StartupsTableData from '@site/src/components/TableFeatures/startups';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid2';
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
@@ -50,7 +50,7 @@ export default function App(): JSX.Element {
       </Container>
 
       <Grid container padding={1} marginTop={2}>
-      <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+      <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             <ArrowCircleRightIcon className='primary'/> Scopri le migliori startup tech italiane
           </Typography>
@@ -59,7 +59,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             <ArrowCircleRightIcon className='primary'/> I vantaggi dell’open-source per le startup
           </Typography>
@@ -70,7 +70,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             <ArrowCircleRightIcon className='primary'/> Come faccio ad aggiungere un’azienda alla lista?
           </Typography>

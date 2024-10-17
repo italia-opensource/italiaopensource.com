@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import OpensourceTableData from '@site/src/components/TableFeatures/opensources';
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid2';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 import RawData from '@site/src//components/RawData';
@@ -45,7 +45,7 @@ export default function App(): JSX.Element {
       <RawData/>
 
       <Grid container padding={1} marginTop={2}>
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
             <Typography variant="h5" component="h2" >
               <ArrowCircleRightIcon className='primary'/> Che cos’è un progetto open-source?
           </Typography>
@@ -54,7 +54,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             <ArrowCircleRightIcon className='primary'/> Come si collabora a un progetto open-source?
           </Typography>
@@ -63,7 +63,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             <ArrowCircleRightIcon className='primary'/> Come faccio ad aggiungere un progetto open-source alla lista?
           </Typography>

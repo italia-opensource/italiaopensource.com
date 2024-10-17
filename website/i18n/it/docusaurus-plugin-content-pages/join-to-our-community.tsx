@@ -41,7 +41,7 @@ export default function App(): JSX.Element {
          Team
         </Typography>
         <hr></hr>
-
+        
         <ItemList items={userCards} />
 
         <Typography variant="h4" component="h2" gutterBottom align='center' marginTop={5}>

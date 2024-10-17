@@ -2,7 +2,7 @@
 // For more help visit https://formspr.ee/react-help
 import React from 'react';
 import Link from '@docusaurus/Link';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid2';
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -19,8 +19,8 @@ export function DonateButton() {
 
 export default function SocialItems() {
     return (
-        <Grid container spacing={3} marginTop={4} xs={12}>
-        <Grid xs={6} sm={3} padding={2} textAlign={'center'}>
+        <Grid container spacing={3} marginTop={4} size={{ xs: 12 }}>
+        <Grid size={{ xs: 12, sm: 3 }} padding={2} textAlign={'center'}>
           <Link href="https://mailchi.mp/8933ba69ba9c/beta-version" className='primary-dark' target="_blank">
             <Diversity1Icon style={{ width: '70px', height: '70px', objectFit: 'cover' }} />
             <p>
@@ -28,7 +28,7 @@ export default function SocialItems() {
             </p>
           </Link>
         </Grid>
-        <Grid xs={6} sm={3} padding={2} textAlign={'center'}>
+        <Grid size={{ xs: 12, sm: 3 }} padding={2} textAlign={'center'}>
           <Link href="https://www.linkedin.com/company/italia-open-source" className='primary-dark' target="_blank">
             <LinkedInIcon style={{ width: '70px', height: '70px', objectFit: 'cover' }} />
             <p>
@@ -36,7 +36,7 @@ export default function SocialItems() {
             </p>
           </Link>
           </Grid>
-        <Grid xs={6} sm={3} padding={2} textAlign={'center'}>
+        <Grid size={{ xs: 12, sm: 3 }} padding={2} textAlign={'center'}>
           <Link href="https://t.me/+WsJ91uPMVbUzZjk0" className='primary-dark' target="_blank">
             <TelegramIcon style={{ width: '70px', height: '70px', objectFit: 'cover' }} />
             <p>
@@ -44,7 +44,7 @@ export default function SocialItems() {
             </p>
           </Link>
         </Grid>
-        <Grid xs={6} sm={3} padding={2} textAlign={'center'}>
+        <Grid size={{ xs: 12, sm: 3 }} padding={2} textAlign={'center'}>
           <Link href="https://github.com/italia-opensource" className='primary-dark' target="_blank">
             <GitHubIcon style={{ width: '70px', height: '70px', objectFit: 'cover' }} />
             <p>
@@ -52,7 +52,7 @@ export default function SocialItems() {
             </p>
           </Link>
         </Grid>
-        <Grid xs={12} sm={4} smOffset={4} marginTop={3}>
+        <Grid size={{ xs: 12, sm: 4 }} offset={{ sm: 4 }} marginTop={3}>
           <DonateButton />
         </Grid>
       </Grid>

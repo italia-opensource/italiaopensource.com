@@ -5,7 +5,7 @@ description: Whether you want to launch your project, give it a boost or just fe
 
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid2';
 
 # Become Italia Open-Source’s Member
 
@@ -38,7 +38,7 @@ Create Pull-Request on GitHub [awesome-italia-opensource](https://github.com/ita
 Please read the [contributing](https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CONTRIBUTING.md) rules before opening a new pull-request.
 
 <Grid container marginBottom={2}>
-    <Grid xs={12} sm={4} >
+    <Grid size={{ xs: 12, sm: 4 }} >
         <Link href="/join-to-our-community">
             <Button variant="contained" fullWidth={true}>
             <span>Join our Community</span>

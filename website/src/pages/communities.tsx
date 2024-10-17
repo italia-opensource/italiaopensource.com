@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import CommunitiesTableData from '@site/src/components/TableFeatures/communities';
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid2';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
 import RawData from '../components/RawData';
@@ -47,7 +47,7 @@ export default function App(): JSX.Element {
       <Grid container padding={1} marginTop={2}>
         
 
-      <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+      <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             <ArrowCircleRightIcon className='primary'/> Discover and join the best Italian tech communities
           </Typography>
@@ -58,7 +58,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             <ArrowCircleRightIcon className='primary'/> Italia Open-Source Community
           </Typography>
@@ -67,7 +67,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             <ArrowCircleRightIcon className='primary'/> Participate in tech events in Italy online and in-person
           </Typography>
@@ -77,7 +77,7 @@ export default function App(): JSX.Element {
         </Grid>
 
         
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
             <ArrowCircleRightIcon className='primary'/> How do I add a community to the list?
           </Typography>

@@ -24,9 +24,9 @@ def normalizeFilename(name):
 def create_project_page(data):
     doc = Document()
     content = """
-import ProjectsPage from '@site/src/components/Pages';
+import ProjectPage from '@site/src/components/Pages/project';
 
-<ProjectsPage
+<ProjectPage
     data={""" + str(data) + """}
 />
 """

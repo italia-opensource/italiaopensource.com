@@ -6,7 +6,7 @@ import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import FiberNewIcon from '@mui/icons-material/FiberNew';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid2';
 import Typography from '@mui/material/Typography';
 import Link from '@docusaurus/Link';
 
@@ -18,7 +18,7 @@ export default function HomepageItems(props: Props): JSX.Element {
     return (
         <Grid container spacing={5} paddingTop={{ xs: 6, sm: 3 }}>
         {props.awseomeLists.map((list) => (
-          <Grid key={list.name} size={{ xs: 12, sm: 6 }} xs={12} sm={6}>
+          <Grid key={list.name} size={{ xs: 12, sm: 6 }} size={{ xs: 12, sm: 6 }}>
             <Link href={list.link}>
               <Paper
                 variant="outlined"

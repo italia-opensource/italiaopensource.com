@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 // import StartupsTableData from '@site/src/components/TableFeatures/startups';
 // import RawData from '../components/RawData';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid2';
 import Link from '@docusaurus/Link';
 import Button from '@mui/material/Button';
 import FiberNewIcon from '@mui/icons-material/FiberNew';
@@ -50,7 +50,7 @@ export default function App(): JSX.Element {
       </Container>
       
       <Grid container padding={1} marginTop={2}>
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           <ArrowCircleRightIcon className='primary'/> Discover the best Italian tech startups
           </Typography>
@@ -59,7 +59,7 @@ export default function App(): JSX.Element {
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           <ArrowCircleRightIcon className='primary'/> The advantages of open-source for startups
           </Typography>
@@ -69,7 +69,7 @@ Another advantage is transparency: open-source provides complete visibility into
           </Typography>
         </Grid>
 
-        <Grid xs={12} sm={6} smOffset={3} padding={2} textAlign={'left'}>
+        <Grid size={{ xs: 12, sm: 6 }} offset={{ sm:3 }} padding={2} textAlign={'left'}>
           <Typography variant="h5" component="h2" >
           <ArrowCircleRightIcon className='primary'/> How do I add a company to the list?
           </Typography>
