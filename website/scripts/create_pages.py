@@ -49,7 +49,6 @@ import CommunityPage from '@site/src/components/Pages/community';
 
     return doc
 
-
 def create_digital_nomad_page(data):
     doc = Document()
     content = """
