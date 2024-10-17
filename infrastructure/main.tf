@@ -54,7 +54,7 @@ locals {
 }
 
 data "aws_route53_zone" "italiaopensource" {
-  name         = var.domain_name
+  name         = var.aws_route53_domain_name
   private_zone = false
 }
 
@@ -98,7 +98,7 @@ resource "aws_s3_bucket_cors_configuration" "website" {
 
 # Disable if use static website mode
 resource "aws_cloudfront_origin_access_control" "this" {
-  name                              = "italiaopensource-website"
+  name                              = "italiaopensource-website-${var.environment}"
   origin_access_control_origin_type = "s3"
   signing_behavior                  = "always"
   signing_protocol                  = "sigv4"
@@ -107,6 +107,7 @@ resource "aws_cloudfront_origin_access_control" "this" {
 module "cloudfront" {
   source = "./modules/cloudfront"
 
+  environment                = var.environment
   domain_name                = var.domain_name
   sub_domains_name           = var.sub_domains_name
   price_class                = "PriceClass_100"
@@ -116,6 +117,7 @@ module "cloudfront" {
   custom_error_responses     = local.custom_error_responses
   enable_rewrite_edge_lambda = true # Disable if use static website mode
   origin_access_control      = aws_cloudfront_origin_access_control.this.id
+  acm_certificate_arn        = var.aws_acm_certificate_arn
 
   tags = local.default_tags
 }

@@ -24,7 +24,7 @@ resource "aws_iam_role" "rewrite_index" {
 
 resource "aws_lambda_function" "rewrite_index" {
   filename         = "${path.module}/function/rewrite_index.zip"
-  function_name    = "rewrite_index"
+  function_name    = var.function_name
   role             = aws_iam_role.rewrite_index.arn
   handler          = "app.handler"
   runtime          = "python3.9"
@@ -35,6 +35,6 @@ resource "aws_lambda_function" "rewrite_index" {
 }
 
 resource "aws_cloudwatch_log_group" "rewrite_index" {
-  name              = "/aws/lambda/rewrite_index"
+  name              = "/aws/lambda/${var.function_name}"
   retention_in_days = 14
 }

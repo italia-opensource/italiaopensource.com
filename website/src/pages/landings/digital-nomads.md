@@ -1,5 +1,5 @@
 ---
-title: Digital Nomads Landing | Italia Open-Source
+title: Digital Nomads Landing
 description: Digital Nomads Landing landing page in italiaopensource.com.
 tags: digital nomads, remote working, open-source, opensource
 ---
@@ -175,7 +175,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ***
 
-### [Ho Chi Ming / Saigon](/digital-nomads/ho-chi-ming-/-saigon)
+### [Ho Chi Ming / Saigon](/digital-nomads/ho-chi-ming-saigon)
 
 **State**: Vietnam
 

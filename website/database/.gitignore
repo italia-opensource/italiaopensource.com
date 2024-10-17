@@ -1,7 +1,7 @@
 *
 !.gitignore
 !communities.json
-!companies.json
+!startups.json
 !digital-nomads.json
 !languages.json
 !opensource.json
