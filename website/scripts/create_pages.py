@@ -34,7 +34,21 @@ import ProjectPage from '@site/src/components/Pages/project';
     doc.add_block(content)
 
     return doc
-    
+
+def create_community_page(data):
+    doc = Document()
+    content = """
+import CommunityPage from '@site/src/components/Pages/community';
+
+<CommunityPage
+    data={""" + str(data) + """}
+/>
+"""
+    content = content.replace("True", "true").replace("False", "false").replace("None", "null")
+    doc.add_block(content)
+
+    return doc
+
 def create_page(data, endpoint):
     def _seo(name: str, tags: list, description: str):
         seo_header = f"""---
@@ -218,7 +232,7 @@ def main():
                 create_project_page(doc, item)
 
             if endpoint == "communities":
-                add_communities_content(doc, item)
+                doc = create_community_page(item)
 
             if endpoint == "opensource":
                 doc = create_project_page(item)
