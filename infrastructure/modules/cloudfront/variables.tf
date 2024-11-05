@@ -1,3 +1,8 @@
+variable "environment" {
+  description = "The environment to deploy the infrastructure"
+  type        = string
+}
+
 variable "domain_name" {
   description = "The domain name for the website"
   type        = string

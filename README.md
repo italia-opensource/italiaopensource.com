@@ -2,59 +2,61 @@
 
 ### Requirements
 
-|pkg|version|used in |
-|---|---|---|
-|node | v21.7.1| website/ |
-|yarn | 1.22.22| website/ |
-|python | >= 3.10 | website/ |
-|terraform | >= 1.7 | infrastructure/ |
-|tflint | >= 0.51.0 | infrastructure/ |
+| pkg    | version    | install                                                                      |
+| ------ | ---------- | ---------------------------------------------------------------------------- |
+| devbox | `>=0.12.0` | [docs](https://www.jetify.com/devbox/docs/installing_devbox/#install-devbox) |
 
 ### Devmode
 
 **Develop website in local:**
 
 ```bash
-make setup-project setup-website
+devbox shell
 
-source .activate
-
-make start
+devbox run website start
 ```
 
-**Develop infrastructure in local:**
+If you want start website with italian lang run: `devbox run website start --locale=it`.
 
-With doppler access:
+If you want start website with multi-lang run: `devbox run website build && devbox run website serve`
+
+**[Doppler] Develop infrastructure in local:**
 
 ```bash
+devbox shell
+
 doppler login
 
-make doppler
+# WARN: Before run `infra` cmd export your AWS Credentials or AWS Profile into .env
 
-echo 'export AWS_ACCESS_KEY_ID=...' >> .aws.env
-echo 'export AWS_SECRET_ACCESS_KEY=...' >> .aws.env
+devbox run switch-env <staging|production>
 
-source .env
+. ${DEVBOX_PROJECT_ROOT}/.activate
 
-make setup-infrastructure
+devbox run infra setup
 
-make plan
+devbox run infra plan
+
+devbox run deploy
 ```
 
-Or set your env vars without doppler:
+To switch env run: `devbox run switch-env <staging|production> true`
+
+**[Without Doppler] Develop infrastructure in local:**
 
 ```bash
-echo 'export WORKSPACE=...' > .env
+echo 'export WORKSPACE=staging|production' >> .env
 echo 'export AWS_ACCOUNT_ID=...' >> .env
 echo 'export AWS_DEFAULT_REGION=...' >> .env
-echo 'export AWS_TERRAFORM_STATE_BUCKET=...' >> .env # (optional) If not set, use local backend by default
+echo 'export AWS_TERRAFORM_STATE_BUCKET=...' >> .env # (optional) If not set by default use local backend
 
-echo 'export AWS_ACCESS_KEY_ID=...' >> .env
-echo 'export AWS_SECRET_ACCESS_KEY=...' >> .env
+# WARN: Before run `infra` cmd export your AWS Credentials or AWS Profile into .env
 
-source .env
+devbox shell
 
-make setup-infrastructure
+devbox run infra setup
 
-make plan
+devbox run infra plan
+
+devbox run deploy
 ```

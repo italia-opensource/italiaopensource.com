@@ -1,3 +1,2 @@
--r website/requirements.txt
 checkov==3.2.*
 pre-commit==3.*

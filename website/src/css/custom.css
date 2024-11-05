@@ -6,14 +6,17 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #4CAF50;
+  --ifm-color-primary-dark: #1976d2;
+  --ifm-color-primary-darker: #1976d2;
+  --ifm-color-primary-darkest: #22577A;
+  --ifm-color-primary-light: #57CC99;
+  --ifm-color-primary-lighter: #80ED99;
+  --ifm-color-primary-lightest: #C7F9CC;
   --ifm-code-font-size: 95%;
+  --ifm-link-color: #1976d2;
+  --ifm-link-hover-color: #4CAF50;
+  --ifm-link-hover-decoration: none;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   --text-color: #242526 !important;
@@ -26,30 +29,6 @@
   --radius-50: 50px;
   --padding-15: 15px;
 }
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-
-  --ifm-footer-color: #fff !important;
-  --text-color: #fff !important;
-  --start-color: #fff;
-  --end-color: #fff;
-  --p-color: #929DA6;
-  --button-background: #0575E6;
-  --wrapper-background: #242526;
-  --input-background: #e4eff8;
-  --radius-50: 50px;
-  --padding-15: 15px;
-}
-
 
 .main {
   padding: 0.8em;
@@ -126,6 +105,11 @@ h6 {
   color: #fff;
 }
 
+.MuiButton-outlined{
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
 .Mui-checked {
   color: var(--ifm-color-primary) !important;
 }
@@ -150,3 +134,51 @@ h6 {
 
 img[alt=sponsor] { width: 250px; }
 img[alt=community] { width: 200px; }
+
+.primary {
+  color: var(--ifm-color-primary) !important;
+}
+
+.primary-dark {
+  color: var(--ifm-color-primary-dark) !important;
+}
+
+.primary-darker {
+  color: var(--ifm-color-primary-darker) !important;
+}
+
+.primary-darkest {
+  color: var(--ifm-color-primary-darkest) !important;
+}
+
+.primary-light {
+  color: var(--ifm-color-primary-light) !important;
+}
+
+.primary-lighter {
+  color: var(--ifm-color-primary-lighter) !important;
+}
+
+.primary-lightest {
+  color: var(--ifm-color-primary-lightest) !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.MuiLink-root {
+  color: var(--ifm-link-color) !important;
+}
+
+.MuiLink-root:hover {
+  color: var(--ifm-link-hover-color) !important;
+}
+
+.homepage-item:hover {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(76,175,80,0.2) 90%);
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%,rgba(76,175,80,0.2) 90%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%,rgba(76,175,80,0.2) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#4caf50",GradientType=1);
+}

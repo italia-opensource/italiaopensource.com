@@ -32,4 +32,16 @@ variable "domain_name" {
 variable "sub_domains_name" {
   description = "The subdomains for the website"
   type        = list(string)
+  default     = []
+}
+
+variable "aws_route53_domain_name" {
+  description = "The domain name for the Route53"
+  type        = string
+}
+
+variable "aws_acm_certificate_arn" {
+  description = "The ACM certificate ARN"
+  type        = string
+  default     = ""
 }
