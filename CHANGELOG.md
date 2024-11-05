@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.5.0...v1.6.0) (2024-11-05)
+
+
+### Features
+
+* **website:** restyling ([#33](https://github.com/italia-opensource/italiaopensource.com/issues/33)) ([14985bc](https://github.com/italia-opensource/italiaopensource.com/commit/14985bcdab65a0bce39d4be140387ea78c946e8e))
+
 ## [1.5.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.4.0...v1.5.0) (2024-08-25)
 
 
