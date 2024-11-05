@@ -2,9 +2,9 @@
 
 ### Requirements
 
-|pkg|version|install|
-|---|---|---|
-|devbox|`>=0.12.0`|[docs](https://www.jetify.com/devbox/docs/installing_devbox/#install-devbox)|
+| pkg    | version    | install                                                                      |
+| ------ | ---------- | ---------------------------------------------------------------------------- |
+| devbox | `>=0.12.0` | [docs](https://www.jetify.com/devbox/docs/installing_devbox/#install-devbox) |
 
 ### Devmode
 
@@ -40,7 +40,7 @@ devbox run infra plan
 devbox run deploy
 ```
 
-To switch env run: `devbox run switch-env <staging|production>`
+To switch env run: `devbox run switch-env <staging|production> true`
 
 **[Without Doppler] Develop infrastructure in local:**
 
