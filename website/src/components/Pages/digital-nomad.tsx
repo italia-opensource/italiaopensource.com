@@ -48,7 +48,11 @@ export default function DigitalNomadPageProps(props: DigitalNomadPageProps) {
                     {props.data.description}
                 </Typography>
 
-                <Chip label={props.data.state_name} icon={<PublicIcon />} />
+                <Chip
+                    label={props.data.state_name}
+                    style={{ background: '#1976d2', color: '#FFFFFF' }}
+                    icon={<PublicIcon style={{ color: '#FFFFFF' }} />}
+                />
 
                 <Typography
                     component="h3"

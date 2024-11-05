@@ -52,7 +52,11 @@ export default function CommunityPage(props: CommunityPageProps) {
                     target="_blank"
                     paddingRight={1}
                 >
-                    <Chip label="Website" icon={<LinkIcon />} />
+                    <Chip
+                        label="Website"
+                        style={{ background: '#1976d2', color: '#FFFFFF' }}
+                        icon={<LinkIcon style={{ color: '#FFFFFF' }} />}
+                    />
                 </Link>
 
                 <Typography
@@ -72,18 +76,19 @@ export default function CommunityPage(props: CommunityPageProps) {
 
                     <Grid size={{ xs: 12 }}>
                         <Button className="primary">
-                            Main platform <ChevronRightIcon /> {props.data.platform}
+                            Main platform <ChevronRightIcon />{' '}
+                            {props.data.platform}
                         </Button>
                     </Grid>
 
                     <Typography
-                    component="h3"
-                    variant="h5"
-                    marginTop={3}
-                    marginBottom={1}
-                >
-                    Type of events
-                </Typography>
+                        component="h3"
+                        variant="h5"
+                        marginTop={3}
+                        marginBottom={1}
+                    >
+                        Type of events
+                    </Typography>
                     {props.data.events_type.map((key) => (
                         <Grid size={{ xs: 12 }}>
                             <Button className="primary">

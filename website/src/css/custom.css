@@ -7,13 +7,16 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #4CAF50;
-  --ifm-color-primary-dark: #22577A;
-  --ifm-color-primary-darker: #22577A;
+  --ifm-color-primary-dark: #1976d2;
+  --ifm-color-primary-darker: #1976d2;
   --ifm-color-primary-darkest: #22577A;
   --ifm-color-primary-light: #57CC99;
   --ifm-color-primary-lighter: #80ED99;
   --ifm-color-primary-lightest: #C7F9CC;
   --ifm-code-font-size: 95%;
+  --ifm-link-color: #1976d2;
+  --ifm-link-hover-color: #4CAF50;
+  --ifm-link-hover-decoration: none;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   --text-color: #242526 !important;
@@ -133,34 +136,43 @@ img[alt=sponsor] { width: 250px; }
 img[alt=community] { width: 200px; }
 
 .primary {
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
 }
 
 .primary-dark {
-  color: var(--ifm-color-primary-dark);
+  color: var(--ifm-color-primary-dark) !important;
 }
 
 .primary-darker {
-  color: var(--ifm-color-primary-darker);
+  color: var(--ifm-color-primary-darker) !important;
 }
 
 .primary-darkest {
-  color: var(--ifm-color-primary-darkest);
+  color: var(--ifm-color-primary-darkest) !important;
 }
 
 .primary-light {
-  color: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary-light) !important;
 }
 
 .primary-lighter {
-  color: var(--ifm-color-primary-lighter);
+  color: var(--ifm-color-primary-lighter) !important;
 }
 
 .primary-lightest {
-  color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-lightest) !important;
 }
+
 a {
   text-decoration: none !important;
+}
+
+.MuiLink-root {
+  color: var(--ifm-link-color) !important;
+}
+
+.MuiLink-root:hover {
+  color: var(--ifm-link-hover-color) !important;
 }
 
 .homepage-item:hover {

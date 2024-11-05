@@ -1,11 +1,7 @@
 import React from 'react';
 import Grid from '@mui/material/Grid2';
-import { Link, Typography } from '@mui/material';
-import Chip from '@mui/material/Chip';
+import { Typography } from '@mui/material';
 import Button from '@mui/material/Button';
-import LinkIcon from '@mui/icons-material/Link';
-import Breadcrumbs from '@mui/material/Breadcrumbs';
-
 
 export function titleCase(str: string) {
     return str
@@ -40,7 +36,7 @@ export function getTags(tags: Array<string>) {
             </Typography>
             <Grid aria-label="Tags group">
                 {tags.map((tag) => (
-                    <Button className="secondary">{tag}</Button>
+                    <Button className="primary-dark">{tag}</Button>
                 ))}
             </Grid>
         </Grid>

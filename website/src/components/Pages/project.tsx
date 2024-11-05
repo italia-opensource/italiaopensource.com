@@ -11,6 +11,7 @@ import BugReportIcon from '@mui/icons-material/BugReport';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Alert from '@mui/material/Alert';
 import CodeIcon from '@mui/icons-material/Code';
+import CssBaseline from '@mui/material/CssBaseline';
 
 import Box from '@mui/material/Box';
 import Stepper from '@mui/material/Stepper';
@@ -18,8 +19,8 @@ import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 import StepContent from '@mui/material/StepContent';
 import Paper from '@mui/material/Paper';
-
-import {getTags, formatDate, titleCase} from '@site/src/components/Pages';
+import QueryStatsIcon from '@mui/icons-material/QueryStats';
+import { getTags, formatDate, titleCase } from '@site/src/components/Pages';
 
 interface ProjectsPageProps {
     data: {
@@ -125,7 +126,7 @@ function getRepositoryGitHub(data: any) {
                 <Stepper activeStep={activeStep} orientation="vertical">
                     {analytics[0].values.map((item: any, index) => (
                         <Step key={index}>
-                            <StepLabel>
+                            <StepLabel StepIconComponent={QueryStatsIcon}>
                                 <Typography>
                                     {item.month < 10
                                         ? '0' + item.month
@@ -147,9 +148,9 @@ function getRepositoryGitHub(data: any) {
                                 </Paper>
                                 <Box sx={{ mb: 2 }}>
                                     <Button
-                                        variant="contained"
                                         onClick={handleNext}
                                         sx={{ mt: 1, mr: 1 }}
+                                        className="primary"
                                     >
                                         Next
                                     </Button>
@@ -157,6 +158,7 @@ function getRepositoryGitHub(data: any) {
                                         disabled={index === 0}
                                         onClick={handleBack}
                                         sx={{ mt: 1, mr: 1 }}
+                                        className="primary-dark"
                                     >
                                         Back
                                     </Button>
@@ -167,7 +169,11 @@ function getRepositoryGitHub(data: any) {
                 </Stepper>
                 {activeStep === analytics[0].values.length && (
                     <Paper square elevation={0} sx={{ p: 3 }}>
-                        <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
+                        <Button
+                            onClick={handleReset}
+                            sx={{ mt: 1, mr: 1 }}
+                            className="primary-dark"
+                        >
                             Reset
                         </Button>
                     </Paper>
@@ -200,6 +206,8 @@ function getRepositoryHTML(data: any) {
 export default function ProjectPage(props: ProjectsPageProps) {
     return (
         <Grid container>
+            <CssBaseline />
+
             <Breadcrumbs aria-label="breadcrumb">
                 <Link underline="hover" color="inherit" href="/">
                     Home
@@ -207,9 +215,7 @@ export default function ProjectPage(props: ProjectsPageProps) {
                 <Link color="inherit" href="/opensources">
                     Projects
                 </Link>
-                <Typography>
-                    {props.data.name}
-                </Typography>
+                <Typography>{props.data.name}</Typography>
             </Breadcrumbs>
 
             <Grid size={{ xs: 12 }}>
@@ -234,7 +240,8 @@ export default function ProjectPage(props: ProjectsPageProps) {
                 >
                     <Chip
                         label={titleCase(props.data.repository_platform)}
-                        icon={<LinkIcon />}
+                        style={{ background: '#1976d2', color: '#FFFFFF' }}
+                        icon={<LinkIcon style={{ color: '#FFFFFF' }} />}
                     />
                 </Link>
                 {props.data.site_url ? (
@@ -243,7 +250,11 @@ export default function ProjectPage(props: ProjectsPageProps) {
                         className="primary"
                         target="_blank"
                     >
-                        <Chip label="Website" icon={<LinkIcon />} />
+                        <Chip
+                            label="Website"
+                            style={{ background: '#1976d2', color: '#FFFFFF' }}
+                            icon={<LinkIcon style={{ color: '#FFFFFF' }} />}
+                        />
                     </Link>
                 ) : null}
 
