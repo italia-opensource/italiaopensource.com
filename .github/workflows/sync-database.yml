@@ -60,7 +60,6 @@ jobs:
         run: |
           yarn download ${{ steps.env.outputs.hash_commit_awesome_italia_opensource}}
 
-          git checkout HEAD -- infrastructure/.terraform.lock.hcl # Ignore changes to the lock file
           status=$(git status -s)
           echo "## Status"
           echo "${status}"
