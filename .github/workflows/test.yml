@@ -63,6 +63,7 @@ jobs:
       - name: Code tests
         timeout-minutes: 10
         env:
+          AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
           AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
@@ -83,8 +84,6 @@ jobs:
       - name: Infrastructure Plan
         working-directory: infrastructure
         id: plan
-        env:
-          AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
         run: make plan ARGS="-no-color"
         continue-on-error: true
 
@@ -118,7 +117,7 @@ jobs:
             </details>
 
 
-            *Pusher: @${{ github.actor }}, Action: \`${{ github.event_name }}\`, Workflow: \`[link](${pipeline_url})\`*`;
+            *Pusher: @${{ github.actor }}, Action: \`${{ github.event_name }}\`, Workflow: [link](${pipeline_url})*`;
 
             // 3. If we have a comment, update it, otherwise create a new one
             if (botComment) {
