@@ -40,6 +40,22 @@ jobs:
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
           role-session-name: github-actions
 
+      - name: Set Terraform 1.9
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.9"
+
+      - name: Infrastructure setup
+        working-directory: infrastructure
+        env:
+          AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
+          VENV_DIR: .venv
+        run: |
+          make setup
+
       - name: Terraform Plan
         id: plan
         continue-on-error: true
