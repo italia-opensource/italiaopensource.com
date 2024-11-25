@@ -31,20 +31,24 @@ jobs:
         with:
           ref: ${{ env.COMMIT_SHA }}
 
-      - name: Install devbox
-        uses: jetify-com/devbox-install-action@v0.11.0
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          enable-cache: "true"
+          node-version-file: "website/.nvmrc"
+          cache-dependency-path: website/yarn.lock
+          cache: "yarn"
 
       - name: Build
+        working-directory: website
         timeout-minutes: 5
         run: |
-          devbox run website build
+          yarn build
 
       - name: Deploy
+        working-directory: website
         timeout-minutes: 5
         run: |
-          devbox run deploy
+          yarn deploy
 
       - name: Update comment
         if: ${{ success() && github.event.client_payload.slash_command.args.named.comment_id }}
