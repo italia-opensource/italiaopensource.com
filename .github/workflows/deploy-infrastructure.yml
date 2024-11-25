@@ -33,11 +33,6 @@ jobs:
         with:
           ref: ${{ env.COMMIT_SHA }}
 
-      - name: Install devbox
-        uses: jetify-com/devbox-install-action@v0.11.0
-        with:
-          enable-cache: "true"
-
       - name: Configure aws credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -48,12 +43,13 @@ jobs:
       - name: Terraform Plan
         id: plan
         continue-on-error: true
+        working-directory: infrastructure
         env:
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
           AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
         run: |
-          devbox run infra check-drift
+          make check-drift
           exitcode=$?
           echo $exitcode
           echo "run_apply=${exitcode}" >> "$GITHUB_OUTPUT"
@@ -65,7 +61,7 @@ jobs:
           AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
           AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
         run: |
-          devbox run infra apply-auto-approve
+          make apply-auto-approve
 
       - name: Update comment
         if: ${{ success() && github.event.client_payload.slash_command.args.named.comment_id }}

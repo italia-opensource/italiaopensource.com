@@ -16,11 +16,6 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - name: Install devbox
-        uses: jetify-com/devbox-install-action@v0.11.0
-        with:
-          enable-cache: "true"
-
       - name: Load env
         id: env
         run: |
@@ -47,9 +42,10 @@ jobs:
 
       - name: Build
         id: build
+        working-directory: website
         timeout-minutes: 5
         run: |
-          devbox run website download HASH_COMMIT="${{ steps.env.outputs.hash_commit_awesome_italia_opensource}}"
+          make download HASH_COMMIT="${{ steps.env.outputs.hash_commit_awesome_italia_opensource}}"
 
           git checkout HEAD -- infrastructure/.terraform.lock.hcl # Ignore changes to the lock file
           status=$(git status -s)
