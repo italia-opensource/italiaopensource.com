@@ -83,7 +83,7 @@ jobs:
       - name: Infrastructure Plan
         working-directory: infrastructure
         id: plan
-        run: make plan
+        run: make plan ARGS="-no-color"
         continue-on-error: true
 
       - uses: actions/github-script@v7
