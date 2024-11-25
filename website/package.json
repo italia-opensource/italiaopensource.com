@@ -11,10 +11,10 @@
     "create-pages": "python3 ./scripts/create_pages.py",
     "setup": "chmod +x scripts/*.sh && ./scripts/setup.sh",
     "download": "./scripts/download.sh",
-    "build": "yarn create-landings && yarn create-pages && yarn mdx-checker && docusaurus build",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
-    "start": "docusaurus start",
+    "build": "yarn create-landings && yarn create-pages && yarn mdx-checker && yarn docusaurus build",
+    "clear": "yarn docusaurus clear",
+    "serve": "yarn docusaurus serve",
+    "start": "yarn docusaurus start",
     "deploy": "./scripts/deploy.sh"
   },
   "dependencies": {

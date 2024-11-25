@@ -62,6 +62,8 @@ jobs:
 
       - name: Code tests
         timeout-minutes: 10
+        env:
+          VENV_DIR: .venv
         run: |
           curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
 
@@ -79,7 +81,6 @@ jobs:
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
           AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
-          VENV_DIR: .venv
         run: |
           make setup
 
