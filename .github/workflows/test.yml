@@ -83,6 +83,8 @@ jobs:
       - name: Infrastructure Plan
         working-directory: infrastructure
         id: plan
+        env:
+          AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
         run: make plan ARGS="-no-color"
         continue-on-error: true
 
