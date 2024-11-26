@@ -6,7 +6,6 @@ on:
   repository_dispatch:
     types:
       - deploy-website
-      - deploy-website-command
   workflow_dispatch:
 
 concurrency:
@@ -18,18 +17,8 @@ jobs:
     name: Deploy
     runs-on: ubuntu-22.04
     steps:
-      - name: Load ENV
-        run: |
-          if [ "${{ github.event.client_payload.slash_command.args.named.pr_sha }}" == "" ]; then
-            echo "COMMIT_SHA=${{ github.sha }}" >> $GITHUB_ENV
-          else
-            echo "COMMIT_SHA=${{ github.event.client_payload.slash_command.args.named.pr_sha }}" >> $GITHUB_ENV
-          fi
-
       - name: Check out code
         uses: actions/checkout@v4
-        with:
-          ref: ${{ env.COMMIT_SHA }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -54,22 +43,7 @@ jobs:
       - name: Deploy
         working-directory: website
         timeout-minutes: 5
+        env:
+          BUCKET_NAME: italiaopensource.com-website-${{ secrets.AWS_ACCOUNT_ID }}-${{ secrets.WORKSPACE }}
         run: |
-          yarn deploy
-
-      - name: Update comment
-        if: ${{ success() && github.event.client_payload.slash_command.args.named.comment_id }}
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          token: ${{ secrets.ACTION_WORKFLOWS }}
-          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
-          reactions: hooray
-
-      - name: Failure
-        if: ${{ failure() && github.event.client_payload.slash_command.args.named.comment_id }}
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          token: ${{ secrets.ACTION_WORKFLOWS }}
-          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
-          body: |
-            :warning: Deployment failed. See #[${{ github.run_number }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }}) for more details.
+          yarn deploy ${BUCKET_NAME}
