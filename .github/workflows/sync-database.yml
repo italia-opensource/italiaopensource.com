@@ -16,10 +16,18 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - name: Install devbox
-        uses: jetify-com/devbox-install-action@v0.11.0
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          enable-cache: "true"
+          python-version-file: ".python-version"
+          cache: "pip"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: "website/.nvmrc"
+          cache-dependency-path: website/yarn.lock
+          cache: "yarn"
 
       - name: Load env
         id: env
@@ -47,11 +55,11 @@ jobs:
 
       - name: Build
         id: build
+        working-directory: website
         timeout-minutes: 5
         run: |
-          devbox run website download HASH_COMMIT="${{ steps.env.outputs.hash_commit_awesome_italia_opensource}}"
+          yarn download ${{ steps.env.outputs.hash_commit_awesome_italia_opensource}}
 
-          git checkout HEAD -- infrastructure/.terraform.lock.hcl # Ignore changes to the lock file
           status=$(git status -s)
           echo "## Status"
           echo "${status}"

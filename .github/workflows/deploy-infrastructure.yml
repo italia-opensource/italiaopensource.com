@@ -4,39 +4,26 @@ on:
   repository_dispatch:
     types:
       - deploy-infrastructure
-      - deploy-infrastructure-command
   workflow_dispatch:
 
-# Permissions for terramform-init action
 permissions:
   id-token: write
   contents: read
 
 env:
+  AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
+  AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+  AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+  AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
   WORKSPACE: ${{ secrets.WORKSPACE }}
 
 jobs:
-  deploy-infrastructure:
-    name: Deploy
+  plan-infrastructure:
+    name: Plan
     runs-on: ubuntu-22.04
     steps:
-      - name: Load ENV
-        run: |
-          if [ "${{ github.event.client_payload.slash_command.args.named.pr_sha }}" == "" ]; then
-            echo "COMMIT_SHA=${{ github.sha }}" >> $GITHUB_ENV
-          else
-            echo "COMMIT_SHA=${{ github.event.client_payload.slash_command.args.named.pr_sha }}" >> $GITHUB_ENV
-          fi
-
       - name: Check out code
         uses: actions/checkout@v4
-        with:
-          ref: ${{ env.COMMIT_SHA }}
-
-      - name: Install devbox
-        uses: jetify-com/devbox-install-action@v0.11.0
-        with:
-          enable-cache: "true"
 
       - name: Configure aws credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -45,41 +32,44 @@ jobs:
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
           role-session-name: github-actions
 
-      - name: Terraform Plan
-        id: plan
-        continue-on-error: true
-        env:
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
-          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
-        run: |
-          devbox run infra check-drift
-          exitcode=$?
-          echo $exitcode
-          echo "run_apply=${exitcode}" >> "$GITHUB_OUTPUT"
-
-      - name: Terraform Apply
-        if: ${{ steps.plan.outputs.run_apply == '2' }}
-        env:
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
-          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
-        run: |
-          devbox run infra apply-auto-approve
-
-      - name: Update comment
-        if: ${{ success() && github.event.client_payload.slash_command.args.named.comment_id }}
-        uses: peter-evans/create-or-update-comment@v4
+      - name: Set Terraform 1.9
+        uses: hashicorp/setup-terraform@v3
         with:
-          token: ${{ secrets.ACTION_WORKFLOWS }}
-          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
-          reactions: hooray
+          terraform_version: "1.9"
 
-      - name: Failure
-        if: ${{ failure() && github.event.client_payload.slash_command.args.named.comment_id }}
-        uses: peter-evans/create-or-update-comment@v4
+      - name: Infrastructure plan
+        working-directory: infrastructure
+        timeout-minutes: 5
+        env:
+          VENV_DIR: .venv
+        run: |
+          make setup
+          make check-drift
+
+  apply-infrastructure:
+    name: Apply
+    runs-on: ubuntu-22.04
+    environment:
+      name: production
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          token: ${{ secrets.ACTION_WORKFLOWS }}
-          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
-          body: |
-            :warning: Deployment failed. See #[${{ github.run_number }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }}) for more details.
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ secrets.AWS_ROLE_NAME }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+          role-session-name: github-actions
+
+      - name: Set Terraform 1.9
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.9"
+
+      - name: Infrastructure apply
+        working-directory: infrastructure
+        timeout-minutes: 10
+        run: |
+          make setup
+          make apply-auto-approve

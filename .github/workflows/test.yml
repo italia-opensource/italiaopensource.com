@@ -9,6 +9,7 @@ on:
 permissions:
   id-token: write
   contents: read
+  pull-requests: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -26,11 +27,6 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - name: Install devbox
-        uses: jetify-com/devbox-install-action@v0.11.0
-        with:
-          enable-cache: "true"
-
       - name: Configure aws credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -38,12 +34,57 @@ jobs:
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
           role-session-name: github-actions
 
-      - name: Tests
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: ".python-version"
+          cache: "pip"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: "website/.nvmrc"
+          cache-dependency-path: website/yarn.lock
+          cache: "yarn"
+
+      - name: Set Terraform 1.9
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.9"
+
+      - name: Website tests
+        timeout-minutes: 10
+        run: |
+          cd website
+          yarn setup
+          yarn mdx-checker
+          yarn build
+
+      - name: Code tests
         timeout-minutes: 10
         env:
+          VENV_DIR: .venv
+        run: |
+          curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+
+          mkdir -pv ${VENV_DIR}
+          python3 -m venv ${VENV_DIR}
+          source .activate
+          pip install -r requirements.txt
+          pre-commit install
+          pre-commit run --all-files
+
+      - name: Infrastructure setup
+        working-directory: infrastructure
+        env:
+          AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
           AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
         run: |
-          devbox run infra setup
-          devbox run tests
+          make setup
+
+      - name: Infrastructure Plan
+        working-directory: infrastructure
+        id: plan
+        run: make plan

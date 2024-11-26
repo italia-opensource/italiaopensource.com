@@ -1,12 +1,13 @@
 name: Deploy Website
 
-permissions: read-all
+permissions:
+  id-token: write
+  contents: read
 
 on:
   repository_dispatch:
     types:
       - deploy-website
-      - deploy-website-command
   workflow_dispatch:
 
 concurrency:
@@ -18,47 +19,40 @@ jobs:
     name: Deploy
     runs-on: ubuntu-22.04
     steps:
-      - name: Load ENV
-        run: |
-          if [ "${{ github.event.client_payload.slash_command.args.named.pr_sha }}" == "" ]; then
-            echo "COMMIT_SHA=${{ github.sha }}" >> $GITHUB_ENV
-          else
-            echo "COMMIT_SHA=${{ github.event.client_payload.slash_command.args.named.pr_sha }}" >> $GITHUB_ENV
-          fi
-
       - name: Check out code
         uses: actions/checkout@v4
-        with:
-          ref: ${{ env.COMMIT_SHA }}
 
-      - name: Install devbox
-        uses: jetify-com/devbox-install-action@v0.11.0
+      - name: Configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          enable-cache: "true"
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ secrets.AWS_ROLE_NAME }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+          role-session-name: github-actions
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: ".python-version"
+          cache: "pip"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: "website/.nvmrc"
+          cache-dependency-path: website/yarn.lock
+          cache: "yarn"
 
       - name: Build
+        working-directory: website
         timeout-minutes: 5
         run: |
-          devbox run website build
+          yarn setup
+          yarn build
 
       - name: Deploy
+        working-directory: website
         timeout-minutes: 5
+        env:
+          BUCKET_NAME: italiaopensource.com-website-${{ secrets.AWS_ACCOUNT_ID }}-${{ secrets.WORKSPACE }}
         run: |
-          devbox run deploy
-
-      - name: Update comment
-        if: ${{ success() && github.event.client_payload.slash_command.args.named.comment_id }}
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          token: ${{ secrets.ACTION_WORKFLOWS }}
-          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
-          reactions: hooray
-
-      - name: Failure
-        if: ${{ failure() && github.event.client_payload.slash_command.args.named.comment_id }}
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          token: ${{ secrets.ACTION_WORKFLOWS }}
-          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
-          body: |
-            :warning: Deployment failed. See #[${{ github.run_number }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }}) for more details.
+          yarn deploy ${BUCKET_NAME}
