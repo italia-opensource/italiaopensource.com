@@ -1,6 +1,8 @@
 name: Deploy Website
 
-permissions: read-all
+permissions:
+  id-token: write
+  contents: read
 
 on:
   repository_dispatch:
@@ -19,6 +21,13 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v4
+
+      - name: Configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ secrets.AWS_ROLE_NAME }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+          role-session-name: github-actions
 
       - name: Setup Python
         uses: actions/setup-python@v5

@@ -6,7 +6,6 @@ on:
       - deploy-infrastructure
   workflow_dispatch:
 
-# Permissions for terramform-init action
 permissions:
   id-token: write
   contents: read
