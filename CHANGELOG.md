@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.6.0...v1.7.0) (2024-11-26)
+
+
+### Features
+
+* **website:** update data ([3b34650](https://github.com/italia-opensource/italiaopensource.com/commit/3b34650fe15909be7b6696c50fec7fe0d0c1d7db))
+
+
+### Bug Fixes
+
+* **ci:** remove devbox ([#41](https://github.com/italia-opensource/italiaopensource.com/issues/41)) ([03a27fe](https://github.com/italia-opensource/italiaopensource.com/commit/03a27fe5251ed2d0a9903ac396501243dc3fde0b))
+
 ## [1.6.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.5.0...v1.6.0) (2024-11-05)
 
 
