@@ -16,7 +16,7 @@ export default function App(): JSX.Element {
             link: '/opensources',
         },
         {
-            name: '👥 Communities',
+            name: '👥 Tech Communities',
             label: 'Groups',
             count: 28,
             link: '/communities',
@@ -51,7 +51,10 @@ export default function App(): JSX.Element {
                         gutterBottom
                         align="center"
                     >
-                        Italia Open-Source 🚀
+                        <img
+                            src="/img/logo/logo-horizontal.svg"
+                            alt="Italia Open-source"
+                        />
                     </Typography>
                     <Typography
                         variant="h5"

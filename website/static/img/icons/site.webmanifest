@@ -1,11 +1,6 @@
 {
   "name": "Italia Open-Source",
   "short_name": "Italia OS",
-  "description": "Knowledge is open to all. Join us to celebrating Italian tech innovations!",
-  "dir": "auto",
-  "lang": "en",
-  "start_url": "/",
-  "scope": "/",
   "icons": [
     {
       "src": "/img/icons/web-app-manifest-192x192.png",
@@ -20,9 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#2e8555",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "orientation": "any",
   "display": "standalone"
 }
-

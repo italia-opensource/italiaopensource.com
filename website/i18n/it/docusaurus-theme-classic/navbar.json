@@ -1,66 +1,66 @@
 {
-  "title": {
-    "message": "Italia Open-Source",
-    "description": "The title in the navbar"
-  },
-  "item.label.🚀 Awesome Lists": {
-    "message": "🚀 Awesome Lists",
-    "description": "Navbar item with label 🚀 Awesome Lists"
-  },
-  "item.label.🔥 How to Contribute": {
-    "message": "🔥 Come Contribuire",
-    "description": "Navbar item with label 🔥 How to Contribute"
-  },
-  "item.label.📊 Reports": {
-    "message": "📊 Reports",
-    "description": "Navbar item with label 📊 Reports"
-  },
-  "item.label.❤️ Join our Community": {
-    "message": "❤️ Unisciti alla Community",
-    "description": "Navbar item with label ❤️ Join our Community"
-  },
-  "item.label.❤️ Donate": {
-    "message": "❤️ Donazioni",
-    "description": "Navbar item with label ❤️ Donate"
-  },
-  "item.label.💻 Projects": {
-    "message": "💻 Projects",
-    "description": "Navbar item with label 💻 Projects"
-  },
-  "item.label.🌍 Digital Nomads": {
-    "message": "🌍 Digital Nomads",
-    "description": "Navbar item with label 🌍 Digital Nomads"
-  },
-  "item.label.👥 Communities": {
-    "message": "👥 Communities",
-    "description": "Navbar item with label 👥 Communities"
-  },
-  "item.label.🏡 Companies": {
-    "message": "🏡 Aziende",
-    "description": "Navbar item with label 🏡 Companies"
-  },
-  "item.label.📍 Coworkings": {
-    "message": "📍 Coworkings",
-    "description": "Navbar item with label 📍 Coworkings"
-  },
-  "item.label.⭐ Partners": {
-    "message": "⭐ Partners",
-    "description": "Navbar item with label ⭐ Partners"
-  },
-  "item.label.💻 Projects": {
-    "message": "💻 Progetti",
-    "description": "Navbar item with label 💻 Projects"
-  },
-  "item.label.💚 Our Partners": {
-    "message": "💚 I nostri Partners",
-    "description": "Navbar item with label 💚 Our Partners"
-  },
-  "item.label.🤝 How to became Partners": {
-    "message": "🤝 Come diventare Partners",
-    "description": "Navbar item with label 🤝 Come diventare Partners"
-  },
-  "item.label.2024": {
-    "message": "2024",
-    "description": "Navbar item with label 2024"
-  }
+    "title": {
+        "message": "Italia Open-Source",
+        "description": "The title in the navbar"
+    },
+    "item.label. Awesome Lists": {
+        "message": " Awesome Lists",
+        "description": "Navbar item with label  Awesome Lists"
+    },
+    "item.label.How to Contribute": {
+        "message": "Come Contribuire",
+        "description": "Navbar item with label How to Contribute"
+    },
+    "item.label.Reports": {
+        "message": "Reports",
+        "description": "Navbar item with label Reports"
+    },
+    "item.label.❤️ Join our Community": {
+        "message": "❤️ Unisciti alla Community",
+        "description": "Navbar item with label ❤️ Join our Community"
+    },
+    "item.label.❤️ Donate": {
+        "message": "❤️ Donazioni",
+        "description": "Navbar item with label ❤️ Donate"
+    },
+    "item.label.💻 Projects": {
+        "message": "💻 Projects",
+        "description": "Navbar item with label 💻 Projects"
+    },
+    "item.label.🌍 Digital Nomads": {
+        "message": "🌍 Digital Nomads",
+        "description": "Navbar item with label 🌍 Digital Nomads"
+    },
+    "item.label.👥 Tech Communities": {
+        "message": "👥 Tech Communities",
+        "description": "Navbar item with label 👥 Tech Communities"
+    },
+    "item.label.🏡 Companies": {
+        "message": "🏡 Aziende",
+        "description": "Navbar item with label 🏡 Companies"
+    },
+    "item.label.📍 Coworkings": {
+        "message": "📍 Coworkings",
+        "description": "Navbar item with label 📍 Coworkings"
+    },
+    "item.label.Partners": {
+        "message": "Partners",
+        "description": "Navbar item with label Partners"
+    },
+    "item.label.💻 Projects": {
+        "message": "💻 Progetti",
+        "description": "Navbar item with label 💻 Projects"
+    },
+    "item.label.💚 Our Partners": {
+        "message": "💚 I nostri Partners",
+        "description": "Navbar item with label 💚 Our Partners"
+    },
+    "item.label.🤝 How to became Partners": {
+        "message": "🤝 Come diventare Partners",
+        "description": "Navbar item with label 🤝 Come diventare Partners"
+    },
+    "item.label.2024": {
+        "message": "2024",
+        "description": "Navbar item with label 2024"
+    }
 }

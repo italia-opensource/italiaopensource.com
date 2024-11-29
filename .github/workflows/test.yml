@@ -15,9 +15,6 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-env:
-  WORKSPACE: production
-
 jobs:
   test-data:
     name: Test
@@ -74,17 +71,14 @@ jobs:
           pre-commit install
           pre-commit run --all-files
 
-      - name: Infrastructure setup
+      - name: Infrastructure Plan
         working-directory: infrastructure
         env:
           AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
           AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
+          WORKSPACE: ${{ secrets.WORKSPACE }}
         run: |
           make setup
-
-      - name: Infrastructure Plan
-        working-directory: infrastructure
-        id: plan
-        run: make plan
+          make plan
