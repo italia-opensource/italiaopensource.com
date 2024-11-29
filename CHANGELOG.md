@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/italia-opensource/italiaopensource.com/compare/v1.8.0...v1.8.1) (2024-11-29)
+
+
+### Bug Fixes
+
+* favicon and pwa ([62c08f5](https://github.com/italia-opensource/italiaopensource.com/commit/62c08f5e2faed72d24c130ff048d5c6a710c56ad))
+
 ## [1.8.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.7.0...v1.8.0) (2024-11-29)
 
 
