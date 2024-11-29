@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.7.0...v1.8.0) (2024-11-29)
+
+
+### Features
+
+* add new logo ([4d2d673](https://github.com/italia-opensource/italiaopensource.com/commit/4d2d673253f930a45eb1e54d75bd607005ec109e))
+
 ## [1.7.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.6.0...v1.7.0) (2024-11-26)
 
 
