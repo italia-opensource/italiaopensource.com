@@ -10,6 +10,10 @@ const defaultLocale = 'en';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+    future: {
+        experimental_faster: true,
+    },
+
     title: 'Italia Open-Source',
     tagline:
         "The only fully open-source platform that transparently gives voice, and discovers, and explores Italy's tech innovations.",

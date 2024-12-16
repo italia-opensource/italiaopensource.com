@@ -18,11 +18,13 @@
     "deploy": "./scripts/deploy.sh"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.5.2",
-    "@docusaurus/plugin-google-gtag": "^3.5.2",
-    "@docusaurus/plugin-pwa": "^3.5.2",
-    "@docusaurus/plugin-sitemap": "^3.5.2",
-    "@docusaurus/preset-classic": "^3.5.2",
+    "@docusaurus/core": "^3.6.3",
+    "@docusaurus/faster": "^3.6.3",
+    "@docusaurus/plugin-google-gtag": "^3.6.3",
+    "@docusaurus/plugin-pwa": "^3.6.3",
+    "@docusaurus/plugin-rsdoctor": "^3.6.3",
+    "@docusaurus/plugin-sitemap": "^3.6.3",
+    "@docusaurus/preset-classic": "^3.6.3",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@formspree/react": "^2.3.3",
@@ -58,8 +60,8 @@
     "react-transition-group": "^4.4.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.5.2",
-    "@docusaurus/tsconfig": "^3.5.2",
+    "@docusaurus/module-type-aliases": "^3.6.3",
+    "@docusaurus/tsconfig": "^3.6.3",
     "@tsconfig/docusaurus": "^1.0.5",
     "@types/leaflet": "^1.8.0",
     "@types/node": "^18.7.23",
