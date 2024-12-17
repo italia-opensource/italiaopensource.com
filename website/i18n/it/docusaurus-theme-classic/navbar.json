@@ -1,8 +1,4 @@
 {
-    "title": {
-        "message": "Italia Open-Source",
-        "description": "The title in the navbar"
-    },
     "item.label. Awesome Lists": {
         "message": " Awesome Lists",
         "description": "Navbar item with label  Awesome Lists"
