@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.8.1...v1.9.0) (2024-12-17)
+
+
+### Features
+
+* **website:** sync database ([#45](https://github.com/italia-opensource/italiaopensource.com/issues/45)) ([ac60f9e](https://github.com/italia-opensource/italiaopensource.com/commit/ac60f9e5979a7acc68b6471851c2e67fe711f185))
+* **website:** update Docusaurus to 3.6.3 ([#47](https://github.com/italia-opensource/italiaopensource.com/issues/47)) ([fc958b2](https://github.com/italia-opensource/italiaopensource.com/commit/fc958b2d6bba3ad30a13a4569dd3c51cb89ac273))
+
 ## [1.8.1](https://github.com/italia-opensource/italiaopensource.com/compare/v1.8.0...v1.8.1) (2024-11-29)
 
 
