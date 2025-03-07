@@ -1,87 +1,16 @@
 default_language_version:
   python: python3
 
-default_stages: [commit, push]
+default_stages: [pre-commit, pre-commit, pre-push, post-checkout]
 
 repos:
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.18.2
+    rev: v8.23.3
     hooks:
       - id: gitleaks
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.9.9
     hooks:
-      - id: trailing-whitespace
-        exclude: ^website/
-      - id: check-docstring-first
-        exclude: ^website/
-      - id: check-json
-        exclude: ^website/
-      - id: check-yaml
-        exclude: ^website/
-      - id: debug-statements
-        exclude: ^website/
-      - id: requirements-txt-fixer
-        exclude: ^website/
-  - repo: https://github.com/psf/black
-    rev: 23.12.1
-    hooks:
-      - id: black
-        exclude: ^website/
-        language_version: python3.12
-  - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
-    hooks:
-      - id: isort
-        exclude: ^website/
-        args: ["--profile", "black", "--filter-files"]
-  - repo: https://github.com/PyCQA/flake8
-    rev: 7.0.0
-    hooks:
-      - id: flake8
-        exclude: ^website/
-        additional_dependencies: [flake8-typing-imports==1.12.0]
-        args: # arguments to configure flake8
-          # making isort line length compatible with black
-          - "--max-line-length=88"
-          - "--max-complexity=18"
-          - "--select=B,C,E,F,W,T4,B9"
-
-          # these are errors that will be ignored by flake8
-          # check out their meaning here
-          # https://flake8.pycqa.org/en/latest/user/error-codes.html
-          - "--ignore=E203,E266,E501,W503,F403,E402,F541"
-  - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.89.1
-    hooks:
-      - id: terraform_tflint
-      - id: terraform_fmt
-      - id: terraform_checkov
-        args:
-          - --args=--quiet
-          - --args=--skip-check CKV_K8S_15
-          - --args=--skip-check CKV_K8S_55
-          - --args=--skip-check CKV_AWS_18
-          - --args=--skip-check CKV_AWS_21
-          - --args=--skip-check CKV_K8S_43
-          - --args=--skip-check CKV_AWS_144
-          - --args=--skip-check CKV_AWS_145
-          - --args=--skip-check CKV2_AWS_61
-          - --args=--skip-check CKV2_AWS_47
-          - --args=--skip-check CKV2_AWS_62
-          - --args=--skip-check CKV_AWS_310
-          - --args=--skip-check CKV_AWS_68
-          - --args=--skip-check CKV_AWS_86
-          - --args=--skip-check CKV2_AWS_158
-          - --args=--skip-check CKV_AWS_338
-          - --args=--skip-check CKV_AWS_173
-          - --args=--skip-check CKV_AWS_145
-          - --args=--skip-check CKV_AWS_50
-          - --args=--skip-check CKV_AWS_117
-          - --args=--skip-check CKV_AWS_272
-          - --args=--skip-check CKV_AWS_115
-          - --args=--skip-check CKV_AWS_158
-          - --args=--skip-check CKV_AWS_116
-          - --args=--skip-check CKV_AWS_259
-          - --args=--skip-check CKV_AWS_374
-          - --args=--skip-check CKV_GHA_7
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
