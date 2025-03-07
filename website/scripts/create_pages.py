@@ -21,44 +21,71 @@ def normalizeFilename(name):
         .lower()
     ).replace("---", "-")
 
+
 def create_project_page(data):
     doc = Document()
-    content = """
+    content = (
+        """
 import ProjectPage from '@site/src/components/Pages/project';
 
 <ProjectPage
-    data={""" + str(data) + """}
+    data={"""
+        + str(data)
+        + """}
 />
 """
-    content = content.replace("True", "true").replace("False", "false").replace("None", "null")
+    )
+    content = (
+        content.replace("True", "true")
+        .replace("False", "false")
+        .replace("None", "null")
+    )
     doc.add_block(content)
 
     return doc
+
 
 def create_community_page(data):
     doc = Document()
-    content = """
+    content = (
+        """
 import CommunityPage from '@site/src/components/Pages/community';
 
 <CommunityPage
-    data={""" + str(data) + """}
+    data={"""
+        + str(data)
+        + """}
 />
 """
-    content = content.replace("True", "true").replace("False", "false").replace("None", "null")
+    )
+    content = (
+        content.replace("True", "true")
+        .replace("False", "false")
+        .replace("None", "null")
+    )
     doc.add_block(content)
 
     return doc
 
+
 def create_digital_nomad_page(data):
     doc = Document()
-    content = """
+    content = (
+        """
 import DigitalNomadPageProps from '@site/src/components/Pages/digital-nomad';
 
 <DigitalNomadPageProps
-    data={""" + str(data) + """}
+    data={"""
+        + str(data)
+        + """}
 />
 """
-    content = content.replace("True", "true").replace("False", "false").replace("None", "null")
+    )
+    content = (
+        content.replace("True", "true")
+        .replace("False", "false")
+        .replace("None", "null")
+    )
     doc.add_block(content)
 
     return doc
@@ -66,17 +93,26 @@ import DigitalNomadPageProps from '@site/src/components/Pages/digital-nomad';
 
 def create_startup_page(data):
     doc = Document()
-    content = """
+    content = (
+        """
 import StartupPageProps from '@site/src/components/Pages/startup';
 
 <StartupPageProps
-    data={""" + str(data) + """}
+    data={"""
+        + str(data)
+        + """}
 />
 """
-    content = content.replace("True", "true").replace("False", "false").replace("None", "null")
+    )
+    content = (
+        content.replace("True", "true")
+        .replace("False", "false")
+        .replace("None", "null")
+    )
     doc.add_block(content)
 
     return doc
+
 
 def main():
     api_endpoit = ["opensource", "startups", "communities", "digital-nomads"]

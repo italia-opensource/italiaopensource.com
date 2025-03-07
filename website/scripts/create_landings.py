@@ -27,7 +27,7 @@ def create_page(name, tags):
         seo_header = f"""---
 title: {name}
 description: {description}
-tags: {', '.join(tags[0:5])}
+tags: {", ".join(tags[0:5])}
 ---
         """
         return seo_header
@@ -131,7 +131,7 @@ def main():
         add_opensources_content(doc, item)
     doc.dump("opensources")
 
-    print(f"Creating communities landing")
+    print("Creating communities landing")
     doc = create_page(
         "Communities Landing", ["tech community", "open-source", "opensource"]
     )
