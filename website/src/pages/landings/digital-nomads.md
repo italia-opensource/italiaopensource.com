@@ -54,7 +54,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Barcelona](/digital-nomads/barcelona)
+### [Barcelona](/digital-nomads/barcellona)
 
 **State**: Spain
 
@@ -66,7 +66,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Bogotà](/digital-nomads/bogot`a)
+### [Bogotà](/digital-nomads/bogotà)
 
 **State**: Colombia
 
@@ -90,7 +90,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Chiang Mai](/digital-nomads/chiang-mai)
+### [Chiang Mai](/digital-nomads/chiang_mai)
 
 **State**: Thailand
 
@@ -102,7 +102,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Chiang Rai](/digital-nomads/chiang-rai)
+### [Chiang Rai](/digital-nomads/chiang_rai)
 
 **State**: Thailand
 
@@ -126,7 +126,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Da Nang](/digital-nomads/da-nang)
+### [Da Nang](/digital-nomads/da_nang)
 
 **State**: Vietnam
 
@@ -174,7 +174,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Ho Chi Ming / Saigon](/digital-nomads/ho-chi-ming-saigon)
+### [Ho Chi Ming / Saigon](/digital-nomads/ho_chi_minh)
 
 **State**: Vietnam
 
@@ -186,7 +186,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Hoi An](/digital-nomads/hoi-an)
+### [Hoi An](/digital-nomads/hoi_an)
 
 **State**: Vietnam
 
@@ -198,7 +198,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Hong Kong](/digital-nomads/hong-kong)
+### [Hong Kong](/digital-nomads/hong_kong)
 
 **State**: Hong Kong
 
@@ -210,7 +210,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Hua Hin](/digital-nomads/hua-hin)
+### [Hua Hin](/digital-nomads/hua_hin)
 
 **State**: Thailand
 
@@ -234,7 +234,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Koh Samui](/digital-nomads/koh-samui)
+### [Koh Samui](/digital-nomads/koh_samui)
 
 **State**: Thailand
 
@@ -246,7 +246,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Kuala Lumpur](/digital-nomads/kuala-lumpur)
+### [Kuala Lumpur](/digital-nomads/kuala_lumpur)
 
 **State**: Malaysia
 
@@ -318,7 +318,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Nha Trang](/digital-nomads/nha-trang)
+### [Nha Trang](/digital-nomads/nha_trang)
 
 **State**: Vietnam
 
@@ -330,7 +330,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Nosy Be](/digital-nomads/nosy-be)
+### [Nosy Be](/digital-nomads/nosybe)
 
 **State**: Madagascar
 
@@ -354,7 +354,7 @@ tags: digital nomads, remote working, open-source, opensource
 
 ---
 
-### [Sevilla](/digital-nomads/sevilla)
+### [Sevilla](/digital-nomads/siviglia)
 
 **State**: Spain
 

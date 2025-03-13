@@ -23,7 +23,6 @@
       "info": ["echo \"[INFO] Environment: ${WORKSPACE}\""],
       "infra": ["cd ${INFRASTRUCTURE_PATH} && make $@ ; cd -"],
       "website": ["cd ${WEBSITE_PATH} && yarn $@ ; cd -"],
-      "lint": ["uv run pre-commit run --all-files"],
       "doppler": ["${DEVBOX_PROJECT_ROOT}/scripts/doppler.sh $@"],
       "setup": [
         ". ${DEVBOX_PROJECT_ROOT}/.activate",

@@ -44,7 +44,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [Edoardo Dusi](/communities/edoardo-dusi)
+### [Edoardo Dusi](/communities/edo)
 
 **Event Type**: Podcast, Video, Conference
 
@@ -54,7 +54,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [Eventi Tech Milano](/communities/eventi-tech-milano)
+### [Eventi Tech Milano](/communities/eventi-tech)
 
 **Event Type**: Meetup, Conference, Chat
 
@@ -72,7 +72,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [Flutter Italia Developers](/communities/flutter-italia-developers)
+### [Flutter Italia Developers](/communities/flutter-italia)
 
 **Event Type**: Meetup, Conference, Chat
 
@@ -180,7 +180,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [MUG Marca User Group](/communities/mug-marca-user-group)
+### [MUG Marca User Group](/communities/marca-user-group)
 
 **Event Type**: Meetup, Chat
 
@@ -220,7 +220,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [Open Source Community](/communities/open-source-community)
+### [Open Source Community](/communities/open-source-support)
 
 **Event Type**: Chat
 
@@ -230,7 +230,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [Open Source Saturday Milano](/communities/open-source-saturday-milano)
+### [Open Source Saturday Milano](/communities/open-source-saturday)
 
 **Event Type**: Meetup, Hackathon
 
@@ -268,7 +268,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [Schrödinger Hat](/communities/schr"odinger-hat)
+### [Schrödinger Hat](/communities/schrodinger-hat)
 
 **Event Type**: Chat
 
@@ -308,7 +308,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [Tech Workers Coalition Italia](/communities/tech-workers-coalition-italia)
+### [Tech Workers Coalition Italia](/communities/twc-italia)
 
 **Event Type**: Meetup, Chat
 
@@ -328,7 +328,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [TomorrowDevs](/communities/tomorrowdevs)
+### [TomorrowDevs](/communities/tomorrow-devs)
 
 **Event Type**: Hackathon
 
@@ -348,7 +348,7 @@ tags: tech community, open-source, opensource
 
 ---
 
-### [fullremote.it](/communities/fullremote.it)
+### [fullremote.it](/communities/fullremote-it)
 
 **Event Type**: Other
 

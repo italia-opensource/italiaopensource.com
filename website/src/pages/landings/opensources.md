@@ -18,7 +18,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [AWS Lambda Power Tuning](/opensources/aws-lambda-power-tuning)
+### [AWS Lambda Power Tuning](/opensources/lambda-power-tuning)
 
 **Type**: tool
 
@@ -88,7 +88,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Associazione Odoo Italia](/opensources/associazione-odoo-italia)
+### [Associazione Odoo Italia](/opensources/odoo-italia)
 
 **Type**: community
 
@@ -124,7 +124,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Awesome Italia Open Source](/opensources/awesome-italia-open-source)
+### [Awesome Italia Open Source](/opensources/awesome-italia-opensource)
 
 **Type**: community
 
@@ -218,7 +218,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Covid19-Monitoring](/opensources/covid19-monitoring)
+### [Covid19-Monitoring](/opensources/covid19-Monitoring)
 
 **Type**: saas
 
@@ -264,7 +264,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [EVO](/opensources/evo)
+### [EVO](/opensources/getevo)
 
 **Type**: framework
 
@@ -370,7 +370,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Galactic CV Guide](/opensources/galactic-cv-guide)
+### [Galactic CV Guide](/opensources/galactic-CV-guide)
 
 **Type**: learning
 
@@ -394,7 +394,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Game Genie Good Guy](/opensources/game-genie-good-guy)
+### [Game Genie Good Guy](/opensources/gggg)
 
 **Type**: tool
 
@@ -454,7 +454,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Histolab](/opensources/histolab)
+### [Histolab](/opensources/hitolab)
 
 **Type**: tool
 
@@ -488,7 +488,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [ImageGoNord](/opensources/imagegonord)
+### [ImageGoNord](/opensources/image-go-nord)
 
 **Type**: tool
 
@@ -538,7 +538,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Kathará](/opensources/kathar'a)
+### [Kathará](/opensources/kathara)
 
 **Type**: tool
 
@@ -610,7 +610,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Memongo](/opensources/memongo)
+### [Memongo](/opensources/tryvium-memongo)
 
 **Type**: tool
 
@@ -770,7 +770,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Platformatic](/opensources/platformatic)
+### [Platformatic](/opensources/platformic)
 
 **Type**: tool
 
@@ -838,7 +838,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [Rönd](/opensources/r"ond)
+### [Rönd](/opensources/rond)
 
 **Type**: app
 
@@ -850,7 +850,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [ServerMan](/opensources/serverman)
+### [ServerMan](/opensources/serverMan)
 
 **Type**: tool
 
@@ -1020,7 +1020,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [espanso typofixer ](/opensources/espanso-typofixer-)
+### [espanso typofixer ](/opensources/espanso-typofixer)
 
 **Type**: tool
 
@@ -1088,7 +1088,7 @@ tags: opensource projects, open-source, opensource
 
 ---
 
-### [nuvola](/opensources/nuvola)
+### [nuvola](/opensources/primait-nuvola)
 
 **Type**: tool
 

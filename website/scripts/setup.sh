@@ -10,7 +10,7 @@ trap 'failure ${LINENO} "$BASH_COMMAND"' ERR
 
 set -o pipefail
 
-BASEDIR="$(dirname "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)")/.."
+BASEDIR="$(dirname "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)")"
 
 main(){
   echo "## Setup: italiaopensource.com website"
