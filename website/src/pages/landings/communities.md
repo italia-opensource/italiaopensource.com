@@ -3,7 +3,6 @@ title: Communities Landing
 description: Communities Landing landing page in italiaopensource.com.
 tags: tech community, open-source, opensource
 ---
-        
 
 # Communities Landing
 
@@ -11,11 +10,9 @@ tags: tech community, open-source, opensource
 
 **Event Type**: Conference, Workshop, Webinar
 
-**Description**: We are the leading platform that supports tech professionals’ growth. We create the right connections between IT professionals, technology communities and companies
+`dev` | `talks` | `networking` | `tech`
 
-`Dev` | `Talks` | `Networking` | `Tech`
-
-***
+---
 
 ### [Continuous Delivery](/communities/continuous-delivery)
 
@@ -23,9 +20,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Un podcast in cui chiacchieriamo di sviluppo software, open source, cloud native, metodologie, e tutto quello che sta intorno al mondo IT.
 
-`Coding` | `Tech` | `Cloud Native` | `Open Source` | `Developers`
+`coding` | `tech` | `cloud native` | `open source` | `developers`
 
-***
+---
 
 ### [DevMarche](/communities/devmarche)
 
@@ -33,9 +30,9 @@ tags: tech community, open-source, opensource
 
 **Description**: La Community tech delle Marche: eventi, conferenze e serate a tema sviluppo e non solo, per fare networking e parlare degli argomenti che ci appassionano.
 
-`Dev` | `Talks` | `Networking` | `Tech`
+`dev` | `talks` | `networking` | `tech`
 
-***
+---
 
 ### [Developers Italia](/communities/developers-italia)
 
@@ -43,9 +40,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Il punto di riferimento per il software della Pubblica Amministrazione.
 
-`Dev` | `Pubblica Amministrazione` | `Open-Source`
+`dev` | `pubblica amministrazione` | `open-source`
 
-***
+---
 
 ### [Edoardo Dusi](/communities/edoardo-dusi)
 
@@ -53,9 +50,17 @@ tags: tech community, open-source, opensource
 
 **Description**: Cerco di divulgare la tecnologia, tenere aggiornati sulle tech news, incentivare la contribuzione e le best practices.
 
-`Coding` | `News` | `Tech` | `Cloud` | `Open Source`
+`coding` | `news` | `tech` | `cloud` | `open source`
 
-***
+---
+
+### [Eventi Tech Milano](/communities/eventi-tech-milano)
+
+**Event Type**: Meetup, Conference, Chat
+
+`dev` | `eventi` | `apps` | `android` | `ios` | `mobile` | `milano` | `meetup` | `tech` | `jobs` | `milan`
+
+---
 
 ### [Fabio Biondi](/communities/fabio-biondi)
 
@@ -63,17 +68,17 @@ tags: tech community, open-source, opensource
 
 **Description**: Durante le mie live: studio, sperimento, condivido il mio know-how e organizzo quiz tecnici, spesso in compagnia di amici e ospiti, su moltissime tematiche legate al mondo della programmazione.
 
-`Developers` | `Live` | `Tech` | `Javscript`
+`developers` | `live` | `tech` | `javscript`
 
-***
+---
 
 ### [Flutter Italia Developers](/communities/flutter-italia-developers)
 
 **Event Type**: Meetup, Conference, Chat
 
-`Dev` | `Flutter` | `Apps` | `Android` | `Ios` | `Mobile`
+`dev` | `flutter` | `apps` | `android` | `ios` | `mobile`
 
-***
+---
 
 ### [Gitbar](/communities/gitbar)
 
@@ -81,9 +86,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Il podcast dei developer italiani
 
-`Developers` | `Networking` | `Tech`
+`developers` | `networking` | `tech`
 
-***
+---
 
 ### [Giuppi dev](/communities/giuppi-dev)
 
@@ -91,9 +96,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Sono un programmatore freelance e un nomade digitale, che lavora viaggiando per il mondo. Qui condivido la mia esperienza per aiutare tutti quelli che vogliono lavorare da programmatori e vogliono farlo in libertà da dove gli pare.
 
-`Developers` | `Live` | `Coding` | `Javascript` | `Digital Nomad`
+`developers` | `live` | `coding` | `javascript` | `digital nomad`
 
-***
+---
 
 ### [GrUSP](/communities/grusp)
 
@@ -101,9 +106,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Dal 2003 organizziamo eventi per formare e mettere in contatto persone accomunate dalla passione per lo sviluppo web.
 
-`Tech` | `Career` | `Community` | `Networking` | `Developers` | `User Group`
+`tech` | `career` | `community` | `networking` | `developers` | `user group`
 
-***
+---
 
 ### [HR feat ICT](/communities/hr-feat-ict)
 
@@ -111,9 +116,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Nata per creare uno spazio di confronto e condivisione tra HR e professionisti ICT. È aperto a tutti/e, purché motivatə da reciproco scambio e dal sano confronto. È il luogo ideale dove: Ricevere supporto sull’iter di ricerca e selezione, Chiedere consigli (su CV, RAL, benefit), Esprimere dubbi e domande realtive al lavoro, Confrontarsi tra professionisti, Aiutare i recruiter a svolgere al meglio il loro lavoro. Possono utilizzare un bot open source per la condivisione degli annunci (Job Offer Bot)
 
-`Dev` | `Talks` | `Networking` | `Tech` | `Hr` | `Ict` | `Job Offers`
+`dev` | `talks` | `networking` | `tech` | `hr` | `ict` | `job offers`
 
-***
+---
 
 ### [Italian Linux Society](/communities/italian-linux-society)
 
@@ -121,9 +126,9 @@ tags: tech community, open-source, opensource
 
 **Description**: L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open Source in Italia
 
-`Dev` | `Talks` | `Networking` | `Tech` | `Linuz` | `Opensource` | `Job Offers`
+`dev` | `talks` | `networking` | `tech` | `linuz` | `opensource` | `job offers`
 
-***
+---
 
 ### [KCD Italy](/communities/kcd-italy)
 
@@ -131,9 +136,9 @@ tags: tech community, open-source, opensource
 
 **Description**: KCD Italy (#kcditaly) is a CNCF (Cloud Native Computing Foundation) supported event organized by the Italian Kubernetes community. The event aims to spread knowledge and create spaces for sharing and comparing ideas on all open source and cloud native topics.
 
-`Dev` | `Talk` | `Networking` | `Tech` | `Cloudnative` | `Kubernetes` | `Devops` | `Opensource`
+`dev` | `talk` | `networking` | `tech` | `CloudNative` | `Kubernetes` | `DevOps` | `opensource`
 
-***
+---
 
 ### [Kubernetes It](/communities/kubernetes-it)
 
@@ -141,9 +146,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Gruppo di utilizzatori, veterani e newbie su Kubernetes: parliamo anche di Cloud Native, Container, sviluppo e Systems Engineering!
 
-`Developers` | `Tech` | `Kubernetes` | `Sys` | `Cloud`
+`developers` | `tech` | `kubernetes` | `sys` | `cloud`
 
-***
+---
 
 ### [La Brigata dei Geek Estinti](/communities/la-brigata-dei-geek-estinti)
 
@@ -151,9 +156,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Un podcast Live ad assetto variabile dove ogni geek estinto, ma vivo, può intervenire quando vuole. Si parla di IT, programmazione, DevOps, retro computing, cloud, scena demo, cultura geek, vita, universo e tutto quanto.
 
-`It` | `Tech` | `Cloud` | `Geek` | `Devops` | `Retrocomputing`
+`it` | `tech` | `cloud` | `geek` | `devops` | `retrocomputing`
 
-***
+---
 
 ### [La Locanda del Tech](/communities/la-locanda-del-tech)
 
@@ -161,9 +166,9 @@ tags: tech community, open-source, opensource
 
 **Description**: The Telegram channel of La Locanda del Tech, a Twitch channel hosted by Guido Penta, that deals with various arguments like working in tech, money, professional development and many others
 
-`Dev` | `Community` | `Networking` | `Tech`
+`dev` | `community` | `networking` | `tech`
 
-***
+---
 
 ### [Latina In Tech](/communities/latina-in-tech)
 
@@ -171,9 +176,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Free events to foster knowledge sharing and professional growth.
 
-`Dev` | `Talks` | `Networking` | `Tech`
+`dev` | `talks` | `networking` | `tech`
 
-***
+---
 
 ### [MUG Marca User Group](/communities/mug-marca-user-group)
 
@@ -181,9 +186,9 @@ tags: tech community, open-source, opensource
 
 **Description**: MUG is a user group localed around Treviso (Veneto region) unbounded to any technology or methodology. Our goal is aggreate people and networking opportunities between developers or tech enthusiasts.
 
-`Dev` | `Talks` | `Networking` | `Tech`
+`dev` | `talks` | `networking` | `tech`
 
-***
+---
 
 ### [Morrolinux](/communities/morrolinux)
 
@@ -191,9 +196,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Canale di informazione e condivisione di esperienze in ambito Linux e opensource. In questo canale si trattatta di applicazioni opensource, Linux, Self-hosting, recensioni di distro linux ed esperimenti
 
-`Tech` | `Linux` | `Opensource` | `Projects`
+`tech` | `linux` | `opensource` | `projects`
 
-***
+---
 
 ### [Need for Nerd](/communities/need-for-nerd)
 
@@ -201,9 +206,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Community generalista per developers in cui si discute di temi tecnici e lavorativi e in cui ci si aiuta a vicenda.
 
-`Lavoro` | `Tech` | `Linguaggi`
+`lavoro` | `tech` | `linguaggi`
 
-***
+---
 
 ### [Nix Milano](/communities/nix-milano)
 
@@ -211,9 +216,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Nix Milano is a community for anyone interested in Nix and NixOS. We organize talks, unconferences, and hackathons focused on learning, sharing, and hacking on Nix-related projects.
 
-`Meetup` | `Nix` | `Nixos` | `Opensource` | `Talk` | `Unconference`
+`meetup` | `nix` | `nixos` | `opensource` | `talk` | `unconference`
 
-***
+---
 
 ### [Open Source Community](/communities/open-source-community)
 
@@ -221,9 +226,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Meme sui dev e il coding, community di aiuto, guide e tutorial sulla programmazione. Gruppo ufficiale di supporto tecnico per i miei software open source
 
-`Developers` | `Networking` | `Tech` | `Meme`
+`developers` | `networking` | `tech` | `meme`
 
-***
+---
 
 ### [Open Source Saturday Milano](/communities/open-source-saturday-milano)
 
@@ -231,9 +236,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Ci troviamo un sabato al mese per contribuire insieme a progetti open source.
 
-`Open Source` | `Saturday` | `Hands-On` | `Programming` | `Hacking` | `Sharing` | `Contributing`
+`open source` | `saturday` | `hands-on` | `programming` | `hacking` | `sharing` | `contributing`
 
-***
+---
 
 ### [PyCon Italia](/communities/pycon-italia)
 
@@ -241,9 +246,9 @@ tags: tech community, open-source, opensource
 
 **Description**: PyCon Italia is the Italian edition of the international PyCon conference series, which focuses on the Python programming language. It serves as a gathering for Python enthusiasts, including developers, data scientists, educators, and other tech professionals from all over Italy and beyond.
 
-`Dev` | `Talk` | `Python` | `Pydata` | `Opensource`
+`dev` | `talk` | `python` | `pydata` | `opensource`
 
-***
+---
 
 ### [Red Hot Cyber](/communities/red-hot-cyber)
 
@@ -251,27 +256,27 @@ tags: tech community, open-source, opensource
 
 **Description**: Red Hot Cyber è una rivista online che tratta temi di tecnologia e di sicurezza informatica, dietro alla rivista è presente una folta community che funge da incubatrice di idee, dove specialisti di diverse discipline collaborano
 
-`Cyber` | `Security` | `Tech` | `Cybercrime` | `Hack News`
+`cyber` | `security` | `tech` | `cybercrime` | `hack news`
 
-***
+---
 
 ### [Ripsters](/communities/ripsters)
 
 **Event Type**: Chat
 
-`Tech` | `Career` | `Community` | `Networking`
+`tech` | `career` | `community` | `networking`
 
-***
+---
 
-### [Schrödinger Hat](/communities/schrodinger-hat)
+### [Schrödinger Hat](/communities/schr"odinger-hat)
 
 **Event Type**: Chat
 
 **Description**: Schrodinger Hat é una community, un podcast, un livestream e molto altro! Se hai una idea, un tool, un argomento o altro da proporre, puoi aprire una issue su GitHub.
 
-`Developers` | `Networking` | `Tech`
+`developers` | `networking` | `tech`
 
-***
+---
 
 ### [Sistemista Italiano](/communities/sistemista-italiano)
 
@@ -279,9 +284,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Canale di informazione, video tutorial, guide e how-to dedicato ai sistemisti italiani. In questo canale sono raccolti video che spiegano con parole chiare e semplici argomenti all'ordine del giorno per coloro che sono o desiderano diventare sistemisti.
 
-`Dev` | `Os` | `Server` | `Windows` | `Linux` | `System` | `Network`
+`dev` | `os` | `server` | `windows` | `linux` | `system` | `network`
 
-***
+---
 
 ### [Startup Checklist](/communities/startup-checklist)
 
@@ -289,9 +294,9 @@ tags: tech community, open-source, opensource
 
 **Description**: La ricetta per fare Startup, un percorso guidato dall'idea alla raccolta fondi
 
-`Startup` | `Tech` | `Business` | `Funding` | `Venture Capital` | `Angel` | `Seed` | `Business Plan` | `Pitch` | `Mentors` | `Startup Studio`
+`startup` | `tech` | `business` | `funding` | `venture capital` | `angel` | `seed` | `business plan` | `pitch` | `mentors` | `startup studio`
 
-***
+---
 
 ### [Startup Italia](/communities/startup-italia)
 
@@ -299,9 +304,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Il più grande network italiano di eventi dedicati all'innovazione con visibilità e partecipazione internazionale; un hub digitale con dati da startup, aziende innovative, investitori e professionisti
 
-`Startup` | `Startup Ecosystem` | `Tech News` | `Investors` | `Funding` | `Venture Capital` | `Innovation` | `Innovation Ecosystem` | `Innovation Events`
+`startup` | `startup ecosystem` | `tech news` | `investors` | `funding` | `venture capital` | `innovation` | `innovation ecosystem` | `innovation events`
 
-***
+---
 
 ### [Tech Workers Coalition Italia](/communities/tech-workers-coalition-italia)
 
@@ -309,9 +314,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Senza di noi l'industria della tecnologia non esisterebbe, né in Italia né nel resto del mondo. Tech Workers Coalition esiste per darci voce, diritti e forza.
 
-`Developers` | `Tech` | `Networking` | `Career` | `Jobs`
+`developers` | `tech` | `networking` | `career` | `jobs`
 
-***
+---
 
 ### [TechCompenso](/communities/techcompenso)
 
@@ -319,9 +324,9 @@ tags: tech community, open-source, opensource
 
 **Description**: TechCompenso is the go-to portal for uncovering the real earnings in Italy's tech sector, including technology, product management, and marketing roles within Italian tech companies
 
-`Dev` | `Community` | `Networking` | `Tech` | `Salary` | `Transparency` | `Italy`
+`dev` | `community` | `networking` | `tech` | `salary` | `transparency` | `italy`
 
-***
+---
 
 ### [TomorrowDevs](/communities/tomorrowdevs)
 
@@ -331,7 +336,7 @@ tags: tech community, open-source, opensource
 
 `Coding Challenge` | `Collaborative Projects` | `Mentoring` | `Mock Interview`
 
-***
+---
 
 ### [Vita nello zaino](/communities/vita-nello-zaino)
 
@@ -339,9 +344,9 @@ tags: tech community, open-source, opensource
 
 **Description**: Chiusa una porta si apre un portellone.
 
-`Developers` | `Tech` | `Networking` | `Digital Nomad` | `Coworking`
+`developers` | `tech` | `networking` | `digital nomad` | `coworking`
 
-***
+---
 
 ### [fullremote.it](/communities/fullremote.it)
 
@@ -349,6 +354,7 @@ tags: tech community, open-source, opensource
 
 **Description**: A weekly newsletter (with remote jobs) and a telegram channel dedicated to italian tech workers who work (or want to work) remotely.
 
-`Tech` | `Remoteworking` | `Remote` | `Jobs`
+`tech` | `remoteworking` | `remote` | `jobs`
 
-***
+---
+
