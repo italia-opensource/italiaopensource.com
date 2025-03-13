@@ -16,12 +16,6 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version-file: ".python-version"
-          cache: "pip"
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:

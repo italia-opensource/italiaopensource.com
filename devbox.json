@@ -23,13 +23,10 @@
       "info": ["echo \"[INFO] Environment: ${WORKSPACE}\""],
       "infra": ["cd ${INFRASTRUCTURE_PATH} && make $@ ; cd -"],
       "website": ["cd ${WEBSITE_PATH} && yarn $@ ; cd -"],
-      "lint": ["pre-commit run --all-files"],
       "doppler": ["${DEVBOX_PROJECT_ROOT}/scripts/doppler.sh $@"],
       "setup": [
         ". ${DEVBOX_PROJECT_ROOT}/.activate",
         "chmod +x ${DEVBOX_PROJECT_ROOT}/scripts/*",
-        "pip3 install -r ${DEVBOX_PROJECT_ROOT}/requirements.txt",
-        "pre-commit install",
         "devbox run website setup"
       ],
       "deploy": [

@@ -10,11 +10,11 @@ trap 'failure ${LINENO} "$BASH_COMMAND"' ERR
 
 set -o pipefail
 
-WORKDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/.."
+BASEDIR="$(dirname "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)")"
 
 main(){
   echo "## Deploy: website to S3"
-  cd "${WORKDIR}"
+  cd "${BASEDIR}"
 
   local _bucket_name=${1}
 
@@ -25,7 +25,7 @@ main(){
 
   echo "Deploying to bucket: ${_bucket_name}"
 
-  aws s3 sync --delete build/ s3://${_bucket_name}/
+  aws s3 sync --delete build/ s3://"${_bucket_name}"/
 }
 
 main "$@"

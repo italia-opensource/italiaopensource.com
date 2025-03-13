@@ -10,11 +10,11 @@ trap 'failure ${LINENO} "$BASH_COMMAND"' ERR
 
 set -o pipefail
 
-WORKDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/.."
+BASEDIR="$(dirname "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)")"
 
 main(){
   echo "## Download: italiaopensource.com data"
-  cd "${WORKDIR}"
+  cd "${BASEDIR}"
 
   local _arg_hash_commit=${1:-"latest"}
 
@@ -22,9 +22,10 @@ main(){
 
   git clone ${_source} database/awesome-italia-opensource
   cd database/awesome-italia-opensource
-  local _hash="$(git rev-parse --short HEAD)"
+  local _hash
+  _hash="$(git rev-parse --short HEAD)"
   if [[ "${_arg_hash_commit}" != "latest" ]]; then
-    git checkout ${_arg_hash_commit}
+    git checkout "${_arg_hash_commit}"
     _hash="${_arg_hash_commit}"
   fi
   cd -

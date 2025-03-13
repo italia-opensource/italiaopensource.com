@@ -82,7 +82,7 @@ export abstract class TableData {
 
     onGlobalFilterChange(e) {
         const value = e.target.value;
-        let _filters = { ...this.filters };
+        const _filters = { ...this.filters };
         _filters['global'].value = value;
 
         this.setFilters(_filters);

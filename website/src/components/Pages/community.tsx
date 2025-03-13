@@ -22,7 +22,7 @@ interface CommunityPageProps {
     };
 }
 
-export default function CommunityPage(props: CommunityPageProps) {
+export default function ContentPage(props: CommunityPageProps) {
     return (
         <Grid container>
             <Breadcrumbs aria-label="breadcrumb">

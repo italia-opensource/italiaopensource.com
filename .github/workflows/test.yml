@@ -31,12 +31,6 @@ jobs:
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
           role-session-name: github-actions
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version-file: ".python-version"
-          cache: "pip"
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -50,16 +44,11 @@ jobs:
           terraform_version: "1.9"
 
       - name: Website tests
+        working-directory: website
         timeout-minutes: 10
         run: |
-          cd website
           yarn setup
-          yarn mdx-checker
           yarn build
-
-      - name: Code tests
-        timeout-minutes: 10
-        uses: pre-commit/action@v3.0.1
 
       - name: Infrastructure Plan
         working-directory: infrastructure

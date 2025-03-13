@@ -27,7 +27,7 @@ interface DigitalNomadPageProps {
     };
 }
 
-export default function DigitalNomadPageProps(props: DigitalNomadPageProps) {
+export default function ContentPage(props: DigitalNomadPageProps) {
     return (
         <Grid container>
             <Breadcrumbs aria-label="breadcrumb">

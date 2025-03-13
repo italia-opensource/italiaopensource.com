@@ -128,7 +128,7 @@ function getRepositoryHTML(data: any) {
     }
 }
 
-export default function ProjectPage(props: ProjectsPageProps) {
+export default function ContentPage(props: ProjectsPageProps) {
     return (
         <Grid container>
             <CssBaseline />
