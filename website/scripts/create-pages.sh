@@ -28,6 +28,7 @@ create_content_page() {
 ---
 title: "$name"
 description: "$description"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/$page_type';
 
