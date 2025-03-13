@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/italia-opensource/italiaopensource.com/compare/v1.10.0...v1.10.1) (2025-03-13)
+
+
+### Bug Fixes
+
+* **website:** SEO errors ([#59](https://github.com/italia-opensource/italiaopensource.com/issues/59)) ([2e45b28](https://github.com/italia-opensource/italiaopensource.com/commit/2e45b281862dd5eec4542a8ec5be8a4af4249b42))
+
 ## [1.10.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.9.0...v1.10.0) (2025-03-13)
 
 
