@@ -17,7 +17,7 @@ interface StartupPageProps {
     };
 }
 
-export default function StartupPageProps(props: StartupPageProps) {
+export default function ContentPage(props: StartupPageProps) {
     return (
         <Grid container>
             <Breadcrumbs aria-label="breadcrumb">

@@ -22,24 +22,22 @@ def normalizeFilename(name):
     ).replace("---", "-")
 
 
-def create_project_page(data):
-    doc = Document()
-    content = (
-        """
-import ProjectPage from '@site/src/components/Pages/project';
-
-<ProjectPage
-    data={"""
-        + str(data)
-        + """}
+def create_content_page(page_type, data):
+    content = f"""---
+title: "{data["name"]}"
+description: "{data.get("description", "Italia Open-Source the first platform dedicated to Italian open-source world.")}"
+---
+import ContentPage from '@site/src/components/Pages/{page_type}';
+""" + """
+<ContentPage
+    data={""" + str(data) + """}
 />
 """
-    )
-    content = (
-        content.replace("True", "true")
-        .replace("False", "false")
-        .replace("None", "null")
-    )
+    return content.replace("True", "true").replace("False", "false").replace("None", "null")
+
+def create_project_page(data):
+    doc = Document()
+    content = create_content_page("project", data)
     doc.add_block(content)
 
     return doc
@@ -47,22 +45,7 @@ import ProjectPage from '@site/src/components/Pages/project';
 
 def create_community_page(data):
     doc = Document()
-    content = (
-        """
-import CommunityPage from '@site/src/components/Pages/community';
-
-<CommunityPage
-    data={"""
-        + str(data)
-        + """}
-/>
-"""
-    )
-    content = (
-        content.replace("True", "true")
-        .replace("False", "false")
-        .replace("None", "null")
-    )
+    content = create_content_page("community", data)
     doc.add_block(content)
 
     return doc
@@ -70,22 +53,7 @@ import CommunityPage from '@site/src/components/Pages/community';
 
 def create_digital_nomad_page(data):
     doc = Document()
-    content = (
-        """
-import DigitalNomadPageProps from '@site/src/components/Pages/digital-nomad';
-
-<DigitalNomadPageProps
-    data={"""
-        + str(data)
-        + """}
-/>
-"""
-    )
-    content = (
-        content.replace("True", "true")
-        .replace("False", "false")
-        .replace("None", "null")
-    )
+    content = create_content_page("digital-nomad", data)
     doc.add_block(content)
 
     return doc
@@ -93,22 +61,7 @@ import DigitalNomadPageProps from '@site/src/components/Pages/digital-nomad';
 
 def create_startup_page(data):
     doc = Document()
-    content = (
-        """
-import StartupPageProps from '@site/src/components/Pages/startup';
-
-<StartupPageProps
-    data={"""
-        + str(data)
-        + """}
-/>
-"""
-    )
-    content = (
-        content.replace("True", "true")
-        .replace("False", "false")
-        .replace("None", "null")
-    )
+    content = create_content_page("startup", data)
     doc.add_block(content)
 
     return doc
