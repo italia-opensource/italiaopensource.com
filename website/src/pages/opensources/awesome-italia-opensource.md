@@ -1,6 +1,7 @@
 ---
 title: "Awesome Italia Open Source"
 description: "Italy Open-Source is a project whose purpose is to give transparency to the Italian tech ecosystem. Through a series of awesome lists, we seek to give visibility to open-source projects, communities, and tech startups"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -29,8 +30,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "italia-opensource/awesome-italia-opensource",
       "html_url": "https://github.com/italia-opensource/awesome-italia-opensource",
       "created_at": "2022-09-02T21:10:31Z",
-      "updated_at": "2025-03-13T18:36:38Z",
-      "pushed_at": "2025-03-13T18:37:09Z",
+      "updated_at": "2025-05-20T17:15:49Z",
+      "pushed_at": "2025-05-20T17:15:47Z",
       "archived": false,
       "disabled": false,
       "owner": "italia-opensource",
@@ -63,15 +64,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Shell": 2082,
         "Makefile": 884
       },
-      "stargazers_count": 297,
+      "stargazers_count": 298,
       "forks_count": 77,
-      "open_issues_count": 4,
+      "open_issues_count": 5,
       "forks": 77,
-      "open_issues": 4,
-      "watchers": 297,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "open_issues": 5,
+      "watchers": 298,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

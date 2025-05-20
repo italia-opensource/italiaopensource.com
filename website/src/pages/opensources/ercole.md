@@ -1,6 +1,7 @@
 ---
 title: "Ercole"
 description: "Proactive Software Asset Management. Backend component"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -23,8 +24,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "ercole-io/ercole",
       "html_url": "https://github.com/ercole-io/ercole",
       "created_at": "2019-07-30T12:12:27Z",
-      "updated_at": "2025-03-13T09:24:07Z",
-      "pushed_at": "2025-03-13T09:24:02Z",
+      "updated_at": "2025-05-16T10:40:03Z",
+      "pushed_at": "2025-05-16T10:40:45Z",
       "archived": false,
       "disabled": false,
       "owner": "ercole-io",
@@ -45,30 +46,30 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Go",
       "languages": {
-        "Go": 99.07,
-        "Python": 0.33,
+        "Go": 99.08,
+        "Python": 0.32,
         "Shell": 0.3,
         "Jsonnet": 0.27,
         "Dockerfile": 0.02,
         "Makefile": 0.01
       },
       "languages_byte": {
-        "Go": 3465729,
+        "Go": 3497744,
         "Python": 11433,
         "Shell": 10439,
         "Jsonnet": 9517,
         "Dockerfile": 669,
         "Makefile": 508
       },
-      "stargazers_count": 153,
+      "stargazers_count": 154,
       "forks_count": 12,
-      "open_issues_count": 47,
+      "open_issues_count": 46,
       "forks": 12,
-      "open_issues": 47,
-      "watchers": 153,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "open_issues": 46,
+      "watchers": 154,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

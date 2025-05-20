@@ -1,6 +1,7 @@
 ---
 title: "Tiledesk"
 description: "Open Source Live Chat with adaptive multichannel Chatbots design technology. Alternative to Intercom and Zendesk for Customer Service and Conversational Marketing"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,8 +26,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Tiledesk/tiledesk",
       "html_url": "https://github.com/Tiledesk/tiledesk",
       "created_at": "2020-07-10T10:20:23Z",
-      "updated_at": "2025-03-12T03:29:18Z",
-      "pushed_at": "2025-03-11T15:40:59Z",
+      "updated_at": "2025-05-20T02:46:39Z",
+      "pushed_at": "2025-04-18T14:52:56Z",
       "archived": false,
       "disabled": false,
       "owner": "Tiledesk",
@@ -59,15 +60,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Mustache": 1830,
         "Shell": 255
       },
-      "stargazers_count": 201,
-      "forks_count": 66,
+      "stargazers_count": 217,
+      "forks_count": 71,
       "open_issues_count": 19,
-      "forks": 66,
+      "forks": 71,
       "open_issues": 19,
-      "watchers": 201,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 217,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

@@ -1,6 +1,7 @@
 ---
 title: "kamaji"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -32,8 +33,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "clastix/kamaji",
       "html_url": "https://github.com/clastix/kamaji",
       "created_at": "2021-12-16T14:35:38Z",
-      "updated_at": "2025-03-13T13:59:31Z",
-      "pushed_at": "2025-03-13T13:59:26Z",
+      "updated_at": "2025-05-20T14:48:46Z",
+      "pushed_at": "2025-05-15T20:49:14Z",
       "archived": false,
       "disabled": false,
       "owner": "clastix",
@@ -62,26 +63,24 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Go",
       "languages": {
-        "Go": 95.75,
-        "Makefile": 3.63,
-        "Smarty": 0.43,
-        "Shell": 0.19
+        "Go": 96.17,
+        "Makefile": 3.4,
+        "Smarty": 0.43
       },
       "languages_byte": {
-        "Go": 571883,
-        "Makefile": 21682,
-        "Smarty": 2592,
-        "Shell": 1109
+        "Go": 585334,
+        "Makefile": 20697,
+        "Smarty": 2592
       },
-      "stargazers_count": 1305,
-      "forks_count": 120,
-      "open_issues_count": 11,
-      "forks": 120,
-      "open_issues": 11,
-      "watchers": 1305,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 1445,
+      "forks_count": 130,
+      "open_issues_count": 8,
+      "forks": 130,
+      "open_issues": 8,
+      "watchers": 1445,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

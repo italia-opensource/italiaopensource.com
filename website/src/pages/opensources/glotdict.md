@@ -1,6 +1,7 @@
 ---
 title: "GlotDict"
 description: "This extension for WordPress polyglots implements new features to improve the quality of translation/reviews!"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -55,13 +56,13 @@ import ContentPage from '@site/src/components/Pages/project';
       },
       "stargazers_count": 53,
       "forks_count": 24,
-      "open_issues_count": 30,
+      "open_issues_count": 29,
       "forks": 24,
-      "open_issues": 30,
+      "open_issues": 29,
       "watchers": 53,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

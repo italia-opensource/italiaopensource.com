@@ -1,6 +1,7 @@
 ---
 title: "Autocannon"
 description: "Fast HTTP/1.1 benchmarking tool written in Node.js"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,7 +25,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "mcollina/autocannon",
       "html_url": "https://github.com/mcollina/autocannon",
       "created_at": "2016-03-31T17:18:21Z",
-      "updated_at": "2025-03-13T09:28:45Z",
+      "updated_at": "2025-05-20T13:17:28Z",
       "pushed_at": "2024-10-15T06:35:26Z",
       "archived": false,
       "disabled": false,
@@ -41,15 +42,15 @@ import ContentPage from '@site/src/components/Pages/project';
       "languages_byte": {
         "JavaScript": 245268
       },
-      "stargazers_count": 8043,
+      "stargazers_count": 8126,
       "forks_count": 333,
       "open_issues_count": 53,
       "forks": 333,
       "open_issues": 53,
-      "watchers": 8043,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 8126,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

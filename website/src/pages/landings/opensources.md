@@ -12,7 +12,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Two factor authenticator agent that keep the secrets secret.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `go` | `2fa` | `security`
 
@@ -24,7 +24,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: AWS Lambda Power Tuning helps you visualize and fine-tune the memory/power configuration of Lambda functions.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `nodejs` | `aws` | `lambda` | `serverless` | `cloud` | `performance` | `cost`
 
@@ -36,7 +36,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Customize your alpaca or generate a random one and download it.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `html` | `css` | `javascript`
 
@@ -48,7 +48,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Your gateway to a world of public APIs
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `javascript` | `django` | `api` | `apis` | `free` | `data` | `nuxt.js`
 
@@ -58,7 +58,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `css` | `bootstrap` | `javascript`
 
@@ -70,7 +70,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Desk weather station with Esp8266 and oled display.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `C` | `C++` | `Html` | `Arduino` | `Python` | `Flask`
 
@@ -82,7 +82,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Argon is an interpreted multi-paradigm programming language that aims to be elegant, clean and simple to use.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `C++` | `interpreter` | `programming language` | `multi-paradigm` | `scripting`
 
@@ -94,7 +94,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Addons concerning Odoo Italian Localization.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `odoo`
 
@@ -106,7 +106,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: An open source blog template build with Astro and Bulma
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `astro` | `javascript` | `typescript` | `bulmacss`
 
@@ -118,7 +118,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Fast HTTP/1.1 benchmarking tool written in Node.js
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `nodejs` | `javascript`
 
@@ -130,7 +130,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Italy Open-Source is a project whose purpose is to give transparency to the Italian tech ecosystem. Through a series of awesome lists, we seek to give visibility to open-source projects, communities, and tech startups
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `aws` | `communities` | `awesome-lists` | `opensource` | `italy` | `italia-opensource`
 
@@ -140,7 +140,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: library
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `css` | `bootstrap` | `javascript`
 
@@ -152,7 +152,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Breath training mobile app
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `typescript` | `react-native`
 
@@ -164,7 +164,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A growing, open-source database of Italian startups 🇮🇹 Designed to make the ecosystem more transparent and accessible
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `typescript` | `react` | `nextjs`
 
@@ -176,7 +176,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: This is a library providing a higher-order function and a decorator to cache the result of a function or method if given conditions are met.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `typescript` | `nodejs` | `cache` | `caching`
 
@@ -188,7 +188,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A tool to analyze the network flow during attack/defence Capture the Flag competitions
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `go`
 
@@ -200,7 +200,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: List of API to grab data about municipalities, provinces and regions of Italian country
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `css` | `bootstrap` | `javascript` | `php` | `laravel`
 
@@ -212,7 +212,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: An open source book about how to contribute to open source.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `opensource` | `book`
 
@@ -224,7 +224,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: This is a small Python project for Covid19 monitoring. I used Python with Flask, MySql and Plotly library for graphs.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `covid19` | `Flask` | `MySql` | `Plotly` | `API`
 
@@ -234,7 +234,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `dotfiles` | `go` | `linux` | `ansible` | `dotfiles-manager`
 
@@ -246,7 +246,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A parser and validator for the EU Digital Green Certificate (dgc) a.k.a. greenpass
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `rust` | `green pass` | `covid` | `parser` | `validator`
 
@@ -258,7 +258,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `bash` | `command-line` | `containers` | `development` | `docker` | `linux` | `podman` | `posix` | `sh` | `tools`
 
@@ -268,7 +268,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: framework
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `go` | `framework` | `web framework`
 
@@ -280,7 +280,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Proactive Software Asset Management. Backend component
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `go`
 
@@ -292,7 +292,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Cross-platform Text Expander written in Rust
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `rust`
 
@@ -304,7 +304,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Mobile applications distribution platform.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `microservices` | `mobile` | `app`
 
@@ -316,7 +316,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Python package that generates fake data for you
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `faker` | `python` | `testing`
 
@@ -328,7 +328,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: FusionCache is an easy to use, fast and robust cache with advanced resiliency features and an optional distributed 2nd level.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `caching` | `cache` | `csharp` | `dotnet` | `stampede` | `performance` | `memory` | `distributed`
 
@@ -340,7 +340,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: CLI tool to easily manage IPTables forwards
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `golang` | `network` | `iptables` | `linux`
 
@@ -352,7 +352,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: From the original source code a new rebirth, to add a Trainer in your GBA roms!
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `retrogaming` | `gameboy`
 
@@ -364,7 +364,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Scan your online repo, check if it is missing the license (or install the Git Hooks in your machine)
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `git` | `license`
 
@@ -376,7 +376,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Tips & Tricks to write a great CV
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `guide` | `cv` | `work` | `career` | `personal branding`
 
@@ -388,7 +388,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Tips & Trick for a great Linkedin profile
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `guide` | `linkedin` | `work` | `career` | `personal branding`
 
@@ -400,7 +400,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Patch your rom with Game Genie codes
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `retrogaming` | `gameboy` | `genesis`
 
@@ -412,7 +412,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Remap Git with your custom scripts or new commands
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `git`
 
@@ -424,7 +424,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: This extension for WordPress polyglots implements new features to improve the quality of translation/reviews!
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `firefox` | `browser-extension`
 
@@ -436,7 +436,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Execute scripts written in JavaScript
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `shell` | `cli` | `terminal` | `multiplatform` | `scripting`
 
@@ -448,7 +448,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Hanami is a full-stack Ruby web framework. It's made up of smaller, single-purpose libraries.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `ruby` | `web framework`
 
@@ -460,7 +460,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Library for Digital Pathology Image Processing
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python`
 
@@ -472,7 +472,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A little tool to make web calling a breeze!
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `typescript` | `javascript` | `httprequest`
 
@@ -482,7 +482,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: app
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `typescript` | `app` | `android` | `ios`
 
@@ -492,7 +492,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `image-processing` | `vuejs` | `javascript` | `cli`
 
@@ -502,7 +502,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: community
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `awesome` | `remote work`
 
@@ -512,7 +512,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: app
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `bot` | `job` | `offer` | `telegram`
 
@@ -522,7 +522,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `kafka` | `connect` | `elasticsearch` | `source`
 
@@ -532,7 +532,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: app
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `go` | `saas` | `serverless`
 
@@ -544,7 +544,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A Lightweight and Scalable Container-based Network Emulation System
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `docker` | `kubernetes` | `computer networks` | `network emulation`
 
@@ -556,7 +556,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Kong API Gateway is a cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `lua` | `api gateway` | `cloud-native`
 
@@ -568,7 +568,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A CNCF certified battle-tested Kubernetes distribution
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `kubernetes` | `K8s` | `cncf` | `kubernetes-distribution` | `fury` | `fury-distribution`
 
@@ -580,7 +580,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Leapp is the DevTool to access your cloud.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `typescript` | `python` | `cloud` | `electron`
 
@@ -592,7 +592,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: NPX command born with the purpose of streamline the process for developers of creating components with the many FE frameworks around. MJC allows you to just call a command and have your JS component ready to use, and edit, with also a bunch of options available in order to start with the perfect boilerplate.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `typescript` | `react` | `nodejs` | `vue` | `angular` | `npx`
 
@@ -604,7 +604,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A node.js module to make the use of promises safe. It implements the deprecation DEP0018 of Node.js in versions 6+. Using Promises without this module might cause file descriptor and memory leaks.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `nodejs` | `javascript`
 
@@ -616,7 +616,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A Go package that spins up a real MongoDB server, backed by in-memory storage, for use in testing and mocking during development. It's based on mongodb-memory-server for NodeJS.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `mongodb` | `memory` | `tryvium-travels` | `golang` | `mongodb-memory-server`
 
@@ -628,7 +628,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: The stylish Node.js middleware engine for AWS Lambda
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `nodejs` | `javascript` | `serverless` | `aws lambda`
 
@@ -640,7 +640,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Enables an organization to automate their social media strategy in regards to events and their promotion. 
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `mobilizon` | `graphql`
 
@@ -650,7 +650,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `java` | `mqtt` | `broker` | `lightweight`
 
@@ -662,7 +662,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: The neulabs-cdk-constructs library contains CDK-based constructs and stacks to allow the creation of cloud infrastructure on AWS.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `cdk` | `typescript` | `jsii` | `aws` | `constructs` | `stack` | `cloudformation` | `npm package`
 
@@ -674,7 +674,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: This application allows you to view GitHub's 'Usage Report' data.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `github` | `finops` | `analytics` | `streamlit` | `python`
 
@@ -686,7 +686,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Nutgram is a powerful PHP Telegram bot framework that allows you to build bots easily. Integrates with Laravel and Symfony out of the box.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `php` | `telegram` | `bot` | `framework` | `laravel` | `symfony`
 
@@ -698,7 +698,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A super fast, strongly typed, and powerful object hydrator for PHP.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `php` | `dto` | `hydrator`
 
@@ -708,7 +708,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: faas
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `go` | `python` | `serverless` | `startup`
 
@@ -720,7 +720,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Build your unique online presence with Open Profiler a responsive and feature-rich portfolio, easily tailored to showcase your skills, experience, and projects.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `portfolio` | `personal-brand` | `experiences` | `skills` | `projects` | `educations` | `angular`
 
@@ -740,7 +740,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A minimalistic mobile puzzle game inspired by Picross and Sudoku
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `typescript` | `react-native`
 
@@ -752,7 +752,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `ai` | `llm`
 
@@ -764,7 +764,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Desktop Pets for macOS
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `swift` | `swiftui` | `macos` | `appkit` | `desktop` | `pets` | `desktop pets`
 
@@ -776,7 +776,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Platformatic open-source tools simplify building and running Node.js applications, with best practices baked in.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javscript` | `node.js` | `applications` | `rest api`
 
@@ -788,7 +788,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Sveltos is a Kubernetes add-on controller that simplifies the deployment and management of Kubernetes add-ons and applications across multiple clusters whether on-prem, in the cloud or a multitenant environment
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `kubernetes` | `operator` | `kubernetes-operator` | `multi-tenancy` | `add-ons` | `golang` | `helm`
 
@@ -800,7 +800,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Remap your specific keyboard to execute custom scripts!
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python`
 
@@ -810,7 +810,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: learning
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `jupyter notebook` | `deep learning` | `pytorch`
 
@@ -820,7 +820,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `c` | `database`
 
@@ -832,7 +832,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Remote jobs aggregator
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `typescript` | `react` | `nodejs`
 
@@ -844,7 +844,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Rönd is a lightweight container that distributes security policy enforcement throughout your application.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `go` | `open policy agent`
 
@@ -856,7 +856,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Serverman is a comprehensive tool for managing your servers across different platforms directly from your terminal.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `Node` | `DigitalOcean` | `Server` | `Vercel` | `Netlify` | `CLI`
 
@@ -868,7 +868,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Extension to get back the Firefox Share modal
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `firefox` | `browser-extension`
 
@@ -880,7 +880,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A simple tool for a simple task: remove filler sounds ('ehm') from pre-recorded speeches. AI powered.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `Jupyter Notebook`
 
@@ -890,7 +890,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `flask` | `javascript` | `css`
 
@@ -902,7 +902,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Is an ETL Big Data tool based on the Apache Spark framework that simplifies its use through the ability to implement data pipelines using a declarative approach based on simple configuration files and expressing transformations primarily through SQL
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `scala` | `etl` | `big data` | `apache spark`
 
@@ -912,7 +912,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: library
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `graphql`
 
@@ -924,7 +924,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A mix and match (swap) library to empower swapping-based projects.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python`
 
@@ -936,7 +936,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Open Source Live Chat with adaptive multichannel Chatbots design technology. Alternative to Intercom and Zendesk for Customer Service and Conversational Marketing
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `customer service` | `conversational commerce` | `conversational marketing`
 
@@ -948,7 +948,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Streamline your frontend project management, that simplifies tagging and building new versions effortlessly.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `tag` | `npm` | `yarn` | `pnpm` | `version` | `build` | `package-manager` | `vscode-extension`
 
@@ -960,7 +960,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Wordpress Plugin Boilerplate but Powered with examples and a generator!
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `wordpress` | `boilerplate`
 
@@ -972,7 +972,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: XBackBone is a simple, self-hosted, lightweight file manager that support multiple instant sharing tools and storage backends.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `file-manager` | `file-sharing` | `self-hosted` | `sharex`
 
@@ -982,7 +982,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `yaml` | `openapi`
 
@@ -992,7 +992,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `javascript` | `automation` | `docker` | `puppeteer` | `github-action`
 
@@ -1004,7 +1004,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A modern OSS Key-Value store, Redis compatible, built for today's hardware
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `cache` | `caching` | `key-value` | `database` | `redis` | `memcache` | `prometheus` | `opensource` | `fast`
 
@@ -1014,7 +1014,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `kubernetes` | `operator` | `kubernetes-operator` | `multi-tenancy` | `namespaces` | `tenant` | `kubernetes-namespaces` | `multi-tenant-operator`
 
@@ -1026,7 +1026,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Various Espanso packages to fix typos automatically for you on Italian, English, Spanish and French
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `typo`
 
@@ -1036,7 +1036,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: library
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `nodejs` | `web-framework` | `api`
 
@@ -1048,7 +1048,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: State machine library for TypeScript
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `TypeScript` | `JavaScript` | `State machine`
 
@@ -1058,7 +1058,7 @@ tags: opensource projects, open-source, opensource
 
 **Type**: tool
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `kubernetes` | `multi-tenant` | `cluster` | `kubernetes-cluster` | `k8s` | `managed-kubernetes` | `multi-cluster` | `kubernetes-multitenancy` | `kubernetes-in-kubernetes` | `virtual-cluster`
 
@@ -1070,7 +1070,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: A Kubernetes operator to reduce CO2 footprint of your clusters
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `kubernetes` | `CO2` | `K8s` | `resources` | `cloud-native` | `downscale` | `green-software`
 
@@ -1082,7 +1082,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Build flexible, multi-tenant frontend applications following the Micro Frontend architecture
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `typescript` | `javascript` | `react` | `micro frontend`
 
@@ -1094,7 +1094,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: nuvola is a tool to dump and perform automatic and manual security analysis on AWS environments configurations and services using predefined, extensible and custom rules created using a simple Yaml syntax.
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `aws` | `cloudsecurity` | `devsecops` | `golang`
 
@@ -1106,7 +1106,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: The Micro Frontends orchestrator
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `TypeScript` | `JavaScript` | `micro frontends` | `web components`
 
@@ -1118,7 +1118,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: The easiest way to generate custom Apple Wallet passes in Node.js
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `nodejs` | `typescript` | `javascript` | `ios` | `passkit`
 
@@ -1130,7 +1130,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `commandline` | `qr` | `utility` | `golang`
 
@@ -1142,7 +1142,7 @@ tags: opensource projects, open-source, opensource
 
 **Description**: Simple package to add info to print statements
 
-**Last updated**: 2025-03-13T18:36:45Z
+**Last updated**: 2025-05-20T17:15:59Z
 
 `python` | `logging` | `utilities`
 

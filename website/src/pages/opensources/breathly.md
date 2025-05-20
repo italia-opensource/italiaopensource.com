@@ -1,6 +1,7 @@
 ---
 title: "Breathly"
 description: "Breath training mobile app"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,7 +26,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "mmazzarolo/breathly-app",
       "html_url": "https://github.com/mmazzarolo/breathly-app",
       "created_at": "2019-03-11T08:55:28Z",
-      "updated_at": "2025-02-26T03:22:00Z",
+      "updated_at": "2025-05-19T12:33:31Z",
       "pushed_at": "2024-03-16T07:28:50Z",
       "archived": false,
       "disabled": false,
@@ -54,15 +55,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "TypeScript": 82999,
         "JavaScript": 1322
       },
-      "stargazers_count": 531,
-      "forks_count": 70,
+      "stargazers_count": 539,
+      "forks_count": 72,
       "open_issues_count": 21,
-      "forks": 70,
+      "forks": 72,
       "open_issues": 21,
-      "watchers": 531,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 539,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

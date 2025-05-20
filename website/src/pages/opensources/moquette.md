@@ -1,6 +1,7 @@
 ---
 title: "Moquette"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,8 +27,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "moquette-io/moquette",
       "html_url": "https://github.com/moquette-io/moquette",
       "created_at": "2014-09-30T20:14:41Z",
-      "updated_at": "2025-03-12T03:46:23Z",
-      "pushed_at": "2025-02-11T10:02:01Z",
+      "updated_at": "2025-05-18T12:15:51Z",
+      "pushed_at": "2025-04-26T16:42:18Z",
       "archived": false,
       "disabled": false,
       "owner": "moquette-io",
@@ -58,15 +59,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Batchfile": 3910,
         "Ruby": 212
       },
-      "stargazers_count": 2337,
+      "stargazers_count": 2362,
       "forks_count": 824,
-      "open_issues_count": 114,
+      "open_issues_count": 118,
       "forks": 824,
-      "open_issues": 114,
-      "watchers": 2337,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "open_issues": 118,
+      "watchers": 2362,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

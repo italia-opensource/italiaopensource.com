@@ -1,6 +1,7 @@
 ---
 title: "GH License"
 description: "Scan your online repo, check if it is missing the license (or install the Git Hooks in your machine)"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -55,9 +56,9 @@ import ContentPage from '@site/src/components/Pages/project';
       "forks": 23,
       "open_issues": 13,
       "watchers": 44,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

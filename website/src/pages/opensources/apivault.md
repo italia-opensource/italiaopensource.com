@@ -1,6 +1,7 @@
 ---
 title: "Apivault"
 description: "Your gateway to a world of public APIs"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -27,14 +28,14 @@ import ContentPage from '@site/src/components/Pages/project';
     "filename": "apivault.json",
     "meta": {
       "name": "ApiVault",
-      "full_name": "Exifly/ApiVault",
-      "html_url": "https://github.com/Exifly/ApiVault",
+      "full_name": "exa-studio/ApiVault",
+      "html_url": "https://github.com/exa-studio/ApiVault",
       "created_at": "2023-04-15T13:41:00Z",
-      "updated_at": "2025-03-09T00:15:02Z",
+      "updated_at": "2025-05-04T17:54:09Z",
       "pushed_at": "2024-09-08T18:03:59Z",
       "archived": false,
       "disabled": false,
-      "owner": "Exifly",
+      "owner": "exa-studio",
       "owner_type": "Organization",
       "topics": [
         "api",
@@ -77,15 +78,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Dockerfile": 1464,
         "Shell": 236
       },
-      "stargazers_count": 456,
+      "stargazers_count": 464,
       "forks_count": 41,
       "open_issues_count": 4,
       "forks": 41,
       "open_issues": 4,
-      "watchers": 456,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 464,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

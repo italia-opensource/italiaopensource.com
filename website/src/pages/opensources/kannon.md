@@ -1,6 +1,7 @@
 ---
 title: "Kannon"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,8 +26,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "kannon-email/kannon",
       "html_url": "https://github.com/kannon-email/kannon",
       "created_at": "2021-01-03T09:01:56Z",
-      "updated_at": "2024-09-22T23:25:38Z",
-      "pushed_at": "2024-07-12T14:01:26Z",
+      "updated_at": "2025-04-23T14:16:47Z",
+      "pushed_at": "2025-03-16T11:46:45Z",
       "archived": false,
       "disabled": false,
       "owner": "kannon-email",
@@ -51,15 +52,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Makefile": 459,
         "Dockerfile": 365
       },
-      "stargazers_count": 66,
+      "stargazers_count": 68,
       "forks_count": 11,
-      "open_issues_count": 18,
+      "open_issues_count": 17,
       "forks": 11,
-      "open_issues": 18,
-      "watchers": 66,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "open_issues": 17,
+      "watchers": 68,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

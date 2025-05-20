@@ -1,6 +1,7 @@
 ---
 title: "Strawberry GraphQL"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,8 +25,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "strawberry-graphql/strawberry",
       "html_url": "https://github.com/strawberry-graphql/strawberry",
       "created_at": "2018-12-21T08:56:55Z",
-      "updated_at": "2025-03-13T17:27:46Z",
-      "pushed_at": "2025-03-13T18:22:44Z",
+      "updated_at": "2025-05-20T13:38:55Z",
+      "pushed_at": "2025-05-20T10:42:58Z",
       "archived": false,
       "disabled": false,
       "owner": "strawberry-graphql",
@@ -50,28 +51,28 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Python",
       "languages": {
-        "Python": 99.4,
+        "Python": 99.41,
         "HTML": 0.29,
         "TypeScript": 0.28,
         "Dockerfile": 0.02,
         "Shell": 0.0
       },
       "languages_byte": {
-        "Python": 2297836,
+        "Python": 2348864,
         "HTML": 6777,
         "TypeScript": 6577,
-        "Dockerfile": 523,
-        "Shell": 50
+        "Dockerfile": 517,
+        "Shell": 74
       },
-      "stargazers_count": 4199,
-      "forks_count": 559,
+      "stargazers_count": 4265,
+      "forks_count": 567,
       "open_issues_count": 488,
-      "forks": 559,
+      "forks": 567,
       "open_issues": 488,
-      "watchers": 4199,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 4265,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

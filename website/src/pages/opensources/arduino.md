@@ -1,6 +1,7 @@
 ---
 title: "Arduino"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,7 +26,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "arduino/Arduino",
       "html_url": "https://github.com/arduino/Arduino",
       "created_at": "2010-09-17T19:10:36Z",
-      "updated_at": "2025-03-13T18:36:59Z",
+      "updated_at": "2025-05-19T12:26:36Z",
       "pushed_at": "2024-10-18T16:32:19Z",
       "archived": false,
       "disabled": false,
@@ -53,15 +54,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Perl": 7263,
         "JavaScript": 1469
       },
-      "stargazers_count": 14274,
-      "forks_count": 6997,
-      "open_issues_count": 748,
-      "forks": 6997,
-      "open_issues": 748,
-      "watchers": 14274,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 14330,
+      "forks_count": 6993,
+      "open_issues_count": 747,
+      "forks": 6993,
+      "open_issues": 747,
+      "watchers": 14330,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

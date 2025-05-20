@@ -1,6 +1,7 @@
 ---
 title: "nuvola"
 description: "nuvola is a tool to dump and perform automatic and manual security analysis on AWS environments configurations and services using predefined, extensible and custom rules created using a simple Yaml syntax."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,8 +27,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "primait/nuvola",
       "html_url": "https://github.com/primait/nuvola",
       "created_at": "2021-11-09T13:29:01Z",
-      "updated_at": "2025-03-13T08:34:02Z",
-      "pushed_at": "2025-03-13T08:34:02Z",
+      "updated_at": "2025-05-04T00:17:32Z",
+      "pushed_at": "2025-05-01T12:37:02Z",
       "archived": false,
       "disabled": false,
       "owner": "primait",
@@ -47,28 +48,28 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Go",
       "languages": {
-        "Go": 81.42,
-        "HCL": 16.86,
-        "Makefile": 1.63,
+        "Go": 81.62,
+        "HCL": 16.68,
+        "Makefile": 1.61,
         "Python": 0.05,
         "JavaScript": 0.05
       },
       "languages_byte": {
-        "Go": 123999,
+        "Go": 125665,
         "HCL": 25679,
         "Makefile": 2476,
         "Python": 74,
         "JavaScript": 70
       },
-      "stargazers_count": 139,
+      "stargazers_count": 140,
       "forks_count": 18,
-      "open_issues_count": 1,
+      "open_issues_count": 3,
       "forks": 18,
-      "open_issues": 1,
-      "watchers": 139,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "open_issues": 3,
+      "watchers": 140,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

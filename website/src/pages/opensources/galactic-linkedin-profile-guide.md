@@ -1,6 +1,7 @@
 ---
 title: "Galactic Linkedin Profile Guide"
 description: "Tips & Trick for a great Linkedin profile"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -27,7 +28,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "GuidoPenta/galactic-linkedin-profile-guide-for-developers",
       "html_url": "https://github.com/GuidoPenta/galactic-linkedin-profile-guide-for-developers",
       "created_at": "2023-01-17T15:46:20Z",
-      "updated_at": "2025-03-10T15:19:25Z",
+      "updated_at": "2025-05-17T15:36:21Z",
       "pushed_at": "2025-03-10T15:19:20Z",
       "archived": false,
       "disabled": false,
@@ -50,15 +51,15 @@ import ContentPage from '@site/src/components/Pages/project';
       "languages_byte": {
         "SCSS": 140
       },
-      "stargazers_count": 226,
+      "stargazers_count": 230,
       "forks_count": 7,
       "open_issues_count": 0,
       "forks": 7,
       "open_issues": 0,
-      "watchers": 226,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 230,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

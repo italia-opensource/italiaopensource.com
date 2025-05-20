@@ -1,6 +1,7 @@
 ---
 title: "Game Genie Good Guy"
 description: "Patch your rom with Game Genie codes"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,7 +26,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Mte90/Game-Genie-Good-Guy",
       "html_url": "https://github.com/Mte90/Game-Genie-Good-Guy",
       "created_at": "2020-01-09T15:34:07Z",
-      "updated_at": "2025-03-11T15:27:05Z",
+      "updated_at": "2025-04-25T17:38:55Z",
       "pushed_at": "2024-05-05T05:41:33Z",
       "archived": false,
       "disabled": false,
@@ -54,15 +55,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Python": 9617,
         "Shell": 741
       },
-      "stargazers_count": 31,
+      "stargazers_count": 32,
       "forks_count": 3,
       "open_issues_count": 1,
       "forks": 3,
       "open_issues": 1,
-      "watchers": 31,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 32,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

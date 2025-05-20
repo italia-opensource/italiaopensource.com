@@ -1,6 +1,7 @@
 ---
 title: "Kong"
 description: "Kong API Gateway is a cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,8 +26,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Kong/kong",
       "html_url": "https://github.com/Kong/kong",
       "created_at": "2014-11-17T23:56:08Z",
-      "updated_at": "2025-03-13T17:11:03Z",
-      "pushed_at": "2025-03-13T16:45:37Z",
+      "updated_at": "2025-05-20T16:37:11Z",
+      "pushed_at": "2025-05-20T06:24:27Z",
       "archived": false,
       "disabled": false,
       "owner": "Kong",
@@ -58,36 +59,38 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Lua",
       "languages": {
-        "Lua": 89.31,
-        "Perl": 5.22,
-        "Raku": 3.05,
-        "Starlark": 0.97,
-        "Shell": 0.86,
-        "Python": 0.41,
+        "Lua": 89.18,
+        "Perl": 5.28,
+        "Raku": 3.09,
+        "Starlark": 0.98,
+        "Shell": 0.87,
+        "Python": 0.42,
         "Makefile": 0.09,
         "CSS": 0.05,
-        "Dockerfile": 0.03
+        "Dockerfile": 0.03,
+        "Linker Script": 0.01
       },
       "languages_byte": {
-        "Lua": 10056098,
+        "Lua": 9928084,
         "Perl": 587765,
         "Raku": 343862,
-        "Starlark": 109183,
+        "Starlark": 109185,
         "Shell": 96692,
         "Python": 46550,
-        "Makefile": 9745,
+        "Makefile": 9727,
         "CSS": 5812,
-        "Dockerfile": 3847
+        "Dockerfile": 3847,
+        "Linker Script": 652
       },
-      "stargazers_count": 40333,
-      "forks_count": 4882,
-      "open_issues_count": 131,
-      "forks": 4882,
-      "open_issues": 131,
-      "watchers": 40333,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 40862,
+      "forks_count": 4917,
+      "open_issues_count": 151,
+      "forks": 4917,
+      "open_issues": 151,
+      "watchers": 40862,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

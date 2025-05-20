@@ -1,6 +1,7 @@
 ---
 title: "fiume"
 description: "State machine library for TypeScript"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,8 +26,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "marco-ippolito/fiume",
       "html_url": "https://github.com/marco-ippolito/fiume",
       "created_at": "2023-11-11T11:34:01Z",
-      "updated_at": "2025-03-10T11:48:11Z",
-      "pushed_at": "2025-03-10T11:48:09Z",
+      "updated_at": "2025-05-19T21:17:19Z",
+      "pushed_at": "2025-05-19T11:25:53Z",
       "archived": false,
       "disabled": false,
       "owner": "marco-ippolito",
@@ -51,15 +52,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "TypeScript": 18006,
         "Shell": 179
       },
-      "stargazers_count": 70,
+      "stargazers_count": 72,
       "forks_count": 6,
       "open_issues_count": 0,
       "forks": 6,
       "open_issues": 0,
-      "watchers": 70,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 72,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

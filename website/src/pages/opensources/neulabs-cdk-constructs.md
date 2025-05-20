@@ -1,6 +1,7 @@
 ---
 title: "Neulabs CDK Constructs"
 description: "The neulabs-cdk-constructs library contains CDK-based constructs and stacks to allow the creation of cloud infrastructure on AWS."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -67,9 +68,9 @@ import ContentPage from '@site/src/components/Pages/project';
       "forks": 0,
       "open_issues": 4,
       "watchers": 3,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

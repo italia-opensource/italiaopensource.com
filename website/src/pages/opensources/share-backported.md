@@ -1,6 +1,7 @@
 ---
 title: "Share Backported"
 description: "Extension to get back the Firefox Share modal"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,8 +26,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Mte90/Share-Backported",
       "html_url": "https://github.com/Mte90/Share-Backported",
       "created_at": "2017-09-02T11:58:40Z",
-      "updated_at": "2025-02-21T14:49:12Z",
-      "pushed_at": "2025-02-21T14:50:20Z",
+      "updated_at": "2025-05-08T09:43:01Z",
+      "pushed_at": "2025-05-08T09:43:15Z",
       "archived": false,
       "disabled": false,
       "owner": "Mte90",
@@ -42,24 +43,24 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "HTML",
       "languages": {
-        "HTML": 59.85,
-        "JavaScript": 32.64,
-        "CSS": 7.52
+        "HTML": 59.89,
+        "JavaScript": 32.73,
+        "CSS": 7.37
       },
       "languages_byte": {
         "HTML": 37795,
-        "JavaScript": 20611,
-        "CSS": 4748
+        "JavaScript": 20655,
+        "CSS": 4653
       },
-      "stargazers_count": 50,
+      "stargazers_count": 51,
       "forks_count": 21,
       "open_issues_count": 5,
       "forks": 21,
       "open_issues": 5,
-      "watchers": 50,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 51,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

@@ -1,6 +1,7 @@
 ---
 title: "Pet Therapy"
 description: "Desktop Pets for macOS"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -29,8 +30,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "curzel-it/bit-therapy",
       "html_url": "https://github.com/curzel-it/bit-therapy",
       "created_at": "2022-06-13T08:28:25Z",
-      "updated_at": "2025-03-13T10:27:55Z",
-      "pushed_at": "2025-02-02T12:54:36Z",
+      "updated_at": "2025-05-17T07:30:09Z",
+      "pushed_at": "2025-05-10T09:21:04Z",
       "archived": false,
       "disabled": false,
       "owner": "curzel-it",
@@ -41,24 +42,24 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Swift",
       "languages": {
-        "Swift": 78.55,
-        "C#": 16.15,
+        "Swift": 78.58,
+        "C#": 16.14,
         "Python": 5.29
       },
       "languages_byte": {
-        "Swift": 269525,
+        "Swift": 269872,
         "C#": 55419,
         "Python": 18162
       },
-      "stargazers_count": 267,
-      "forks_count": 20,
-      "open_issues_count": 0,
-      "forks": 20,
-      "open_issues": 0,
-      "watchers": 267,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 290,
+      "forks_count": 25,
+      "open_issues_count": 1,
+      "forks": 25,
+      "open_issues": 1,
+      "watchers": 290,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

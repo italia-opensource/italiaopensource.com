@@ -1,6 +1,7 @@
 ---
 title: "Open Profiler"
 description: "Build your unique online presence with Open Profiler a responsive and feature-rich portfolio, easily tailored to showcase your skills, experience, and projects."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -29,8 +30,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Til0r/open-profiler",
       "html_url": "https://github.com/Til0r/open-profiler",
       "created_at": "2023-12-17T13:01:43Z",
-      "updated_at": "2025-02-28T11:00:26Z",
-      "pushed_at": "2025-02-28T11:00:23Z",
+      "updated_at": "2025-05-18T19:51:34Z",
+      "pushed_at": "2025-05-19T13:47:58Z",
       "archived": false,
       "disabled": false,
       "owner": "Til0r",
@@ -68,13 +69,13 @@ import ContentPage from '@site/src/components/Pages/project';
       },
       "stargazers_count": 2,
       "forks_count": 1,
-      "open_issues_count": 1,
+      "open_issues_count": 6,
       "forks": 1,
-      "open_issues": 1,
+      "open_issues": 6,
       "watchers": 2,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

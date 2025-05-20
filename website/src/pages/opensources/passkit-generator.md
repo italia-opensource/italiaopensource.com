@@ -1,6 +1,7 @@
 ---
 title: "passkit-generator"
 description: "The easiest way to generate custom Apple Wallet passes in Node.js"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -27,7 +28,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "alexandercerutti/passkit-generator",
       "html_url": "https://github.com/alexandercerutti/passkit-generator",
       "created_at": "2018-09-12T19:45:00Z",
-      "updated_at": "2025-03-13T10:11:58Z",
+      "updated_at": "2025-05-17T12:57:23Z",
       "pushed_at": "2025-01-19T23:26:40Z",
       "archived": false,
       "disabled": false,
@@ -55,15 +56,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "TypeScript": 89436,
         "JavaScript": 35771
       },
-      "stargazers_count": 985,
-      "forks_count": 115,
-      "open_issues_count": 3,
-      "forks": 115,
-      "open_issues": 3,
-      "watchers": 985,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 1040,
+      "forks_count": 121,
+      "open_issues_count": 1,
+      "forks": 121,
+      "open_issues": 1,
+      "watchers": 1040,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

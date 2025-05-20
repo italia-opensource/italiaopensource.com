@@ -1,6 +1,7 @@
 ---
 title: "Youtube-to-Anchorfm"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -27,8 +28,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Schroedinger-Hat/youtube-to-spotify",
       "html_url": "https://github.com/Schroedinger-Hat/youtube-to-spotify",
       "created_at": "2020-08-27T23:08:21Z",
-      "updated_at": "2025-02-16T22:54:22Z",
-      "pushed_at": "2025-01-20T13:55:39Z",
+      "updated_at": "2025-05-20T08:46:47Z",
+      "pushed_at": "2025-05-02T10:02:32Z",
       "archived": false,
       "disabled": false,
       "owner": "Schroedinger-Hat",
@@ -54,24 +55,24 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "JavaScript",
       "languages": {
-        "JavaScript": 94.08,
-        "Dockerfile": 5.83,
-        "Shell": 0.1
+        "JavaScript": 94.31,
+        "Dockerfile": 5.6,
+        "Shell": 0.09
       },
       "languages_byte": {
-        "JavaScript": 23548,
+        "JavaScript": 24572,
         "Dockerfile": 1459,
         "Shell": 24
       },
-      "stargazers_count": 134,
-      "forks_count": 73,
-      "open_issues_count": 8,
-      "forks": 73,
-      "open_issues": 8,
-      "watchers": 134,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 138,
+      "forks_count": 77,
+      "open_issues_count": 9,
+      "forks": 77,
+      "open_issues": 9,
+      "watchers": 138,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

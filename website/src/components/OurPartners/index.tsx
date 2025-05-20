@@ -24,8 +24,8 @@ export default function OurPartners(props: Props): JSX.Element {
         </Link>
       </Grid>
       <Grid size={{ xs: 12, sm: 4 }} padding={3}>
-        <Link href="/communities/kcd-italy">
-          <img src="/img/community-partners/kcd-italy.svg" alt="KCD Italy" />
+        <Link href="/communities/cloud-native-days-italy">
+          <img src="/img/community-partners/cloud-native-days-italy.png" alt="Cloud Native Days Italy" />
         </Link>
       </Grid>
       <Grid size={{ xs: 12, sm: 4 }} padding={3}>

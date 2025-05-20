@@ -1,6 +1,7 @@
 ---
 title: "Pytorch Deep Learning"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,8 +27,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Atcold/NYU-DLSP20",
       "html_url": "https://github.com/Atcold/NYU-DLSP20",
       "created_at": "2018-07-09T11:40:25Z",
-      "updated_at": "2025-03-12T05:54:54Z",
-      "pushed_at": "2025-02-19T20:27:52Z",
+      "updated_at": "2025-05-20T08:37:57Z",
+      "pushed_at": "2025-04-08T15:17:21Z",
       "archived": false,
       "disabled": false,
       "owner": "Atcold",
@@ -43,22 +44,22 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Jupyter Notebook",
       "languages": {
-        "Jupyter Notebook": 98.59,
-        "Python": 1.41
+        "Jupyter Notebook": 99.01,
+        "Python": 0.99
       },
       "languages_byte": {
-        "Jupyter Notebook": 1184331,
+        "Jupyter Notebook": 1687176,
         "Python": 16898
       },
-      "stargazers_count": 6732,
-      "forks_count": 2233,
-      "open_issues_count": 53,
-      "forks": 2233,
-      "open_issues": 53,
-      "watchers": 6732,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 6761,
+      "forks_count": 2234,
+      "open_issues_count": 55,
+      "forks": 2234,
+      "open_issues": 55,
+      "watchers": 6761,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

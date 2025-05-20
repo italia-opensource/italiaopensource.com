@@ -1,6 +1,7 @@
 ---
 title: "Contribute to opensource the right way"
 description: "An open source book about how to contribute to open source."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,7 +25,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Mte90/Contribute-to-opensource-the-right-way",
       "html_url": "https://github.com/Mte90/Contribute-to-opensource-the-right-way",
       "created_at": "2019-03-12T17:05:39Z",
-      "updated_at": "2024-12-09T02:14:25Z",
+      "updated_at": "2025-03-31T07:46:54Z",
       "pushed_at": "2024-07-01T10:11:41Z",
       "archived": false,
       "disabled": false,
@@ -45,15 +46,15 @@ import ContentPage from '@site/src/components/Pages/project';
       "languages_byte": {
         "Shell": 245
       },
-      "stargazers_count": 131,
+      "stargazers_count": 132,
       "forks_count": 6,
       "open_issues_count": 2,
       "forks": 6,
       "open_issues": 2,
-      "watchers": 131,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 132,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

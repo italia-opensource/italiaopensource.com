@@ -1,6 +1,7 @@
 ---
 title: "WordPress Plugin Boilerplate Powered"
 description: "Wordpress Plugin Boilerplate but Powered with examples and a generator!"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,7 +25,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "WPBP/WordPress-Plugin-Boilerplate-Powered",
       "html_url": "https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered",
       "created_at": "2014-06-26T17:29:18Z",
-      "updated_at": "2025-03-13T13:03:13Z",
+      "updated_at": "2025-05-15T12:59:41Z",
       "pushed_at": "2025-01-13T15:05:24Z",
       "archived": false,
       "disabled": false,
@@ -53,15 +54,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "SCSS": 1579,
         "Shell": 834
       },
-      "stargazers_count": 810,
-      "forks_count": 120,
-      "open_issues_count": 8,
-      "forks": 120,
-      "open_issues": 8,
-      "watchers": 810,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 817,
+      "forks_count": 119,
+      "open_issues_count": 9,
+      "forks": 119,
+      "open_issues": 9,
+      "watchers": 817,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />
