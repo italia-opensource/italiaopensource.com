@@ -1,6 +1,7 @@
 ---
 title: "Cache Candidate"
 description: "This is a library providing a higher-order function and a decorator to cache the result of a function or method if given conditions are met."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -27,7 +28,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "JointlyTech/cache-candidate",
       "html_url": "https://github.com/JointlyTech/cache-candidate",
       "created_at": "2022-12-06T13:41:30Z",
-      "updated_at": "2025-02-24T09:40:00Z",
+      "updated_at": "2025-03-20T13:02:58Z",
       "pushed_at": "2025-02-24T09:49:56Z",
       "archived": false,
       "disabled": false,
@@ -48,15 +49,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "JavaScript": 3716,
         "Shell": 69
       },
-      "stargazers_count": 33,
+      "stargazers_count": 34,
       "forks_count": 4,
       "open_issues_count": 0,
       "forks": 4,
       "open_issues": 0,
-      "watchers": 33,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 34,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

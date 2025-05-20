@@ -1,6 +1,7 @@
 ---
 title: "Nuvolaris"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -57,9 +58,9 @@ import ContentPage from '@site/src/components/Pages/project';
       "forks": 32,
       "open_issues": 10,
       "watchers": 226,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

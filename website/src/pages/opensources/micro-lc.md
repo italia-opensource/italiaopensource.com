@@ -1,6 +1,7 @@
 ---
 title: "micro-lc"
 description: "Build flexible, multi-tenant frontend applications following the Micro Frontend architecture"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -70,9 +71,9 @@ import ContentPage from '@site/src/components/Pages/project';
       "forks": 9,
       "open_issues": 15,
       "watchers": 221,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

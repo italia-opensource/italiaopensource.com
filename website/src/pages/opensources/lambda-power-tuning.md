@@ -1,6 +1,7 @@
 ---
 title: "AWS Lambda Power Tuning"
 description: "AWS Lambda Power Tuning helps you visualize and fine-tune the memory/power configuration of Lambda functions."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -29,8 +30,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "alexcasalboni/aws-lambda-power-tuning",
       "html_url": "https://github.com/alexcasalboni/aws-lambda-power-tuning",
       "created_at": "2017-03-27T15:18:12Z",
-      "updated_at": "2025-03-12T20:48:51Z",
-      "pushed_at": "2025-02-18T10:32:46Z",
+      "updated_at": "2025-05-19T10:44:20Z",
+      "pushed_at": "2025-05-19T10:44:16Z",
       "archived": false,
       "disabled": false,
       "owner": "alexcasalboni",
@@ -50,36 +51,36 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "JavaScript",
       "languages": {
-        "JavaScript": 85.05,
-        "HCL": 6.75,
-        "Java": 1.89,
-        "Go": 1.53,
-        "C#": 1.4,
-        "Python": 1.29,
-        "Shell": 1.01,
-        "TypeScript": 0.9,
+        "JavaScript": 85.29,
+        "HCL": 6.62,
+        "Java": 1.86,
+        "Go": 1.5,
+        "C#": 1.38,
+        "Python": 1.27,
+        "Shell": 1.03,
+        "TypeScript": 0.88,
         "Batchfile": 0.18
       },
       "languages_byte": {
-        "JavaScript": 206690,
+        "JavaScript": 211306,
         "HCL": 16395,
         "Java": 4596,
         "Go": 3716,
         "C#": 3414,
         "Python": 3139,
-        "Shell": 2449,
+        "Shell": 2559,
         "TypeScript": 2188,
         "Batchfile": 437
       },
-      "stargazers_count": 5629,
-      "forks_count": 388,
-      "open_issues_count": 15,
-      "forks": 388,
-      "open_issues": 15,
-      "watchers": 5629,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 5713,
+      "forks_count": 396,
+      "open_issues_count": 17,
+      "forks": 396,
+      "open_issues": 17,
+      "watchers": 5713,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

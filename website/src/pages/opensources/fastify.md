@@ -1,6 +1,7 @@
 ---
 title: "fastify"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,8 +26,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "fastify/fastify",
       "html_url": "https://github.com/fastify/fastify",
       "created_at": "2016-09-28T19:10:14Z",
-      "updated_at": "2025-03-13T17:26:47Z",
-      "pushed_at": "2025-03-13T17:26:40Z",
+      "updated_at": "2025-05-20T15:45:10Z",
+      "pushed_at": "2025-05-19T17:59:02Z",
       "archived": false,
       "disabled": false,
       "owner": "fastify",
@@ -42,24 +43,24 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "JavaScript",
       "languages": {
-        "JavaScript": 91.12,
-        "TypeScript": 8.83,
+        "JavaScript": 91.36,
+        "TypeScript": 8.59,
         "Shell": 0.05
       },
       "languages_byte": {
-        "JavaScript": 1603969,
-        "TypeScript": 155360,
+        "JavaScript": 1666252,
+        "TypeScript": 156661,
         "Shell": 911
       },
-      "stargazers_count": 33221,
-      "forks_count": 2368,
-      "open_issues_count": 96,
-      "forks": 2368,
-      "open_issues": 96,
-      "watchers": 33221,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 33780,
+      "forks_count": 2409,
+      "open_issues_count": 107,
+      "forks": 2409,
+      "open_issues": 107,
+      "watchers": 33780,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

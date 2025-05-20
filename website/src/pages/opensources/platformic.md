@@ -1,6 +1,7 @@
 ---
 title: "Platformatic"
 description: "Platformatic open-source tools simplify building and running Node.js applications, with best practices baked in."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,8 +27,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "platformatic/platformatic",
       "html_url": "https://github.com/platformatic/platformatic",
       "created_at": "2022-09-22T07:32:19Z",
-      "updated_at": "2025-03-13T16:13:17Z",
-      "pushed_at": "2025-03-13T16:13:14Z",
+      "updated_at": "2025-05-19T17:52:15Z",
+      "pushed_at": "2025-05-20T12:10:54Z",
       "archived": false,
       "disabled": false,
       "owner": "platformatic",
@@ -45,18 +46,18 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "JavaScript",
       "languages": {
-        "JavaScript": 97.61,
-        "TypeScript": 1.3,
-        "HTML": 0.59,
-        "CSS": 0.29,
-        "Nunjucks": 0.12,
+        "JavaScript": 97.72,
+        "TypeScript": 1.25,
+        "HTML": 0.56,
+        "CSS": 0.27,
+        "Nunjucks": 0.11,
         "Shell": 0.05,
         "Dockerfile": 0.04,
         "Astro": 0.0
       },
       "languages_byte": {
-        "JavaScript": 3480899,
-        "TypeScript": 46441,
+        "JavaScript": 3671597,
+        "TypeScript": 46904,
         "HTML": 21171,
         "CSS": 10195,
         "Nunjucks": 4262,
@@ -64,15 +65,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Dockerfile": 1395,
         "Astro": 76
       },
-      "stargazers_count": 1543,
-      "forks_count": 155,
-      "open_issues_count": 210,
-      "forks": 155,
-      "open_issues": 210,
-      "watchers": 1543,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 1580,
+      "forks_count": 161,
+      "open_issues_count": 213,
+      "forks": 161,
+      "open_issues": 213,
+      "watchers": 1580,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

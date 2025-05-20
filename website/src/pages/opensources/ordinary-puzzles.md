@@ -1,6 +1,7 @@
 ---
 title: "Ordinary Puzzles"
 description: "A minimalistic mobile puzzle game inspired by Picross and Sudoku"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,7 +26,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "mmazzarolo/ordinary-puzzles-app",
       "html_url": "https://github.com/mmazzarolo/ordinary-puzzles-app",
       "created_at": "2019-12-14T22:17:32Z",
-      "updated_at": "2025-02-24T21:04:38Z",
+      "updated_at": "2025-05-20T06:37:04Z",
       "pushed_at": "2023-02-05T19:33:41Z",
       "archived": false,
       "disabled": false,
@@ -70,15 +71,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Swift": 110,
         "Shell": 97
       },
-      "stargazers_count": 491,
+      "stargazers_count": 493,
       "forks_count": 45,
       "open_issues_count": 9,
       "forks": 45,
       "open_issues": 9,
-      "watchers": 491,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 493,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

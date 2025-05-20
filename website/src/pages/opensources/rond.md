@@ -1,6 +1,7 @@
 ---
 title: "Rönd"
 description: "Rönd is a lightweight container that distributes security policy enforcement throughout your application."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,8 +25,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "rond-authz/rond",
       "html_url": "https://github.com/rond-authz/rond",
       "created_at": "2022-06-03T10:03:42Z",
-      "updated_at": "2025-03-10T11:35:31Z",
-      "pushed_at": "2025-03-13T06:44:23Z",
+      "updated_at": "2025-05-07T09:41:25Z",
+      "pushed_at": "2025-05-15T16:48:16Z",
       "archived": false,
       "disabled": false,
       "owner": "rond-authz",
@@ -55,13 +56,13 @@ import ContentPage from '@site/src/components/Pages/project';
       },
       "stargazers_count": 163,
       "forks_count": 7,
-      "open_issues_count": 35,
+      "open_issues_count": 38,
       "forks": 7,
-      "open_issues": 35,
+      "open_issues": 38,
       "watchers": 163,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

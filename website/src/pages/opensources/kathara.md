@@ -1,6 +1,7 @@
 ---
 title: "Kathará"
 description: "A Lightweight and Scalable Container-based Network Emulation System"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -27,8 +28,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "KatharaFramework/Kathara",
       "html_url": "https://github.com/KatharaFramework/Kathara",
       "created_at": "2017-03-31T14:07:48Z",
-      "updated_at": "2025-03-13T13:16:16Z",
-      "pushed_at": "2025-02-25T16:34:51Z",
+      "updated_at": "2025-05-19T10:34:00Z",
+      "pushed_at": "2025-05-19T08:23:42Z",
       "archived": false,
       "disabled": false,
       "owner": "KatharaFramework",
@@ -60,32 +61,32 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Python",
       "languages": {
-        "Python": 97.53,
-        "Makefile": 1.38,
-        "Shell": 0.4,
+        "Python": 97.59,
+        "Makefile": 1.37,
+        "Shell": 0.35,
         "Inno Setup": 0.3,
         "HTML": 0.24,
         "Batchfile": 0.09,
         "Dockerfile": 0.07
       },
       "languages_byte": {
-        "Python": 1273385,
-        "Makefile": 18006,
-        "Shell": 5223,
+        "Python": 1279824,
+        "Makefile": 18020,
+        "Shell": 4581,
         "Inno Setup": 3883,
         "HTML": 3166,
         "Batchfile": 1135,
         "Dockerfile": 855
       },
-      "stargazers_count": 494,
-      "forks_count": 68,
-      "open_issues_count": 12,
-      "forks": 68,
-      "open_issues": 12,
-      "watchers": 494,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 514,
+      "forks_count": 69,
+      "open_issues_count": 15,
+      "forks": 69,
+      "open_issues": 15,
+      "watchers": 514,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

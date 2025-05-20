@@ -1,6 +1,7 @@
 ---
 title: "Caronte"
 description: "A tool to analyze the network flow during attack/defence Capture the Flag competitions"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,7 +25,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "eciavatta/caronte",
       "html_url": "https://github.com/eciavatta/caronte",
       "created_at": "2020-04-01T12:23:02Z",
-      "updated_at": "2025-03-02T12:26:38Z",
+      "updated_at": "2025-05-19T03:46:34Z",
       "pushed_at": "2022-12-07T15:35:45Z",
       "archived": false,
       "disabled": false,
@@ -60,15 +61,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Dockerfile": 1127,
         "HTML": 671
       },
-      "stargazers_count": 606,
-      "forks_count": 85,
+      "stargazers_count": 620,
+      "forks_count": 87,
       "open_issues_count": 23,
-      "forks": 85,
+      "forks": 87,
       "open_issues": 23,
-      "watchers": 606,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 620,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

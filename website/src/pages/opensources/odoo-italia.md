@@ -1,6 +1,7 @@
 ---
 title: "Associazione Odoo Italia"
 description: "Addons concerning Odoo Italian Localization."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,8 +25,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "OCA/l10n-italy",
       "html_url": "https://github.com/OCA/l10n-italy",
       "created_at": "2014-06-09T14:08:49Z",
-      "updated_at": "2025-03-07T09:25:37Z",
-      "pushed_at": "2025-03-13T12:01:33Z",
+      "updated_at": "2025-05-19T10:40:55Z",
+      "pushed_at": "2025-05-20T16:29:10Z",
       "archived": false,
       "disabled": false,
       "owner": "OCA",
@@ -40,30 +41,30 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Python",
       "languages": {
-        "Python": 56.48,
-        "HTML": 27.16,
-        "XSLT": 12.31,
-        "JavaScript": 3.74,
+        "Python": 56.19,
+        "HTML": 27.78,
+        "XSLT": 12.07,
+        "JavaScript": 3.66,
         "CSS": 0.2,
         "SCSS": 0.1
       },
       "languages_byte": {
-        "Python": 2177130,
-        "HTML": 1047076,
+        "Python": 2209499,
+        "HTML": 1092412,
         "XSLT": 474705,
         "JavaScript": 144079,
         "CSS": 7885,
         "SCSS": 3841
       },
-      "stargazers_count": 162,
-      "forks_count": 309,
-      "open_issues_count": 400,
-      "forks": 309,
-      "open_issues": 400,
-      "watchers": 162,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 170,
+      "forks_count": 317,
+      "open_issues_count": 372,
+      "forks": 317,
+      "open_issues": 372,
+      "watchers": 170,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

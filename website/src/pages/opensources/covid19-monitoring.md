@@ -1,6 +1,7 @@
 ---
 title: "Covid19-Monitoring"
 description: "This is a small Python project for Covid19 monitoring. I used Python with Flask, MySql and Plotly library for graphs."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -28,7 +29,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "albino98/Covid19Monitoring",
       "html_url": "https://github.com/albino98/Covid19Monitoring",
       "created_at": "2021-04-18T11:36:41Z",
-      "updated_at": "2025-01-14T16:42:19Z",
+      "updated_at": "2025-05-15T15:26:07Z",
       "pushed_at": "2025-01-14T16:42:15Z",
       "archived": false,
       "disabled": false,
@@ -60,15 +61,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Python": 11362,
         "HTML": 6591
       },
-      "stargazers_count": 4,
+      "stargazers_count": 3,
       "forks_count": 0,
       "open_issues_count": 0,
       "forks": 0,
       "open_issues": 0,
-      "watchers": 4,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 3,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

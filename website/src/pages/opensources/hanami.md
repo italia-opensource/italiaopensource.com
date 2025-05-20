@@ -1,6 +1,7 @@
 ---
 title: "Hanami"
 description: "Hanami is a full-stack Ruby web framework. It's made up of smaller, single-purpose libraries."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,8 +25,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "hanami/hanami",
       "html_url": "https://github.com/hanami/hanami",
       "created_at": "2013-08-09T15:24:44Z",
-      "updated_at": "2025-03-13T12:48:09Z",
-      "pushed_at": "2025-03-13T12:48:06Z",
+      "updated_at": "2025-05-20T12:30:08Z",
+      "pushed_at": "2025-05-17T19:23:26Z",
       "archived": false,
       "disabled": false,
       "owner": "hanami",
@@ -43,22 +44,22 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Ruby",
       "languages": {
-        "Ruby": 99.26,
-        "HTML": 0.74
+        "Ruby": 99.28,
+        "HTML": 0.72
       },
       "languages_byte": {
-        "Ruby": 793670,
+        "Ruby": 810095,
         "HTML": 5895
       },
-      "stargazers_count": 6250,
-      "forks_count": 539,
-      "open_issues_count": 41,
-      "forks": 539,
-      "open_issues": 41,
-      "watchers": 6250,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 6266,
+      "forks_count": 541,
+      "open_issues_count": 39,
+      "forks": 541,
+      "open_issues": 39,
+      "watchers": 6266,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

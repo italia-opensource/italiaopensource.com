@@ -1,6 +1,7 @@
 ---
 title: "Espanso"
 description: "Cross-platform Text Expander written in Rust"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -23,8 +24,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "espanso/espanso",
       "html_url": "https://github.com/espanso/espanso",
       "created_at": "2019-08-30T07:16:58Z",
-      "updated_at": "2025-03-13T17:34:22Z",
-      "pushed_at": "2025-03-06T12:11:54Z",
+      "updated_at": "2025-05-20T16:02:56Z",
+      "pushed_at": "2025-04-27T03:31:40Z",
       "archived": false,
       "disabled": false,
       "owner": "espanso",
@@ -44,11 +45,12 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Rust",
       "languages": {
-        "Rust": 52.81,
-        "C++": 44.26,
-        "C": 1.31,
-        "Objective-C++": 1.26,
-        "Shell": 0.14,
+        "Rust": 54.81,
+        "C++": 42.23,
+        "C": 1.26,
+        "Objective-C++": 1.19,
+        "Nix": 0.17,
+        "Shell": 0.13,
         "Inno Setup": 0.1,
         "Objective-C": 0.05,
         "AppleScript": 0.04,
@@ -56,26 +58,27 @@ import ContentPage from '@site/src/components/Pages/project';
         "Batchfile": 0.0
       },
       "languages_byte": {
-        "Rust": 1344017,
-        "C++": 1126363,
-        "C": 33354,
+        "Rust": 1484463,
+        "C++": 1143881,
+        "C": 34243,
         "Objective-C++": 32137,
-        "Shell": 3438,
+        "Nix": 4507,
+        "Shell": 3577,
         "Inno Setup": 2640,
-        "Objective-C": 1399,
+        "Objective-C": 1401,
         "AppleScript": 1117,
         "Ruby": 502,
         "Batchfile": 23
       },
-      "stargazers_count": 10629,
-      "forks_count": 291,
-      "open_issues_count": 385,
-      "forks": 291,
-      "open_issues": 385,
-      "watchers": 10629,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 11291,
+      "forks_count": 315,
+      "open_issues_count": 416,
+      "forks": 315,
+      "open_issues": 416,
+      "watchers": 11291,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

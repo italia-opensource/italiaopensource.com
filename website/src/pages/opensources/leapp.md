@@ -1,6 +1,7 @@
 ---
 title: "Leapp"
 description: "Leapp is the DevTool to access your cloud."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,8 +27,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Noovolari/leapp",
       "html_url": "https://github.com/Noovolari/leapp",
       "created_at": "2020-07-28T07:54:59Z",
-      "updated_at": "2025-03-12T01:16:31Z",
-      "pushed_at": "2024-11-28T22:57:06Z",
+      "updated_at": "2025-05-16T19:47:01Z",
+      "pushed_at": "2025-05-19T16:18:21Z",
       "archived": false,
       "disabled": false,
       "owner": "Noovolari",
@@ -66,22 +67,22 @@ import ContentPage from '@site/src/components/Pages/project';
         "SCSS": 124137,
         "HTML": 118891,
         "Python": 87915,
-        "JavaScript": 60120,
+        "JavaScript": 60121,
         "Makefile": 38442,
         "C++": 4299,
         "C": 174,
         "Shell": 135,
         "Batchfile": 61
       },
-      "stargazers_count": 1651,
-      "forks_count": 151,
-      "open_issues_count": 153,
-      "forks": 151,
-      "open_issues": 153,
-      "watchers": 1651,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 1673,
+      "forks_count": 153,
+      "open_issues_count": 151,
+      "forks": 153,
+      "open_issues": 151,
+      "watchers": 1673,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

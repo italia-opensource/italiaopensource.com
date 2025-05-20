@@ -1,6 +1,7 @@
 ---
 title: "Faker"
 description: "Python package that generates fake data for you"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,8 +26,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "joke2k/faker",
       "html_url": "https://github.com/joke2k/faker",
       "created_at": "2012-11-12T23:00:09Z",
-      "updated_at": "2025-03-13T17:55:55Z",
-      "pushed_at": "2025-03-07T15:39:41Z",
+      "updated_at": "2025-05-20T15:52:18Z",
+      "pushed_at": "2025-05-14T15:24:15Z",
       "archived": false,
       "disabled": false,
       "owner": "joke2k",
@@ -52,19 +53,19 @@ import ContentPage from '@site/src/components/Pages/project';
         "Shell": 0.0
       },
       "languages_byte": {
-        "Python": 9101542,
-        "Makefile": 411,
+        "Python": 9228276,
+        "Makefile": 410,
         "Shell": 387
       },
-      "stargazers_count": 18093,
-      "forks_count": 1968,
-      "open_issues_count": 15,
-      "forks": 1968,
-      "open_issues": 15,
-      "watchers": 18093,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 18376,
+      "forks_count": 1992,
+      "open_issues_count": 23,
+      "forks": 1992,
+      "open_issues": 23,
+      "watchers": 18376,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

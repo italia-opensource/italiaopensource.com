@@ -1,6 +1,7 @@
 ---
 title: "Gitapper"
 description: "Remap Git with your custom scripts or new commands"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -23,8 +24,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Mte90/gitapper",
       "html_url": "https://github.com/Mte90/gitapper",
       "created_at": "2020-10-13T17:52:40Z",
-      "updated_at": "2024-12-09T02:14:39Z",
-      "pushed_at": "2023-09-07T14:43:23Z",
+      "updated_at": "2025-04-09T10:57:37Z",
+      "pushed_at": "2025-04-09T10:57:33Z",
       "archived": false,
       "disabled": false,
       "owner": "Mte90",
@@ -41,12 +42,12 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Shell",
       "languages": {
-        "Shell": 91.01,
-        "Python": 8.99
+        "Shell": 73.33,
+        "Python": 26.67
       },
       "languages_byte": {
-        "Shell": 8069,
-        "Python": 797
+        "Shell": 8238,
+        "Python": 2996
       },
       "stargazers_count": 6,
       "forks_count": 1,
@@ -54,9 +55,9 @@ import ContentPage from '@site/src/components/Pages/project';
       "forks": 1,
       "open_issues": 1,
       "watchers": 6,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

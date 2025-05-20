@@ -1,6 +1,7 @@
 ---
 title: "espanso typofixer "
 description: "Various Espanso packages to fix typos automatically for you on Italian, English, Spanish and French"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -23,8 +24,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Mte90/espanso-typofixer",
       "html_url": "https://github.com/Mte90/espanso-typofixer",
       "created_at": "2022-11-22T12:03:00Z",
-      "updated_at": "2025-03-10T11:19:33Z",
-      "pushed_at": "2025-03-10T11:19:29Z",
+      "updated_at": "2025-05-08T09:33:08Z",
+      "pushed_at": "2025-05-08T09:35:56Z",
       "archived": false,
       "disabled": false,
       "owner": "Mte90",
@@ -42,13 +43,13 @@ import ContentPage from '@site/src/components/Pages/project';
       },
       "stargazers_count": 9,
       "forks_count": 1,
-      "open_issues_count": 0,
+      "open_issues_count": 1,
       "forks": 1,
-      "open_issues": 0,
+      "open_issues": 1,
       "watchers": 9,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

@@ -1,6 +1,7 @@
 ---
 title: "Galactic CV Guide"
 description: "Tips & Tricks to write a great CV"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -27,7 +28,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "GuidoPenta/galactic-CV-guide-for-developers",
       "html_url": "https://github.com/GuidoPenta/galactic-CV-guide-for-developers",
       "created_at": "2022-12-07T16:32:59Z",
-      "updated_at": "2025-03-12T11:27:12Z",
+      "updated_at": "2025-05-17T10:37:01Z",
       "pushed_at": "2023-11-18T12:03:30Z",
       "archived": false,
       "disabled": false,
@@ -49,15 +50,15 @@ import ContentPage from '@site/src/components/Pages/project';
       "languages_byte": {
         "SCSS": 140
       },
-      "stargazers_count": 449,
+      "stargazers_count": 460,
       "forks_count": 17,
       "open_issues_count": 0,
       "forks": 17,
       "open_issues": 0,
-      "watchers": 449,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 460,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

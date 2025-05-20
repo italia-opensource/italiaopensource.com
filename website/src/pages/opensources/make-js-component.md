@@ -1,6 +1,7 @@
 ---
 title: "Make Js Component"
 description: "NPX command born with the purpose of streamline the process for developers of creating components with the many FE frameworks around. MJC allows you to just call a command and have your JS component ready to use, and edit, with also a bunch of options available in order to start with the perfect boilerplate."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -29,7 +30,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Giuliano1993/make-js-component",
       "html_url": "https://github.com/Giuliano1993/make-js-component",
       "created_at": "2023-11-13T17:04:47Z",
-      "updated_at": "2024-12-21T11:03:28Z",
+      "updated_at": "2025-04-25T16:55:35Z",
       "pushed_at": "2024-08-24T09:35:10Z",
       "archived": false,
       "disabled": false,
@@ -54,15 +55,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Svelte": 297,
         "Astro": 75
       },
-      "stargazers_count": 39,
-      "forks_count": 19,
-      "open_issues_count": 23,
-      "forks": 19,
-      "open_issues": 23,
-      "watchers": 39,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 38,
+      "forks_count": 21,
+      "open_issues_count": 22,
+      "forks": 21,
+      "open_issues": 22,
+      "watchers": 38,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

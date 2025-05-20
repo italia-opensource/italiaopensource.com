@@ -1,6 +1,7 @@
 ---
 title: "Redis"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,55 +25,69 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "redis/redis",
       "html_url": "https://github.com/redis/redis",
       "created_at": "2009-03-21T22:32:25Z",
-      "updated_at": "2025-03-13T16:41:27Z",
-      "pushed_at": "2025-03-11T18:19:38Z",
+      "updated_at": "2025-05-20T16:11:50Z",
+      "pushed_at": "2025-05-20T10:23:54Z",
       "archived": false,
       "disabled": false,
       "owner": "redis",
       "owner_type": "Organization",
       "topics": [
         "cache",
+        "caching",
         "database",
+        "distributed-systems",
+        "in-memory",
+        "in-memory-database",
+        "json",
         "key-value",
+        "key-value-store",
         "message-broker",
+        "message-queue",
+        "no-sql",
         "nosql",
-        "redis"
+        "open-source",
+        "real-time",
+        "realtime",
+        "redis",
+        "time-series",
+        "vector-databases",
+        "vector-search"
       ],
       "license": "Other"
     },
     "analytics": {
       "language": "C",
       "languages": {
-        "C": 73.26,
-        "Tcl": 25.47,
-        "Python": 0.42,
-        "Makefile": 0.27,
-        "Shell": 0.25,
-        "Ruby": 0.24,
+        "C": 73.03,
+        "Tcl": 24.61,
+        "Python": 1.53,
+        "Makefile": 0.29,
+        "Shell": 0.23,
+        "Ruby": 0.23,
         "C++": 0.06,
         "Smarty": 0.01,
         "JavaScript": 0.01
       },
       "languages_byte": {
-        "C": 7015679,
-        "Tcl": 2438970,
-        "Python": 40222,
-        "Makefile": 26091,
-        "Shell": 23638,
-        "Ruby": 23260,
+        "C": 7383030,
+        "Tcl": 2488014,
+        "Python": 154619,
+        "Makefile": 29391,
+        "Shell": 23676,
+        "Ruby": 23536,
         "C++": 5987,
         "Smarty": 1047,
         "JavaScript": 953
       },
-      "stargazers_count": 68326,
-      "forks_count": 23930,
-      "open_issues_count": 2553,
-      "forks": 23930,
-      "open_issues": 2553,
-      "watchers": 68326,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 69290,
+      "forks_count": 24043,
+      "open_issues_count": 2604,
+      "forks": 24043,
+      "open_issues": 2604,
+      "watchers": 69290,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

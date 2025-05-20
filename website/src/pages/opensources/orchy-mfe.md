@@ -1,6 +1,7 @@
 ---
 title: "orchy-mfe"
 description: "The Micro Frontends orchestrator"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,8 +27,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "orchy-mfe/orchy-core",
       "html_url": "https://github.com/orchy-mfe/orchy-core",
       "created_at": "2022-08-06T12:45:18Z",
-      "updated_at": "2025-03-10T10:20:33Z",
-      "pushed_at": "2025-03-12T02:59:57Z",
+      "updated_at": "2025-05-20T03:57:43Z",
+      "pushed_at": "2025-05-20T03:59:19Z",
       "archived": false,
       "disabled": false,
       "owner": "orchy-mfe",
@@ -57,13 +58,13 @@ import ContentPage from '@site/src/components/Pages/project';
       },
       "stargazers_count": 22,
       "forks_count": 1,
-      "open_issues_count": 7,
+      "open_issues_count": 8,
       "forks": 1,
-      "open_issues": 7,
+      "open_issues": 8,
       "watchers": 22,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

@@ -1,6 +1,7 @@
 ---
 title: "Bootstrap Italia"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -25,8 +26,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "italia/bootstrap-italia",
       "html_url": "https://github.com/italia/bootstrap-italia",
       "created_at": "2017-09-26T13:46:26Z",
-      "updated_at": "2025-03-13T10:12:33Z",
-      "pushed_at": "2025-03-13T18:26:51Z",
+      "updated_at": "2025-04-29T02:18:07Z",
+      "pushed_at": "2025-05-19T14:04:02Z",
       "archived": false,
       "disabled": false,
       "owner": "italia",
@@ -64,15 +65,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Dockerfile": 367,
         "Shell": 364
       },
-      "stargazers_count": 322,
-      "forks_count": 161,
-      "open_issues_count": 83,
-      "forks": 161,
-      "open_issues": 83,
-      "watchers": 322,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 321,
+      "forks_count": 162,
+      "open_issues_count": 98,
+      "forks": 162,
+      "open_issues": 98,
+      "watchers": 321,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

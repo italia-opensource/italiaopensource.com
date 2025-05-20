@@ -1,6 +1,7 @@
 ---
 title: "cachegrand"
 description: "A modern OSS Key-Value store, Redis compatible, built for today's hardware"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -31,7 +32,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "danielealbano/cachegrand",
       "html_url": "https://github.com/danielealbano/cachegrand",
       "created_at": "2018-03-14T15:33:02Z",
-      "updated_at": "2025-03-11T02:38:58Z",
+      "updated_at": "2025-04-23T06:22:55Z",
       "pushed_at": "2025-01-02T19:55:34Z",
       "archived": false,
       "disabled": false,
@@ -82,15 +83,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Assembly": 4010,
         "Dockerfile": 3728
       },
-      "stargazers_count": 981,
+      "stargazers_count": 982,
       "forks_count": 35,
       "open_issues_count": 28,
       "forks": 35,
       "open_issues": 28,
-      "watchers": 981,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 982,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

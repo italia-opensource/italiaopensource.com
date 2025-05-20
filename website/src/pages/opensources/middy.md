@@ -1,6 +1,7 @@
 ---
 title: "Middy"
 description: "The stylish Node.js middleware engine for AWS Lambda"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,8 +27,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "middyjs/middy",
       "html_url": "https://github.com/middyjs/middy",
       "created_at": "2017-08-03T14:59:07Z",
-      "updated_at": "2025-03-10T06:27:49Z",
-      "pushed_at": "2025-03-13T05:18:21Z",
+      "updated_at": "2025-05-19T21:41:29Z",
+      "pushed_at": "2025-05-19T13:07:40Z",
       "archived": false,
       "disabled": false,
       "owner": "middyjs",
@@ -57,26 +58,26 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "JavaScript",
       "languages": {
-        "JavaScript": 88.62,
-        "TypeScript": 10.91,
+        "JavaScript": 88.22,
+        "TypeScript": 11.3,
         "CSS": 0.46,
-        "Shell": 0.02
+        "Shell": 0.01
       },
       "languages_byte": {
-        "JavaScript": 520992,
-        "TypeScript": 64109,
-        "CSS": 2694,
-        "Shell": 91
+        "JavaScript": 500584,
+        "TypeScript": 64117,
+        "CSS": 2628,
+        "Shell": 66
       },
-      "stargazers_count": 3778,
-      "forks_count": 375,
-      "open_issues_count": 7,
-      "forks": 375,
-      "open_issues": 7,
-      "watchers": 3778,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 3817,
+      "forks_count": 382,
+      "open_issues_count": 12,
+      "forks": 382,
+      "open_issues": 12,
+      "watchers": 3817,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

@@ -1,6 +1,7 @@
 ---
 title: "capsule"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -30,8 +31,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "projectcapsule/capsule",
       "html_url": "https://github.com/projectcapsule/capsule",
       "created_at": "2020-06-29T20:27:51Z",
-      "updated_at": "2025-03-12T19:52:02Z",
-      "pushed_at": "2025-03-13T15:33:28Z",
+      "updated_at": "2025-05-20T16:53:46Z",
+      "pushed_at": "2025-05-20T16:53:42Z",
       "archived": false,
       "disabled": false,
       "owner": "projectcapsule",
@@ -51,28 +52,28 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "Go",
       "languages": {
-        "Go": 94.75,
-        "Shell": 2.13,
-        "Makefile": 1.87,
-        "Smarty": 1.16,
-        "JavaScript": 0.1
+        "Go": 94.95,
+        "Shell": 2.03,
+        "Makefile": 1.82,
+        "Smarty": 1.1,
+        "JavaScript": 0.09
       },
       "languages_byte": {
-        "Go": 661148,
-        "Shell": 14873,
-        "Makefile": 13019,
-        "Smarty": 8088,
-        "JavaScript": 686
+        "Go": 696138,
+        "Shell": 14863,
+        "Makefile": 13375,
+        "Smarty": 8083,
+        "JavaScript": 685
       },
-      "stargazers_count": 1768,
-      "forks_count": 172,
-      "open_issues_count": 66,
-      "forks": 172,
-      "open_issues": 66,
-      "watchers": 1768,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 1841,
+      "forks_count": 177,
+      "open_issues_count": 50,
+      "forks": 177,
+      "open_issues": 50,
+      "watchers": 1841,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

@@ -1,6 +1,7 @@
 ---
 title: "Fwdctl"
 description: "CLI tool to easily manage IPTables forwards"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,7 +27,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "alegrey91/fwdctl",
       "html_url": "https://github.com/alegrey91/fwdctl",
       "created_at": "2022-08-13T18:30:39Z",
-      "updated_at": "2025-03-08T11:54:15Z",
+      "updated_at": "2025-05-02T17:42:28Z",
       "pushed_at": "2025-01-23T15:26:51Z",
       "archived": false,
       "disabled": false,
@@ -49,15 +50,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Makefile": 657,
         "Smarty": 511
       },
-      "stargazers_count": 63,
-      "forks_count": 7,
+      "stargazers_count": 66,
+      "forks_count": 8,
       "open_issues_count": 12,
-      "forks": 7,
+      "forks": 8,
       "open_issues": 12,
-      "watchers": 63,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 66,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

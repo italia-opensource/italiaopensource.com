@@ -1,6 +1,7 @@
 ---
 title: "Make promises safe"
 description: "A node.js module to make the use of promises safe. It implements the deprecation DEP0018 of Node.js in versions 6+. Using Promises without this module might cause file descriptor and memory leaks."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,7 +25,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "mcollina/make-promises-safe",
       "html_url": "https://github.com/mcollina/make-promises-safe",
       "created_at": "2017-06-13T19:52:48Z",
-      "updated_at": "2024-12-09T05:37:26Z",
+      "updated_at": "2025-04-28T17:37:07Z",
       "pushed_at": "2024-12-21T09:50:54Z",
       "archived": false,
       "disabled": false,
@@ -47,9 +48,9 @@ import ContentPage from '@site/src/components/Pages/project';
       "forks": 26,
       "open_issues": 3,
       "watchers": 669,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

@@ -1,6 +1,7 @@
 ---
 title: "ImageGoNord"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -27,7 +28,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "Schroedinger-Hat/ImageGoNord-Web",
       "html_url": "https://github.com/Schroedinger-Hat/ImageGoNord-Web",
       "created_at": "2020-07-20T15:15:29Z",
-      "updated_at": "2025-03-07T19:40:28Z",
+      "updated_at": "2025-05-20T13:10:03Z",
       "pushed_at": "2025-02-03T14:26:40Z",
       "archived": false,
       "disabled": false,
@@ -70,15 +71,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Shell": 238,
         "Procfile": 60
       },
-      "stargazers_count": 868,
-      "forks_count": 36,
+      "stargazers_count": 882,
+      "forks_count": 35,
       "open_issues_count": 6,
-      "forks": 36,
+      "forks": 35,
       "open_issues": 6,
-      "watchers": 868,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 882,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

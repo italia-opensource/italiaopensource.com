@@ -6,9 +6,21 @@ tags: tech community, open-source, opensource
 
 # Communities Landing
 
+### [Cloud Native Days Italy](/communities/cloud-native-days-italy)
+
+**Event Type**: Meetup, Conference
+
+**Description**: Cloud Native Days (CNS) Italy is a local, community-organized event that gathers adopters and technologists from open source and cloud native communities.
+
+`dev` | `talk` | `networking` | `tech` | `CloudNative` | `Kubernetes` | `DevOps` | `opensource`
+
+---
+
 ### [Codemotion](/communities/codemotion)
 
 **Event Type**: Conference, Workshop, Webinar
+
+**Description**: We are the leading platform that supports tech professionals’ growth. We create the right connections between IT professionals, technology communities and companies
 
 `dev` | `talks` | `networking` | `tech`
 
@@ -127,16 +139,6 @@ tags: tech community, open-source, opensource
 **Description**: L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open Source in Italia
 
 `dev` | `talks` | `networking` | `tech` | `linuz` | `opensource` | `job offers`
-
----
-
-### [KCD Italy](/communities/kcd-italy)
-
-**Event Type**: Meetup, Conference
-
-**Description**: KCD Italy (#kcditaly) is a CNCF (Cloud Native Computing Foundation) supported event organized by the Italian Kubernetes community. The event aims to spread knowledge and create spaces for sharing and comparing ideas on all open source and cloud native topics.
-
-`dev` | `talk` | `networking` | `tech` | `CloudNative` | `Kubernetes` | `DevOps` | `opensource`
 
 ---
 

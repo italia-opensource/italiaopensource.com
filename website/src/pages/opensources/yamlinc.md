@@ -1,6 +1,7 @@
 ---
 title: "Yamlinc"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,8 +25,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "javanile/yamlinc",
       "html_url": "https://github.com/javanile/yamlinc",
       "created_at": "2018-02-12T00:19:38Z",
-      "updated_at": "2025-02-22T07:10:38Z",
-      "pushed_at": "2024-01-18T16:05:56Z",
+      "updated_at": "2025-04-18T10:01:23Z",
+      "pushed_at": "2025-04-18T10:01:20Z",
       "archived": false,
       "disabled": false,
       "owner": "javanile",
@@ -54,9 +55,9 @@ import ContentPage from '@site/src/components/Pages/project';
       "forks": 24,
       "open_issues": 23,
       "watchers": 116,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

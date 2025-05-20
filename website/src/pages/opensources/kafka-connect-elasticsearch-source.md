@@ -1,6 +1,7 @@
 ---
 title: "Kafka Connect ElasticSearch Source"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -51,14 +52,14 @@ import ContentPage from '@site/src/components/Pages/project';
         "Java": 160125
       },
       "stargazers_count": 66,
-      "forks_count": 38,
+      "forks_count": 37,
       "open_issues_count": 31,
-      "forks": 38,
+      "forks": 37,
       "open_issues": 31,
       "watchers": 66,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

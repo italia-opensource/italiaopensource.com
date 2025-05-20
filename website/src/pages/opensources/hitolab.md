@@ -1,6 +1,7 @@
 ---
 title: "Histolab"
 description: "Library for Digital Pathology Image Processing"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -23,8 +24,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "histolab/histolab",
       "html_url": "https://github.com/histolab/histolab",
       "created_at": "2020-05-09T07:38:51Z",
-      "updated_at": "2025-03-12T09:55:19Z",
-      "pushed_at": "2025-03-08T08:34:31Z",
+      "updated_at": "2025-05-08T11:28:59Z",
+      "pushed_at": "2025-05-19T21:36:31Z",
       "archived": false,
       "disabled": false,
       "owner": "histolab",
@@ -54,15 +55,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Python": 585140,
         "Makefile": 1263
       },
-      "stargazers_count": 396,
-      "forks_count": 61,
-      "open_issues_count": 38,
-      "forks": 61,
-      "open_issues": 38,
-      "watchers": 396,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 409,
+      "forks_count": 62,
+      "open_issues_count": 39,
+      "forks": 62,
+      "open_issues": 39,
+      "watchers": 409,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

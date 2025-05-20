@@ -1,6 +1,7 @@
 ---
 title: "kube-green"
 description: "A Kubernetes operator to reduce CO2 footprint of your clusters"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -29,8 +30,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "kube-green/kube-green",
       "html_url": "https://github.com/kube-green/kube-green",
       "created_at": "2021-02-21T17:50:33Z",
-      "updated_at": "2025-03-10T13:12:47Z",
-      "pushed_at": "2025-03-13T01:37:29Z",
+      "updated_at": "2025-05-16T21:15:48Z",
+      "pushed_at": "2025-05-07T07:22:54Z",
       "archived": false,
       "disabled": false,
       "owner": "kube-green",
@@ -63,15 +64,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Smarty": 3019,
         "Dockerfile": 2000
       },
-      "stargazers_count": 1131,
-      "forks_count": 71,
-      "open_issues_count": 34,
-      "forks": 71,
-      "open_issues": 34,
-      "watchers": 1131,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 1172,
+      "forks_count": 77,
+      "open_issues_count": 40,
+      "forks": 77,
+      "open_issues": 40,
+      "watchers": 1172,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

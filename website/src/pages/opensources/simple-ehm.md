@@ -1,6 +1,7 @@
 ---
 title: "Simple ehm"
 description: "A simple tool for a simple task: remove filler sounds ('ehm') from pre-recorded speeches. AI powered."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -23,7 +24,7 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "morrolinux/simple-ehm",
       "html_url": "https://github.com/morrolinux/simple-ehm",
       "created_at": "2020-12-01T19:31:50Z",
-      "updated_at": "2025-02-04T18:21:13Z",
+      "updated_at": "2025-05-16T23:31:05Z",
       "pushed_at": "2024-02-23T21:33:33Z",
       "archived": false,
       "disabled": false,
@@ -46,15 +47,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Dockerfile": 215,
         "Shell": 78
       },
-      "stargazers_count": 231,
-      "forks_count": 19,
+      "stargazers_count": 234,
+      "forks_count": 18,
       "open_issues_count": 8,
-      "forks": 19,
+      "forks": 18,
       "open_issues": 8,
-      "watchers": 231,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "watchers": 234,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

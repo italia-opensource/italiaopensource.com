@@ -1,6 +1,7 @@
 ---
 title: "Distrobox"
 description: "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -32,8 +33,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "89luca89/distrobox",
       "html_url": "https://github.com/89luca89/distrobox",
       "created_at": "2021-11-18T15:41:03Z",
-      "updated_at": "2025-03-13T13:58:53Z",
-      "pushed_at": "2025-01-25T14:19:24Z",
+      "updated_at": "2025-05-20T14:34:41Z",
+      "pushed_at": "2025-04-30T08:30:31Z",
       "archived": false,
       "disabled": false,
       "owner": "89luca89",
@@ -72,15 +73,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Shell": 270294,
         "Dockerfile": 70
       },
-      "stargazers_count": 10634,
-      "forks_count": 438,
-      "open_issues_count": 108,
-      "forks": 438,
-      "open_issues": 108,
-      "watchers": 10634,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 10873,
+      "forks_count": 449,
+      "open_issues_count": 142,
+      "forks": 449,
+      "open_issues": 142,
+      "watchers": 10873,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

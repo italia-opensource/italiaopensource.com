@@ -1,6 +1,7 @@
 ---
 title: "IO App"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,8 +27,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "pagopa/io-app",
       "html_url": "https://github.com/pagopa/io-app",
       "created_at": "2017-04-11T09:34:46Z",
-      "updated_at": "2025-03-13T17:17:04Z",
-      "pushed_at": "2025-03-13T17:18:31Z",
+      "updated_at": "2025-05-20T16:00:48Z",
+      "pushed_at": "2025-05-20T17:00:04Z",
       "archived": false,
       "disabled": false,
       "owner": "pagopa",
@@ -45,40 +46,38 @@ import ContentPage from '@site/src/components/Pages/project';
     "analytics": {
       "language": "TypeScript",
       "languages": {
-        "TypeScript": 98.41,
-        "JavaScript": 0.66,
-        "Python": 0.26,
-        "HTML": 0.2,
-        "Shell": 0.19,
-        "Ruby": 0.16,
+        "TypeScript": 98.51,
+        "JavaScript": 0.6,
+        "Python": 0.24,
+        "HTML": 0.18,
+        "Shell": 0.17,
+        "Ruby": 0.15,
+        "Kotlin": 0.06,
         "Objective-C++": 0.04,
-        "Kotlin": 0.04,
-        "Objective-C": 0.03,
-        "Swift": 0.0,
-        "C": 0.0
+        "Objective-C": 0.04,
+        "Swift": 0.01
       },
       "languages_byte": {
-        "TypeScript": 7460335,
-        "JavaScript": 49725,
+        "TypeScript": 8233047,
+        "JavaScript": 49959,
         "Python": 19908,
         "HTML": 15210,
-        "Shell": 14289,
+        "Shell": 14477,
         "Ruby": 12254,
+        "Kotlin": 4991,
         "Objective-C++": 3344,
-        "Kotlin": 3151,
-        "Objective-C": 2488,
-        "Swift": 105,
-        "C": 104
+        "Objective-C": 3007,
+        "Swift": 979
       },
-      "stargazers_count": 645,
-      "forks_count": 105,
-      "open_issues_count": 33,
-      "forks": 105,
-      "open_issues": 33,
-      "watchers": 645,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 649,
+      "forks_count": 106,
+      "open_issues_count": 38,
+      "forks": 106,
+      "open_issues": 38,
+      "watchers": 649,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

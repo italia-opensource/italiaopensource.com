@@ -1,6 +1,7 @@
 ---
 title: "qrcp"
 description: "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal"
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -26,8 +27,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "claudiodangelis/qrcp",
       "html_url": "https://github.com/claudiodangelis/qrcp",
       "created_at": "2018-01-14T22:35:55Z",
-      "updated_at": "2025-03-12T15:03:40Z",
-      "pushed_at": "2025-02-28T19:32:50Z",
+      "updated_at": "2025-05-20T03:18:34Z",
+      "pushed_at": "2025-03-27T03:22:24Z",
       "archived": false,
       "disabled": false,
       "owner": "claudiodangelis",
@@ -47,17 +48,17 @@ import ContentPage from '@site/src/components/Pages/project';
         "Go": 100.0
       },
       "languages_byte": {
-        "Go": 297498
+        "Go": 301202
       },
-      "stargazers_count": 10113,
-      "forks_count": 536,
-      "open_issues_count": 12,
-      "forks": 536,
-      "open_issues": 12,
-      "watchers": 10113,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 10175,
+      "forks_count": 537,
+      "open_issues_count": 7,
+      "forks": 537,
+      "open_issues": 7,
+      "watchers": 10175,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />

@@ -1,6 +1,7 @@
 ---
 title: "Italiaremote"
 description: "Italia Open-Source the first platform dedicated to Italian open-source world."
+image: "/img/logo/logo-og-image.png"
 ---
 import ContentPage from '@site/src/components/Pages/project';
 
@@ -24,8 +25,8 @@ import ContentPage from '@site/src/components/Pages/project';
       "full_name": "italiaremote/awesome-italia-remote",
       "html_url": "https://github.com/italiaremote/awesome-italia-remote",
       "created_at": "2022-01-24T09:50:30Z",
-      "updated_at": "2025-03-10T16:09:35Z",
-      "pushed_at": "2024-11-07T16:48:10Z",
+      "updated_at": "2025-05-19T14:29:17Z",
+      "pushed_at": "2025-04-15T14:18:39Z",
       "archived": false,
       "disabled": false,
       "owner": "italiaremote",
@@ -51,15 +52,15 @@ import ContentPage from '@site/src/components/Pages/project';
         "Go": 5885,
         "Makefile": 83
       },
-      "stargazers_count": 2441,
-      "forks_count": 310,
-      "open_issues_count": 9,
-      "forks": 310,
-      "open_issues": 9,
-      "watchers": 2441,
-      "updated_at": "2025-03-13T18:36:45Z"
+      "stargazers_count": 2494,
+      "forks_count": 313,
+      "open_issues_count": 10,
+      "forks": 313,
+      "open_issues": 10,
+      "watchers": 2494,
+      "updated_at": "2025-05-20T17:15:59Z"
     },
-    "timestamp": "2025-03-13T18:36:45Z"
+    "timestamp": "2025-05-20T17:15:59Z"
   }
 }}
 />
