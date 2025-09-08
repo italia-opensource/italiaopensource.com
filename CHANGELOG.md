@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.13.0...v1.14.0) (2025-09-08)
+
+
+### Features
+
+* **website:** sync database ([#74](https://github.com/italia-opensource/italiaopensource.com/issues/74)) ([953acd8](https://github.com/italia-opensource/italiaopensource.com/commit/953acd861d9102a61f4e6351b8f984404c631920))
+
 ## [1.13.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.12.0...v1.13.0) (2025-07-17)
 
 
