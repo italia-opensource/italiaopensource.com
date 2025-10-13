@@ -13,6 +13,11 @@ export default function OurPartners(props: Props): JSX.Element {
   return (
     <Grid container>
       <Grid size={{ xs: 12, sm: 4 }} padding={3}>
+        <Link href="/communities/drupalcamp-italy">
+          <img src="/img/community-partners/drupalcamp-italy.png" alt="DrupalCamp Italy" />
+        </Link>
+      </Grid>
+      <Grid size={{ xs: 12, sm: 4 }} padding={3}>
         <Link href="/communities/codemotion">
           <img src="/img/community-partners/codemotion.png" alt="Codemotion" />
         </Link>
@@ -25,7 +30,10 @@ export default function OurPartners(props: Props): JSX.Element {
       </Grid>
       <Grid size={{ xs: 12, sm: 4 }} padding={3}>
         <Link href="/communities/cloud-native-days-italy">
-          <img src="/img/community-partners/cloud-native-days-italy.png" alt="Cloud Native Days Italy" />
+          <img
+            src="/img/community-partners/cloud-native-days-italy.png"
+            alt="Cloud Native Days Italy"
+          />
         </Link>
       </Grid>
       <Grid size={{ xs: 12, sm: 4 }} padding={3}>
