@@ -6,6 +6,14 @@
 ### Features
 
 * **website:** sync database ([#81](https://github.com/italia-opensource/italiaopensource.com/issues/81)) ([353beec](https://github.com/italia-opensource/italiaopensource.com/commit/353beec726a3df91acf88115036bf5230d08145d))
+* **website:** sync database ([#83](https://github.com/italia-opensource/italiaopensource.com/issues/83)) ([b2dd54a](https://github.com/italia-opensource/italiaopensource.com/commit/b2dd54afbfc3be85a957007e5e8a7d3653479f81))
+
+## [1.17.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.16.0...v1.17.0) (2025-10-20)
+
+
+### Features
+
+* **website:** sync database ([#81](https://github.com/italia-opensource/italiaopensource.com/issues/81)) ([353beec](https://github.com/italia-opensource/italiaopensource.com/commit/353beec726a3df91acf88115036bf5230d08145d))
 
 ## [1.16.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.15.0...v1.16.0) (2025-10-13)
 
