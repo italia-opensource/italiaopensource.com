@@ -27,7 +27,7 @@ resource "aws_lambda_function" "rewrite_index" {
   function_name    = var.function_name
   role             = aws_iam_role.rewrite_index.arn
   handler          = "app.handler"
-  runtime          = "python3.9"
+  runtime          = "python3.12"
   timeout          = 3
   memory_size      = 128
   publish          = true
