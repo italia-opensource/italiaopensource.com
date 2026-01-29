@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.20.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.19.0...v1.20.0) (2026-01-29)
+
+
+### Features
+
+* **infrastructure:** update lambda runtime ([#95](https://github.com/italia-opensource/italiaopensource.com/issues/95)) ([98789d5](https://github.com/italia-opensource/italiaopensource.com/commit/98789d578092e8006256b07949da2532211622e8))
+* **website:** sync database ([#93](https://github.com/italia-opensource/italiaopensource.com/issues/93)) ([736bd2c](https://github.com/italia-opensource/italiaopensource.com/commit/736bd2ce8430d0353aef6e73bed2898b3452e260))
+
 ## [1.19.0](https://github.com/italia-opensource/italiaopensource.com/compare/v1.18.0...v1.19.0) (2025-12-22)
 
 
