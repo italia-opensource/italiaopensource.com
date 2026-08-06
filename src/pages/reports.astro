@@ -1,0 +1,122 @@
+---
+import { BaseLayout } from "@walle/layouts";
+import { Button } from "@walle/components";
+import { Icon } from "astro-icon/components";
+
+const base =
+  "https://raw.githubusercontent.com/italia-opensource/state-of-italian-opensource-reports/main/reports/2024";
+const dataBase =
+  "https://github.com/italia-opensource/state-of-italian-opensource-reports/blob/main/reports/2024";
+
+const downloads = [
+  { icon: "fa:file-pdf-o", label: "Download Report (PDF)", href: `${base}/the_state_of_italian_open_source_2024.pdf` },
+  { icon: "fa:volume-up", label: "Audio version (MP3)", href: `${base}/the_state_of_italian_open_source_2024.mp3` },
+];
+const datasets = [
+  { label: "Report data (CSV)", href: `${dataBase}/report.csv` },
+  { label: "Projects data (CSV)", href: `${dataBase}/projects.csv` },
+  { label: "Languages data (CSV)", href: `${dataBase}/languages.csv` },
+];
+---
+
+<BaseLayout
+  headerTitle="Reports"
+  headerDescription="Data-driven snapshots of the open-source movement in Italy."
+>
+  <article class="report">
+    <p class="report__eyebrow">Annual report</p>
+    <h2 class="report__title">The State of Italian Open Source 2024</h2>
+
+    <p>
+      A snapshot of the status of the open-source movement in Italy, opening a debate on the
+      collected data and the pros, cons and opportunities of open source in business. We analyzed:
+    </p>
+    <ul>
+      <li>How companies use and support the open-source movement;</li>
+      <li>
+        Its popularity in the Italian tech community — the most common challenges and ways to help
+        spread the movement.
+      </li>
+    </ul>
+    <p class="report__meta">
+      Data collected through a survey from 29/11/2023 to 29/12/2024, then de-identified and
+      anonymized. Project data comes from
+      <a
+        href="https://github.com/italia-opensource/awesome-italia-opensource/tree/main/awesome/opensource"
+        target="_blank"
+        rel="noopener">awesome-italia-opensource</a
+      >.
+    </p>
+
+    <div class="report__downloads">
+      {
+        downloads.map((d) => (
+          <Button text={d.label} href={d.href} variant="primary" target="_blank" />
+        ))
+      }
+    </div>
+
+    <h3 class="report__subhead">Data</h3>
+    <ul class="report__data">
+      {
+        datasets.map((d) => (
+          <li>
+            <a href={d.href} target="_blank" rel="noopener">
+              <Icon name="fa:table" aria-hidden="true" />
+              {d.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</BaseLayout>
+
+<style>
+  .report {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: clamp(2rem, 5vw, 4rem) var(--space-xl);
+    line-height: 1.7;
+  }
+  .report__eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: var(--space-xs);
+  }
+  .report__title {
+    margin-top: 0;
+  }
+  .report ul {
+    padding-left: 1.4rem;
+  }
+  .report__meta {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+  .report__downloads {
+    display: flex;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    margin: var(--space-xl) 0 var(--space-3xl);
+  }
+  .report__subhead {
+    border-top: 1px solid var(--border);
+    padding-top: var(--space-lg);
+  }
+  .report__data {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: var(--space-sm);
+  }
+  .report__data a {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-weight: 600;
+  }
+</style>

@@ -1,0 +1,157 @@
+---
+import { Image } from "astro:assets";
+
+export interface Props {
+  /** Main page title (h1) */
+  title: string;
+  /** Subtitle or page description */
+  subtitle?: string;
+  /** Decorative image shown next to the text */
+  image?: {
+    src: ImageMetadata;
+    alt: string;
+  };
+  /** Position the image to the right of the text @default false */
+  imageRight?: boolean;
+  /** Visual variant @default "primary" */
+  variant?: "primary" | "secondary" | "white";
+  /** Center the content @default true */
+  centered?: boolean;
+}
+
+const {
+  title,
+  subtitle = "",
+  image = null,
+  imageRight = false,
+  variant = "primary",
+  centered = true,
+} = Astro.props;
+---
+
+<header
+  class:list={[
+    "header-section",
+    `header-${variant}`,
+    { "is-centered": centered && !image, "has-image": !!image, "image-right": imageRight },
+  ]}
+>
+  <div class="header-inner">
+    <div class="header-text">
+      <h1 class="header-title">{title}</h1>
+      {subtitle && <p class="header-subtitle">{subtitle}</p>}
+      <slot />
+    </div>
+
+    {
+      image && (
+        <div class="header-media">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            width={600}
+            height={400}
+            class="header-image"
+            loading="eager"
+          />
+        </div>
+      )
+    }
+  </div>
+</header>
+
+<style>
+  .header-section {
+    padding: clamp(2.5rem, 6vw, 4rem) var(--space-xl);
+  }
+
+  .header-primary {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+
+  .header-secondary {
+    background-color: var(--surface-alt);
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .header-white {
+    background-color: transparent;
+    color: var(--text);
+  }
+
+  .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: clamp(2rem, 4vw, 3rem);
+    align-items: center;
+  }
+
+  .is-centered .header-inner {
+    text-align: center;
+  }
+
+  .is-centered .header-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .has-image .header-inner {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  }
+
+  .image-right .header-text {
+    order: 1;
+  }
+  .image-right .header-media {
+    order: 2;
+  }
+
+  .header-title {
+    font-size: clamp(1.9rem, 3.5vw, 2.6rem);
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    margin: 0 0 var(--space-md);
+    color: inherit;
+  }
+
+  .header-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.55;
+    max-width: 42rem;
+    margin: 0;
+    color: inherit;
+    opacity: 0.9;
+  }
+
+  .header-media {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+  }
+
+  .header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .has-image .header-inner {
+      grid-template-columns: 1fr;
+    }
+
+    .image-right .header-text,
+    .image-right .header-media {
+      order: unset;
+    }
+
+    .header-media {
+      order: -1;
+    }
+  }
+</style>

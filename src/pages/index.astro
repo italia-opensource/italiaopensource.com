@@ -1,0 +1,198 @@
+---
+import { getCollection } from "astro:content";
+import { BaseLayout } from "@walle/layouts";
+import { Button } from "@walle/components";
+import { resolveInternalUrl } from "@walle/utils";
+import { SECTION_LIST } from "../utils/awesome";
+
+const cards = await Promise.all(
+  SECTION_LIST.map(async (section) => ({
+    ...section,
+    count: (await getCollection(section.collection)).length,
+  }))
+);
+---
+
+<BaseLayout
+  headerTitle="Italia Open Source"
+  headerDescription="Discover and explore Italy's tech innovations, fully open source."
+>
+  <section class="hero">
+    <div class="hero__inner">
+      <img
+        class="hero__logo"
+        src="/img/logo/logo-horizontal-white.svg"
+        alt="Italia Open Source"
+        width="360"
+        height="70"
+      />
+      <p class="hero__eyebrow">Open source · community-driven · transparent</p>
+      <h1 class="hero__title">Italy's tech innovation, in the open.</h1>
+      <p class="hero__lead">
+        The only fully open-source platform that gives voice to, discovers, and explores Italy's
+        open-source projects, tech communities, startups and digital-nomad destinations. Every entry
+        comes from the public&nbsp;
+        <a
+          href="https://github.com/italia-opensource/awesome-italia-opensource"
+          target="_blank"
+          rel="noopener">awesome-italia-opensource</a
+        > lists.
+      </p>
+      <div class="hero__actions">
+        <Button
+          text="Explore projects"
+          href={resolveInternalUrl("/opensource")}
+          variant="primary"
+          size="large"
+        />
+        <Button
+          text="Contribute on GitHub"
+          href="https://github.com/italia-opensource/awesome-italia-opensource"
+          variant="white"
+          outline={true}
+          size="large"
+          target="_blank"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="sections">
+    <ul class="sections__grid">
+      {
+        cards.map((s) => (
+          <li>
+            <a class="sec-card" href={resolveInternalUrl(`/${s.key}`)}>
+              <span class="sec-card__count">{s.count}</span>
+              <h2 class="sec-card__title">{s.label}</h2>
+              <p class="sec-card__desc">{s.description}</p>
+              <span class="sec-card__cta">Browse {s.label} →</span>
+            </a>
+          </li>
+        ))
+      }
+      <li>
+        <a class="sec-card" href={resolveInternalUrl("/partners")}>
+          <span class="sec-card__count">★</span>
+          <h2 class="sec-card__title">Partners</h2>
+          <p class="sec-card__desc">
+            The communities that partner with Italia Open Source to grow the ecosystem together.
+          </p>
+          <span class="sec-card__cta">Meet the partners →</span>
+        </a>
+      </li>
+      <li>
+        <a class="sec-card" href={resolveInternalUrl("/contribute")}>
+          <span class="sec-card__count">+</span>
+          <h2 class="sec-card__title">Contribute</h2>
+          <p class="sec-card__desc">
+            Add your project or community, or become a partner. Everything is a pull request away.
+          </p>
+          <span class="sec-card__cta">Get involved →</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    background: var(--primary-dark);
+    color: var(--white);
+    padding: clamp(3rem, 8vw, 6rem) var(--space-xl);
+  }
+  .hero__inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero__logo {
+    height: 4rem;
+    width: auto;
+    max-width: 90%;
+    margin: 0 auto var(--space-lg);
+    display: block;
+  }
+  .hero__eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--alternative-light);
+    margin-bottom: var(--space-md);
+  }
+  .hero__title {
+    font-size: clamp(2.5rem, 6vw, 3.75rem);
+    line-height: 1.05;
+    color: var(--white);
+    margin-bottom: var(--space-lg);
+    letter-spacing: -0.02em;
+  }
+  .hero__lead {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.88);
+    margin: 0 auto var(--space-xl);
+    max-width: 42rem;
+  }
+  .hero__lead a {
+    color: var(--white);
+    text-decoration: underline;
+  }
+  .hero__actions {
+    display: flex;
+    gap: var(--space-md);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .sections {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: clamp(3rem, 7vw, 5rem) var(--space-xl);
+  }
+  .sections__grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--space-xl);
+  }
+  .sec-card {
+    display: block;
+    height: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    text-decoration: none;
+    color: inherit;
+    transition:
+      border-color var(--transition),
+      box-shadow var(--transition);
+  }
+  .sec-card:hover {
+    box-shadow: var(--box-shadow);
+    border-color: var(--primary);
+  }
+  .sec-card__count {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+  }
+  .sec-card__title {
+    font-size: 1.35rem;
+    margin: var(--space-sm) 0;
+  }
+  .sec-card__desc {
+    font-size: 0.95rem;
+    margin-bottom: var(--space-md);
+  }
+  .sec-card__cta {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 0.9rem;
+  }
+</style>

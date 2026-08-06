@@ -1,0 +1,114 @@
+---
+import { Icon } from "astro-icon/components";
+
+/**
+ * Compact catalog card for the list pages — denser than @walle BasicCard (which forces a
+ * 380px min-height). Shows a title, a 2-line description, a badge, and a meta row (stars,
+ * forks, license for projects; type, events for communities).
+ */
+export interface Meta {
+  icon?: string;
+  text: string;
+}
+export interface Props {
+  title: string;
+  href: string;
+  description?: string;
+  badge?: { text: string; variant?: "primary" | "secondary" };
+  metas?: Meta[];
+}
+const { title, href, description = "", badge, metas = [] } = Astro.props;
+---
+
+<a href={href} class="cc">
+  <div class="cc__head">
+    <h3 class="cc__title">{title}</h3>
+    {badge?.text && <span class={`cc__badge cc__badge--${badge.variant ?? "primary"}`}>{badge.text}</span>}
+  </div>
+  {description && <p class="cc__desc">{description}</p>}
+  {
+    metas.length > 0 && (
+      <div class="cc__metas">
+        {metas.map((m) => (
+          <span class="cc__meta">
+            {m.icon && <Icon name={m.icon} size={13} aria-hidden="true" />}
+            {m.text}
+          </span>
+        ))}
+      </div>
+    )
+  }
+</a>
+
+<style>
+  .cc {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    height: 100%;
+    padding: var(--space-md) var(--space-lg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+    text-decoration: none;
+    color: var(--text);
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .cc:hover {
+    border-color: var(--primary);
+    box-shadow: var(--box-shadow);
+  }
+  .cc__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-sm);
+  }
+  .cc__title {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+  .cc__badge {
+    flex-shrink: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 0.15rem 0.45rem;
+    border-radius: var(--radius-sm);
+    background: var(--surface-alt);
+    color: var(--primary);
+    white-space: nowrap;
+  }
+  .cc__badge--secondary {
+    color: var(--secondary);
+  }
+  .cc__desc {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .cc__metas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs) var(--space-md);
+    margin-top: auto;
+    padding-top: var(--space-xs);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+  .cc__meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+</style>

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/app.schema.json",
+  "website": {
+    "title": "Italia Open Source",
+    "description": "The only fully open-source platform that transparently gives voice to, discovers, and explores Italy's tech innovations: open-source projects, tech communities, startups and digital nomads.",
+    "favicon": "/img/icons/favicon.svg",
+    "image": "/img/logo/logo-og-image.png",
+    "robots": "index, follow",
+    "language": "en-US"
+  },
+  "astro": {
+    "baseUrl": "https://italiaopensource.com",
+    "basePath": "/",
+    "trailingSlash": "never",
+    "analyticsScriptContent": ""
+  }
+}

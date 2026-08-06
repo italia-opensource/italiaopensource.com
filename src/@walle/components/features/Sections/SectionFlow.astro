@@ -1,0 +1,146 @@
+---
+import { Section } from "@walle/components";
+import { Icon } from "astro-icon/components";
+
+export interface FlowStep {
+  number: number;
+  title: string;
+  description: string;
+  icon?: string;
+}
+
+export interface Props {
+  title: string;
+  steps: FlowStep[];
+  centered?: boolean;
+  variant?: "primary" | "gray" | null;
+  /**
+   * Accessible label for the step list
+   * @default "Process steps"
+   */
+  label?: string;
+}
+
+const { title, steps, centered = true, variant = null, label = "Process steps" } = Astro.props;
+---
+
+<Section title={title} centered={centered} variant={variant}>
+  <ol class="flow-steps" aria-label={label}>
+    {
+      steps.map((step) => (
+        <li class="flow-step">
+          <div class="step-number" aria-hidden="true">
+            {step.icon ? <Icon name={step.icon} aria-hidden="true" size={20} /> : step.number}
+          </div>
+          <div class="step-content">
+            <h3>{step.title}</h3>
+            <p>{step.description}</p>
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+
+  <slot />
+</Section>
+
+<style>
+  .flow-steps {
+    counter-reset: step;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .flow-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--space-xl);
+  }
+
+  .flow-step:last-child {
+    margin-bottom: 0;
+  }
+
+  .step-number {
+    flex-shrink: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: var(--primary);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+  }
+
+  .step-content {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem 2rem;
+    flex: 1;
+    position: relative;
+  }
+
+  .step-content h3 {
+    /* Step titles are h3 for correct heading order (the section title is h2);
+       keep the compact visual size the design used. */
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .step-content p {
+    margin: 0;
+    color: var(--text-muted);
+  }
+
+  .step-icon {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    color: var(--primary);
+    opacity: 0.7;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .flow-step {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .step-number {
+      margin: 0 0 1rem 0;
+      align-self: flex-start;
+    }
+
+    .step-content {
+      padding: 1rem;
+    }
+
+    .step-icon {
+      top: 1rem;
+      right: 1rem;
+    }
+  }
+
+  /* Ensure text is readable in all color themes */
+  :global(.section-content-primary) .step-content {
+    color: var(--text);
+  }
+
+  :global(.section-content-primary) .step-content p {
+    color: var(--text-muted);
+  }
+</style>

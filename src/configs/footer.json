@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/footer.schema.json",
+  "logo": {
+    "src": "/img/logo/logo-horizontal.svg",
+    "alt": "Italia Open Source",
+    "width": 168,
+    "height": 33,
+    "url": "/"
+  },
+  "items": [
+    { "name": "Open Source", "url": "/opensource" },
+    { "name": "Communities", "url": "/communities" },
+    { "name": "Partners", "url": "/partners" },
+    { "name": "Reports", "url": "/reports" },
+    { "name": "Contribute", "url": "/contribute" },
+    { "name": "Privacy Policy", "url": "/privacy-policy" },
+    { "name": "Terms & Conditions", "url": "/terms-and-conditions" },
+    {
+      "icon": "fa:linkedin",
+      "url": "https://www.linkedin.com/company/italia-open-source"
+    },
+    {
+      "icon": "fa:github",
+      "url": "https://github.com/italia-opensource"
+    }
+  ]
+}

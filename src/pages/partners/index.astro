@@ -1,0 +1,108 @@
+---
+import { BaseLayout } from "@walle/layouts";
+import { Button } from "@walle/components";
+import { resolveInternalUrl } from "@walle/utils";
+
+// Community partners, ported from the original site's OurPartners component: each partner's
+// logo links to its community detail page.
+const partners = [
+  { slug: "drupalcamp-italy", img: "drupalcamp-italy.png", alt: "DrupalCamp Italy" },
+  { slug: "codemotion", img: "codemotion.png", alt: "Codemotion" },
+  { slug: "schrodinger-hat", img: "schrodinger-hat.png", alt: "Schrödinger Hat" },
+  { slug: "cloud-native-days-italy", img: "cloud-native-days-italy.png", alt: "Cloud Native Days Italy" },
+  { slug: "hr-feat-ict", img: "hr-feat-ict.png", alt: "HR feat ICT" },
+  { slug: "latina-in-tech", img: "lit.png", alt: "Latina in Tech" },
+  { slug: "la-locanda-del-tech", img: "la-locanda-del-tech.png", alt: "La Locanda del Tech" },
+  { slug: "giuppi-dev", img: "giuppi_dev_.png", alt: "Giuppi dev" },
+  { slug: "techcompenso", img: "tech-compenso.svg", alt: "TechCompenso" },
+  { slug: "fullremote-it", img: "fullremote.png", alt: "Fullremote" },
+  { slug: "grusp", img: "grusp.png", alt: "GrUSP" },
+  { slug: "italian-linux-society", img: "italian-linux-society.png", alt: "Italian Linux Society" },
+  { slug: "need-for-nerd", img: "need-for-nerd.png", alt: "Need for Nerd" },
+];
+---
+
+<BaseLayout
+  headerTitle="Community Partners"
+  headerDescription="The communities that partner with Italia Open Source to grow the ecosystem together."
+>
+  <section class="wrap">
+    <ul class="partners">
+      {
+        partners.map((p) => (
+          <li>
+            <a href={resolveInternalUrl(`/communities/${p.slug}`)} class="partner">
+              <img
+                src={`/img/community-partners/${p.img}`}
+                alt={p.alt}
+                loading="lazy"
+                width="220"
+                height="120"
+              />
+              <span class="partner__name">{p.alt}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="cta">
+      <Button
+        text="Become a Community Partner"
+        href={resolveInternalUrl("/partners/how-to")}
+        variant="primary"
+        size="large"
+      />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: clamp(2rem, 5vw, 4rem) var(--space-xl);
+  }
+  .partners {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: var(--space-lg);
+  }
+  .partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-lg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: var(--text);
+    background: var(--surface);
+    transition:
+      border-color var(--transition),
+      box-shadow var(--transition);
+  }
+  .partner:hover {
+    border-color: var(--primary);
+    box-shadow: var(--box-shadow);
+  }
+  .partner img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+  }
+  .partner__name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  .cta {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-3xl);
+  }
+</style>

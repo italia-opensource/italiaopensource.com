@@ -1,0 +1,100 @@
+---
+import { BaseLayout } from "@walle/layouts";
+import { Button } from "@walle/components";
+import { resolveInternalUrl } from "@walle/utils";
+
+const formUrl = "https://forms.gle/9bZupC6JL7Z2z2PS9";
+---
+
+<BaseLayout
+  headerTitle="Become a Community Partner"
+  headerDescription="Support Italia Open Source through your community and grow together."
+>
+  <article class="prose">
+    <p>
+      Are you passionate about our project and want to actively contribute to its growth? Then
+      you're in the right place! If you are a community, here you can find out how to help make
+      Italia Open Source a <strong>bigger</strong>, <strong>better</strong>, <strong
+        >awesome project</strong
+      >!
+    </p>
+    <p>
+      If you want to support Italia Open Source through your community, all you have to do is start
+      a <strong>real partnership</strong> with us. Together we will support each other, bringing
+      added value to the respective communities also with concepts for new ideas and projects. Code
+      word: <strong>collaboration</strong>.
+    </p>
+
+    <h2>How to become a Community Partner</h2>
+    <p>If you want to become a Community Partner of Italia Open Source, all we ask is:</p>
+    <ul>
+      <li>
+        Be an <strong>active community</strong> (no matter how small you are — we only care about how
+        much people love and participate in your project!)
+      </li>
+      <li>
+        Share and <strong>support the open-source values</strong>: transparency, participation, and
+        collaboration
+      </li>
+      <li>
+        <strong>Support Italia Open Source</strong> by sharing posts on social media dedicated to our
+        initiatives or events
+      </li>
+      <li>
+        <strong>Add the Italia Open Source logo</strong> on your community page or website (optional)
+      </li>
+    </ul>
+    <p>
+      <a href={formUrl} target="_blank" rel="noopener">Fill out the form</a> and, if your community
+      meets all the requirements, you will receive an email to confirm the addition to Italia Open
+      Source.
+    </p>
+
+    <h2>Discover Awesome (Extra) Benefits</h2>
+    <p>
+      As a Community Partner you will receive all the advantages guaranteed to all <a
+        href={resolveInternalUrl("/communities")}>communities</a
+      > in Italia Open Source. Plus, we offer some Extra Benefits:
+    </p>
+    <ul>
+      <li><strong>Verified badge</strong> visible in the community list and on your own page</li>
+      <li><strong>Shoutout on social media</strong></li>
+      <li><strong>Support for your projects and events</strong></li>
+    </ul>
+
+    <div class="cta">
+      <Button text="Fill out the form" href={formUrl} variant="primary" size="large" target="_blank" />
+      <Button
+        text="See our partners"
+        href={resolveInternalUrl("/partners")}
+        variant="white"
+        outline={true}
+        size="large"
+      />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .prose {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: clamp(2rem, 5vw, 4rem) var(--space-xl);
+    line-height: 1.7;
+  }
+  .prose h2 {
+    margin-top: var(--space-3xl);
+  }
+  .prose ul {
+    padding-left: 1.4rem;
+  }
+  .prose li {
+    margin-bottom: var(--space-sm);
+  }
+  .cta {
+    display: flex;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    margin-top: var(--space-3xl);
+  }
+</style>
