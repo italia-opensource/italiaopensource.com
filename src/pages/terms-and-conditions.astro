@@ -2,72 +2,96 @@
 import { BaseLayout } from "@walle/layouts";
 import { SectionHeaderStandard } from "@walle/components";
 
-const lastUpdated = "January 2026";
+const lastUpdated = "August 2026";
 ---
 
 <BaseLayout
   headerTitle="Terms & Conditions"
-  headerDescription="The terms that govern use of this template project."
+  headerDescription="The terms that govern use of italiaopensource.com."
   headerRobots="noindex, follow"
 >
   <SectionHeaderStandard
     title="Terms & Conditions"
-    subtitle="Sample text. Replace it with your own terms before going live."
+    subtitle="The terms that govern use of italiaopensource.com."
     variant="secondary"
   />
 
   <article class="legal">
     <p class="legal__meta">Last updated: {lastUpdated}</p>
 
-    <div class="legal__notice">
-      <strong>Template notice.</strong> This is placeholder copy shipped with the Walle scaffold. It is
-      not legal advice. Replace every section with terms reviewed for your jurisdiction before publishing.
-    </div>
-
-    <h2>1. Acceptance of terms</h2>
+    <h2>1. About this site</h2>
     <p>
-      By accessing this website you agree to be bound by these Terms &amp; Conditions. If you do not
-      agree, please do not use the site.
+      italiaopensource.com is a free, community-maintained directory published by Italia
+      Open-Source. It lists open-source projects, tech communities and partners sourced from the
+      public
+      <a href="https://github.com/italia-opensource/awesome-italia-opensource" target="_blank" rel="noopener"
+        >awesome-italia-opensource</a
+      > repository. By using the site you agree to these terms.
     </p>
 
     <h2>2. Use of the site</h2>
     <p>
-      You may browse and use the site for lawful purposes only. You agree not to misuse it, attempt
-      to disrupt it, or access it in a way that could damage the service or other users.
+      The site is read-only: there are no accounts, no sign-up, and nothing to purchase. You may
+      browse it freely for lawful purposes. You agree not to misuse it, attempt to disrupt it, or
+      access it in a way that could damage the service or other users.
     </p>
 
-    <h2>3. Intellectual property</h2>
+    <h2>3. Listings and submissions</h2>
     <p>
-      Content on this site is provided as a template. The Walle design system itself is distributed
-      under its own open-source license; your own content and branding remain yours.
+      Projects and communities are added or updated through pull requests on
+      <a href="https://github.com/italia-opensource/awesome-italia-opensource" target="_blank" rel="noopener"
+        >awesome-italia-opensource</a
+      >, governed by that repository's own
+      <a href="https://github.com/italia-opensource/awesome-italia-opensource/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener"
+        >contributing guidelines</a
+      >. Community Partner applications are submitted through a Google Form. We review submissions
+      before they appear on the site, but we don't vouch for or endorse the accuracy of third-party
+      listings, and each listed project keeps its own license.
     </p>
 
-    <h2>4. Disclaimer</h2>
+    <h2>4. Intellectual property</h2>
     <p>
-      The site is provided “as is”, without warranties of any kind. We do not guarantee that it will
-      be uninterrupted, error-free, or fit for a particular purpose.
+      The site's own code is open source under the
+      <a href="https://github.com/italia-opensource/italiaopensource.com/blob/main/LICENSE" target="_blank" rel="noopener"
+        >GPL-3.0 license</a
+      >. The "Italia Open-Source" name and logo belong to Italia Open-Source. Listed projects and
+      communities retain their own branding and licensing.
     </p>
 
-    <h2>5. Limitation of liability</h2>
+    <h2>5. Disclaimer</h2>
     <p>
-      To the extent permitted by law, we are not liable for any indirect or consequential loss
-      arising from use of the site.
+      The site is provided "as is", without warranties of any kind. Listing data is synced from the
+      awesome-italia-opensource repository and third-party GitHub metadata, and we do not guarantee
+      it is complete, accurate, or up to date.
     </p>
 
-    <h2>6. External links</h2>
+    <h2>6. Limitation of liability</h2>
     <p>
-      The site may link to third-party websites. We are not responsible for their content or
-      practices; visiting them is at your own risk.
+      To the extent permitted by law, Italia Open-Source is not liable for any indirect or
+      consequential loss arising from use of the site or reliance on a listing.
     </p>
 
-    <h2>7. Changes</h2>
+    <h2>7. External links</h2>
+    <p>
+      Nearly every listing links to a third-party website (a GitHub repository, a community page, a
+      company site). We are not responsible for their content or practices; visiting them is at your
+      own risk.
+    </p>
+
+    <h2>8. Changes</h2>
     <p>
       These terms may be updated at any time. Continued use of the site after changes take effect
       means you accept the revised terms.
     </p>
 
-    <h2>8. Contact</h2>
-    <p>Questions about these terms can be sent to the address listed on the site.</p>
+    <h2>9. Contact</h2>
+    <p>
+      Questions about these terms can be sent via
+      <a href="https://github.com/italia-opensource/awesome-italia-opensource/issues" target="_blank" rel="noopener"
+        >GitHub Issues</a
+      > or through our
+      <a href="https://www.linkedin.com/company/italia-open-source" target="_blank" rel="noopener">LinkedIn page</a>.
+    </p>
   </article>
 </BaseLayout>
 
@@ -82,15 +106,6 @@ const lastUpdated = "January 2026";
     color: var(--text-muted);
     font-size: 0.95rem;
     margin-bottom: var(--space-lg);
-  }
-
-  .legal__notice {
-    background: var(--surface-alt);
-    border-left: 4px solid var(--secondary);
-    border-radius: 0 var(--radius-md) var(--radius-md) 0;
-    padding: var(--space-md) var(--space-lg);
-    margin-bottom: var(--space-2xl);
-    color: var(--text);
   }
 
   .legal h2 {

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import { BaseLayout } from "@walle/layouts";
-import { Button } from "@walle/components";
+import { Button, SectionColumns } from "@walle/components";
 import { resolveInternalUrl } from "@walle/utils";
 import { SECTION_LIST } from "../utils/awesome";
 
@@ -27,10 +27,10 @@ const cards = await Promise.all(
         height="70"
       />
       <p class="hero__eyebrow">Open source · community-driven · transparent</p>
-      <h1 class="hero__title">Italy's tech innovation, in the open.</h1>
+      <h1 class="hero__title">The first platform dedicated to Italian open-source world.</h1>
       <p class="hero__lead">
         The only fully open-source platform that gives voice to, discovers, and explores Italy's
-        open-source projects, tech communities, startups and digital-nomad destinations. Every entry
+        open-source projects and tech communities. Every entry
         comes from the public&nbsp;
         <a
           href="https://github.com/italia-opensource/awesome-italia-opensource"
@@ -93,6 +93,30 @@ const cards = await Promise.all(
       </li>
     </ul>
   </section>
+
+  <SectionColumns title="Vision & Mission" columns={2} variant="gray" minColumnWidth="20rem">
+    <div class="pillar">
+      <h3 class="pillar__title">Our Vision</h3>
+      <p>
+        Our vision is to create an ecosystem where sharing and collaboration are the normality.
+        <strong>We imagine a future where every project</strong>, big or small,
+        <strong>is accessible to everyone and can be improved by everyone</strong>.
+        <strong>We see Italy as a reference point for open-source</strong>, where technology is
+        open and accessible, and where collaboration and innovation are the order of the day.
+      </p>
+    </div>
+    <div class="pillar">
+      <h3 class="pillar__title">Our Mission</h3>
+      <p>
+        Italia Open-Source is not just a data collection platform, but
+        <strong>a project everyone can participate in</strong> to discover and
+        <strong>enhance Italian open-source projects</strong>. We believe that our community could
+        be the starting point for creating an Italian tech system where
+        <strong>knowledge exchange, innovation, and collaboration</strong> are the standard, not
+        the exception.
+      </p>
+    </div>
+  </SectionColumns>
 </BaseLayout>
 
 <style>
@@ -194,5 +218,12 @@ const cards = await Promise.all(
     font-weight: 700;
     color: var(--primary);
     font-size: 0.9rem;
+  }
+  .pillar__title {
+    margin: 0 0 var(--space-md);
+  }
+  .pillar p {
+    color: var(--text-muted);
+    line-height: 1.7;
   }
 </style>

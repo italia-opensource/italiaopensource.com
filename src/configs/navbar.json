@@ -10,7 +10,14 @@
   "items": [
     { "name": "Open Source", "url": "/opensource" },
     { "name": "Communities", "url": "/communities" },
-    { "name": "Partners", "url": "/partners" },
+    {
+      "name": "Partners",
+      "url": "/partners",
+      "dropdown": [
+        { "name": "Our Partners", "url": "/partners" },
+        { "name": "How to Become a Partner", "url": "/partners/how-to" }
+      ]
+    },
     { "name": "Reports", "url": "/reports" },
     { "name": "Contribute", "url": "/contribute" },
     {
