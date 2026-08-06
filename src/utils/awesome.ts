@@ -23,16 +23,14 @@ export const SECTIONS: Record<SectionKey, SectionConfig> = {
     collection: "opensource",
     label: "Open Source",
     singular: "Project",
-    description:
-      "Open-source projects built by the Italian tech ecosystem — libraries, tools and applications.",
+    description: "Our awesome list of open-source projects created by Italian companies and developers.",
   },
   communities: {
     key: "communities",
     collection: "community",
     label: "Communities",
     singular: "Community",
-    description:
-      "Italian tech communities: meetups, conferences, chats and networks to learn and connect.",
+    description: "Our awesome list of tech communities in Italy.",
   },
 };
 

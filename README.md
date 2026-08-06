@@ -21,8 +21,9 @@ Or directly with yarn: `yarn dev`, `yarn build`, `yarn lint`.
 
 ## Data sync
 
-The `opensource`, `community` and `partners` catalogs are Astro content collections
-(`src/content.config.ts`) loaded from `src/content/data/*.json`, synced from the awesome repo:
+The `opensource` and `community` catalogs are Astro content collections
+(`src/content.config.ts`) loaded from `src/content/data/*.json`, synced from the awesome repo.
+The Partners page (`src/pages/partners/index.astro`) is a hand-maintained list, not synced data.
 
 ```bash
 just sync-database                       # from the published awesome-italia-opensource (main)

@@ -2,7 +2,9 @@
 # Triggered manually, or by a repository_dispatch from the awesome repo's pipeline.
 name: Sync Database
 
-permissions: read-all
+permissions:
+  contents: write
+  pull-requests: write
 
 on:
   workflow_dispatch:

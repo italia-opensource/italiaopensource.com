@@ -2,74 +2,94 @@
 import { BaseLayout } from "@walle/layouts";
 import { SectionHeaderStandard } from "@walle/components";
 
-const lastUpdated = "January 2026";
+const lastUpdated = "August 2026";
 ---
 
 <BaseLayout
   headerTitle="Privacy Policy"
-  headerDescription="How this template project handles personal data."
+  headerDescription="How italiaopensource.com handles personal data."
   headerRobots="noindex, follow"
 >
   <SectionHeaderStandard
     title="Privacy Policy"
-    subtitle="Sample text. Replace it with your own policy before going live."
+    subtitle="What italiaopensource.com collects, and what it doesn't."
     variant="secondary"
   />
 
   <article class="legal">
     <p class="legal__meta">Last updated: {lastUpdated}</p>
 
-    <div class="legal__notice">
-      <strong>Template notice.</strong> This is placeholder copy shipped with the Walle scaffold. It is
-      not legal advice. Replace every section with a policy reviewed for your jurisdiction before publishing.
-    </div>
-
     <h2>1. Overview</h2>
     <p>
-      This Privacy Policy explains what information the website collects, why it is collected, and
-      how it is used. By using the site you agree to the practices described here.
+      italiaopensource.com is a static, community-maintained directory published by Italia
+      Open-Source. It lists open-source projects, tech communities and partners, all sourced from
+      the public
+      <a href="https://github.com/italia-opensource/awesome-italia-opensource" target="_blank" rel="noopener"
+        >awesome-italia-opensource</a
+      > repository. The site does not have user accounts and does not run any tracking script of its
+      own.
     </p>
 
     <h2>2. Information we collect</h2>
     <ul>
-      <li><strong>Usage data</strong>: anonymous analytics such as pages viewed and referrer.</li>
       <li>
-        <strong>Provided data</strong>: anything you submit through a form or contact channel.
+        <strong>Hosting logs</strong>: the site is served by GitHub Pages, which may log standard
+        request data (IP address, browser, referrer) under
+        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener"
+          >GitHub's own privacy statement</a
+        >. We don't have access to this data.
       </li>
       <li>
-        <strong>Technical data</strong>: browser type, device, and IP address, used to serve the
-        site.
+        <strong>Content you submit</strong>: adding or updating a project or community happens via a
+        pull request on GitHub, and applying as a Community Partner happens via a Google Form. Both
+        are handled directly by GitHub and Google under their own privacy terms, not by us.
       </li>
     </ul>
 
-    <h2>3. How we use information</h2>
+    <h2>3. Cookies</h2>
     <p>
-      Data is used to operate and improve the site, respond to requests, and keep the service
-      secure. It is never sold. Aggregated, anonymized statistics may be used to understand traffic.
+      This site does not set any cookies of its own. If we ever enable analytics, this page will be
+      updated first and a cookie notice will be shown.
     </p>
 
-    <h2>4. Cookies</h2>
+    <h2>4. Third-party services</h2>
+    <p>The site links out to, and relies on, the following third parties:</p>
+    <ul>
+      <li>
+        <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> for hosting
+      </li>
+      <li>
+        <a href="https://github.com/italia-opensource" target="_blank" rel="noopener">GitHub</a> for the
+        open-source data, contributions and pull requests
+      </li>
+      <li><a href="https://forms.google.com/" target="_blank" rel="noopener">Google Forms</a> for partner applications</li>
+      <li>
+        <a href="https://www.linkedin.com/company/italia-open-source" target="_blank" rel="noopener"
+          >LinkedIn</a
+        > for our company page
+      </li>
+    </ul>
+
+    <h2>5. Your rights</h2>
     <p>
-      The site may store cookies for essential functionality and, where enabled, analytics. You can
-      block cookies in your browser; essential features will still work.
+      Since we don't collect or store personal data ourselves, most requests (access, correction,
+      deletion) need to go to the service that actually holds it: GitHub or Google. For anything
+      related to a listing on this site, reach out via
+      <a href="https://github.com/italia-opensource/awesome-italia-opensource/issues" target="_blank" rel="noopener"
+        >GitHub Issues</a
+      >.
     </p>
 
-    <h2>5. Third-party services</h2>
-    <p>
-      Some pages rely on third-party providers (for example, hosting or analytics). Those providers
-      process data under their own privacy terms.
-    </p>
-
-    <h2>6. Your rights</h2>
-    <p>
-      Depending on where you live, you may have the right to access, correct, or delete your data,
-      or to object to its processing. Contact us to exercise any of these rights.
-    </p>
+    <h2>6. Changes</h2>
+    <p>This policy may be updated as the site evolves. Material changes will be reflected here with a new "last updated" date.</p>
 
     <h2>7. Contact</h2>
     <p>
-      Questions about this policy can be sent to the address listed on the site. Update this section
-      with your real contact details.
+      Questions about this policy can be sent via
+      <a href="https://github.com/italia-opensource/awesome-italia-opensource/issues" target="_blank" rel="noopener"
+        >GitHub Issues</a
+      > or through our
+      <a href="https://www.linkedin.com/company/italia-open-source" target="_blank" rel="noopener">LinkedIn page</a>.
     </p>
   </article>
 </BaseLayout>
@@ -85,15 +105,6 @@ const lastUpdated = "January 2026";
     color: var(--text-muted);
     font-size: 0.95rem;
     margin-bottom: var(--space-lg);
-  }
-
-  .legal__notice {
-    background: var(--surface-alt);
-    border-left: 4px solid var(--secondary);
-    border-radius: 0 var(--radius-md) var(--radius-md) 0;
-    padding: var(--space-md) var(--space-lg);
-    margin-bottom: var(--space-2xl);
-    color: var(--text);
   }
 
   .legal h2 {

@@ -36,7 +36,14 @@ main() {
     commit_hash="$(git -C "${ARG_SOURCE}" rev-parse HEAD 2>/dev/null || echo "local")"
   else
     echo "[INFO] Cloning ${ARG_SOURCE} (ref: ${ARG_REF})"
-    git clone --depth 1 -b "${ARG_REF}" "${ARG_SOURCE}" "${TMP_DIR}"
+    # `git clone -b` only accepts branch/tag names. The ref can also be a commit SHA (e.g.
+    # dispatched by the awesome repo's release workflow), so fetch by ref instead of clone -b —
+    # this works for branches, tags and SHAs alike.
+    mkdir -p "${TMP_DIR}"
+    git -C "${TMP_DIR}" init -q
+    git -C "${TMP_DIR}" remote add origin "${ARG_SOURCE}"
+    git -C "${TMP_DIR}" fetch --depth 1 origin "${ARG_REF}"
+    git -C "${TMP_DIR}" checkout -q FETCH_HEAD
     analytics_dir="${TMP_DIR}/analytics"
     commit_hash="$(git -C "${TMP_DIR}" rev-parse HEAD)"
   fi
