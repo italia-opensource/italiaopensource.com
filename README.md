@@ -1,62 +1,48 @@
-# Italia Open-Source website
+# Italia Open Source website
 
-### Requirements
+The website for [Italia Open Source](https://italiaopensource.com) — the fully open-source platform
+that discovers and explores Italy's tech innovations: open-source projects, tech communities,
+partners and reports.
 
-| pkg    | version    | install                                                                      |
-| ------ | ---------- | ---------------------------------------------------------------------------- |
-| devbox | `>=0.12.0` | [docs](https://www.jetify.com/devbox/docs/installing_devbox/#install-devbox) |
+Built with the [harness-walle](https://github.com/FabrizioCafolla/harness-walle) Astro design
+system. The catalog data is synced from
+[awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource).
 
-### Devmode
+## Development
 
-**Develop website in local:**
-
-```bash
-devbox shell
-
-devbox run website start
-```
-
-If you want start website with italian lang run: `devbox run website start --locale=it`.
-
-If you want start website with multi-lang run: `devbox run website build && devbox run website serve`
-
-**[Doppler] Develop infrastructure in local:**
+Everything runs through `just` (see `just --list`):
 
 ```bash
-devbox shell
-
-doppler login
-
-# WARN: Before run `infra` cmd export your AWS Credentials or AWS Profile into .env
-
-devbox run switch-env <staging|production>
-
-. ${DEVBOX_PROJECT_ROOT}/.activate
-
-devbox run infra setup
-
-devbox run infra plan
-
-devbox run deploy
+just dev        # install deps + start the dev server → http://localhost:4321
+just build      # production build (static, output in dist/)
 ```
 
-To switch env run: `devbox run switch-env <staging|production> true`
+Or directly with yarn: `yarn dev`, `yarn build`, `yarn lint`.
 
-**[Without Doppler] Develop infrastructure in local:**
+## Data sync
+
+The `opensource`, `community` and `partners` catalogs are Astro content collections
+(`src/content.config.ts`) loaded from `src/content/data/*.json`, synced from the awesome repo:
 
 ```bash
-echo 'export WORKSPACE=staging|production' >> .env
-echo 'export AWS_ACCOUNT_ID=...' >> .env
-echo 'export AWS_DEFAULT_REGION=...' >> .env
-echo 'export AWS_TERRAFORM_STATE_BUCKET=...' >> .env # (optional) If not set by default use local backend
-
-# WARN: Before run `infra` cmd export your AWS Credentials or AWS Profile into .env
-
-devbox shell
-
-devbox run infra setup
-
-devbox run infra plan
-
-devbox run deploy
+just sync-database                       # from the published awesome-italia-opensource (main)
+just sync-database <ref> <local-path>    # from a local clone, offline
 ```
+
+In CI the `Sync Database` workflow runs this on a `repository_dispatch` from the awesome repo and
+opens a pull request with the updated data.
+
+## Deploy
+
+Deployed to **GitHub Pages** on every push to `main` (`.github/workflows/deploy.yml`), served on the
+custom domain `italiaopensource.com`. No server-side infrastructure.
+
+## Design system
+
+`src/@walle/` is the managed harness-walle design system — do not hand-edit it; it is re-synced with
+`just walle-update`. Your customizations live in `src/configs/` (branding, navbar, footer, theme),
+`src/styles/`, `src/pages/`, `src/components/` and `src/content/`.
+
+## License
+
+See the `LICENSE` file.

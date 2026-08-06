@@ -1,0 +1,113 @@
+---
+import { BaseLayout } from "@walle/layouts";
+import { SectionHeaderStandard } from "@walle/components";
+
+const lastUpdated = "January 2026";
+---
+
+<BaseLayout
+  headerTitle="Privacy Policy"
+  headerDescription="How this template project handles personal data."
+  headerRobots="noindex, follow"
+>
+  <SectionHeaderStandard
+    title="Privacy Policy"
+    subtitle="Sample text. Replace it with your own policy before going live."
+    variant="secondary"
+  />
+
+  <article class="legal">
+    <p class="legal__meta">Last updated: {lastUpdated}</p>
+
+    <div class="legal__notice">
+      <strong>Template notice.</strong> This is placeholder copy shipped with the Walle scaffold. It is
+      not legal advice. Replace every section with a policy reviewed for your jurisdiction before publishing.
+    </div>
+
+    <h2>1. Overview</h2>
+    <p>
+      This Privacy Policy explains what information the website collects, why it is collected, and
+      how it is used. By using the site you agree to the practices described here.
+    </p>
+
+    <h2>2. Information we collect</h2>
+    <ul>
+      <li><strong>Usage data</strong>: anonymous analytics such as pages viewed and referrer.</li>
+      <li>
+        <strong>Provided data</strong>: anything you submit through a form or contact channel.
+      </li>
+      <li>
+        <strong>Technical data</strong>: browser type, device, and IP address, used to serve the
+        site.
+      </li>
+    </ul>
+
+    <h2>3. How we use information</h2>
+    <p>
+      Data is used to operate and improve the site, respond to requests, and keep the service
+      secure. It is never sold. Aggregated, anonymized statistics may be used to understand traffic.
+    </p>
+
+    <h2>4. Cookies</h2>
+    <p>
+      The site may store cookies for essential functionality and, where enabled, analytics. You can
+      block cookies in your browser; essential features will still work.
+    </p>
+
+    <h2>5. Third-party services</h2>
+    <p>
+      Some pages rely on third-party providers (for example, hosting or analytics). Those providers
+      process data under their own privacy terms.
+    </p>
+
+    <h2>6. Your rights</h2>
+    <p>
+      Depending on where you live, you may have the right to access, correct, or delete your data,
+      or to object to its processing. Contact us to exercise any of these rights.
+    </p>
+
+    <h2>7. Contact</h2>
+    <p>
+      Questions about this policy can be sent to the address listed on the site. Update this section
+      with your real contact details.
+    </p>
+  </article>
+</BaseLayout>
+
+<style>
+  .legal {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: var(--space-3xl) var(--space-xl) var(--space-4xl);
+  }
+
+  .legal__meta {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .legal__notice {
+    background: var(--surface-alt);
+    border-left: 4px solid var(--secondary);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    padding: var(--space-md) var(--space-lg);
+    margin-bottom: var(--space-2xl);
+    color: var(--text);
+  }
+
+  .legal h2 {
+    font-size: 1.5rem;
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-md);
+  }
+
+  .legal ul {
+    padding-left: 1.25rem;
+    color: var(--text-muted);
+  }
+
+  .legal li {
+    margin-bottom: var(--space-xs);
+  }
+</style>

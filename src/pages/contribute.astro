@@ -1,0 +1,208 @@
+---
+import { BaseLayout } from "@walle/layouts";
+import { Button, Section, SectionFlow, SectionColumns } from "@walle/components";
+import { resolveInternalUrl } from "@walle/utils";
+import { Icon } from "astro-icon/components";
+
+const awesomeRepo = "https://github.com/italia-opensource/awesome-italia-opensource";
+const contributing = `${awesomeRepo}/blob/main/CONTRIBUTING.md`;
+
+const steps = [
+  {
+    number: 1,
+    icon: "fa:pencil",
+    title: "Edit the awesome list",
+    description:
+      "Fork awesome-italia-opensource and add your entry — just a name and a short description in a JSON file.",
+  },
+  {
+    number: 2,
+    icon: "fa:code-fork",
+    title: "Open a pull request",
+    description:
+      "Submit your change as a pull request. Read the contributing guidelines first so it sails through review.",
+  },
+  {
+    number: 3,
+    icon: "fa:check-circle",
+    title: "Reviewed & published",
+    description:
+      "Once approved, your project or community appears on italiaopensource.com automatically.",
+  },
+];
+
+const ways = [
+  {
+    icon: "fa:rocket",
+    title: "Add your project",
+    description:
+      "Give your open-source project visibility in the Italian tech scene, gain exposure and grow your network.",
+    cta: "Add your project",
+    href: awesomeRepo,
+    external: true,
+  },
+  {
+    icon: "fa:users",
+    title: "Add your community",
+    description:
+      "Introduce your tech community, share your goals and values, and open new collaboration opportunities.",
+    cta: "Add your community",
+    href: awesomeRepo,
+    external: true,
+  },
+  {
+    icon: "fa:handshake-o",
+    title: "Become a partner",
+    description:
+      "Run an active community? Start a real partnership with us and unlock extra benefits like a verified badge.",
+    cta: "How to become a partner",
+    href: resolveInternalUrl("/partners/how-to"),
+    external: false,
+  },
+];
+
+const benefits = [
+  "Gain visibility in the Italian tech scene",
+  "Discover new communities and companies",
+  "Expand your network and build connections",
+  "Help nurture a supportive open-source environment",
+];
+---
+
+<BaseLayout
+  headerTitle="Contribute"
+  headerDescription="Add your project, add your community, or become a partner — everything is a pull request away."
+>
+  <SectionFlow title="How contributing works" steps={steps} variant="gray" />
+
+  <SectionColumns title="Ways to contribute" columns={3} centered={true} minColumnWidth="17rem">
+    {
+      ways.map((w) => (
+        <article class="way">
+          <span class="way__icon" aria-hidden="true">
+            <Icon name={w.icon} size={26} />
+          </span>
+          <h3 class="way__title">{w.title}</h3>
+          <p class="way__desc">{w.description}</p>
+          <Button
+            text={w.cta}
+            href={w.href}
+            variant="primary"
+            target={w.external ? "_blank" : undefined}
+          />
+        </article>
+      ))
+    }
+  </SectionColumns>
+
+  <Section title="Why it's worth it" centered={true}>
+    <ul class="benefits">
+      {
+        benefits.map((b) => (
+          <li>
+            <Icon name="fa:check-circle" class="benefits__check" aria-hidden="true" />
+            <span>{b}</span>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="benefits__note">
+      Every entry lives in the public
+      <a href={awesomeRepo} target="_blank" rel="noopener">awesome-italia-opensource</a> lists. Please
+      read the <a href={contributing} target="_blank" rel="noopener">contributing guidelines</a> before
+      opening a pull request.
+    </p>
+  </Section>
+
+  <section class="cta">
+    <div class="cta__inner">
+      <h2>Ready to contribute?</h2>
+      <p>Open a pull request and become part of the Italian open-source community.</p>
+      <Button text="Contribute on GitHub" href={awesomeRepo} variant="white" size="large" target="_blank" />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .way {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-sm);
+    height: 100%;
+    padding: var(--space-lg) var(--space-md);
+  }
+  .way__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: var(--surface-alt);
+    color: var(--primary);
+    margin-bottom: var(--space-sm);
+  }
+  .way__title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  .way__desc {
+    margin: 0 0 var(--space-md);
+    color: var(--text-muted);
+  }
+  .way :global(.button),
+  .way :global(a[class*="button"]) {
+    margin-top: auto;
+  }
+
+  .benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto var(--space-xl);
+    max-width: 40rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-sm) var(--space-lg);
+    text-align: left;
+  }
+  .benefits li {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+  .benefits__check {
+    color: var(--primary);
+    flex-shrink: 0;
+  }
+  .benefits__note {
+    max-width: 42rem;
+    margin: 0 auto;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  .cta {
+    background: var(--primary);
+    color: var(--white);
+    padding: clamp(3rem, 7vw, 5rem) var(--space-xl);
+    text-align: center;
+  }
+  .cta__inner {
+    max-width: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+  }
+  .cta h2 {
+    color: var(--white);
+    margin: 0;
+  }
+  .cta p {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 0 var(--space-sm);
+  }
+</style>

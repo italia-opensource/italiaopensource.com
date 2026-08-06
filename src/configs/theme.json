@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/theme.schema.json",
+  "palette": {
+    "primary": "#16A34A",
+    "primary-light": "#22C55E",
+    "primary-dark": "#0B7A34",
+    "secondary": "#2563EB",
+    "secondary-light": "#3B82F6",
+    "secondary-dark": "#1D4ED8",
+    "alternative": "#2563EB",
+    "alternative-light": "#93C5FD",
+    "alternative-dark": "#1D4ED8"
+  }
+}

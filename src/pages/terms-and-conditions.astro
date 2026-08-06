@@ -1,0 +1,101 @@
+---
+import { BaseLayout } from "@walle/layouts";
+import { SectionHeaderStandard } from "@walle/components";
+
+const lastUpdated = "January 2026";
+---
+
+<BaseLayout
+  headerTitle="Terms & Conditions"
+  headerDescription="The terms that govern use of this template project."
+  headerRobots="noindex, follow"
+>
+  <SectionHeaderStandard
+    title="Terms & Conditions"
+    subtitle="Sample text. Replace it with your own terms before going live."
+    variant="secondary"
+  />
+
+  <article class="legal">
+    <p class="legal__meta">Last updated: {lastUpdated}</p>
+
+    <div class="legal__notice">
+      <strong>Template notice.</strong> This is placeholder copy shipped with the Walle scaffold. It is
+      not legal advice. Replace every section with terms reviewed for your jurisdiction before publishing.
+    </div>
+
+    <h2>1. Acceptance of terms</h2>
+    <p>
+      By accessing this website you agree to be bound by these Terms &amp; Conditions. If you do not
+      agree, please do not use the site.
+    </p>
+
+    <h2>2. Use of the site</h2>
+    <p>
+      You may browse and use the site for lawful purposes only. You agree not to misuse it, attempt
+      to disrupt it, or access it in a way that could damage the service or other users.
+    </p>
+
+    <h2>3. Intellectual property</h2>
+    <p>
+      Content on this site is provided as a template. The Walle design system itself is distributed
+      under its own open-source license; your own content and branding remain yours.
+    </p>
+
+    <h2>4. Disclaimer</h2>
+    <p>
+      The site is provided “as is”, without warranties of any kind. We do not guarantee that it will
+      be uninterrupted, error-free, or fit for a particular purpose.
+    </p>
+
+    <h2>5. Limitation of liability</h2>
+    <p>
+      To the extent permitted by law, we are not liable for any indirect or consequential loss
+      arising from use of the site.
+    </p>
+
+    <h2>6. External links</h2>
+    <p>
+      The site may link to third-party websites. We are not responsible for their content or
+      practices; visiting them is at your own risk.
+    </p>
+
+    <h2>7. Changes</h2>
+    <p>
+      These terms may be updated at any time. Continued use of the site after changes take effect
+      means you accept the revised terms.
+    </p>
+
+    <h2>8. Contact</h2>
+    <p>Questions about these terms can be sent to the address listed on the site.</p>
+  </article>
+</BaseLayout>
+
+<style>
+  .legal {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: var(--space-3xl) var(--space-xl) var(--space-4xl);
+  }
+
+  .legal__meta {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .legal__notice {
+    background: var(--surface-alt);
+    border-left: 4px solid var(--secondary);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    padding: var(--space-md) var(--space-lg);
+    margin-bottom: var(--space-2xl);
+    color: var(--text);
+  }
+
+  .legal h2 {
+    font-size: 1.5rem;
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-md);
+  }
+</style>

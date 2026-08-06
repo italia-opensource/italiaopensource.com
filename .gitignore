@@ -1,10 +1,57 @@
-*.swp
-package-lock.json
-__pycache__
-.pytest_cache
-.venv
-*.egg-info
+# build output
+dist/
+# generated types
+.astro/
 
-.env*
+# dependencies
+node_modules/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment variables (.env.project is committed; local .env is not)
+*.env
+.env
+.env.local
+.env.production
+
+# three-layer local overrides (never committed)
+*.local
+*.local.sh
+*.local.yml
+.harness-coding/lock
+.harness-ai/lock
+.harness-ai/manifest.json
+
+# yarn berry (node-modules linker)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# test artifacts
+test-results/
+playwright-report/
+
+# sync-database working dirs (see scripts/sync-database.sh)
+.sync-tmp/
+.sync-database/
+
+# misc
+*.tmp
+*.swp
 .DS_Store
-.py-secscan/
+.idea/
+
+# [harness-coding:START]
+.env
+*.local
+*.local.sh
+*.local.yml
+# [harness-coding:END]

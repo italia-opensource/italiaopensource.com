@@ -1,3 +1,5 @@
+# Consumer-owned workflow: sync the catalog from awesome-italia-opensource.
+# Triggered manually, or by a repository_dispatch from the awesome repo's pipeline.
 name: Sync Database
 
 permissions: read-all
@@ -14,85 +16,51 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: "website/.nvmrc"
-          cache-dependency-path: website/yarn.lock
-          cache: "yarn"
+        uses: actions/checkout@v5
 
       - name: Load env
         id: env
         run: |
-          if [ "${{ github.event_name }}" == "workflow_dispatch" ] ; then
-            pr_branch_name="feat/sync-database-manual"
-            pr_body="Sync database: manualy triggered by ${{ github.actor }}"
-            hash_commit_awesome_italia_opensource="latest"
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            ref="main"
+            branch="feat/sync-database-manual"
+            body="Sync database: manually triggered by ${{ github.actor }}"
           else
-            pr_branch_name="feat/sync-database-action-${{ github.event.client_payload.hash }}"
-            pr_body="Sync database: triggered by [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource) (pipeline: [${{ github.event.client_payload.run_id }}](https://github.com/italia-opensource/awesome-italia-opensource/actions/runs/${{ github.event.client_payload.run_id }}))"
-            hash_commit_awesome_italia_opensource="${{ github.event.client_payload.hash }}"
+            ref="${{ github.event.client_payload.hash }}"
+            branch="feat/sync-database-${{ github.event.client_payload.hash }}"
+            body="Sync database: triggered by [awesome-italia-opensource](https://github.com/italia-opensource/awesome-italia-opensource)"
           fi
+          echo "ref=${ref}" >> "$GITHUB_OUTPUT"
+          echo "branch=${branch}" >> "$GITHUB_OUTPUT"
+          echo "body=${body}" >> "$GITHUB_OUTPUT"
 
-          pr_body="${pr_body}. Sync database pipeline: [${{ github.run_id }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }})"
-
-          echo "pr_branch_name=${pr_branch_name}" >> $GITHUB_OUTPUT
-          echo "pr_branch_name=${pr_branch_name}"
-
-          echo "pr_body=${pr_body}" >> $GITHUB_OUTPUT
-          echo "pr_body=${pr_body}"
-
-          echo "hash_commit_awesome_italia_opensource=${hash_commit_awesome_italia_opensource}" >> $GITHUB_OUTPUT
-          echo "hash_commit_awesome_italia_opensource=${hash_commit_awesome_italia_opensource}"
-
-      - name: Build
-        id: build
-        working-directory: website
+      - name: Sync
+        id: sync
         timeout-minutes: 5
         run: |
-          yarn download ${{ steps.env.outputs.hash_commit_awesome_italia_opensource}}
-
-          status=$(git status -s)
-          echo "## Status"
-          echo "${status}"
-
-          # Skip build if only metadata.json has changed and the pipeline was triggered by awesome-italia-opensource
-          if [[ "${{ github.event_name }}" == "repository_dispatch" ]] && [[ "${status}" == " M website/database/metadata.json" ]] ; then
-            echo "has_changed=false" >> $GITHUB_OUTPUT
+          ./scripts/sync-database.sh "${{ steps.env.outputs.ref }}"
+          status="$(git status -s)"
+          echo "## Status"; echo "${status}"
+          if [ -z "${status}" ]; then
+            echo "has_changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-
-          echo "has_changed=true" >> $GITHUB_OUTPUT
+          # Only metadata.json changed on an awesome-triggered run → no meaningful diff.
+          if [ "${{ github.event_name }}" == "repository_dispatch" ] && \
+             [ "${status}" == " M src/content/data/metadata.json" ]; then
+            echo "has_changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "has_changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Create Pull Request
-        if: ${{ steps.build.outputs.has_changed == 'true' }}
-        uses: peter-evans/create-pull-request@v6
+        if: ${{ steps.sync.outputs.has_changed == 'true' }}
+        uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.ACTION_WORKFLOWS }}
-          branch: ${{ steps.env.outputs.pr_branch_name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ steps.env.outputs.branch }}
           title: "feat(website): sync database"
-          body: ${{ steps.env.outputs.pr_body }}
+          body: ${{ steps.env.outputs.body }}
           commit-message: "feat(website): sync database"
-          author: "FabrizioCafolla <${{ secrets.ACTION_EMAIL }}>"
           add-paths: |
-            website/src/*
-            website/database/*
-
-      - name: Update comment
-        if: ${{ success() && github.event.client_payload.slash_command.args.named.comment_id }}
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          token: ${{ secrets.ACTION_WORKFLOWS }}
-          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
-          reactions: hooray
-
-      - name: Failure
-        if: ${{ failure() && github.event.client_payload.slash_command.args.named.comment_id }}
-        uses: peter-evans/create-or-update-comment@v4
-        with:
-          token: ${{ secrets.ACTION_WORKFLOWS }}
-          comment-id: ${{ github.event.client_payload.slash_command.args.named.comment_id }}
-          body: |
-            :warning: Deployment failed. See #[${{ github.run_number }}](https://github.com/italia-opensource/italiaopensource.com/actions/runs/${{ github.run_id }}) for more details.
+            src/content/data/*

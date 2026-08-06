@@ -1,0 +1,12 @@
+# generated / dependencies / sandboxes — skip formatting
+dist
+.astro
+node_modules
+.yarn
+tests/e2e/.sandbox
+
+src/components/features/Analytics.astro
+
+# marker-block fragments — not valid standalone JSON on their own (injected between markers)
+walle/website/inject/vscode-settings.block.json
+walle/website/inject/vscode-extensions.block.json

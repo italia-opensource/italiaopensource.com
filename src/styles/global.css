@@ -1,0 +1,7 @@
+/* Consumer overrides — always win over @walle/styles/global.css. */
+
+/* DetailLayout's header is centered, but the badges slot is a left-aligned flex row.
+   Center it so the badge sits under the centered title, not off to the left. */
+.detail-badges {
+  justify-content: center;
+}

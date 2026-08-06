@@ -1,0 +1,8 @@
+{
+  "database": {
+    "repository": "https://github.com/italia-opensource/awesome-italia-opensource",
+    "commit_hash": "80ab463d78c853c84fda9d6da8d9c1fe73407f2a",
+    "requested_ref": "main",
+    "sync_timestamp": "2026-08-06T16:04:25Z"
+  }
+}

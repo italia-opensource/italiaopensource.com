@@ -1,63 +1,28 @@
+# Consumer-owned CI workflow (walle SEED): created once, never overwritten by `walle update`.
+# Edit freely. The reusable test logic lives in the walle-managed composite action below,
+# so a walle update improves it without touching this file.
 name: Tests
 
 on:
+  push:
   pull_request:
-    branches:
-      - main
-    types: [opened, synchronize]
 
 permissions:
-  id-token: write
   contents: read
-  pull-requests: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  test-data:
+  test:
     name: Test
     runs-on: ubuntu-22.04
-    if: ${{ github.head_ref != 'release-please--branches--main' }} # Skip release-please branch
+    timeout-minutes: 10
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Configure aws credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/${{ secrets.AWS_ROLE_NAME }}
-          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
-          role-session-name: github-actions
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: "website/.nvmrc"
-          cache-dependency-path: website/yarn.lock
-          cache: "yarn"
-
-      - name: Set Terraform 1.9
-        uses: hashicorp/setup-terraform@v3
-        with:
-          terraform_version: "1.9"
-
-      - name: Website tests
-        working-directory: website
-        timeout-minutes: 10
-        run: |
-          yarn setup
-          yarn build
-
-      - name: Infrastructure Plan
-        working-directory: infrastructure
-        env:
-          AWS_TERRAFORM_STATE_BUCKET: ${{ secrets.AWS_TERRAFORM_STATE_BUCKET }}
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
-          AWS_ROLE_NAME: ${{ secrets.AWS_ROLE_NAME }}
-          WORKSPACE: ${{ secrets.WORKSPACE }}
-        run: |
-          make setup
-          make plan
+      - name: Run walle website tests
+        uses: ./.github/workflows/actions/@walle/website-tests
+        timeout-minutes: 5

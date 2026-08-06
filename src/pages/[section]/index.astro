@@ -1,0 +1,73 @@
+---
+import { getCollection } from "astro:content";
+import { BaseLayout } from "@walle/layouts";
+import { CollectionFilters } from "@walle/components";
+import CatalogCard from "../../components/CatalogCard.astro";
+import {
+  SECTION_LIST,
+  catalogCardOf,
+  facetsOf,
+  filterAttrsOf,
+  type SectionConfig,
+} from "../../utils/awesome";
+
+export async function getStaticPaths() {
+  return SECTION_LIST.map((section) => ({
+    params: { section: section.key },
+    props: { section },
+  }));
+}
+
+interface Props {
+  section: SectionConfig;
+}
+const { section } = Astro.props;
+
+const entries = await getCollection(section.collection);
+const sorted = [...entries].sort((a, b) =>
+  String(a.data.name ?? a.id).localeCompare(String(b.data.name ?? b.id))
+);
+const facets = facetsOf(section.key, sorted);
+---
+
+<BaseLayout
+  headerTitle={section.label}
+  headerDescription={`${section.description} (${sorted.length})`}
+>
+  <section class="catalog">
+    <CollectionFilters
+      facets={facets}
+      labels={{ searchPlaceholder: `Search ${section.label.toLowerCase()}...` }}
+    />
+
+    <ul class="catalog__grid">
+      {
+        sorted.map((entry) => (
+          <li data-filter-item {...filterAttrsOf(section.key, entry.data)}>
+            <CatalogCard {...catalogCardOf(section.key, entry)} />
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .catalog {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: clamp(2rem, 5vw, 4rem) var(--space-xl);
+  }
+  .catalog__grid {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-xl) 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2.5rem;
+  }
+  /* CollectionFilters toggles this on hidden items. */
+  .catalog__grid li[hidden] {
+    display: none;
+  }
+</style>
