@@ -1,0 +1,170 @@
+# Italia Open Source
+
+> The only fully open-source platform that transparently gives voice to, discovers, and explores Italy's tech innovations: open-source projects, tech communities, startups and digital nomads.
+
+## Sections
+
+- [Open Source](https://italiaopensource.com/opensource): Open-source projects built by the Italian tech ecosystem — libraries, tools and applications.
+- [Communities](https://italiaopensource.com/communities): Italian tech communities: meetups, conferences, chats and networks to learn and connect.
+
+## Open Source
+
+- [2ami](https://italiaopensource.com/opensource/2ami): Two factor authenticator agent that keep the secrets secret.
+- [Alpaca Image Generator](https://italiaopensource.com/opensource/alpaca-image-generator): Customize your alpaca or generate a random one and download it.
+- [Apivault](https://italiaopensource.com/opensource/apivault): Your gateway to a world of public APIs
+- [Arduino](https://italiaopensource.com/opensource/arduino)
+- [Arduino Desk WeatherStation](https://italiaopensource.com/opensource/arduino-desk-weatherstation): Desk weather station with Esp8266 and oled display.
+- [Argon](https://italiaopensource.com/opensource/argon): Argon is an interpreted multi-paradigm programming language that aims to be elegant, clean and simple to use.
+- [Associazione Odoo Italia](https://italiaopensource.com/opensource/odoo-italia): Addons concerning Odoo Italian Localization.
+- [Astro Minimal](https://italiaopensource.com/opensource/astro-minimal): An open source blog template build with Astro and Bulma
+- [Autocannon](https://italiaopensource.com/opensource/autocannon): Fast HTTP/1.1 benchmarking tool written in Node.js
+- [Awesome Italia Open Source](https://italiaopensource.com/opensource/awesome-italia-opensource): Italy Open-Source is a project whose purpose is to give transparency to the Italian tech ecosystem. Through a series of awesome lists, we seek to give visibility to open-source projects, communities, and tech startups
+- [awesome-italian-pa-opensource](https://italiaopensource.com/opensource/awesome-italian-pa-opensource): Curated list of open-source libraries and tools to integrate Italian Public Administration services (SPID, CIE, fattura elettronica, ANPR, PEC, pagoPA)
+- [AWS Lambda Power Tuning](https://italiaopensource.com/opensource/lambda-power-tuning): AWS Lambda Power Tuning helps you visualize and fine-tune the memory/power configuration of Lambda functions.
+- [Bootstrap Italia](https://italiaopensource.com/opensource/bootstrap-italia)
+- [Breathly](https://italiaopensource.com/opensource/breathly): Breath training mobile app
+- [C14](https://italiaopensource.com/opensource/c14): A growing, open-source database of Italian startups 🇮🇹 Designed to make the ecosystem more transparent and accessible
+- [Cache Candidate](https://italiaopensource.com/opensource/cache-candidate): This is a library providing a higher-order function and a decorator to cache the result of a function or method if given conditions are met.
+- [cachegrand](https://italiaopensource.com/opensource/cachegrand): A modern OSS Key-Value store, Redis compatible, built for today's hardware
+- [capsule](https://italiaopensource.com/opensource/capsule)
+- [Caronte](https://italiaopensource.com/opensource/caronte): A tool to analyze the network flow during attack/defence Capture the Flag competitions
+- [Comuni ISTAT API](https://italiaopensource.com/opensource/comuni-istat-api): List of API to grab data about municipalities, provinces and regions of Italian country
+- [Contribute to opensource the right way](https://italiaopensource.com/opensource/contribute-to-opensource-the-right-way): An open source book about how to contribute to open source.
+- [CortexBrain](https://italiaopensource.com/opensource/cortexbrain): CortexBrain is an ambitious open-source project created by CortexFlow, aiming to develop an intelligent, lightweight, and efficient service mesh architecture that seamlessly connects cloud and edge devices. CortexBrain bypasses the sidecar pattern by leveraging BPF programs to monitor cloud and edge workflows, including networking events, resource usage, and enhancing security features in distributed environments.
+- [Covid19-Monitoring](https://italiaopensource.com/opensource/covid19-Monitoring): This is a small Python project for Covid19 monitoring. I used Python with Flask, MySql and Plotly library for graphs.
+- [Daje](https://italiaopensource.com/opensource/daje)
+- [DataProfiler](https://italiaopensource.com/opensource/dataprof): A fast, lightweight library and CLI tool for CSV and JSON data profiling and quality analysis written in Rust
+- [Dgc](https://italiaopensource.com/opensource/dgc): A parser and validator for the EU Digital Green Certificate (dgc) a.k.a. greenpass
+- [Distrobox](https://italiaopensource.com/opensource/distrobox): Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with
+- [Ercole](https://italiaopensource.com/opensource/ercole): Proactive Software Asset Management. Backend component
+- [Espanso](https://italiaopensource.com/opensource/espanso): Cross-platform Text Expander written in Rust
+- [espanso typofixer ](https://italiaopensource.com/opensource/espanso-typofixer): Various Espanso packages to fix typos automatically for you on Italian, English, Spanish and French
+- [Everli Uppy](https://italiaopensource.com/opensource/everli-uppy): Mobile applications distribution platform.
+- [EVO](https://italiaopensource.com/opensource/getevo)
+- [Faker](https://italiaopensource.com/opensource/faker): Python package that generates fake data for you
+- [fastify](https://italiaopensource.com/opensource/fastify)
+- [fenn](https://italiaopensource.com/opensource/fenn): Friendly Environment for Neural Networks(fenn) is a simple Python framework for building ML/DL workflows and LLM agents faster, with prebuilt trainers, agent templates, logging, configuration management, and much more.
+- [fiume](https://italiaopensource.com/opensource/fiume): State machine library for TypeScript
+- [FusionCache](https://italiaopensource.com/opensource/fusioncache): FusionCache is an easy to use, fast and robust cache with advanced resiliency features and an optional distributed 2nd level.
+- [Fwdctl](https://italiaopensource.com/opensource/fwdctl): CLI tool to easily manage IPTables forwards
+- [G3W-SUITE](https://italiaopensource.com/opensource/g3w-suite): Publish your QGIS projects as WebGIS services. Built with Django and Vue.
+- [Galactic CV Guide](https://italiaopensource.com/opensource/galactic-CV-guide): Tips & Tricks to write a great CV
+- [Galactic Linkedin Profile Guide](https://italiaopensource.com/opensource/galactic-linkedin-profile-guide): Tips & Trick for a great Linkedin profile
+- [Game Genie Good Guy](https://italiaopensource.com/opensource/gggg): Patch your rom with Game Genie codes
+- [GBAATM Rebirth](https://italiaopensource.com/opensource/gbaatm-rebirth): From the original source code a new rebirth, to add a Trainer in your GBA roms!
+- [GH License](https://italiaopensource.com/opensource/gh-license): Scan your online repo, check if it is missing the license (or install the Git Hooks in your machine)
+- [Gitapper](https://italiaopensource.com/opensource/gitapper): Remap Git with your custom scripts or new commands
+- [GlotDict](https://italiaopensource.com/opensource/glotdict): This extension for WordPress polyglots implements new features to improve the quality of translation/reviews!
+- [GoccIA](https://italiaopensource.com/opensource/goccia): Strumento web gratuito e anonimo in italiano che assegna un punteggio 1-99 all'acqua del rubinetto a partire dai valori del referto. Motore deterministico basato sui limiti del D.Lgs. 18/2023 e sui range ideali WHO/EFSA.
+- [Gushio](https://italiaopensource.com/opensource/gushio): Execute scripts written in JavaScript
+- [Hanami](https://italiaopensource.com/opensource/hanami): Hanami is a full-stack Ruby web framework. It's made up of smaller, single-purpose libraries.
+- [Histolab](https://italiaopensource.com/opensource/hitolab): Library for Digital Pathology Image Processing
+- [Http Bee Request](https://italiaopensource.com/opensource/http-bee-request): A little tool to make web calling a breeze!
+- [ImageGoNord](https://italiaopensource.com/opensource/image-go-nord)
+- [IO App](https://italiaopensource.com/opensource/io-app)
+- [Italia Corpus](https://italiaopensource.com/opensource/italia-corpus): Il corpus della legislazione italiana in Markdown — aggiornato quotidianamente. Oltre 250.000 atti legislativi da Normattiva, pronti per RAG, LLM fine-tuning, e ricerca NLP.
+- [Italiaremote](https://italiaopensource.com/opensource/italiaremote)
+- [Job Offer Bot](https://italiaopensource.com/opensource/job-offer-bot)
+- [Kafka Connect ElasticSearch Source](https://italiaopensource.com/opensource/kafka-connect-elasticsearch-source)
+- [kamaji](https://italiaopensource.com/opensource/kamaji)
+- [Kannon](https://italiaopensource.com/opensource/kannon)
+- [Kathará](https://italiaopensource.com/opensource/kathara): A Lightweight and Scalable Container-based Network Emulation System
+- [Kong](https://italiaopensource.com/opensource/kong): Kong API Gateway is a cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins
+- [kube-green](https://italiaopensource.com/opensource/kube-green): A Kubernetes operator to reduce CO2 footprint of your clusters
+- [Kubernetes Fury Distribution](https://italiaopensource.com/opensource/kubernetes-fury-distribution): A CNCF certified battle-tested Kubernetes distribution
+- [Leapp](https://italiaopensource.com/opensource/leapp): Leapp is the DevTool to access your cloud.
+- [Make Js Component](https://italiaopensource.com/opensource/make-js-component): NPX command born with the purpose of streamline the process for developers of creating components with the many FE frameworks around. MJC allows you to just call a command and have your JS component ready to use, and edit, with also a bunch of options available in order to start with the perfect boilerplate.
+- [Make promises safe](https://italiaopensource.com/opensource/make-promises-safe): A node.js module to make the use of promises safe. It implements the deprecation DEP0018 of Node.js in versions 6+. Using Promises without this module might cause file descriptor and memory leaks.
+- [Memongo](https://italiaopensource.com/opensource/tryvium-memongo): A Go package that spins up a real MongoDB server, backed by in-memory storage, for use in testing and mocking during development. It's based on mongodb-memory-server for NodeJS.
+- [micro-lc](https://italiaopensource.com/opensource/micro-lc): Build flexible, multi-tenant frontend applications following the Micro Frontend architecture
+- [Middy](https://italiaopensource.com/opensource/middy): The stylish Node.js middleware engine for AWS Lambda
+- [Mobilizon Reshare](https://italiaopensource.com/opensource/mobilizon-reshare): Enables an organization to automate their social media strategy in regards to events and their promotion. 
+- [Moquette](https://italiaopensource.com/opensource/moquette)
+- [Mosaico](https://italiaopensource.com/opensource/mosaico): Mosaico is an open-source data platform for Robotics and Physical AI. It transforms raw sensor logs into structured, searchable datasets, allowing developers to quickly ingest, query, and manage massive amounts of multi-modal data for development and AI model training.
+- [mp3-coverify](https://italiaopensource.com/opensource/mp3-coverify): A Node.js tool to automatically fetch, clean and apply accurate cover art to MP3 files using multiple music metadata sources (iTunes, Deezer, Spotify, Last.fm, Discogs, MusicBrainz).
+- [Neulabs CDK Constructs](https://italiaopensource.com/opensource/neulabs-cdk-constructs): The neulabs-cdk-constructs library contains CDK-based constructs and stacks to allow the creation of cloud infrastructure on AWS.
+- [Neulabs GH Actions Analytics](https://italiaopensource.com/opensource/neulabs-gh-actions-analytics): This application allows you to view GitHub's 'Usage Report' data.
+- [Neuron AI](https://italiaopensource.com/opensource/neuron-ai): The PHP Agentic Framework to build production-ready AI driven applications. Connect components (LLMs, vector DBs, memory) to agents that can interact with your data. With its modular architecture it's best suited for building RAG, multi-agent workflows, or business process automations.
+- [Nutgram](https://italiaopensource.com/opensource/nutgram): Nutgram is a powerful PHP Telegram bot framework that allows you to build bots easily. Integrates with Laravel and Symfony out of the box.
+- [Nutgram Hydrator](https://italiaopensource.com/opensource/nutgram-hydrator): A super fast, strongly typed, and powerful object hydrator for PHP.
+- [nuvola](https://italiaopensource.com/opensource/primait-nuvola): nuvola is a tool to dump and perform automatic and manual security analysis on AWS environments configurations and services using predefined, extensible and custom rules created using a simple Yaml syntax.
+- [Nuvolaris](https://italiaopensource.com/opensource/nuvolaris)
+- [Open Profiler](https://italiaopensource.com/opensource/open-profiler): Build your unique online presence with Open Profiler a responsive and feature-rich portfolio, easily tailored to showcase your skills, experience, and projects.
+- [Opencity Italia](https://italiaopensource.com/opensource/opencity-italia)
+- [orchy-mfe](https://italiaopensource.com/opensource/orchy-mfe): The Micro Frontends orchestrator
+- [Ordinary Puzzles](https://italiaopensource.com/opensource/ordinary-puzzles): A minimalistic mobile puzzle game inspired by Picross and Sudoku
+- [Pandas AI](https://italiaopensource.com/opensource/pandas-ai): Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.
+- [passkit-generator](https://italiaopensource.com/opensource/passkit-generator): The easiest way to generate custom Apple Wallet passes in Node.js
+- [Pet Therapy](https://italiaopensource.com/opensource/pet-therapy): Desktop Pets for macOS
+- [Pinakes](https://italiaopensource.com/opensource/pinakes): Modern Library Management System (ILS) with multilingual support, plugin architecture, ISBN scraping, Dewey classification, loan/reservation system, and Z39.50/SRU protocol support
+- [Platformatic](https://italiaopensource.com/opensource/platformic): Platformatic open-source tools simplify building and running Node.js applications, with best practices baked in.
+- [Projectsveltos](https://italiaopensource.com/opensource/projectsveltos): Sveltos is a Kubernetes add-on controller that simplifies the deployment and management of Kubernetes add-ons and applications across multiple clusters whether on-prem, in the cloud or a multitenant environment
+- [Pydal](https://italiaopensource.com/opensource/pydal): Remap your specific keyboard to execute custom scripts!
+- [Pytorch Deep Learning](https://italiaopensource.com/opensource/pytorch-deep-learning)
+- [qrcp](https://italiaopensource.com/opensource/qrcp): Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal
+- [Redis](https://italiaopensource.com/opensource/redis)
+- [Remotebear](https://italiaopensource.com/opensource/remotebear): Remote jobs aggregator
+- [Rönd](https://italiaopensource.com/opensource/rond): Rönd is a lightweight container that distributes security policy enforcement throughout your application.
+- [ScrapeGraphAI](https://italiaopensource.com/opensource/scrapegraphai): AI-powered web scraping API designed to extract structured data from any website using natural language prompts. Features SmartScraper, SearchScraper, SmartCrawler, Markdownify, and AgenticScraper for various data extraction needs.
+- [ServerMan](https://italiaopensource.com/opensource/serverMan): Serverman is a comprehensive tool for managing your servers across different platforms directly from your terminal.
+- [Share Backported](https://italiaopensource.com/opensource/share-backported): Extension to get back the Firefox Share modal
+- [Simple ehm](https://italiaopensource.com/opensource/simple-ehm): A simple tool for a simple task: remove filler sounds ('ehm') from pre-recorded speeches. AI powered.
+- [Snackjob](https://italiaopensource.com/opensource/snackjob)
+- [Sossoldi](https://italiaopensource.com/opensource/sossoldi): Sossoldi is a free and open source wealth management / personal finance / Net Worth tracking app, made with Flutter.
+- [Spooq](https://italiaopensource.com/opensource/spooq): Is an ETL Big Data tool based on the Apache Spark framework that simplifies its use through the ability to implement data pipelines using a declarative approach based on simple configuration files and expressing transformations primarily through SQL
+- [Strawberry GraphQL](https://italiaopensource.com/opensource/strawberry-graphql)
+- [Swap Anything](https://italiaopensource.com/opensource/swap-anything): A mix and match (swap) library to empower swapping-based projects.
+- [Theme Switcher](https://italiaopensource.com/opensource/theme-switcher): Theme Switcher is a stateful React component based on TailwindCSS and HeadlessUI agnostic library for Light and Dark theme management
+- [Tiledesk](https://italiaopensource.com/opensource/tiledesk): Open Source Live Chat with adaptive multichannel Chatbots design technology. Alternative to Intercom and Zendesk for Customer Service and Conversational Marketing
+- [Toonify](https://italiaopensource.com/opensource/toonify): A compact, human-readable serialization format designed for passing structured data to Large Language Models with 30-60% token usage reduction compared to JSON. Provides Python API and CLI for converting between JSON and TOON format.
+- [Version Wizard](https://italiaopensource.com/opensource/version-wizard): Streamline your frontend project management, that simplifies tagging and building new versions effortlessly.
+- [Visura API](https://italiaopensource.com/opensource/visura-api): REST API for automated Italian cadastral property record extraction (visure catastali) from the SISTER portal, using Playwright for browser automation with SPID authentication.
+- [wise-print](https://italiaopensource.com/opensource/wise-print): Simple package to add info to print statements
+- [WordPress Plugin Boilerplate Powered](https://italiaopensource.com/opensource/wordpress-plugin-boilerplate-powered): Wordpress Plugin Boilerplate but Powered with examples and a generator!
+- [XBackBone](https://italiaopensource.com/opensource/xbackbone): XBackBone is a simple, self-hosted, lightweight file manager that support multiple instant sharing tools and storage backends.
+- [Yamlinc](https://italiaopensource.com/opensource/yamlinc)
+- [Youtube-to-Anchorfm](https://italiaopensource.com/opensource/youtube-to-anchorfm)
+- [Zornade Studio](https://italiaopensource.com/opensource/zornade-studio): No-code editor to build choropleth, bivariate, cartogram and flow maps from Italian open data (OpenStreetMap, ISTAT, Eurostat, dati.gov.it) or your own CSV, publishable as embeddable maps.
+
+## Communities
+
+- [Arkemis](https://italiaopensource.com/communities/arkemis): Diamo forma a un ecosistema open che unisce tecnologia, formazione e community per abilitare la nuova generazione di sviluppatori e team digitali a costruire con qualità, velocità e consapevolezza.
+- [Associazione PCOfficina](https://italiaopensource.com/communities/pcofficina): L'Associazione PCOfficina, fondata nel 2011, si ritrova settimanalmente a Milano ed è dedita alla condivisione di saperi informatici, alla nobile arte del trashware e al software libero.
+- [Cloud Native Days Italy](https://italiaopensource.com/communities/cloud-native-days-italy): Cloud Native Days (CNS) Italy is a local, community-organized event that gathers adopters and technologists from open source and cloud native communities.
+- [Codemotion](https://italiaopensource.com/communities/codemotion): We are the leading platform that supports tech professionals’ growth. We create the right connections between IT professionals, technology communities and companies
+- [Continuous Delivery](https://italiaopensource.com/communities/continuous-delivery): Un podcast in cui chiacchieriamo di sviluppo software, open source, cloud native, metodologie, e tutto quello che sta intorno al mondo IT.
+- [Developers Italia](https://italiaopensource.com/communities/developers-italia): Il punto di riferimento per il software della Pubblica Amministrazione.
+- [DevMarche](https://italiaopensource.com/communities/devmarche): La Community tech delle Marche: eventi, conferenze e serate a tema sviluppo e non solo, per fare networking e parlare degli argomenti che ci appassionano.
+- [DrupalCamp Italy](https://italiaopensource.com/communities/drupalcamp-italy): DrupalCamp Italy è la conferenza dedicata alla community italiana e internazionale di Drupal, nata dalla passione di veterani e contributor.
+- [Edoardo Dusi](https://italiaopensource.com/communities/edo): Cerco di divulgare la tecnologia, tenere aggiornati sulle tech news, incentivare la contribuzione e le best practices.
+- [Eventi Tech Milano](https://italiaopensource.com/communities/eventi-tech)
+- [Fabio Biondi](https://italiaopensource.com/communities/fabio-biondi): Durante le mie live: studio, sperimento, condivido il mio know-how e organizzo quiz tecnici, spesso in compagnia di amici e ospiti, su moltissime tematiche legate al mondo della programmazione.
+- [Flutter Italia Developers](https://italiaopensource.com/communities/flutter-italia)
+- [fullremote.it](https://italiaopensource.com/communities/fullremote-it): A weekly newsletter (with remote jobs) and a telegram channel dedicated to italian tech workers who work (or want to work) remotely.
+- [Gitbar](https://italiaopensource.com/communities/gitbar): Il podcast dei developer italiani
+- [Giuppi dev](https://italiaopensource.com/communities/giuppi-dev): Sono un programmatore freelance e un nomade digitale, che lavora viaggiando per il mondo. Qui condivido la mia esperienza per aiutare tutti quelli che vogliono lavorare da programmatori e vogliono farlo in libertà da dove gli pare.
+- [GrUSP](https://italiaopensource.com/communities/grusp): Dal 2003 organizziamo eventi per formare e mettere in contatto persone accomunate dalla passione per lo sviluppo web.
+- [HR feat ICT](https://italiaopensource.com/communities/hr-feat-ict): Nata per creare uno spazio di confronto e condivisione tra HR e professionisti ICT. È aperto a tutti/e, purché motivatə da reciproco scambio e dal sano confronto. È il luogo ideale dove: Ricevere supporto sull’iter di ricerca e selezione, Chiedere consigli (su CV, RAL, benefit), Esprimere dubbi e domande realtive al lavoro, Confrontarsi tra professionisti, Aiutare i recruiter a svolgere al meglio il loro lavoro. Possono utilizzare un bot open source per la condivisione degli annunci (Job Offer Bot)
+- [ItaliaJS](https://italiaopensource.com/communities/italia-js): Una community dedicata a JavaScript e derivati che riunisce gli appassionati del Front-End in Italia
+- [Italian Linux Society](https://italiaopensource.com/communities/italian-linux-society): L'associazione italiana per la promozione e la divulgazione di Linux e del Software Libero e Open Source in Italia
+- [Kubernetes It](https://italiaopensource.com/communities/kubernetes-it): Gruppo di utilizzatori, veterani e newbie su Kubernetes: parliamo anche di Cloud Native, Container, sviluppo e Systems Engineering!
+- [La Brigata dei Geek Estinti](https://italiaopensource.com/communities/la-brigata-dei-geek-estinti): Un podcast Live ad assetto variabile dove ogni geek estinto, ma vivo, può intervenire quando vuole. Si parla di IT, programmazione, DevOps, retro computing, cloud, scena demo, cultura geek, vita, universo e tutto quanto.
+- [La Locanda del Tech](https://italiaopensource.com/communities/la-locanda-del-tech): The Telegram channel of La Locanda del Tech, a Twitch channel hosted by Guido Penta, that deals with various arguments like working in tech, money, professional development and many others
+- [Latina In Tech](https://italiaopensource.com/communities/latina-in-tech): Free events to foster knowledge sharing and professional growth.
+- [Morrolinux](https://italiaopensource.com/communities/morrolinux): Canale di informazione e condivisione di esperienze in ambito Linux e opensource. In questo canale si trattatta di applicazioni opensource, Linux, Self-hosting, recensioni di distro linux ed esperimenti
+- [MUG Marca User Group](https://italiaopensource.com/communities/marca-user-group): MUG is a user group localed around Treviso (Veneto region) unbounded to any technology or methodology. Our goal is aggreate people and networking opportunities between developers or tech enthusiasts.
+- [Need for Nerd](https://italiaopensource.com/communities/need-for-nerd): Community generalista per developers in cui si discute di temi tecnici e lavorativi e in cui ci si aiuta a vicenda.
+- [Nix Milano](https://italiaopensource.com/communities/nix-milano): Nix Milano is a community for anyone interested in Nix and NixOS. We organize talks, unconferences, and hackathons focused on learning, sharing, and hacking on Nix-related projects.
+- [Open Source Community](https://italiaopensource.com/communities/open-source-support): Meme sui dev e il coding, community di aiuto, guide e tutorial sulla programmazione. Gruppo ufficiale di supporto tecnico per i miei software open source
+- [Open Source Saturday Milano](https://italiaopensource.com/communities/open-source-saturday): Ci troviamo un sabato al mese per contribuire insieme a progetti open source.
+- [PyCon Italia](https://italiaopensource.com/communities/pycon-italia): PyCon Italia is the Italian edition of the international PyCon conference series, which focuses on the Python programming language. It serves as a gathering for Python enthusiasts, including developers, data scientists, educators, and other tech professionals from all over Italy and beyond.
+- [Red Hot Cyber](https://italiaopensource.com/communities/red-hot-cyber): Red Hot Cyber è una rivista online che tratta temi di tecnologia e di sicurezza informatica, dietro alla rivista è presente una folta community che funge da incubatrice di idee, dove specialisti di diverse discipline collaborano
+- [Ripsters](https://italiaopensource.com/communities/ripsters)
+- [Schrödinger Hat](https://italiaopensource.com/communities/schrodinger-hat): Schrodinger Hat é una community, un podcast, un livestream e molto altro! Se hai una idea, un tool, un argomento o altro da proporre, puoi aprire una issue su GitHub.
+- [Sistemista Italiano](https://italiaopensource.com/communities/sistemista-italiano): Canale di informazione, video tutorial, guide e how-to dedicato ai sistemisti italiani. In questo canale sono raccolti video che spiegano con parole chiare e semplici argomenti all'ordine del giorno per coloro che sono o desiderano diventare sistemisti.
+- [Startup Checklist](https://italiaopensource.com/communities/startup-checklist): La ricetta per fare Startup, un percorso guidato dall'idea alla raccolta fondi
+- [Startup Italia](https://italiaopensource.com/communities/startup-italia): Il più grande network italiano di eventi dedicati all'innovazione con visibilità e partecipazione internazionale; un hub digitale con dati da startup, aziende innovative, investitori e professionisti
+- [Tech Workers Coalition Italia](https://italiaopensource.com/communities/twc-italia): Senza di noi l'industria della tecnologia non esisterebbe, né in Italia né nel resto del mondo. Tech Workers Coalition esiste per darci voce, diritti e forza.
+- [TechCompenso](https://italiaopensource.com/communities/techcompenso): TechCompenso is the go-to portal for uncovering the real earnings in Italy's tech sector, including technology, product management, and marketing roles within Italian tech companies
+- [TomorrowDevs](https://italiaopensource.com/communities/tomorrow-devs): Il nostro focus è il Learn by Doing, di conseguenza ci focalizziamo sul realizzare tante attività di apprendimento attraverso la pratica. Progetti in Team, Coding Challenge, Hackathon, percorsi customizzati, tutti seguiti da Mentor esperti del settore.
+- [Vita nello zaino](https://italiaopensource.com/communities/vita-nello-zaino): Chiusa una porta si apre un portellone.
