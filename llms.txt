@@ -1,11 +1,11 @@
 # Italia Open Source
 
-> The only fully open-source platform that transparently gives voice to, discovers, and explores Italy's tech innovations: open-source projects, tech communities, startups and digital nomads.
+> The only fully open-source platform that transparently gives voice to, discovers, and explores Italy's tech innovations: open-source projects and tech communities.
 
 ## Sections
 
-- [Open Source](https://italiaopensource.com/opensource): Open-source projects built by the Italian tech ecosystem — libraries, tools and applications.
-- [Communities](https://italiaopensource.com/communities): Italian tech communities: meetups, conferences, chats and networks to learn and connect.
+- [Open Source](https://italiaopensource.com/opensource): Our awesome list of open-source projects created by Italian companies and developers.
+- [Communities](https://italiaopensource.com/communities): Our awesome list of tech communities in Italy.
 
 ## Open Source
 
