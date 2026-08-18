@@ -2,8 +2,7 @@
   "$schema": "../schemas/walle.config.schema.json",
   "schemaVersion": 3,
   "name": "italiaopensource.com",
-  "walleVersion": "local",
-  "sourceRef": "/workspace/projects/tools/harness-walle",
+  "walleVersion": "v0.3.2",
   "modules": [
     "website",
     "ai",
@@ -140,5 +139,5 @@
       ]
     }
   },
-  "updatedAt": "2026-08-06T15:18:33Z"
+  "updatedAt": "2026-08-18T14:27:46Z"
 }

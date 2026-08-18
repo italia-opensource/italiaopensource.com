@@ -28,6 +28,8 @@ Do not edit files inside `@walle/` directories, and do not edit the content betw
 - **ci** — GitHub Actions workflows (test + deploy) under @walle
   - Managed: .github/workflows/actions/@walle
   - Seeded once: .github/workflows/test.yml, .github/workflows/deploy.yml
+- **harness-coding** — Harness coding scaffold
+  - Seeded once: justfile.project, .husky/pre-commit, .husky/pre-push, .devcontainer/docker-compose.project.yml
 
 ### Working with walle
 
