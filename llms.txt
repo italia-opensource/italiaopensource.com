@@ -36,6 +36,7 @@
 - [DataProfiler](https://italiaopensource.com/opensource/dataprof): A fast, lightweight library and CLI tool for CSV and JSON data profiling and quality analysis written in Rust
 - [Dgc](https://italiaopensource.com/opensource/dgc): A parser and validator for the EU Digital Green Certificate (dgc) a.k.a. greenpass
 - [Distrobox](https://italiaopensource.com/opensource/distrobox): Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with
+- [DoveVannoINostriSoldi](https://italiaopensource.com/opensource/dovevannoinostrisoldi): Progetto civico open source per capire come vengono usati i soldi pubblici italiani. Riunisce dati ufficiali su pagamenti comunali, debito, PNRR, istruzione e altro.
 - [Ercole](https://italiaopensource.com/opensource/ercole): Proactive Software Asset Management. Backend component
 - [Espanso](https://italiaopensource.com/opensource/espanso): Cross-platform Text Expander written in Rust
 - [espanso typofixer ](https://italiaopensource.com/opensource/espanso-typofixer): Various Espanso packages to fix typos automatically for you on Italian, English, Spanish and French
@@ -52,6 +53,7 @@
 - [Galactic Linkedin Profile Guide](https://italiaopensource.com/opensource/galactic-linkedin-profile-guide): Tips & Trick for a great Linkedin profile
 - [Game Genie Good Guy](https://italiaopensource.com/opensource/gggg): Patch your rom with Game Genie codes
 - [GBAATM Rebirth](https://italiaopensource.com/opensource/gbaatm-rebirth): From the original source code a new rebirth, to add a Trainer in your GBA roms!
+- [geojson-italy](https://italiaopensource.com/opensource/geojson-italy): File GeoJSON e TopoJSON per tutti i comuni, le province e le regioni italiane. Dataset geografico open per mappe e visualizzazioni.
 - [GH License](https://italiaopensource.com/opensource/gh-license): Scan your online repo, check if it is missing the license (or install the Git Hooks in your machine)
 - [Gitapper](https://italiaopensource.com/opensource/gitapper): Remap Git with your custom scripts or new commands
 - [GlotDict](https://italiaopensource.com/opensource/glotdict): This extension for WordPress polyglots implements new features to improve the quality of translation/reviews!
@@ -63,6 +65,7 @@
 - [ImageGoNord](https://italiaopensource.com/opensource/image-go-nord)
 - [IO App](https://italiaopensource.com/opensource/io-app)
 - [Italia Corpus](https://italiaopensource.com/opensource/italia-corpus): Il corpus della legislazione italiana in Markdown — aggiornato quotidianamente. Oltre 250.000 atti legislativi da Normattiva, pronti per RAG, LLM fine-tuning, e ricerca NLP.
+- [Italia MCP Servers](https://italiaopensource.com/opensource/italia-mcp-servers): Catalogo curato dei server MCP italiani: dati pubblici, legal-tech, fatturazione elettronica, pubblica amministrazione e altro.
 - [Italiaremote](https://italiaopensource.com/opensource/italiaremote)
 - [Job Offer Bot](https://italiaopensource.com/opensource/job-offer-bot)
 - [Kafka Connect ElasticSearch Source](https://italiaopensource.com/opensource/kafka-connect-elasticsearch-source)
@@ -94,6 +97,7 @@
 - [orchy-mfe](https://italiaopensource.com/opensource/orchy-mfe): The Micro Frontends orchestrator
 - [Ordinary Puzzles](https://italiaopensource.com/opensource/ordinary-puzzles): A minimalistic mobile puzzle game inspired by Picross and Sudoku
 - [Pandas AI](https://italiaopensource.com/opensource/pandas-ai): Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.
+- [paroleitaliane](https://italiaopensource.com/opensource/paroleitaliane): Liste di parole italiane: dizionari, nomi propri, cognomi, coniugazioni verbali e parole comuni. Utile per NLP, giochi di parole e generazione di testo.
 - [passkit-generator](https://italiaopensource.com/opensource/passkit-generator): The easiest way to generate custom Apple Wallet passes in Node.js
 - [Pet Therapy](https://italiaopensource.com/opensource/pet-therapy): Desktop Pets for macOS
 - [Pinakes](https://italiaopensource.com/opensource/pinakes): Modern Library Management System (ILS) with multilingual support, plugin architecture, ISBN scraping, Dewey classification, loan/reservation system, and Z39.50/SRU protocol support
