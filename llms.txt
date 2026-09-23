@@ -21,6 +21,7 @@
 - [Awesome Italia Open Source](https://italiaopensource.com/opensource/awesome-italia-opensource): Italy Open-Source is a project whose purpose is to give transparency to the Italian tech ecosystem. Through a series of awesome lists, we seek to give visibility to open-source projects, communities, and tech startups
 - [awesome-italian-pa-opensource](https://italiaopensource.com/opensource/awesome-italian-pa-opensource): Curated list of open-source libraries and tools to integrate Italian Public Administration services (SPID, CIE, fattura elettronica, ANPR, PEC, pagoPA)
 - [AWS Lambda Power Tuning](https://italiaopensource.com/opensource/lambda-power-tuning): AWS Lambda Power Tuning helps you visualize and fine-tune the memory/power configuration of Lambda functions.
+- [Bookrail](https://italiaopensource.com/opensource/bookrail): Open-source booking infrastructure for developers. Availability, temporary holds, bookings, cancellation policies and signed webhooks, with PostgreSQL capacity enforcement, an HTTP API, a TypeScript SDK, a CLI and an MCP server.
 - [Bootstrap Italia](https://italiaopensource.com/opensource/bootstrap-italia)
 - [Breathly](https://italiaopensource.com/opensource/breathly): Breath training mobile app
 - [C14](https://italiaopensource.com/opensource/c14): A growing, open-source database of Italian startups 🇮🇹 Designed to make the ecosystem more transparent and accessible
