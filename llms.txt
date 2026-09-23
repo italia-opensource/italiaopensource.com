@@ -73,6 +73,7 @@
 - [kamaji](https://italiaopensource.com/opensource/kamaji)
 - [Kannon](https://italiaopensource.com/opensource/kannon)
 - [Kathará](https://italiaopensource.com/opensource/kathara): A Lightweight and Scalable Container-based Network Emulation System
+- [KondoManager](https://italiaopensource.com/opensource/kondomanager): KondoManager is a free and open source condominium management software built with Laravel. It helps administrators manage properties, tenants, expenses, and communications.
 - [Kong](https://italiaopensource.com/opensource/kong): Kong API Gateway is a cloud-native, platform-agnostic, scalable API Gateway distinguished for its high performance and extensibility via plugins
 - [kube-green](https://italiaopensource.com/opensource/kube-green): A Kubernetes operator to reduce CO2 footprint of your clusters
 - [Kubernetes Fury Distribution](https://italiaopensource.com/opensource/kubernetes-fury-distribution): A CNCF certified battle-tested Kubernetes distribution
