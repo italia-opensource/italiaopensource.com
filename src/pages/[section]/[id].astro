@@ -3,7 +3,13 @@ import { getCollection } from "astro:content";
 import { DetailLayout } from "@walle/layouts";
 import { Badge, Button } from "@walle/components";
 import { resolveInternalUrl } from "@walle/utils";
-import { SECTIONS, SECTION_LIST, badgeOf, primaryLinkOf, type SectionKey } from "../../utils/awesome";
+import {
+  SECTIONS,
+  SECTION_LIST,
+  badgeOf,
+  primaryLinkOf,
+  type SectionKey,
+} from "../../utils/awesome";
 
 export async function getStaticPaths() {
   const perSection = await Promise.all(
@@ -62,6 +68,7 @@ const badge = badgeOf(sectionKey, data);
   description={data.description}
   breadcrumbs={breadcrumbs}
   backLink={{ href: resolveInternalUrl(`/${section.key}`), label: `Back to ${section.label}` }}
+  badgesAlign="center"
 >
   {badge && <Badge slot="badges" text={badge} variant="primary" />}
 

@@ -1,9 +1,7 @@
 name: "❓ Question"
 description: Create a new ticket for a question
 title: "❓ [QUESTION] - <title>"
-labels: [
-  "question"
-]
+labels: ["question"]
 body:
   - type: textarea
     id: summary
