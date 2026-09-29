@@ -1,7 +1,14 @@
 /* Consumer overrides — always win over @walle/styles/global.css. */
+@layer site {
+  .way__cta {
+    margin-top: auto;
+  }
 
-/* DetailLayout's header is centered, but the badges slot is a left-aligned flex row.
-   Center it so the badge sits under the centered title, not off to the left. */
-.detail-badges {
-  justify-content: center;
+  /* Workaround for walle 0.7.2: SectionWrapper's [data-muted] rule sets both --wrapper-bg
+     and --surface-alt to values derived from each other, so --wrapper-bg resolves to
+     --surface-alt's own reassigned value (white) instead of the intended gray band. This
+     sets --wrapper-bg straight from --gray-light, skipping --surface-alt entirely. */
+  .section-wrapper[data-muted] {
+    --wrapper-bg: var(--gray-light);
+  }
 }

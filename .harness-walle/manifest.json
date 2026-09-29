@@ -2,7 +2,7 @@
   "$schema": "../schemas/walle.config.schema.json",
   "schemaVersion": 3,
   "name": "italiaopensource.com",
-  "walleVersion": "v0.3.2",
+  "walleVersion": "v0.7.2",
   "modules": [
     "website",
     "ai",
@@ -139,5 +139,5 @@
       ]
     }
   },
-  "updatedAt": "2026-08-18T14:27:46Z"
+  "updatedAt": "2026-09-28T20:03:21Z"
 }

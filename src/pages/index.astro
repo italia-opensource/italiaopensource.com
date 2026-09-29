@@ -30,8 +30,7 @@ const cards = await Promise.all(
       <h1 class="hero__title">The first platform dedicated to Italian open-source world.</h1>
       <p class="hero__lead">
         The only fully open-source platform that gives voice to, discovers, and explores Italy's
-        open-source projects and tech communities. Every entry
-        comes from the public&nbsp;
+        open-source projects and tech communities. Every entry comes from the public&nbsp;
         <a
           href="https://github.com/italia-opensource/awesome-italia-opensource"
           target="_blank"
@@ -48,7 +47,7 @@ const cards = await Promise.all(
         <Button
           text="Contribute on GitHub"
           href="https://github.com/italia-opensource/awesome-italia-opensource"
-          variant="white"
+          inverse
           outline={true}
           size="large"
           target="_blank"
@@ -94,15 +93,15 @@ const cards = await Promise.all(
     </ul>
   </section>
 
-  <SectionColumns title="Vision & Mission" columns={2} variant="gray" minColumnWidth="20rem">
+  <SectionColumns title="Vision & Mission" columns={2} muted minColumnWidth="20rem">
     <div class="pillar">
       <h3 class="pillar__title">Our Vision</h3>
       <p>
         Our vision is to create an ecosystem where sharing and collaboration are the normality.
         <strong>We imagine a future where every project</strong>, big or small,
         <strong>is accessible to everyone and can be improved by everyone</strong>.
-        <strong>We see Italy as a reference point for open-source</strong>, where technology is
-        open and accessible, and where collaboration and innovation are the order of the day.
+        <strong>We see Italy as a reference point for open-source</strong>, where technology is open
+        and accessible, and where collaboration and innovation are the order of the day.
       </p>
     </div>
     <div class="pillar">
@@ -112,8 +111,7 @@ const cards = await Promise.all(
         <strong>a project everyone can participate in</strong> to discover and
         <strong>enhance Italian open-source projects</strong>. We believe that our community could
         be the starting point for creating an Italian tech system where
-        <strong>knowledge exchange, innovation, and collaboration</strong> are the standard, not
-        the exception.
+        <strong>knowledge exchange, innovation, and collaboration</strong> are the standard, not the exception.
       </p>
     </div>
   </SectionColumns>
@@ -196,7 +194,7 @@ const cards = await Promise.all(
       box-shadow var(--transition);
   }
   .sec-card:hover {
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--shadow-md);
     border-color: var(--primary);
   }
   .sec-card__count {

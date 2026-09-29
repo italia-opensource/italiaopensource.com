@@ -23,7 +23,11 @@ const { title, href, description = "", badge, metas = [] } = Astro.props;
 <a href={href} class="cc">
   <div class="cc__head">
     <h3 class="cc__title">{title}</h3>
-    {badge?.text && <span class={`cc__badge cc__badge--${badge.variant ?? "primary"}`}>{badge.text}</span>}
+    {
+      badge?.text && (
+        <span class={`cc__badge cc__badge--${badge.variant ?? "primary"}`}>{badge.text}</span>
+      )
+    }
   </div>
   {description && <p class="cc__desc">{description}</p>}
   {
@@ -58,7 +62,7 @@ const { title, href, description = "", badge, metas = [] } = Astro.props;
   }
   .cc:hover {
     border-color: var(--primary);
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--shadow-md);
   }
   .cc__head {
     display: flex;
