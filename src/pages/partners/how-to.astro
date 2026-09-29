@@ -10,7 +10,7 @@ const formUrl = "https://forms.gle/9bZupC6JL7Z2z2PS9";
   headerTitle="Become a Community Partner"
   headerDescription="Support Italia Open Source through your community and grow together."
 >
-  <article class="prose">
+  <article class="page-text">
     <p>
       Are you passionate about our project and want to actively contribute to its growth? Then
       you're in the right place! If you are a community, here you can find out how to help make
@@ -20,9 +20,10 @@ const formUrl = "https://forms.gle/9bZupC6JL7Z2z2PS9";
     </p>
     <p>
       If you want to support Italia Open Source through your community, all you have to do is start
-      a <strong>real partnership</strong> with us. Together we will support each other, bringing
-      added value to the respective communities also with concepts for new ideas and projects. Code
-      word: <strong>collaboration</strong>.
+      a <strong>real partnership</strong> with us. Together we will support each other, bringing added
+      value to the respective communities also with concepts for new ideas and projects. Code word: <strong
+        >collaboration</strong
+      >.
     </p>
 
     <h2>How to become a Community Partner</h2>
@@ -45,9 +46,8 @@ const formUrl = "https://forms.gle/9bZupC6JL7Z2z2PS9";
       </li>
     </ul>
     <p>
-      <a href={formUrl} target="_blank" rel="noopener">Fill out the form</a> and, if your community
-      meets all the requirements, you will receive an email to confirm the addition to Italia Open
-      Source.
+      <a href={formUrl} target="_blank" rel="noopener">Fill out the form</a> and, if your community meets
+      all the requirements, you will receive an email to confirm the addition to Italia Open Source.
     </p>
 
     <h2>Discover Awesome (Extra) Benefits</h2>
@@ -63,11 +63,16 @@ const formUrl = "https://forms.gle/9bZupC6JL7Z2z2PS9";
     </ul>
 
     <div class="cta">
-      <Button text="Fill out the form" href={formUrl} variant="primary" size="large" target="_blank" />
+      <Button
+        text="Fill out the form"
+        href={formUrl}
+        variant="primary"
+        size="large"
+        target="_blank"
+      />
       <Button
         text="See our partners"
         href={resolveInternalUrl("/partners")}
-        variant="white"
         outline={true}
         size="large"
       />
@@ -76,19 +81,19 @@ const formUrl = "https://forms.gle/9bZupC6JL7Z2z2PS9";
 </BaseLayout>
 
 <style>
-  .prose {
+  .page-text {
     max-width: 760px;
     margin: 0 auto;
     padding: clamp(2rem, 5vw, 4rem) var(--space-xl);
     line-height: 1.7;
   }
-  .prose h2 {
+  .page-text h2 {
     margin-top: var(--space-3xl);
   }
-  .prose ul {
+  .page-text ul {
     padding-left: 1.4rem;
   }
-  .prose li {
+  .page-text li {
     margin-bottom: var(--space-sm);
   }
   .cta {

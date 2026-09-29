@@ -73,7 +73,7 @@ const benefits = [
   headerTitle="Contribute"
   headerDescription="Add your project, add your community, or become a partner — everything is a pull request away."
 >
-  <SectionFlow title="How contributing works" steps={steps} variant="gray" />
+  <SectionFlow title="How contributing works" steps={steps} muted />
 
   <SectionColumns title="Ways to contribute" columns={3} centered={true} minColumnWidth="17rem">
     {
@@ -88,6 +88,7 @@ const benefits = [
             text={w.cta}
             href={w.href}
             variant="primary"
+            class="way__cta"
             target={w.external ? "_blank" : undefined}
           />
         </article>
@@ -118,7 +119,7 @@ const benefits = [
     <div class="cta__inner">
       <h2>Ready to contribute?</h2>
       <p>Open a pull request and become part of the Italian open-source community.</p>
-      <Button text="Contribute on GitHub" href={awesomeRepo} variant="white" size="large" target="_blank" />
+      <Button text="Contribute on GitHub" href={awesomeRepo} inverse size="large" target="_blank" />
     </div>
   </section>
 </BaseLayout>
@@ -152,11 +153,6 @@ const benefits = [
     margin: 0 0 var(--space-md);
     color: var(--text-muted);
   }
-  .way :global(.button),
-  .way :global(a[class*="button"]) {
-    margin-top: auto;
-  }
-
   .benefits {
     list-style: none;
     padding: 0;
