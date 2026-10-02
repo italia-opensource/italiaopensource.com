@@ -95,7 +95,10 @@
 - [nuvola](https://italiaopensource.com/opensource/primait-nuvola): nuvola is a tool to dump and perform automatic and manual security analysis on AWS environments configurations and services using predefined, extensible and custom rules created using a simple Yaml syntax.
 - [Nuvolaris](https://italiaopensource.com/opensource/nuvolaris)
 - [Open Profiler](https://italiaopensource.com/opensource/open-profiler): Build your unique online presence with Open Profiler a responsive and feature-rich portfolio, easily tailored to showcase your skills, experience, and projects.
+- [Openapi LLM Wiki](https://italiaopensource.com/opensource/openapi-llm-wiki): Knowledge base ottimizzata per LLM e agenti AI sul marketplace API Openapi®: guida alla piattaforma, catalogo API, endpoint e 29 spec OpenAPI 3, con llms.txt, llms-full.txt e server MCP via GitMCP.
+- [Openbook](https://italiaopensource.com/opensource/openbook): Il social network federato che gira sul tuo hosting (PHP + MYSQL), su ActivityPub, con feed familiare, profili, commenti e tutta la forza del fediverso.
 - [Opencity Italia](https://italiaopensource.com/opensource/opencity-italia)
+- [Orbit](https://italiaopensource.com/opensource/orbit): A modern, concurrent programming language with a register-based virtual machine.
 - [orchy-mfe](https://italiaopensource.com/opensource/orchy-mfe): The Micro Frontends orchestrator
 - [Ordinary Puzzles](https://italiaopensource.com/opensource/ordinary-puzzles): A minimalistic mobile puzzle game inspired by Picross and Sudoku
 - [Pandas AI](https://italiaopensource.com/opensource/pandas-ai): Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.
@@ -135,6 +138,7 @@
 
 ## Communities
 
+- [Apeira](https://italiaopensource.com/communities/apeira): Apeira è una hacker house residenziale di tre mesi a Milano che riunisce builder e creativi europei per lavorare insieme su progetti tecnologici ambiziosi, tra workshop, mentorship, pitch night e un demo day con investitori.
 - [Arkemis](https://italiaopensource.com/communities/arkemis): Diamo forma a un ecosistema open che unisce tecnologia, formazione e community per abilitare la nuova generazione di sviluppatori e team digitali a costruire con qualità, velocità e consapevolezza.
 - [Associazione PCOfficina](https://italiaopensource.com/communities/pcofficina): L'Associazione PCOfficina, fondata nel 2011, si ritrova settimanalmente a Milano ed è dedita alla condivisione di saperi informatici, alla nobile arte del trashware e al software libero.
 - [Cloud Native Days Italy](https://italiaopensource.com/communities/cloud-native-days-italy): Cloud Native Days (CNS) Italy is a local, community-organized event that gathers adopters and technologists from open source and cloud native communities.
